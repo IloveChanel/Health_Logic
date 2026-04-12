@@ -1,23 +1,31 @@
-import React from 'react';
-import { TouchableOpacity, Text, StyleSheet } from 'react-native';
-import { colors } from '../theme/colors';
-import { typography } from '../theme/typography';
+import React from "react";
+import { Pressable, StyleSheet, Text } from "react-native";
+import { colors, radius, spacing, typography } from "../theme/theme";
 
-export default function PrimaryButton({ title, onPress }) {
+type Props = {
+  title: string;
+  onPress: () => void;
+};
+
+export default function PrimaryButton({ title, onPress }: Props) {
   return (
-    <TouchableOpacity style={styles.button} onPress={onPress}>
+    <Pressable style={styles.button} onPress={onPress}>
       <Text style={styles.text}>{title}</Text>
-    </TouchableOpacity>
+    </Pressable>
   );
 }
 
 const styles = StyleSheet.create({
   button: {
-    backgroundColor: colors.buttonPrimary,
-    borderRadius: 16,
-    padding: 16,
-    alignItems: 'center',
-    marginBottom: 12,
+    backgroundColor: colors.primary,
+    borderRadius: radius.md,
+    paddingVertical: spacing.md,
+    paddingHorizontal: spacing.lg,
+    alignItems: "center",
+    justifyContent: "center",
   },
-  text: { ...typography.button, color: '#fff' },
+  text: {
+    ...typography.button,
+    color: colors.white,
+  },
 });

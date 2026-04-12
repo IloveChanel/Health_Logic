@@ -10,6 +10,7 @@ from dotenv import load_dotenv
 from google.cloud import vision
 import base64
 import json
+import stripe
 
 # Load environment variables
 load_dotenv()
@@ -87,6 +88,14 @@ def get_db():
         yield db
     finally:
         db.close()
+
+
+# Stripe setup (placeholder; set STRIPE_API_KEY, STRIPE_PRICE_ID, STRIPE_WEBHOOK_SECRET in env)
+STRIPE_API_KEY = os.getenv("STRIPE_API_KEY")
+STRIPE_PRICE_ID = os.getenv("STRIPE_PRICE_ID")
+STRIPE_WEBHOOK_SECRET = os.getenv("STRIPE_WEBHOOK_SECRET")
+if STRIPE_API_KEY:
+    stripe.api_key = STRIPE_API_KEY
 
 @app.get("/")
 async def root():
@@ -304,6 +313,62 @@ async def score_product(product: dict, db: Session = Depends(get_db)):
 
     except Exception as e:
         raise HTTPException(status_code=500, detail=str(e))
+
+
+@app.post("/subscribe")
+async def create_subscription(body: dict):
+    """Create a Stripe subscription for a given customer email.
+
+    Request body: { "email": "user@example.com" }
+    """
+    if not STRIPE_API_KEY or not STRIPE_PRICE_ID:
+        raise HTTPException(status_code=500, detail="Payment gateway not configured")
+
+    email = body.get("email")
+    if not email:
+        raise HTTPException(status_code=400, detail="email is required")
+
+    try:
+        # Create customer
+        customer = stripe.Customer.create(email=email)
+
+        # Create subscription
+        subscription = stripe.Subscription.create(
+            customer=customer.id,
+            items=[{"price": STRIPE_PRICE_ID}],
+            expand=["latest_invoice.payment_intent"]
+        )
+
+        return {"subscriptionId": subscription.id, "client_secret": subscription.latest_invoice.payment_intent.client_secret}
+
+    except Exception as e:
+        raise HTTPException(status_code=500, detail=str(e))
+
+
+@app.post("/stripe-webhook")
+async def stripe_webhook(request: Request):
+    payload = await request.body()
+    sig_header = request.headers.get("stripe-signature")
+    event = None
+
+    if STRIPE_WEBHOOK_SECRET:
+        try:
+            event = stripe.Webhook.construct_event(payload=payload, sig_header=sig_header, secret=STRIPE_WEBHOOK_SECRET)
+        except Exception as e:
+            raise HTTPException(status_code=400, detail=f"Webhook verification failed: {str(e)}")
+    else:
+        try:
+            event = json.loads(payload)
+        except Exception as e:
+            raise HTTPException(status_code=400, detail=f"Invalid payload: {str(e)}")
+
+    # Handle the event types you care about
+    event_type = event.get("type") if isinstance(event, dict) else getattr(event, "type", None)
+    if event_type == "invoice.payment_succeeded":
+        # TODO: mark subscription active for user
+        pass
+
+    return {"received": True}
 
 
 @app.post("/user/profile")

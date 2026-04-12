@@ -1,12 +1,19 @@
-import React from 'react';
-import { Text, StyleSheet } from 'react-native';
-import { colors } from '../theme/colors';
-import { typography } from '../theme/typography';
+import React, { ReactNode } from "react";
+import { StyleSheet, Text } from "react-native";
+import { colors, spacing, typography } from "../theme/theme";
 
-export default function SectionTitle({ children }) {
+type Props = {
+  children: ReactNode;
+};
+
+export default function SectionTitle({ children }: Props) {
   return <Text style={styles.title}>{children}</Text>;
 }
 
 const styles = StyleSheet.create({
-  title: { ...typography.h2, color: colors.primaryText, marginBottom: 8 },
+  title: {
+    ...typography.h3,
+    color: colors.primaryText,
+    marginBottom: spacing.sm,
+  },
 });

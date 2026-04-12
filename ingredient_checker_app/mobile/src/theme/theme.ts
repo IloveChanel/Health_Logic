@@ -1,26 +1,31 @@
-export const colors = {
-  background: "#F8F9F7",
-  card: "#FFFFFF",
-  textPrimary: "#1C1F1D",
-  textSecondary: "#5F6B66",
-  textMuted: "#9AA5A0",
-  safe: "#4F7F6A",
-  caution: "#D4A373",
-  danger: "#B24C4C",
-  accentSoft: "#E3ECE7",
-  divider: "#DDE4E0",
-};
+import { colors } from "./colors";
+import { typography } from "./typography";
 
 export const spacing = {
-  xs: 4,
-  sm: 8,
+  xs: 6,
+  sm: 10,
   md: 16,
-  lg: 24,
-  xl: 32,
+  lg: 20,
+  xl: 24,
+  xxl: 32,
 };
 
 export const radius = {
-  sm: 8,
-  md: 16,
-  lg: 20,
+  sm: 12,
+  md: 18,
+  lg: 24,
+  xl: 32,
+  pill: 999,
 };
+
+export const shadows = {
+  card: {
+    shadowColor: "#000",
+    shadowOpacity: 0.06,
+    shadowRadius: 14,
+    shadowOffset: { width: 0, height: 6 },
+    elevation: 3,
+  },
+};
+
+export { colors, typography };

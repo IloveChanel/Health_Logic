@@ -1,8 +1,43 @@
-// Design System Typography Tokens
 export const typography = {
-  h1: { fontSize: 34, fontWeight: '700', lineHeight: 40, fontFamily: 'Inter-Bold' },
-  h2: { fontSize: 24, fontWeight: '600', lineHeight: 32, fontFamily: 'Inter-SemiBold' },
-  body: { fontSize: 16, fontWeight: '400', lineHeight: 22, fontFamily: 'Inter-Regular' },
-  bodySecondary: { fontSize: 14, fontWeight: '400', lineHeight: 20, fontFamily: 'Inter-Regular' },
-  button: { fontSize: 16, fontWeight: '500', textTransform: 'uppercase', fontFamily: 'Inter-Medium' },
+  hero: {
+    fontSize: 32,
+    lineHeight: 38,
+    fontWeight: "800" as const,
+  },
+  h1: {
+    fontSize: 28,
+    lineHeight: 34,
+    fontWeight: "800" as const,
+  },
+  h2: {
+    fontSize: 22,
+    lineHeight: 28,
+    fontWeight: "700" as const,
+  },
+  h3: {
+    fontSize: 18,
+    lineHeight: 24,
+    fontWeight: "700" as const,
+  },
+  body: {
+    fontSize: 16,
+    lineHeight: 22,
+    fontWeight: "400" as const,
+  },
+  bodySecondary: {
+    fontSize: 14,
+    lineHeight: 20,
+    fontWeight: "400" as const,
+  },
+  button: {
+    fontSize: 16,
+    lineHeight: 20,
+    fontWeight: "700" as const,
+    textTransform: "none" as const,
+  },
+  caption: {
+    fontSize: 12,
+    lineHeight: 16,
+    fontWeight: "500" as const,
+  },
 };

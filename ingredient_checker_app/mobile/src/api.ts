@@ -1,21 +1,25 @@
-// api.ts
-// Centralized API client for backend communication
-import Constants from 'expo-constants';
+import { ProductAnalysis } from "./types/domain";
 
-const API_BASE_URL = Constants?.expoConfig?.extra?.API_BASE_URL || 'http://localhost:8000';
+export async function scanBarcode(barcode: string): Promise<ProductAnalysis> {
 
-export async function scanBarcode(barcode: string) {
-  const response = await fetch(`${API_BASE_URL}/api/scan`, {
-    method: 'POST',
-    headers: {
-      'Content-Type': 'application/json',
-    },
-    body: JSON.stringify({ barcode }),
-  });
-  if (!response.ok) {
-    throw new Error('Failed to scan barcode');
-  }
-  return response.json();
+  return {
+    productName: "Sample Product",
+    brandName: "Demo Brand",
+    category: "food",
+    overallScore: 72,
+    fitForUserScore: 65,
+    redFlags: ["High sodium"],
+    benefits: ["Protein source"],
+    ingredients: [],
+    explanation: "Demo result until backend is connected."
+  };
+
 }
 
-// Add more API methods as needed (e.g., feedback, history, etc.)
+export async function fetchBrandInfo(name: string) {
+  return {
+    brandName: name,
+    trustScore: 80,
+    notes: "Brand data placeholder"
+  };
+}
