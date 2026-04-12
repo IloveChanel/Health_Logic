@@ -1,0 +1,48 @@
+appId: com.michellemink.healthlogicmobile
+---
+- launchApp
+- waitFor: "Ingredient Checker"
+  timeout: 5000
+
+# Home page buttons (targeting accessibilityLabel/testID)
+- tapOn: "scan_product_button"
+- waitFor: "Scan"
+  timeout: 3000
+- assertVisible: "Barcode Scan"
+- tapOn: "back_button"
+- waitFor: "Ingredient Checker"
+  timeout: 3000
+
+- tapOn: "your_profile_button"
+- waitFor: "Your Profile"
+  timeout: 3000
+- assertVisible: "Profile module placeholder ready for the next UI pass."
+- tapOn: "back_button"
+- waitFor: "Ingredient Checker"
+  timeout: 3000
+
+- tapOn: "history_button"
+- waitFor: "History"
+  timeout: 3000
+- assertVisible: "History"
+- tapOn: "back_button"
+- waitFor: "Ingredient Checker"
+  timeout: 3000
+
+- tapOn: "search_button"
+- waitFor: "Search"
+  timeout: 3000
+- assertVisible: "Search"
+- tapOn: "back_button"
+- waitFor: "Ingredient Checker"
+  timeout: 3000
+
+# Pricing interactions
+- tapOn: "choose_monthly_button"
+- waitFor: "Ingredient Checker"
+  timeout: 3000
+- tapOn: "choose_yearly_button"
+- waitFor: "Ingredient Checker"
+  timeout: 3000
+
+- exitApp

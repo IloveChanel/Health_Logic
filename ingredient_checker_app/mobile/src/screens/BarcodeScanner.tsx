@@ -37,9 +37,9 @@ export default function BarcodeScanner({ navigation }) {
         <View style={styles.result}>
           <Text style={styles.title}>Scanned Barcode</Text>
           <Text selectable>{data}</Text>
-          <Button title="Lookup product" onPress={() => navigation.navigate('Results', { barcode: data })} />
-          <Button title="Scan again" onPress={() => { setScanned(false); setData(null); }} />
-          <Button title="Back" onPress={() => navigation.goBack()} />
+          <Button title="Lookup product" onPress={() => navigation.navigate('Results', { barcode: data })} testID="lookup_product_button" />
+          <Button title="Scan again" onPress={() => { setScanned(false); setData(null); }} testID="scan_again_button" />
+          <Button title="Back" onPress={() => navigation.goBack()} testID="back_button" />
         </View>
       )}
     </View>

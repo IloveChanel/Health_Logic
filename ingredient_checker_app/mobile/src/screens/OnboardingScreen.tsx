@@ -7,13 +7,17 @@ import { colors, spacing, typography } from "../theme/theme";
 export default function OnboardingScreen({ navigation }: { navigation: any }) {
   return (
     <SafeAreaView style={styles.safe}>
-      <ScrollView contentContainerStyle={styles.content}>
+      <ScrollView
+        contentContainerStyle={[styles.content, { flexGrow: 1 }]}
+        keyboardShouldPersistTaps="handled"
+        showsVerticalScrollIndicator={true}
+      >
         <Text style={styles.title}>Welcome</Text>
         <Text style={styles.subtitle}>
           Personalized food and beauty scanning built around your health, allergies, skin profile, and ingredient preferences.
         </Text>
 
-        <PrimaryButton title="Get Started" onPress={() => navigation.navigate("Home")} />
+        <PrimaryButton title="Get Started" onPress={() => navigation.navigate("Home")} testID="get_started_button" />
         <OnboardingFooter />
       </ScrollView>
     </SafeAreaView>

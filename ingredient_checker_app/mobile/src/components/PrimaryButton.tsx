@@ -5,11 +5,12 @@ import { colors, radius, spacing, typography } from "../theme/theme";
 type Props = {
   title: string;
   onPress: () => void;
+  testID?: string;
 };
 
-export default function PrimaryButton({ title, onPress }: Props) {
+export default function PrimaryButton({ title, onPress, testID }: Props) {
   return (
-    <Pressable style={styles.button} onPress={onPress}>
+    <Pressable style={styles.button} onPress={onPress} testID={testID} accessibilityLabel={testID}>
       <Text style={styles.text}>{title}</Text>
     </Pressable>
   );

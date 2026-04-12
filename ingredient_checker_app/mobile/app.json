@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "healthlogic-mobile",
-    "slug": "healthlogic-mobile",
+    "name": "HealthLogic",
+    "slug": "healthlogic",
     "version": "1.0.0",
     "sdkVersion": "50.0.0",
     "platforms": [
@@ -9,7 +9,7 @@
       "android"
     ],
     "android": {
-      "package": "com.michellemink.healthlogicmobile"
+      "package": "com.healthlogic.app"
     }
   }
 }

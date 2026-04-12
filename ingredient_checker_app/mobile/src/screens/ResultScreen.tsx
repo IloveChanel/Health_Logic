@@ -7,7 +7,11 @@ import { colors, spacing, typography } from "../theme/theme";
 export default function ResultScreen() {
   return (
     <SafeAreaView style={styles.safe}>
-      <ScrollView contentContainerStyle={styles.content}>
+      <ScrollView
+        contentContainerStyle={[styles.content, { flexGrow: 1 }]}
+        keyboardShouldPersistTaps="handled"
+        showsVerticalScrollIndicator={true}
+      >
         <Text style={styles.title}>Results</Text>
 
         <GlassCard>

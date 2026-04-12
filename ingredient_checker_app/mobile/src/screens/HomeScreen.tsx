@@ -8,17 +8,21 @@ import PricingCard from "../components/PricingCard";
 export default function HomeScreen({ navigation }: { navigation: any }) {
   return (
     <SafeAreaView style={styles.safe}>
-      <ScrollView contentContainerStyle={styles.content}>
+      <ScrollView
+        contentContainerStyle={[styles.content, { flexGrow: 1 }]}
+        keyboardShouldPersistTaps="handled"
+        showsVerticalScrollIndicator={true}
+      >
         <Text style={styles.title}>Ingredient Checker</Text>
         <Text style={styles.subtitle}>
           Scan food, supplements, and beauty products based on your allergies, health conditions, skin type, and skin concerns.
         </Text>
 
         <View style={styles.stack}>
-          <PrimaryButton title="Scan Product" onPress={() => navigation.navigate("Scan")} />
-          <SecondaryButton title="Your Profile" onPress={() => navigation.navigate("Profile")} />
-          <SecondaryButton title="History" onPress={() => navigation.navigate("History")} />
-          <SecondaryButton title="Search" onPress={() => navigation.navigate("Search")} />
+          <PrimaryButton title="Scan Product" onPress={() => navigation.navigate("Scan")} testID="scan_product_button" />
+          <SecondaryButton title="Your Profile" onPress={() => navigation.navigate("Profile")} testID="your_profile_button" />
+          <SecondaryButton title="History" onPress={() => navigation.navigate("History")} testID="history_button" />
+          <SecondaryButton title="Search" onPress={() => navigation.navigate("Search")} testID="search_button" />
         </View>
 
         <PricingCard onMonthlyPress={() => {}} onYearlyPress={() => {}} />

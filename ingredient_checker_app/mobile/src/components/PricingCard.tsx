@@ -19,7 +19,12 @@ export default function PricingCard({ onMonthlyPress, onYearlyPress }: Props) {
       <View style={styles.planCard}>
         <Text style={styles.planTitle}>Monthly</Text>
         <Text style={styles.planPrice}>$9.99/month</Text>
-        <Pressable style={styles.primaryButton} onPress={onMonthlyPress}>
+        <Pressable
+          style={styles.primaryButton}
+          onPress={onMonthlyPress}
+          testID="choose_monthly_button"
+          accessibilityLabel="choose_monthly_button"
+        >
           <Text style={styles.primaryButtonText}>Choose Monthly</Text>
         </Pressable>
       </View>
@@ -28,7 +33,12 @@ export default function PricingCard({ onMonthlyPress, onYearlyPress }: Props) {
         <Text style={styles.planTitle}>Yearly</Text>
         <Text style={styles.planPrice}>$39.99/year</Text>
         <Text style={styles.saveText}>Best value</Text>
-        <Pressable style={styles.secondaryButton} onPress={onYearlyPress}>
+        <Pressable
+          style={styles.secondaryButton}
+          onPress={onYearlyPress}
+          testID="choose_yearly_button"
+          accessibilityLabel="choose_yearly_button"
+        >
           <Text style={styles.secondaryButtonText}>Choose Yearly</Text>
         </Pressable>
       </View>

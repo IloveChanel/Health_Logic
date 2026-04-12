@@ -5,7 +5,11 @@ import { colors, spacing, typography } from "../theme/theme";
 export default function ProfileScreen() {
   return (
     <SafeAreaView style={styles.safe}>
-      <ScrollView contentContainerStyle={styles.content}>
+      <ScrollView
+        contentContainerStyle={[styles.content, { flexGrow: 1 }]}
+        keyboardShouldPersistTaps="handled"
+        showsVerticalScrollIndicator={true}
+      >
         <Text style={styles.title}>Your Profile</Text>
         <Text style={styles.subtitle}>
           Next we add checkbox groups for food conditions, allergies, dry skin, oily skin, psoriasis, eczema, rosacea, acne-prone, mature skin, and more.
