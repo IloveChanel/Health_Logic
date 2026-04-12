@@ -1,5 +1,5 @@
 ﻿
-from fastapi import FastAPI, HTTPException, Depends, UploadFile, File
+from fastapi import FastAPI, HTTPException, Depends, UploadFile, File, Request
 from fastapi.middleware.cors import CORSMiddleware
 from sqlalchemy import create_engine, Column, Integer, String, DateTime, Text
 from sqlalchemy.ext.declarative import declarative_base
@@ -11,6 +11,7 @@ from google.cloud import vision
 import base64
 import json
 import stripe
+import openai
 
 # Load environment variables
 load_dotenv()
@@ -66,6 +67,15 @@ class SearchLog(Base):
     result_source = Column(String)  # 'db' or 'ai'
     created_at = Column(DateTime, default=datetime.utcnow)
 
+
+class LearnedIngredient(Base):
+    __tablename__ = "learned_ingredients"
+
+    id = Column(Integer, primary_key=True, index=True)
+    normalized_name = Column(String, unique=True, index=True)
+    raw_response = Column(Text)
+    created_at = Column(DateTime, default=datetime.utcnow)
+
 # Create tables
 Base.metadata.create_all(bind=engine)
 
@@ -96,6 +106,31 @@ STRIPE_PRICE_ID = os.getenv("STRIPE_PRICE_ID")
 STRIPE_WEBHOOK_SECRET = os.getenv("STRIPE_WEBHOOK_SECRET")
 if STRIPE_API_KEY:
     stripe.api_key = STRIPE_API_KEY
+
+# OpenAI setup
+OPENAI_API_KEY = os.getenv("OPENAI_API_KEY")
+OPENAI_MODEL = os.getenv("OPENAI_MODEL", "gpt-4o-mini")
+if OPENAI_API_KEY:
+    openai.api_key = OPENAI_API_KEY
+
+
+def _load_system_prompt() -> str:
+    """Load the system prompt from the backend prompts file (keeps prompt in source code)."""
+    try:
+        base = os.path.dirname(os.path.dirname(__file__))
+        prompt_path = os.path.join(base, "prompts", "ingredient_prompt.py")
+        with open(prompt_path, "r", encoding="utf-8") as f:
+            txt = f.read()
+        # extract triple-quoted content
+        start = txt.find("'''")
+        end = txt.find("'''", start + 3)
+        if start != -1 and end != -1:
+            return txt[start + 3:end]
+    except Exception:
+        pass
+    return "You are an ingredient intelligence engine. Return ONLY valid JSON as specified."
+
+SYSTEM_PROMPT = _load_system_prompt()
 
 @app.get("/")
 async def root():
@@ -251,6 +286,110 @@ async def get_ingredient(name: str, db: Session = Depends(get_db), user_id: str 
     db.commit()
 
     return {"found": False, "source": "ai", "ingredient": ai_info}
+
+
+@app.post("/ingredient/analyze")
+async def analyze_ingredient(payload: dict, db: Session = Depends(get_db)):
+    """Analyze a single ingredient using stored DB data or OpenAI if missing.
+
+    Expects payload like:
+    {
+      "ingredient_name": "Glycerin",
+      "product_category": "skincare",
+      "product_context": "",
+      "user_profile_context": { ... }
+    }
+    """
+    name = (payload.get("ingredient_name") or "").strip()
+    if not name:
+        raise HTTPException(status_code=400, detail="ingredient_name is required")
+
+    normalized = name.lower()
+
+    # 1) check canonical ingredients table
+    ing = db.query(Ingredient).filter(Ingredient.name == normalized).first()
+    if ing:
+        return {
+            "found": True,
+            "source": "db",
+            "ingredient": {
+                "ingredient_name": ing.name,
+                "what_it_is": ing.description,
+                "health_benefits": json.loads(ing.health_benefits) if ing.health_benefits else [],
+                "risks": json.loads(ing.risks) if ing.risks else []
+            }
+        }
+
+    # 2) check learned/staging table
+    learned = db.query(LearnedIngredient).filter(LearnedIngredient.normalized_name == normalized).first()
+    if learned:
+        try:
+            parsed = json.loads(learned.raw_response)
+            return {"found": False, "source": "learned", "ingredient": parsed}
+        except Exception:
+            return {"found": False, "source": "learned", "raw": learned.raw_response}
+
+    # 3) call OpenAI
+    if not OPENAI_API_KEY:
+        raise HTTPException(status_code=500, detail="OpenAI API key not configured")
+
+    user_prompt = {
+        "ingredient_name": name,
+        "product_category": payload.get("product_category", "unknown"),
+        "product_context": payload.get("product_context", ""),
+        "user_profile_context": payload.get("user_profile_context", {}),
+    }
+
+    messages = [
+        {"role": "system", "content": SYSTEM_PROMPT},
+        {"role": "user", "content": json.dumps(user_prompt)}
+    ]
+
+    try:
+        resp = openai.ChatCompletion.create(
+            model=OPENAI_MODEL,
+            messages=messages,
+            temperature=0.0,
+            max_tokens=800
+        )
+        content = resp["choices"][0]["message"]["content"]
+    except Exception as e:
+        raise HTTPException(status_code=500, detail=f"OpenAI request failed: {str(e)}")
+
+    # Try to parse JSON output (spec required by the prompt)
+    parsed = None
+    try:
+        parsed = json.loads(content)
+    except Exception:
+        # wrap fallback
+        parsed = {
+            "ingredient_name": name,
+            "normalized_name": normalized,
+            "aliases": [],
+            "category": payload.get("product_category", "unknown"),
+            "what_it_is": "",
+            "what_it_does": [],
+            "common_uses": [],
+            "potential_benefits": [],
+            "potential_concerns": [],
+            "food_flags": [],
+            "beauty_flags": [],
+            "personalized_flags": [],
+            "pregnancy_caution": "unknown",
+            "confidence": 0,
+            "needs_review": True,
+            "reason_if_uncertain": "OpenAI output not valid JSON; raw: " + content
+        }
+
+    # Save learned result to staging table
+    try:
+        record = LearnedIngredient(normalized_name=normalized, raw_response=json.dumps(parsed))
+        db.add(record)
+        db.commit()
+    except Exception:
+        db.rollback()
+
+    return {"found": False, "source": "ai", "ingredient": parsed}
 
 
 @app.post("/product/score")

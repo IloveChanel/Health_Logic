@@ -1,7 +1,6 @@
-import { ProductAnalysis } from "./types/domain";
+﻿import { ProductAnalysis } from "./types/domain";
 
 export async function scanBarcode(barcode: string): Promise<ProductAnalysis> {
-
   return {
     productName: "Sample Product",
     brandName: "Demo Brand",
@@ -11,15 +10,14 @@ export async function scanBarcode(barcode: string): Promise<ProductAnalysis> {
     redFlags: ["High sodium"],
     benefits: ["Protein source"],
     ingredients: [],
-    explanation: "Demo result until backend is connected."
+    explanation: `Demo barcode result for ${barcode} until backend is connected.`,
   };
-
 }
 
 export async function fetchBrandInfo(name: string) {
   return {
     brandName: name,
     trustScore: 80,
-    notes: "Brand data placeholder"
+    notes: "Brand data placeholder",
   };
 }

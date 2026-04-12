@@ -1,4 +1,4 @@
-import React from "react";
+﻿import React from "react";
 import { SafeAreaView, ScrollView, StyleSheet, Text, View } from "react-native";
 import { colors, spacing, typography } from "../theme/theme";
 
@@ -8,7 +8,7 @@ export default function HistoryScreen() {
       <ScrollView contentContainerStyle={styles.content}>
         <Text style={styles.title}>Scan History</Text>
         <View style={styles.card}>
-          <Text style={styles.text}>Your past food and beauty scans will appear here.</Text>
+          <Text style={styles.text}>Your past food, supplement, and beauty scans will appear here.</Text>
         </View>
       </ScrollView>
     </SafeAreaView>

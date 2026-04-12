@@ -1,8 +1,7 @@
-import React from "react";
+﻿import React from "react";
 import { SafeAreaView, ScrollView, StyleSheet, Text, View } from "react-native";
 import GlassCard from "../components/GlassCard";
 import Divider from "../components/Divider";
-import PricingCard from "../components/PricingCard";
 import { colors, spacing, typography } from "../theme/theme";
 
 export default function ResultScreen() {
@@ -12,15 +11,13 @@ export default function ResultScreen() {
         <Text style={styles.title}>Results</Text>
 
         <GlassCard>
-          <Text style={styles.cardTitle}>Product analysis</Text>
-          <Text style={styles.body}>Ingredient explanation and scoring will render here.</Text>
+          <Text style={styles.cardTitle}>Analysis Ready</Text>
+          <Text style={styles.body}>Ingredient explanations, red flags, benefits, and scorecards will render here.</Text>
           <Divider />
           <Text style={styles.body}>Food and beauty logic both land on this screen.</Text>
         </GlassCard>
 
         <View style={styles.spacer} />
-
-        <PricingCard onPress={() => {}} />
       </ScrollView>
     </SafeAreaView>
   );

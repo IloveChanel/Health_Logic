@@ -1,4 +1,4 @@
-import React from "react";
+﻿import React from "react";
 import { SafeAreaView, StyleSheet, Text, View } from "react-native";
 import { colors, spacing, typography } from "../theme/theme";
 
@@ -7,7 +7,7 @@ export default function SearchScreen() {
     <SafeAreaView style={styles.safe}>
       <View style={styles.content}>
         <Text style={styles.title}>Search</Text>
-        <Text style={styles.text}>Search products, ingredients, and brands here.</Text>
+        <Text style={styles.text}>Search products, brands, and ingredients here.</Text>
       </View>
     </SafeAreaView>
   );
