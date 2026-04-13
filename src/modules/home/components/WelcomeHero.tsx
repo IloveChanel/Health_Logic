@@ -1,6 +1,6 @@
 ﻿import React from "react";
 import { StyleSheet, Text, View } from "react-native";
-import { colors } from "../../../app/theme/colors";
+import { colors } from "../../../theme/colors";
 
 export default function WelcomeHero() {
   return (
@@ -30,12 +30,14 @@ const styles = StyleSheet.create({
     fontSize: 32,
     lineHeight: 38,
     fontWeight: "800",
-    color: colors.text,
+    color: colors.primaryText,
     marginBottom: 10,
   },
   subtitle: {
     fontSize: 16,
     lineHeight: 24,
-    color: colors.textSoft,
+    color: colors.secondaryText,
   },
 });
+
+

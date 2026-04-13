@@ -1,6 +1,6 @@
 ﻿import React from "react";
 import { StyleSheet, Text, View } from "react-native";
-import { colors } from "../../../app/theme/colors";
+import { colors } from "../../../theme/colors";
 
 type Props = {
   conditionsCount: number;
@@ -47,13 +47,13 @@ const styles = StyleSheet.create({
   title: {
     fontSize: 18,
     fontWeight: "700",
-    color: colors.text,
+    color: colors.primaryText,
     marginBottom: 8,
   },
   subtitle: {
     fontSize: 14,
     lineHeight: 21,
-    color: colors.textSoft,
+    color: colors.secondaryText,
     marginBottom: 14,
   },
   row: {
@@ -74,3 +74,5 @@ const styles = StyleSheet.create({
     fontWeight: "600",
   },
 });
+
+

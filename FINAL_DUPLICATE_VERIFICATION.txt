@@ -1,0 +1,15 @@
+﻿
+--- __init__.py [4] ---
+
+Length LastWriteTime        FullName                                               
+------ -------------        --------                                               
+     0 2/3/2026 9:42:07 AM  D:\HealthLogic\backend\backend\app\api\__init__.py     
+     0 2/3/2026 9:42:04 AM  D:\HealthLogic\backend\backend\app\core\__init__.py    
+     0 2/3/2026 9:42:05 AM  D:\HealthLogic\backend\backend\app\models\__init__.py  
+     0 2/3/2026 9:42:06 AM  D:\HealthLogic\backend\backend\app\services\__init__.py
+
+--- README.md [2] ---
+  1349 4/11/2026 3:36:12 PM D:\HealthLogic\backend\backend\README.md               
+   968 4/11/2026 3:37:56 PM D:\HealthLogic\src\README.md                           
+
+

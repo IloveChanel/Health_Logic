@@ -16,7 +16,7 @@ const Stack = createStackNavigator<RootStackParamList>();
 export default function App() {
   return (
     <NavigationContainer>
-      <Stack.Navigator
+      <Stack.Navigator id="root-stack"
         initialRouteName="Home"
         screenOptions={{
           headerShown: false,
@@ -30,3 +30,6 @@ export default function App() {
     </NavigationContainer>
   );
 }
+
+
+

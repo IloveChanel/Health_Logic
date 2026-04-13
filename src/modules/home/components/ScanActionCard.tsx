@@ -1,6 +1,6 @@
 ﻿import React from "react";
 import { Pressable, StyleSheet, Text, View } from "react-native";
-import { colors } from "../../../app/theme/colors";
+import { colors } from "../../../theme/colors";
 
 type Props = {
   title: string;
@@ -50,7 +50,7 @@ const styles = StyleSheet.create({
     width: 52,
     height: 52,
     borderRadius: 16,
-    backgroundColor: colors.primarySoft,
+    backgroundColor: colors.surfaceAlt,
     alignItems: "center",
     justifyContent: "center",
   },
@@ -63,12 +63,14 @@ const styles = StyleSheet.create({
   title: {
     fontSize: 18,
     fontWeight: "700",
-    color: colors.text,
+    color: colors.primaryText,
     marginBottom: 4,
   },
   subtitle: {
     fontSize: 14,
     lineHeight: 20,
-    color: colors.textSoft,
+    color: colors.secondaryText,
   },
 });
+
+

@@ -1,0 +1,188 @@
+﻿import { useCallback, useEffect, useMemo, useState } from "react";
+import {
+  defaultUserProfile,
+  HouseholdAccount,
+  HouseholdPlan,
+  HouseholdProfile,
+  HouseholdProfileType,
+} from "../types/domain";
+import {
+  loadHouseholdAccount,
+  saveHouseholdAccount,
+} from "../services/storage/profileStorage";
+
+function newId() {
+  return `profile_${Date.now()}_${Math.random().toString(36).slice(2, 8)}`;
+}
+
+function countBillableProfiles(profiles: HouseholdProfile[]) {
+  return profiles.filter((item) => item.type !== "pet").length;
+}
+
+export function useProfileStore() {
+  const [account, setAccount] = useState<HouseholdAccount>({
+    plan: "free",
+    activeProfileId: null,
+    profiles: [],
+  });
+  const [isLoaded, setIsLoaded] = useState(false);
+
+  useEffect(() => {
+    (async () => {
+      const stored = await loadHouseholdAccount();
+      setAccount(stored);
+      setIsLoaded(true);
+    })();
+  }, []);
+
+  const persist = useCallback((next: HouseholdAccount) => {
+    setAccount(next);
+    void saveHouseholdAccount(next);
+  }, []);
+
+  const activeProfile = useMemo(() => {
+    return account.profiles.find((item) => item.id === account.activeProfileId) ?? null;
+  }, [account]);
+
+  const canAddProfile = useCallback(
+    (type: HouseholdProfileType) => {
+      if (type === "pet") return true;
+
+      const billableCount = countBillableProfiles(account.profiles);
+      const limit = account.plan === "family" ? 5 : 1;
+      return billableCount < limit;
+    },
+    [account]
+  );
+
+  const setPlan = useCallback(
+    (plan: HouseholdPlan) => {
+      const next = { ...account, plan };
+      persist(next);
+    },
+    [account, persist]
+  );
+
+  const saveOrUpdateProfile = useCallback(
+    (input: {
+      id?: string | null;
+      label: string;
+      type: HouseholdProfileType;
+      sex?: "female" | "male" | "pet";
+      email?: string;
+      zipCode?: string;
+      petType?: string;
+      petLifeStage?: string;
+      petDietaryNeed?: string[];
+      profilePatch?: Partial<HouseholdProfile["profile"]>;
+    }) => {
+      const label = input.label.trim();
+      if (!label) {
+        return { ok: false, reason: "NAME_REQUIRED" as const };
+      }
+
+      const existing = input.id
+        ? account.profiles.find((item) => item.id === input.id)
+        : null;
+
+      if (!existing && !canAddProfile(input.type)) {
+        return { ok: false, reason: "PLAN_LIMIT" as const };
+      }
+
+      const nextProfile: HouseholdProfile = existing
+        ? {
+            ...existing,
+            label,
+            type: input.type,
+            sex: input.sex,
+            email: input.email ?? "",
+            zipCode: input.zipCode ?? "",
+            petType: input.petType ?? existing.petType,
+            petLifeStage: input.petLifeStage ?? existing.petLifeStage,
+            petDietaryNeed: input.petDietaryNeed ?? existing.petDietaryNeed ?? [],
+            profile: {
+              ...existing.profile,
+              ...(input.profilePatch ?? {}),
+            },
+          }
+        : {
+            id: newId(),
+            label,
+            type: input.type,
+            sex: input.sex,
+            email: input.email ?? "",
+            zipCode: input.zipCode ?? "",
+            petType: input.petType ?? "",
+            petLifeStage: input.petLifeStage ?? "",
+            petDietaryNeed: input.petDietaryNeed ?? [],
+            profile: {
+              ...defaultUserProfile,
+              ...(input.profilePatch ?? {}),
+            },
+          };
+
+      const profiles = existing
+        ? account.profiles.map((item) => (item.id === existing.id ? nextProfile : item))
+        : [...account.profiles, nextProfile];
+
+      const next: HouseholdAccount = {
+        ...account,
+        profiles,
+        activeProfileId: nextProfile.id,
+      };
+
+      persist(next);
+      return { ok: true, profile: nextProfile };
+    },
+    [account, canAddProfile, persist]
+  );
+
+  const deleteProfile = useCallback(
+    (profileId: string) => {
+      const target = account.profiles.find((item) => item.id === profileId);
+      if (!target) return { ok: false };
+
+      const profiles = account.profiles.filter((item) => item.id !== profileId);
+      const nextActiveId =
+        account.activeProfileId === profileId
+          ? profiles[0]?.id ?? null
+          : account.activeProfileId;
+
+      const next: HouseholdAccount = {
+        ...account,
+        profiles,
+        activeProfileId: nextActiveId,
+      };
+
+      persist(next);
+      return { ok: true };
+    },
+    [account, persist]
+  );
+
+  const setActiveProfileId = useCallback(
+    (profileId: string) => {
+      const exists = account.profiles.some((item) => item.id === profileId);
+      if (!exists) return;
+
+      const next = {
+        ...account,
+        activeProfileId: profileId,
+      };
+
+      persist(next);
+    },
+    [account, persist]
+  );
+
+  return {
+    account,
+    isLoaded,
+    activeProfile,
+    setPlan,
+    canAddProfile,
+    saveOrUpdateProfile,
+    deleteProfile,
+    setActiveProfileId,
+  };
+}

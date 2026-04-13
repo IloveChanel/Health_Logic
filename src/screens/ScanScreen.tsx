@@ -1,56 +1,46 @@
 ﻿import React from "react";
-import { SafeAreaView, StyleSheet, Text, View } from "react-native";
-import { colors } from "../app/theme/colors";
+import { SafeAreaView, ScrollView, StyleSheet, Text } from "react-native";
+import PrimaryButton from "../components/PrimaryButton";
+import SecondaryButton from "../components/SecondaryButton";
+import { scanBarcode } from "../api";
+import { colors, spacing, typography } from "../theme/theme";
 
-export default function ScanScreen() {
+export default function ScanScreen({ navigation }: { navigation: any }) {
   return (
     <SafeAreaView style={styles.safe}>
-      <View style={styles.wrap}>
+      <ScrollView
+        contentContainerStyle={[styles.content, { flexGrow: 1 }]}
+        keyboardShouldPersistTaps="handled"
+        showsVerticalScrollIndicator={true}
+      >
         <Text style={styles.title}>Scan</Text>
         <Text style={styles.subtitle}>
-          This screen will host:
+          Choose barcode scanning or ingredient-photo scanning.
         </Text>
 
-        <View style={styles.list}>
-          <Text style={styles.item}>• BarcodeScannerModule</Text>
-          <Text style={styles.item}>• IngredientPhotoCaptureModule</Text>
-          <Text style={styles.item}>• ScanEntryChooser</Text>
-          <Text style={styles.item}>• ScanResultPreview</Text>
-        </View>
-      </View>
+        <PrimaryButton
+          title="Barcode Scan"
+          onPress={async () => {
+            const result = await scanBarcode("1234567890"); navigation.navigate("Result",{analysis:result});
+          }}
+          testID="barcode_scan_button"
+        />
+
+        <SecondaryButton
+          title="Camera Ingredient Scan"
+          onPress={() => navigation.navigate("Result")}
+          testID="camera_ingredient_scan_button"
+        />
+      </ScrollView>
     </SafeAreaView>
   );
 }
 
 const styles = StyleSheet.create({
-  safe: {
-    flex: 1,
-    backgroundColor: colors.bg,
-  },
-  wrap: {
-    padding: 20,
-  },
-  title: {
-    fontSize: 28,
-    fontWeight: "800",
-    color: colors.text,
-    marginBottom: 8,
-  },
-  subtitle: {
-    fontSize: 15,
-    color: colors.textSoft,
-    marginBottom: 14,
-  },
-  list: {
-    backgroundColor: colors.surface,
-    borderRadius: 20,
-    padding: 16,
-    borderColor: colors.border,
-    borderWidth: 1,
-  },
-  item: {
-    fontSize: 15,
-    color: colors.text,
-    marginBottom: 8,
-  },
+  safe: { flex: 1, backgroundColor: colors.background },
+  content: { padding: spacing.lg, paddingBottom: spacing.xxl, gap: spacing.md },
+  title: { ...typography.h1, color: colors.primaryText, marginBottom: spacing.sm },
+  subtitle: { ...typography.body, color: colors.secondaryText, marginBottom: spacing.lg },
 });
+
+
