@@ -1,4 +1,4 @@
-import React from 'react';
+﻿import React from 'react';
 import { render } from '@testing-library/react-native';
 import IngredientCard from '../components/IngredientCard';
 
@@ -10,3 +10,7 @@ describe('IngredientCard', () => {
     expect(getByText('safe')).toBeTruthy();
   });
 });
+
+
+
+

@@ -1,0 +1,19 @@
+$ErrorActionPreference="Stop"
+Set-Location "D:\HealthLogic"
+
+Write-Host "`n=== STOP NODE / METRO ===" -ForegroundColor Cyan
+Get-Process node -ErrorAction SilentlyContinue | Stop-Process -Force
+
+Write-Host "`n=== CLEAN ANDROID BUILD ===" -ForegroundColor Cyan
+Set-Location ".\android"
+.\gradlew clean
+
+Write-Host "`n=== REMOVE GRADLE CACHE LOCKS ===" -ForegroundColor Cyan
+Remove-Item ".\.gradle" -Recurse -Force -ErrorAction SilentlyContinue
+Remove-Item ".\app\build" -Recurse -Force -ErrorAction SilentlyContinue
+
+Write-Host "`n=== RETURN PROJECT ROOT ===" -ForegroundColor Cyan
+Set-Location "D:\HealthLogic"
+
+Write-Host "`n=== CLEAR METRO CACHE ===" -ForegroundColor Cyan
+npx expo start -c

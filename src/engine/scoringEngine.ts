@@ -10,3 +10,7 @@ export function scoreProduct(product:any, profile:any = {type:"adult"}){
   }
 
 }
+
+
+
+

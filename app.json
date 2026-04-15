@@ -1,15 +1,27 @@
-{
-  "expo": {
-    "name": "HealthLogic",
-    "slug": "healthlogic",
-    "version": "1.0.0",
-    "sdkVersion": "50.0.0",
-    "platforms": [
-      "ios",
-      "android"
-    ],
-    "android": {
-      "package": "com.healthlogic.app"
-    }
-  }
+﻿{
+    "expo":  {
+                 "version":  "1.0.0",
+                 "orientation":  "portrait",
+                 "android":  {
+                                 "versionCode":  1,
+                                 "permissions":  [
+                                                     "CAMERA",
+                                                     "RECORD_AUDIO"
+                                                 ],
+                                 "adaptiveIcon":  {
+                                                      "backgroundColor":  "#ffffff",
+                                                      "foregroundImage":  "./assets/adaptive-icon.png"
+                                                  },
+                                 "package":  "com.healthlogic.app"
+                             },
+                 "name":  "HealthLogic",
+                 "userInterfaceStyle":  "light",
+                 "slug":  "healthlogic",
+                 "icon":  "./assets/icon.png",
+                 "splash":  {
+                                "backgroundColor":  "#ffffff",
+                                "resizeMode":  "contain",
+                                "image":  "./assets/splash.png"
+                            }
+             }
 }

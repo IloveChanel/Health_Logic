@@ -46,3 +46,6 @@ Pop-Location
 Pop-Location
 
 Write-Host "Done. Check output above for deprecation warnings and errors."
+
+
+npx expo run:android

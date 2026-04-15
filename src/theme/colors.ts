@@ -1,4 +1,4 @@
-export const colors = {
+﻿export const colors = {
   background: "#F6FBF8",
   surface: "#FFFFFF",
   surfaceAlt: "#EEF7F1",
@@ -23,3 +23,7 @@ export const colors = {
   shadow: "rgba(0,0,0,0.08)",
   overlay: "rgba(32,49,43,0.18)",
 };
+
+
+
+

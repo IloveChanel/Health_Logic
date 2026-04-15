@@ -1,4 +1,4 @@
-import React, { JSX } from "react";
+﻿import React, { JSX } from "react";
 import { StyleSheet, View } from "react-native";
 import { colors, spacing } from "../theme/theme";
 
@@ -14,3 +14,7 @@ const styles = StyleSheet.create({
     width: "100%",
   },
 });
+
+
+
+

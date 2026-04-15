@@ -1,0 +1,855 @@
+--------- beginning of main
+04-14 15:05:13.870  6830  9760 E ReactNativeJS: { [Error: TransformError SyntaxError: D:\HealthLogic\src\screens\HomeScreen.tsx: Expecting Unicode escape sequence \uXXXX. (1:4)
+04-14 15:05:13.870  6830  9760 E ReactNativeJS: 
+04-14 15:05:13.870  6830  9760 E ReactNativeJS: [0m[31m[1m>[22m[39m[90m 1 |[39m ﻿[33mC[39m[33m:[39m[37m[41m[1m\[22m[49m[39m[33mUsers[39m[37m[41m[1m\[22m[49m[39mselli
+04-14 15:05:13.870  6830  9760 E ReactNativeJS:  [90m   |[39m     [31m[1m^[22m[39m
+04-14 15:05:13.870  6830  9760 E ReactNativeJS:  [90m 2 |[39m
+04-14 15:05:13.870  6830  9760 E ReactNativeJS:  [90m 3 |[39m[0m] preventSymbolication: true }
+04-14 15:06:25.721  6830  9760 E ReactNativeJS: Error: Got an invalid value for 'component' prop for the screen 'Home'. It must be a valid React Component.
+04-14 15:06:25.721  6830  9760 E ReactNativeJS: 
+04-14 15:06:25.721  6830  9760 E ReactNativeJS: This error is located at:
+04-14 15:06:25.721  6830  9760 E ReactNativeJS:     in StackNavigator (at App.tsx:29)
+04-14 15:06:25.721  6830  9760 E ReactNativeJS:     in EnsureSingleNavigator (at BaseNavigationContainer.tsx:433)
+04-14 15:06:25.721  6830  9760 E ReactNativeJS:     in BaseNavigationContainer (at NavigationContainer.tsx:132)
+04-14 15:06:25.721  6830  9760 E ReactNativeJS:     in ThemeProvider (at NavigationContainer.tsx:131)
+04-14 15:06:25.721  6830  9760 E ReactNativeJS:     in NavigationContainerInner (at App.tsx:28)
+04-14 15:06:25.721  6830  9760 E ReactNativeJS:     in App (at withDevTools.js:18)
+04-14 15:06:25.721  6830  9760 E ReactNativeJS:     in withDevTools(App) (at renderApplication.js:57)
+04-14 15:06:25.721  6830  9760 E ReactNativeJS:     in RCTView (at View.js:116)
+04-14 15:06:25.721  6830  9760 E ReactNativeJS:     in View (at AppContainer.js:127)
+04-14 15:06:25.721  6830  9760 E ReactNativeJS:     in RCTView (at View.js:116)
+04-14 15:06:25.721  6830  9760 E ReactNativeJS:     in View (at AppContainer.js:155)
+04-14 15:06:25.721  6830  9760 E ReactNativeJS:     in AppContainer (at renderApplication.js:50)
+04-14 15:06:25.721  6830  9760 E ReactNativeJS:     in main(RootComponent) (at renderApplication.js:67), js engine: hermes
+04-14 15:06:25.735  6830  9760 E ReactNativeJS: Error: Got an invalid value for 'component' prop for the screen 'Home'. It must be a valid React Component.
+04-14 15:06:25.735  6830  9760 E ReactNativeJS: 
+04-14 15:06:25.735  6830  9760 E ReactNativeJS: This error is located at:
+04-14 15:06:25.735  6830  9760 E ReactNativeJS:     in StackNavigator (at App.tsx:29)
+04-14 15:06:25.735  6830  9760 E ReactNativeJS:     in EnsureSingleNavigator (at BaseNavigationContainer.tsx:433)
+04-14 15:06:25.735  6830  9760 E ReactNativeJS:     in BaseNavigationContainer (at NavigationContainer.tsx:132)
+04-14 15:06:25.735  6830  9760 E ReactNativeJS:     in ThemeProvider (at NavigationContainer.tsx:131)
+04-14 15:06:25.735  6830  9760 E ReactNativeJS:     in NavigationContainerInner (at App.tsx:28)
+04-14 15:06:25.735  6830  9760 E ReactNativeJS:     in App (at withDevTools.js:18)
+04-14 15:06:25.735  6830  9760 E ReactNativeJS:     in withDevTools(App) (at renderApplication.js:57)
+04-14 15:06:25.735  6830  9760 E ReactNativeJS:     in RCTView (at View.js:116)
+04-14 15:06:25.735  6830  9760 E ReactNativeJS:     in View (at AppContainer.js:127)
+04-14 15:06:25.735  6830  9760 E ReactNativeJS:     in RCTView (at View.js:116)
+04-14 15:06:25.735  6830  9760 E ReactNativeJS:     in View (at AppContainer.js:155)
+04-14 15:06:25.735  6830  9760 E ReactNativeJS:     in AppContainer (at renderApplication.js:50)
+04-14 15:06:25.735  6830  9760 E ReactNativeJS:     in main(RootComponent) (at renderApplication.js:67), js engine: hermes
+04-14 15:06:25.773  6830  6830 I ReactNative: [GESTURE HANDLER] Tearing down gesture handler registered for root view com.facebook.react.ReactRootView{2add393 V.E...... ......ID 0,0-1080,2205 #b5}
+04-14 15:06:40.129  6830  9760 E ReactNativeJS: { [Error: TransformError SyntaxError: D:\HealthLogic\src\screens\HomeScreen.tsx: Expecting Unicode escape sequence \uXXXX. (1:4)
+04-14 15:06:40.129  6830  9760 E ReactNativeJS: 
+04-14 15:06:40.129  6830  9760 E ReactNativeJS: [0m[31m[1m>[22m[39m[90m 1 |[39m ﻿[33mC[39m[33m:[39m[37m[41m[1m\[22m[49m[39m[33mUsers[39m[37m[41m[1m\[22m[49m[39mselli
+04-14 15:06:40.129  6830  9760 E ReactNativeJS:  [90m   |[39m     [31m[1m^[22m[39m
+04-14 15:06:40.129  6830  9760 E ReactNativeJS:  [90m 2 |[39m
+04-14 15:06:40.129  6830  9760 E ReactNativeJS:  [90m 3 |[39m[0m] preventSymbolication: true }
+04-14 15:06:41.861  6830  9760 E ReactNativeJS: { [Error: TransformError SyntaxError: D:\HealthLogic\src\screens\HomeScreen.tsx: Expecting Unicode escape sequence \uXXXX. (1:4)
+04-14 15:06:41.861  6830  9760 E ReactNativeJS: 
+04-14 15:06:41.861  6830  9760 E ReactNativeJS: [0m[31m[1m>[22m[39m[90m 1 |[39m ﻿[33mC[39m[33m:[39m[37m[41m[1m\[22m[49m[39m[33mUsers[39m[37m[41m[1m\[22m[49m[39mselli
+04-14 15:06:41.861  6830  9760 E ReactNativeJS:  [90m   |[39m     [31m[1m^[22m[39m
+04-14 15:06:41.861  6830  9760 E ReactNativeJS:  [90m 2 |[39m[0m] preventSymbolication: true }
+04-14 15:06:43.773  6830  6830 I ReactNative: [GESTURE HANDLER] Initialize gesture handler for root view com.facebook.react.ReactRootView{2add393 V.E...... ......ID 0,0-1080,2205 #b5}
+04-14 15:06:58.374  6830  9761 I ReactNative: [GESTURE HANDLER] Tearing down gesture handler registered for root view com.facebook.react.ReactRootView{2add393 V.E...... ......ID 0,0-1080,2205}
+04-14 15:06:59.030  6830 10862 I ReactNativeJS: Running "main" with {"rootTag":211}
+04-14 15:06:59.301  6830  6830 I ReactNative: [GESTURE HANDLER] Initialize gesture handler for root view com.facebook.react.ReactRootView{2add393 V.E...... ......ID 0,0-1080,2205 #d3}
+04-14 15:42:46.682  6830 10863 I ReactNative: [GESTURE HANDLER] Tearing down gesture handler registered for root view com.facebook.react.ReactRootView{2add393 V.E...... ......ID 0,0-1080,2205}
+04-14 15:42:47.351  6830 13987 I ReactNativeJS: Running "main" with {"rootTag":231}
+04-14 15:42:47.582  6830  6830 I ReactNative: [GESTURE HANDLER] Initialize gesture handler for root view com.facebook.react.ReactRootView{2add393 V.E...... ......ID 0,0-1080,2205 #e7}
+04-14 15:42:58.923  6830 13988 I ReactNative: [GESTURE HANDLER] Tearing down gesture handler registered for root view com.facebook.react.ReactRootView{2add393 V.E...... ......ID 0,0-1080,2205}
+04-14 15:42:59.587  6830 14013 I ReactNativeJS: Running "main" with {"rootTag":251}
+04-14 15:42:59.814  6830  6830 I ReactNative: [GESTURE HANDLER] Initialize gesture handler for root view com.facebook.react.ReactRootView{2add393 V.E...... ......ID 0,0-1080,2205 #fb}
+04-14 15:51:29.186  6830 14013 E ReactNativeJS: { [Error: TransformError SyntaxError: D:\HealthLogic\src\hooks\useProfileStore.ts: Unexpected token, expected "," (114:6)
+04-14 15:51:29.186  6830 14013 E ReactNativeJS: 
+04-14 15:51:29.186  6830 14013 E ReactNativeJS: [0m [90m 112 |[39m       }
+04-14 15:51:29.186  6830 14013 E ReactNativeJS:  [90m 113 |[39m
+04-14 15:51:29.186  6830 14013 E ReactNativeJS: [31m[1m>[22m[39m[90m 114 |[39m       [36mconst[39m existing [33m=[39m input[33m.[39mid
+04-14 15:51:29.186  6830 14013 E ReactNativeJS:  [90m     |[39m       [31m[1m^[22m[39m
+04-14 15:51:29.186  6830 14013 E ReactNativeJS:  [90m 115 |[39m         [33m?[39m account[33m.[39mprofiles[33m.[39mfind((item) [33m=>[39m item[33m.[39mid [33m===[39m input[33m.[39mid)
+04-14 15:51:29.186  6830 14013 E ReactNativeJS:  [90m 116 |[39m         [33m:[39m [36mnull[39m[33m;[39m
+04-14 15:51:29.186  6830 14013 E ReactNativeJS:  [90m 117 |[39m[0m] preventSymbolication: true }
+04-14 15:51:29.469  6830 14013 E ReactNativeJS: { [Error: TransformError SyntaxError: D:\HealthLogic\src\hooks\useProfileStore.ts: Unexpected token, expected "," (114:6)
+04-14 15:51:29.469  6830 14013 E ReactNativeJS: 
+04-14 15:51:29.469  6830 14013 E ReactNativeJS: [0m [90m 112 |[39m       }
+04-14 15:51:29.469  6830 14013 E ReactNativeJS:  [90m 113 |[39m
+04-14 15:51:29.469  6830 14013 E ReactNativeJS: [31m[1m>[22m[39m[90m 114 |[39m       [36mconst[39m existing [33m=[39m input[33m.[39mid
+04-14 15:51:29.469  6830 14013 E ReactNativeJS:  [90m     |[39m       [31m[1m^[22m[39m
+04-14 15:51:29.469  6830 14013 E ReactNativeJS:  [90m 115 |[39m         [33m?[39m account[33m.[39mprofiles[33m.[39mfind((item) [33m=>[39m item[33m.[39mid [33m===[39m input[33m.[39mid)
+04-14 15:51:29.469  6830 14013 E ReactNativeJS:  [90m 116 |[39m         [33m:[39m [36mnull[39m[33m;[39m
+04-14 15:51:29.469  6830 14013 E ReactNativeJS:  [90m 117 |[39m[0m] preventSymbolication: true }
+04-14 15:51:29.619  6830 14013 E ReactNativeJS: { [Error: TransformError SyntaxError: D:\HealthLogic\src\hooks\useProfileStore.ts: Unexpected token, expected "," (114:6)
+04-14 15:51:29.619  6830 14013 E ReactNativeJS: 
+04-14 15:51:29.619  6830 14013 E ReactNativeJS: [0m [90m 112 |[39m       }
+04-14 15:51:29.619  6830 14013 E ReactNativeJS:  [90m 113 |[39m
+04-14 15:51:29.619  6830 14013 E ReactNativeJS: [31m[1m>[22m[39m[90m 114 |[39m       [36mconst[39m existing [33m=[39m input[33m.[39mid
+04-14 15:51:29.619  6830 14013 E ReactNativeJS:  [90m     |[39m       [31m[1m^[22m[39m
+04-14 15:51:29.619  6830 14013 E ReactNativeJS:  [90m 115 |[39m         [33m?[39m account[33m.[39mprofiles[33m.[39mfind((item) [33m=>[39m item[33m.[39mid [33m===[39m input[33m.[39mid)
+04-14 15:51:29.619  6830 14013 E ReactNativeJS:  [90m 116 |[39m         [33m:[39m [36mnull[39m[33m;[39m
+04-14 15:51:29.619  6830 14013 E ReactNativeJS:  [90m 117 |[39m[0m] preventSymbolication: true }
+04-14 15:52:03.759  6830 14014 I ReactNative: [GESTURE HANDLER] Tearing down gesture handler registered for root view com.facebook.react.ReactRootView{2add393 V.E...... ......ID 0,0-1080,2205}
+04-14 15:52:04.399  6830 14763 I ReactNativeJS: Running "main" with {"rootTag":281}
+04-14 15:52:04.615  6830  6830 I ReactNative: [GESTURE HANDLER] Initialize gesture handler for root view com.facebook.react.ReactRootView{2add393 V.E...... ......ID 0,0-1080,2205 #119}
+04-14 15:52:30.257  6830 14764 I ReactNative: [GESTURE HANDLER] Tearing down gesture handler registered for root view com.facebook.react.ReactRootView{2add393 V.E...... ......ID 0,0-1080,2205}
+04-14 15:52:30.889  6830 14805 I ReactNativeJS: Running "main" with {"rootTag":301}
+04-14 15:52:31.114  6830  6830 I ReactNative: [GESTURE HANDLER] Initialize gesture handler for root view com.facebook.react.ReactRootView{2add393 V.E...... ......ID 0,0-1080,2205 #12d}
+04-14 15:53:09.827  6830 14806 I ReactNative: [GESTURE HANDLER] Tearing down gesture handler registered for root view com.facebook.react.ReactRootView{2add393 V.E...... ......ID 0,0-1080,2205}
+04-14 15:53:10.464  6830 14871 I ReactNativeJS: Running "main" with {"rootTag":321}
+04-14 15:53:10.714  6830  6830 I ReactNative: [GESTURE HANDLER] Initialize gesture handler for root view com.facebook.react.ReactRootView{2add393 V.E...... ......ID 0,0-1080,2205 #141}
+04-14 15:53:41.659  6830 14872 I ReactNative: [GESTURE HANDLER] Tearing down gesture handler registered for root view com.facebook.react.ReactRootView{2add393 V.E...... ......ID 0,0-1080,2205}
+04-14 15:53:42.314  6830 14924 I ReactNativeJS: Running "main" with {"rootTag":341}
+04-14 15:53:42.549  6830  6830 I ReactNative: [GESTURE HANDLER] Initialize gesture handler for root view com.facebook.react.ReactRootView{2add393 V.E...... ......ID 0,0-1080,2205 #155}
+04-14 15:54:28.331  6830 14925 I ReactNative: [GESTURE HANDLER] Tearing down gesture handler registered for root view com.facebook.react.ReactRootView{2add393 V.E...... ......ID 0,0-1080,2205}
+04-14 15:54:29.011  6830 14997 I ReactNativeJS: Running "main" with {"rootTag":361}
+04-14 15:54:29.232  6830  6830 I ReactNative: [GESTURE HANDLER] Initialize gesture handler for root view com.facebook.react.ReactRootView{2add393 V.E...... ......ID 0,0-1080,2205 #169}
+04-14 15:56:22.155  6830 14998 I ReactNative: [GESTURE HANDLER] Tearing down gesture handler registered for root view com.facebook.react.ReactRootView{2add393 V.E...... ......ID 0,0-1080,2205}
+04-14 15:56:22.786  6830 15176 I ReactNativeJS: Running "main" with {"rootTag":381}
+04-14 15:56:23.014  6830  6830 I ReactNative: [GESTURE HANDLER] Initialize gesture handler for root view com.facebook.react.ReactRootView{2add393 V.E...... ......ID 0,0-1080,2205 #17d}
+04-14 15:58:09.226  6830 15177 I ReactNative: [GESTURE HANDLER] Tearing down gesture handler registered for root view com.facebook.react.ReactRootView{2add393 V.E...... ......ID 0,0-1080,2205}
+04-14 15:58:09.848  6830 15328 I ReactNativeJS: Running "main" with {"rootTag":401}
+04-14 15:58:10.064  6830  6830 I ReactNative: [GESTURE HANDLER] Initialize gesture handler for root view com.facebook.react.ReactRootView{2add393 V.E...... ......ID 0,0-1080,2205 #191}
+04-14 16:01:10.349  6830 15328 W ReactNativeJS: Cannot connect to Metro.
+04-14 16:01:10.349  6830 15328 W ReactNativeJS: 
+04-14 16:01:10.349  6830 15328 W ReactNativeJS: Try the following to fix the issue:
+04-14 16:01:10.349  6830 15328 W ReactNativeJS: - Ensure that Metro is running and available on the same network
+04-14 16:01:10.349  6830 15328 W ReactNativeJS: - Ensure that your device/emulator is connected to your machine and has USB debugging enabled - run 'adb devices' to see a list of connected devices
+04-14 16:01:10.349  6830 15328 W ReactNativeJS: - If you're on a physical device connected to the same machine, run 'adb reverse tcp:8081 tcp:8081' to forward requests from your device
+04-14 16:01:10.349  6830 15328 W ReactNativeJS: - If your device is on the same Wi-Fi network, set 'Debug server host & port for device' in 'Dev settings' to your machine's IP address and the port of the local dev server - e.g. 10.0.1.1:8081
+04-14 16:01:10.349  6830 15328 W ReactNativeJS: 
+04-14 16:01:10.349  6830 15328 W ReactNativeJS: URL: 10.0.2.2:8081
+04-14 16:01:10.349  6830 15328 W ReactNativeJS: 
+04-14 16:01:10.349  6830 15328 W ReactNativeJS: Error: Connection reset
+04-14 16:05:30.149 16207 16306 I ReactNativeJS: Running "main
+04-14 16:05:30.242 16207 16207 I ReactNative: [GESTURE HANDLER] Initialize gesture handler for root view versioned.host.exp.exponent.ReactUnthemedRootView{4abc763 V.E...... ......ID 0,0-1080,2337 #b}
+04-14 16:05:32.316 16207 16207 I ReactNative: [GESTURE HANDLER] Gesture handler is already enabled for a parent view
+04-14 16:05:32.316 16207 16207 I ReactNative: [GESTURE HANDLER] Gesture handler is already enabled for a parent view
+04-14 16:05:32.329 16207 16207 I ReactNative: [GESTURE HANDLER] Gesture handler is already enabled for a parent view
+04-14 16:05:42.346 16207 16466 I ReactNativeJS: Running "main" with {"initialProps":{"exp":{"initialUri":"exp://192.168.86.21:8081","shell":false,"manifestString":"{\"id\":\"628bc530-ea41-4d93-9b38-2182a9075671\",\"createdAt\":\"2026-04-14T20:05:30.709Z\",\"runtimeVersion\":\"exposdk:50.0.0\",\"launchAsset\":{\"key\":\"bundle\",\"contentType\":\"application\\/javascript\",\"url\":\"http:\\/\\/192.168.86.21:8081\\/index.bundle?platform=android&dev=true&hot=false&transform.engine=hermes&transform.bytecode=true&transform.routerRoot=app\"},\"assets\":[],\"metadata\":{},\"extra\":{\"eas\":{\"projectId\":\"7d932a8e-4415-42e3-ae4a-d527f8b9de23\"},\"expoClient\":{\"name\":\"HealthLogic\",\"slug\":\"healthlogic\",\"version\":\"1.0.0\",\"sdkVersion\":\"50.0.0\",\"platforms\":[\"ios\",\"android\"],\"android\":{\"package\":\"com.healthlogic.app\"},\"extra\":{\"eas\":{\"projectId\":\"7d932a8e-4415-42e3-ae4a-d527f8b9de23\"}},\"owner\":\"michellemink\",\"_internal\":{\"isDebug\":false,\"projectRoot\":\"D:\\\\HealthLogic\",\"dynamicConfigPath\":null,\"staticConfigPath\":\"D:\\\\HealthLogic\\\\app.json\",\"packageJsonPath\":\"D:\\\\HealthLogic\\\\package.json\"},\"hostUri\":\"192.168.86.21:8081\"},\"expoGo\":{\"debuggerHost\":\"192.168.86.21:8081\",\"developer\":{\"tool\":\"expo-cli\",\"projectRoot\":\"D:\\\\HealthLogic\"},\"packagerOpts\":{\"dev\":true},\"mainModuleName\":\"index\",\"__flipperHack\":\"React Native packager is running\"},\"scopeKey\":\"@michellemink\\/healthlogic\"},\"isVerified\":true,\"name\":\"My New Experience\",\"primaryColor\":\"#023C69\",\"iconUrl\":\"https:\\/\\/d3lwq5rlu14cro.cloudfront.net\\/ExponentEmptyManifest_192.png\",\"orientation\":\"default\"}"}},"rootTag":31}
+04-14 16:05:42.580 16207 16207 I ReactNative: [GESTURE HANDLER] Initialize gesture handler for root view versioned.host.exp.exponent.ReactUnthemedRootView{ae6e51d V.E...... ......ID 0,0-1080,2337 #1f}
+04-14 16:05:44.637 16207 16306 I ReactNativeJS: Running "HomeMenu
+04-14 16:05:44.648 16207 16207 I ReactNative: [GESTURE HANDLER] Initialize gesture handler for root view versioned.host.exp.exponent.ReactUnthemedRootView{78605af V.E...... ......ID 0,0-1080,2337 #3d}
+04-14 16:05:55.758 16207 16466 E ReactNativeJS: Error: Invalid hook call. Hooks can only be called inside of the body of a function component. This could happen for one of the following reasons:
+04-14 16:05:55.758 16207 16466 E ReactNativeJS: 1. You might have mismatching versions of React and the renderer (such as React DOM)
+04-14 16:05:55.758 16207 16466 E ReactNativeJS: 2. You might be breaking the Rules of Hooks
+04-14 16:05:55.758 16207 16466 E ReactNativeJS: 3. You might have more than one copy of React in the same app
+04-14 16:05:55.758 16207 16466 E ReactNativeJS: See https://react.dev/link/invalid-hook-call for tips about how to debug and fix this problem., js engine: hermes
+04-14 16:06:39.986 16207 16466 W ReactNativeJS: Cannot connect to Metro.
+04-14 16:06:39.986 16207 16466 W ReactNativeJS: 
+04-14 16:06:39.986 16207 16466 W ReactNativeJS: Try the following to fix the issue:
+04-14 16:06:39.986 16207 16466 W ReactNativeJS: - Ensure that Metro is running and available on the same network
+04-14 16:06:39.986 16207 16466 W ReactNativeJS: - Ensure that your device/emulator is connected to your machine and has USB debugging enabled - run 'adb devices' to see a list of connected devices
+04-14 16:06:39.986 16207 16466 W ReactNativeJS: - If you're on a physical device connected to the same machine, run 'adb reverse tcp:8081 tcp:8081' to forward requests from your device
+04-14 16:06:39.986 16207 16466 W ReactNativeJS: - If your device is on the same Wi-Fi network, set 'Debug server host & port for device' in 'Dev settings' to your machine's IP address and the port of the local dev server - e.g. 10.0.1.1:8081
+04-14 16:06:39.986 16207 16466 W ReactNativeJS: 
+04-14 16:06:39.986 16207 16466 W ReactNativeJS: URL: 192.168.86.21:8081
+04-14 16:06:39.986 16207 16466 W ReactNativeJS: 
+04-14 16:06:39.986 16207 16466 W ReactNativeJS: Error: Connection reset
+04-14 16:07:22.438 16207 16466 E ReactNativeJS: Error: Text strings must be rendered within a <Text> component.
+04-14 16:07:22.438 16207 16466 E ReactNativeJS: 
+04-14 16:07:22.438 16207 16466 E ReactNativeJS: This error is located at:
+04-14 16:07:22.438 16207 16466 E ReactNativeJS:     in RCTView (at View.js:116)
+04-14 16:07:22.438 16207 16466 E ReactNativeJS:     in View (at ScrollView.js:1732)
+04-14 16:07:22.438 16207 16466 E ReactNativeJS:     in RCTScrollView (at ScrollView.js:1855)
+04-14 16:07:22.438 16207 16466 E ReactNativeJS:     in ScrollView (at ScrollView.js:1925)
+04-14 16:07:22.438 16207 16466 E ReactNativeJS:     in ScrollView (at ProfileScreen.tsx:391)
+04-14 16:07:22.438 16207 16466 E ReactNativeJS:     in RCTView (at View.js:116)
+04-14 16:07:22.438 16207 16466 E ReactNativeJS:     in View (at NativeLinearGradient.android.js:21)
+04-14 16:07:22.438 16207 16466 E ReactNativeJS:     in NativeLinearGradient (at LinearGradient.js:15)
+04-14 16:07:22.438 16207 16466 E ReactNativeJS:     in LinearGradient (at ProfileScreen.tsx:385)
+04-14 16:07:22.438 16207 16466 E ReactNativeJS:     in RCTView (at View.js:116)
+04-14 16:07:22.438 16207 16466 E ReactNativeJS:     in View (at ProfileScreen.tsx:384)
+04-14 16:07:22.438 16207 16466 E ReactNativeJS:     in ProfileScreen (at SceneView.tsx:132)
+04-14 16:07:22.438 16207 16466 E ReactNativeJS:     in StaticContainer
+04-14 16:07:22.438 16207 16466 E ReactNativeJS:     in EnsureSingleNavigator (at SceneView.tsx:124)
+04-14 16:07:22.438 16207 16466 E ReactNativeJS:     in SceneView (at useDescriptors.tsx:218)
+04-14 16:07:22.438 16207 16466 E ReactNativeJS:     in RCTView (at View.js:116)
+04-14 16:07:22.438 16207 16466 E ReactNativeJS:     in View (at CardContainer.tsx:281)
+04-14 16:07:22.438 16207 16466 E ReactNativeJS:     in RCTView (at View.js:116)
+04-14 16:07:22.438 16207 16466 E ReactNativeJS:     in View (at CardContainer.tsx:279)
+04-14 16:07:22.438 16207 16466 E ReactNativeJS:     in RCTView (at View.js:116)
+04-14 16:07:22.438 16207 16466 E ReactNativeJS:     in View (at CardSheet.tsx:45)
+04-14 16:07:22.438 16207 16466 E ReactNativeJS:     in CardSheet (at Card.tsx:563)
+04-14 16:07:22.438 16207 16466 E ReactNativeJS:     in RCTView (at View.js:116)
+04-14 16:07:22.438 16207 16466 E ReactNativeJS:     in View (at createAnimatedComponent.js:54)
+04-14 16:07:22.438 16207 16466 E ReactNativeJS:     in Unknown (at Card.tsx:542)
+04-14 16:07:22.438 16207 16466 E ReactNativeJS:     in PanGestureHandler (at GestureHandlerNative.tsx:14)
+04-14 16:07:22.438 16207 16466 E ReactNativeJS:     in PanGestureHandler (at Card.tsx:536)
+04-14 16:07:22.438 16207 16466 E ReactNativeJS:     in RCTView (at View.js:116)
+04-14 16:07:22.438 16207 16466 E ReactNativeJS:     in View (at createAnimatedComponent.js:54)
+04-14 16:07:22.438 16207 16466 E ReactNativeJS:     in Unknown (at Card.tsx:532)
+04-14 16:07:22.438 16207 16466 E ReactNativeJS:     in RCTView (at View.js:116)
+04-14 16:07:22.438 16207 16466 E ReactNativeJS:     in View (at Card.tsx:520)
+04-14 16:07:22.438 16207 16466 E ReactNativeJS:     in Card (at CardContainer.tsx:219)
+04-14 16:07:22.438 16207 16466 E ReactNativeJS:     in CardContainer (at CardStack.tsx:673)
+04-14 16:07:22.438 16207 16466 E ReactNativeJS:     in RNSScreen (at createAnimatedComponent.js:54)
+04-14 16:07:22.438 16207 16466 E ReactNativeJS:     in Unknown (at src/index.native.tsx:314)
+04-14 16:07:22.438 16207 16466 E ReactNativeJS:     in Suspender (at src/index.tsx:27)
+04-14 16:07:22.438 16207 16466 E ReactNativeJS:     in Suspense (at src/index.tsx:26)
+04-14 16:07:22.438 16207 16466 E ReactNativeJS:     in Freeze (at src/index.native.tsx:206)
+04-14 16:07:22.438 16207 16466 E ReactNativeJS:     in DelayedFreeze (at src/index.native.tsx:313)
+04-14 16:07:22.438 16207 16466 E ReactNativeJS:     in InnerScreen (at src/index.native.tsx:566)
+04-14 16:07:22.438 16207 16466 E ReactNativeJS:     in Screen (at Screens.tsx:38)
+04-14 16:07:22.438 16207 16466 E ReactNativeJS:     in MaybeScreen (at CardStack.tsx:665)
+04-14 16:07:22.438 16207 16466 E ReactNativeJS:     in RNSScreenContainer (at src/index.native.tsx:400)
+04-14 16:07:22.438 16207 16466 E ReactNativeJS:     in ScreenContainer (at Screens.tsx:20)
+04-14 16:07:22.438 16207 16466 E ReactNativeJS:     in MaybeScreenContainer (at CardStack.tsx:572)
+04-14 16:07:22.438 16207 16466 E ReactNativeJS:     in RCTView (at View.js:116)
+04-14 16:07:22.438 16207 16466 E ReactNativeJS:     in View (at Background.tsx:13)
+04-14 16:07:22.438 16207 16466 E ReactNativeJS:     in Background (at CardStack.tsx:570)
+04-14 16:07:22.438 16207 16466 E ReactNativeJS:     in CardStack (at StackView.tsx:437)
+04-14 16:07:22.438 16207 16466 E ReactNativeJS:     in RNCSafeAreaProvider (at SafeAreaContext.tsx:92)
+04-14 16:07:22.438 16207 16466 E ReactNativeJS:     in SafeAreaProvider (at SafeAreaProviderCompat.tsx:55)
+04-14 16:07:22.438 16207 16466 E ReactNativeJS:     in SafeAreaProviderCompat (at StackView.tsx:430)
+04-14 16:07:22.438 16207 16466 E ReactNativeJS:     in RNGestureHandlerRootView (at GestureHandlerRootView.android.tsx:21)
+04-14 16:07:22.438 16207 16466 E ReactNativeJS:     in GestureHandlerRootView (at StackView.tsx:429)
+04-14 16:07:22.438 16207 16466 E ReactNativeJS:     in StackView (at createStackNavigator.tsx:121)
+04-14 16:07:22.438 16207 16466 E ReactNativeJS:     in PreventRemoveProvider (at useNavigationBuilder.tsx:718)
+04-14 16:07:22.438 16207 16466 E ReactNativeJS:     in NavigationContent (at useComponent.tsx:35)
+04-14 16:07:22.438 16207 16466 E ReactNativeJS:     in Unknown (at createStackNavigator.tsx:120)
+04-14 16:07:22.438 16207 16466 E ReactNativeJS:     in StackNavigator (at App.tsx:29)
+04-14 16:07:22.438 16207 16466 E ReactNativeJS:     in EnsureSingleNavigator (at BaseNavigationContainer.tsx:433)
+04-14 16:07:22.438 16207 16466 E ReactNativeJS:     in BaseNavigationContainer (at NavigationContainer.tsx:132)
+04-14 16:07:22.438 16207 16466 E ReactNativeJS:     in ThemeProvider (at NavigationContainer.tsx:131)
+04-14 16:07:22.438 16207 16466 E ReactNativeJS:     in NavigationContainerInner (at App.tsx:28)
+04-14 16:07:22.438 16207 16466 E ReactNativeJS:     in App (at withDevTools.js:18)
+04-14 16:07:22.438 16207 16466 E ReactNativeJS:     in withDevTools(App) (at renderApplication.js:57)
+04-14 16:07:22.438 16207 16466 E ReactNativeJS:     in RCTView (at View.js:116)
+04-14 16:07:22.438 16207 16466 E ReactNativeJS:     in View (at AppContainer.js:127)
+04-14 16:07:22.438 16207 16466 E ReactNativeJS:     in RCTView (at View.js:116)
+04-14 16:07:22.438 16207 16466 E ReactNativeJS:     in View (at AppContainer.js:155)
+04-14 16:07:22.438 16207 16466 E ReactNativeJS:     in AppContainer (at renderApplication.js:50)
+04-14 16:07:22.438 16207 16466 E ReactNativeJS:     in main(RootComponent) (at renderApplication.js:67), js engine: hermes
+04-14 16:07:22.438 16207 16466 E ReactNativeJS: Error: Text strings must be rendered within a <Text> component.
+04-14 16:07:22.438 16207 16466 E ReactNativeJS: 
+04-14 16:07:22.438 16207 16466 E ReactNativeJS: This error is located at:
+04-14 16:07:22.438 16207 16466 E ReactNativeJS:     in RCTView (at View.js:116)
+04-14 16:07:22.438 16207 16466 E ReactNativeJS:     in View (at ScrollView.js:1732)
+04-14 16:07:22.438 16207 16466 E ReactNativeJS:     in RCTScrollView (at ScrollView.js:1855)
+04-14 16:07:22.438 16207 16466 E ReactNativeJS:     in ScrollView (at ScrollView.js:1925)
+04-14 16:07:22.438 16207 16466 E ReactNativeJS:     in ScrollView (at ProfileScreen.tsx:391)
+04-14 16:07:22.438 16207 16466 E ReactNativeJS:     in RCTView (at View.js:116)
+04-14 16:07:22.438 16207 16466 E ReactNativeJS:     in View (at NativeLinearGradient.android.js:21)
+04-14 16:07:22.438 16207 16466 E ReactNativeJS:     in NativeLinearGradient (at LinearGradient.js:15)
+04-14 16:07:22.438 16207 16466 E ReactNativeJS:     in LinearGradient (at ProfileScreen.tsx:385)
+04-14 16:07:22.438 16207 16466 E ReactNativeJS:     in RCTView (at View.js:116)
+04-14 16:07:22.438 16207 16466 E ReactNativeJS:     in View (at ProfileScreen.tsx:384)
+04-14 16:07:22.438 16207 16466 E ReactNativeJS:     in ProfileScreen (at SceneView.tsx:132)
+04-14 16:07:22.438 16207 16466 E ReactNativeJS:     in StaticContainer
+04-14 16:07:22.438 16207 16466 E ReactNativeJS:     in EnsureSingleNavigator (at SceneView.tsx:124)
+04-14 16:07:22.438 16207 16466 E ReactNativeJS:     in SceneView (at useDescriptors.tsx:218)
+04-14 16:07:22.438 16207 16466 E ReactNativeJS:     in RCTView (at View.js:116)
+04-14 16:07:22.438 16207 16466 E ReactNativeJS:     in View (at CardContainer.tsx:281)
+04-14 16:07:22.438 16207 16466 E ReactNativeJS:     in RCTView (at View.js:116)
+04-14 16:07:22.438 16207 16466 E ReactNativeJS:     in View (at CardContainer.tsx:279)
+04-14 16:07:22.438 16207 16466 E ReactNativeJS:     in RCTView (at View.js:116)
+04-14 16:07:22.438 16207 16466 E ReactNativeJS:     in View (at CardSheet.tsx:45)
+04-14 16:07:22.438 16207 16466 E ReactNativeJS:     in CardSheet (at Card.tsx:563)
+04-14 16:07:22.438 16207 16466 E ReactNativeJS:     in RCTView (at View.js:116)
+04-14 16:07:22.438 16207 16466 E ReactNativeJS:     in View (at createAnimatedComponent.js:54)
+04-14 16:07:22.438 16207 16466 E ReactNativeJS:     in Unknown (at Card.tsx:542)
+04-14 16:07:22.438 16207 16466 E ReactNativeJS:     in PanGestureHandler (at GestureHandlerNative.tsx:14)
+04-14 16:07:22.438 16207 16466 E ReactNativeJS:     in PanGestureHandler (at Card.tsx:536)
+04-14 16:07:22.438 16207 16466 E ReactNativeJS:     in RCTView (at View.js:116)
+04-14 16:07:22.438 16207 16466 E ReactNativeJS:     in View (at createAnimatedComponent.js:54)
+04-14 16:07:22.438 16207 16466 E ReactNativeJS:     in Unknown (at Card.tsx:532)
+04-14 16:07:22.438 16207 16466 E ReactNativeJS:     in RCTView (at View.js:116)
+04-14 16:07:22.438 16207 16466 E ReactNativeJS:     in View (at Card.tsx:520)
+04-14 16:07:22.438 16207 16466 E ReactNativeJS:     in Card (at CardContainer.tsx:219)
+04-14 16:07:22.438 16207 16466 E ReactNativeJS:     in CardContainer (at CardStack.tsx:673)
+04-14 16:07:22.438 16207 16466 E ReactNativeJS:     in RNSScreen (at createAnimatedComponent.js:54)
+04-14 16:07:22.438 16207 16466 E ReactNativeJS:     in Unknown (at src/index.native.tsx:314)
+04-14 16:07:22.438 16207 16466 E ReactNativeJS:     in Suspender (at src/index.tsx:27)
+04-14 16:07:22.438 16207 16466 E ReactNativeJS:     in Suspense (at src/index.tsx:26)
+04-14 16:07:22.438 16207 16466 E ReactNativeJS:     in Freeze (at src/index.native.tsx:206)
+04-14 16:07:22.438 16207 16466 E ReactNativeJS:     in DelayedFreeze (at src/index.native.tsx:313)
+04-14 16:07:22.438 16207 16466 E ReactNativeJS:     in InnerScreen (at src/index.native.tsx:566)
+04-14 16:07:22.438 16207 16466 E ReactNativeJS:     in Screen (at Screens.tsx:38)
+04-14 16:07:22.438 16207 16466 E ReactNativeJS:     in MaybeScreen (at CardStack.tsx:665)
+04-14 16:07:22.438 16207 16466 E ReactNativeJS:     in RNSScreenContainer (at src/index.native.tsx:400)
+04-14 16:07:22.438 16207 16466 E ReactNativeJS:     in ScreenContainer (at Screens.tsx:20)
+04-14 16:07:22.438 16207 16466 E ReactNativeJS:     in MaybeScreenContainer (at CardStack.tsx:572)
+04-14 16:07:22.438 16207 16466 E ReactNativeJS:     in RCTView (at View.js:116)
+04-14 16:07:22.438 16207 16466 E ReactNativeJS:     in View (at Background.tsx:13)
+04-14 16:07:22.438 16207 16466 E ReactNativeJS:     in Background (at CardStack.tsx:570)
+04-14 16:07:22.438 16207 16466 E ReactNativeJS:     in CardStack (at StackView.tsx:437)
+04-14 16:07:22.438 16207 16466 E ReactNativeJS:     in RNCSafeAreaProvider (at SafeAreaContext.tsx:92)
+04-14 16:07:22.438 16207 16466 E ReactNativeJS:     in SafeAreaProvider (at SafeAreaProviderCompat.tsx:55)
+04-14 16:07:22.438 16207 16466 E ReactNativeJS:     in SafeAreaProviderCompat (at StackView.tsx:430)
+04-14 16:07:22.438 16207 16466 E ReactNativeJS:     in RNGestureHandlerRootView (at GestureHandlerRootView.android.tsx:21)
+04-14 16:07:22.438 16207 16466 E ReactNativeJS:     in GestureHandlerRootView (at StackView.tsx:429)
+04-14 16:07:22.438 16207 16466 E ReactNativeJS:     in StackView (at createStackNavigator.tsx:121)
+04-14 16:07:22.438 16207 16466 E ReactNativeJS:     in PreventRemoveProvider (at useNavigationBuilder.tsx:718)
+04-14 16:07:22.438 16207 16466 E ReactNativeJS:     in NavigationContent (at useComponent.tsx:35)
+04-14 16:07:22.438 16207 16466 E ReactNativeJS:     in Unknown (at createStackNavigator.tsx:120)
+04-14 16:07:22.438 16207 16466 E ReactNativeJS:     in StackNavigator (at App.tsx:29)
+04-14 16:07:22.438 16207 16466 E ReactNativeJS:     in EnsureSingleNavigator (at BaseNavigationContainer.tsx:433)
+04-14 16:07:22.438 16207 16466 E ReactNativeJS:     in BaseNavigationContainer (at NavigationContainer.tsx:132)
+04-14 16:07:22.438 16207 16466 E ReactNativeJS:     in ThemeProvider (at NavigationContainer.tsx:131)
+04-14 16:07:22.438 16207 16466 E ReactNativeJS:     in NavigationContainerInner (at App.tsx:28)
+04-14 16:07:22.438 16207 16466 E ReactNativeJS:     in App (at withDevTools.js:18)
+04-14 16:07:22.438 16207 16466 E ReactNativeJS:     in withDevTools(App) (at renderApplication.js:57)
+04-14 16:07:22.438 16207 16466 E ReactNativeJS:     in RCTView (at View.js:116)
+04-14 16:07:22.438 16207 16466 E ReactNativeJS:     in View (at AppContainer.js:127)
+04-14 16:07:22.438 16207 16466 E ReactNativeJS:     in RCTView (at View.js:116)
+04-14 16:07:22.438 16207 16466 E ReactNativeJS:     in View (at AppContainer.js:155)
+04-14 16:07:22.438 16207 16466 E ReactNativeJS:     in AppContainer (at renderApplication.js:50)
+04-14 16:07:22.438 16207 16466 E ReactNativeJS:     in main(RootComponent) (at renderApplication.js:67), js engine: hermes
+04-14 16:07:22.466 16207 16207 I ReactNative: [GESTURE HANDLER] Tearing down gesture handler registered for root view versioned.host.exp.exponent.ReactUnthemedRootView{ae6e51d V.E...... ......ID 0,0-1080,2337 #1f}
+04-14 16:07:46.942 16691 16759 I ReactNativeJS: Running "main" with {"rootTag":21}
+04-14 16:07:51.225 16691 16691 I ReactNative: [GESTURE HANDLER] Initialize gesture handler for root view com.facebook.react.ReactRootView{6b001ac V.E...... ......ID 0,0-1080,2205 #15}
+04-14 16:11:28.897 17121 17193 I ReactNativeJS: Running "main" with {"rootTag":11}
+04-14 16:11:29.583 17121 17121 I ReactNative: [GESTURE HANDLER] Initialize gesture handler for root view com.facebook.react.ReactRootView{3a3316 V.E...... ......ID 0,0-1080,2205 #b}
+04-14 16:12:11.336 17121 17193 I ReactNativeJS: Running "main" with {"rootTag":41}
+04-14 16:12:11.587 17121 17121 I ReactNative: [GESTURE HANDLER] Initialize gesture handler for root view com.facebook.react.ReactRootView{1429681 V.E...... ......ID 0,0-1080,2205 #29}
+04-14 16:13:44.323 17121 17193 E ReactNativeJS: Error: Text strings must be rendered within a <Text> component.
+04-14 16:13:44.323 17121 17193 E ReactNativeJS: 
+04-14 16:13:44.323 17121 17193 E ReactNativeJS: This error is located at:
+04-14 16:13:44.323 17121 17193 E ReactNativeJS:     in RCTView (at View.js:116)
+04-14 16:13:44.323 17121 17193 E ReactNativeJS:     in View (at ScrollView.js:1732)
+04-14 16:13:44.323 17121 17193 E ReactNativeJS:     in RCTScrollView (at ScrollView.js:1855)
+04-14 16:13:44.323 17121 17193 E ReactNativeJS:     in ScrollView (at ScrollView.js:1925)
+04-14 16:13:44.323 17121 17193 E ReactNativeJS:     in ScrollView (at ProfileScreen.tsx:391)
+04-14 16:13:44.323 17121 17193 E ReactNativeJS:     in RCTView (at View.js:116)
+04-14 16:13:44.323 17121 17193 E ReactNativeJS:     in View (at NativeLinearGradient.android.js:21)
+04-14 16:13:44.323 17121 17193 E ReactNativeJS:     in NativeLinearGradient (at LinearGradient.js:15)
+04-14 16:13:44.323 17121 17193 E ReactNativeJS:     in LinearGradient (at ProfileScreen.tsx:385)
+04-14 16:13:44.323 17121 17193 E ReactNativeJS:     in RCTView (at View.js:116)
+04-14 16:13:44.323 17121 17193 E ReactNativeJS:     in View (at ProfileScreen.tsx:384)
+04-14 16:13:44.323 17121 17193 E ReactNativeJS:     in ProfileScreen (at SceneView.tsx:132)
+04-14 16:13:44.323 17121 17193 E ReactNativeJS:     in StaticContainer
+04-14 16:13:44.323 17121 17193 E ReactNativeJS:     in EnsureSingleNavigator (at SceneView.tsx:124)
+04-14 16:13:44.323 17121 17193 E ReactNativeJS:     in SceneView (at useDescriptors.tsx:218)
+04-14 16:13:44.323 17121 17193 E ReactNativeJS:     in RCTView (at View.js:116)
+04-14 16:13:44.323 17121 17193 E ReactNativeJS:     in View (at CardContainer.tsx:281)
+04-14 16:13:44.323 17121 17193 E ReactNativeJS:     in RCTView (at View.js:116)
+04-14 16:13:44.323 17121 17193 E ReactNativeJS:     in View (at CardContainer.tsx:279)
+04-14 16:13:44.323 17121 17193 E ReactNativeJS:     in RCTView (at View.js:116)
+04-14 16:13:44.323 17121 17193 E ReactNativeJS:     in View (at CardSheet.tsx:45)
+04-14 16:13:44.323 17121 17193 E ReactNativeJS:     in CardSheet (at Card.tsx:563)
+04-14 16:13:44.323 17121 17193 E ReactNativeJS:     in RCTView (at View.js:116)
+04-14 16:13:44.323 17121 17193 E ReactNativeJS:     in View (at createAnimatedComponent.js:54)
+04-14 16:13:44.323 17121 17193 E ReactNativeJS:     in Unknown (at Card.tsx:542)
+04-14 16:13:44.323 17121 17193 E ReactNativeJS:     in PanGestureHandler (at GestureHandlerNative.tsx:14)
+04-14 16:13:44.323 17121 17193 E ReactNativeJS:     in PanGestureHandler (at Card.tsx:536)
+04-14 16:13:44.323 17121 17193 E ReactNativeJS:     in RCTView (at View.js:116)
+04-14 16:13:44.323 17121 17193 E ReactNativeJS:     in View (at createAnimatedComponent.js:54)
+04-14 16:13:44.323 17121 17193 E ReactNativeJS:     in Unknown (at Card.tsx:532)
+04-14 16:13:44.323 17121 17193 E ReactNativeJS:     in RCTView (at View.js:116)
+04-14 16:13:44.323 17121 17193 E ReactNativeJS:     in View (at Card.tsx:520)
+04-14 16:13:44.323 17121 17193 E ReactNativeJS:     in Card (at CardContainer.tsx:219)
+04-14 16:13:44.323 17121 17193 E ReactNativeJS:     in CardContainer (at CardStack.tsx:673)
+04-14 16:13:44.323 17121 17193 E ReactNativeJS:     in RNSScreen (at createAnimatedComponent.js:54)
+04-14 16:13:44.323 17121 17193 E ReactNativeJS:     in Unknown (at src/index.native.tsx:314)
+04-14 16:13:44.323 17121 17193 E ReactNativeJS:     in Suspender (at src/index.tsx:27)
+04-14 16:13:44.323 17121 17193 E ReactNativeJS:     in Suspense (at src/index.tsx:26)
+04-14 16:13:44.323 17121 17193 E ReactNativeJS:     in Freeze (at src/index.native.tsx:206)
+04-14 16:13:44.323 17121 17193 E ReactNativeJS:     in DelayedFreeze (at src/index.native.tsx:313)
+04-14 16:13:44.323 17121 17193 E ReactNativeJS:     in InnerScreen (at src/index.native.tsx:566)
+04-14 16:13:44.323 17121 17193 E ReactNativeJS:     in Screen (at Screens.tsx:38)
+04-14 16:13:44.323 17121 17193 E ReactNativeJS:     in MaybeScreen (at CardStack.tsx:665)
+04-14 16:13:44.323 17121 17193 E ReactNativeJS:     in RNSScreenContainer (at src/index.native.tsx:400)
+04-14 16:13:44.323 17121 17193 E ReactNativeJS:     in ScreenContainer (at Screens.tsx:20)
+04-14 16:13:44.323 17121 17193 E ReactNativeJS:     in MaybeScreenContainer (at CardStack.tsx:572)
+04-14 16:13:44.323 17121 17193 E ReactNativeJS:     in RCTView (at View.js:116)
+04-14 16:13:44.323 17121 17193 E ReactNativeJS:     in View (at Background.tsx:13)
+04-14 16:13:44.323 17121 17193 E ReactNativeJS:     in Background (at CardStack.tsx:570)
+04-14 16:13:44.323 17121 17193 E ReactNativeJS:     in CardStack (at StackView.tsx:437)
+04-14 16:13:44.323 17121 17193 E ReactNativeJS:     in RNCSafeAreaProvider (at SafeAreaContext.tsx:92)
+04-14 16:13:44.323 17121 17193 E ReactNativeJS:     in SafeAreaProvider (at SafeAreaProviderCompat.tsx:55)
+04-14 16:13:44.323 17121 17193 E ReactNativeJS:     in SafeAreaProviderCompat (at StackView.tsx:430)
+04-14 16:13:44.323 17121 17193 E ReactNativeJS:     in RNGestureHandlerRootView (at GestureHandlerRootView.android.tsx:21)
+04-14 16:13:44.323 17121 17193 E ReactNativeJS:     in GestureHandlerRootView (at StackView.tsx:429)
+04-14 16:13:44.323 17121 17193 E ReactNativeJS:     in StackView (at createStackNavigator.tsx:121)
+04-14 16:13:44.323 17121 17193 E ReactNativeJS:     in PreventRemoveProvider (at useNavigationBuilder.tsx:718)
+04-14 16:13:44.323 17121 17193 E ReactNativeJS:     in NavigationContent (at useComponent.tsx:35)
+04-14 16:13:44.323 17121 17193 E ReactNativeJS:     in Unknown (at createStackNavigator.tsx:120)
+04-14 16:13:44.323 17121 17193 E ReactNativeJS:     in StackNavigator (at App.tsx:29)
+04-14 16:13:44.323 17121 17193 E ReactNativeJS:     in EnsureSingleNavigator (at BaseNavigationContainer.tsx:433)
+04-14 16:13:44.323 17121 17193 E ReactNativeJS:     in BaseNavigationContainer (at NavigationContainer.tsx:132)
+04-14 16:13:44.323 17121 17193 E ReactNativeJS:     in ThemeProvider (at NavigationContainer.tsx:131)
+04-14 16:13:44.323 17121 17193 E ReactNativeJS:     in NavigationContainerInner (at App.tsx:28)
+04-14 16:13:44.323 17121 17193 E ReactNativeJS:     in App (at withDevTools.js:18)
+04-14 16:13:44.323 17121 17193 E ReactNativeJS:     in withDevTools(App) (at renderApplication.js:57)
+04-14 16:13:44.323 17121 17193 E ReactNativeJS:     in RCTView (at View.js:116)
+04-14 16:13:44.323 17121 17193 E ReactNativeJS:     in View (at AppContainer.js:127)
+04-14 16:13:44.323 17121 17193 E ReactNativeJS:     in RCTView (at View.js:116)
+04-14 16:13:44.323 17121 17193 E ReactNativeJS:     in View (at AppContainer.js:155)
+04-14 16:13:44.323 17121 17193 E ReactNativeJS:     in AppContainer (at renderApplication.js:50)
+04-14 16:13:44.323 17121 17193 E ReactNativeJS:     in main(RootComponent) (at renderApplication.js:67), js engine: hermes
+04-14 16:13:44.327 17121 17193 E ReactNativeJS: Error: Text strings must be rendered within a <Text> component.
+04-14 16:13:44.327 17121 17193 E ReactNativeJS: 
+04-14 16:13:44.327 17121 17193 E ReactNativeJS: This error is located at:
+04-14 16:13:44.327 17121 17193 E ReactNativeJS:     in RCTView (at View.js:116)
+04-14 16:13:44.327 17121 17193 E ReactNativeJS:     in View (at ScrollView.js:1732)
+04-14 16:13:44.327 17121 17193 E ReactNativeJS:     in RCTScrollView (at ScrollView.js:1855)
+04-14 16:13:44.327 17121 17193 E ReactNativeJS:     in ScrollView (at ScrollView.js:1925)
+04-14 16:13:44.327 17121 17193 E ReactNativeJS:     in ScrollView (at ProfileScreen.tsx:391)
+04-14 16:13:44.327 17121 17193 E ReactNativeJS:     in RCTView (at View.js:116)
+04-14 16:13:44.327 17121 17193 E ReactNativeJS:     in View (at NativeLinearGradient.android.js:21)
+04-14 16:13:44.327 17121 17193 E ReactNativeJS:     in NativeLinearGradient (at LinearGradient.js:15)
+04-14 16:13:44.327 17121 17193 E ReactNativeJS:     in LinearGradient (at ProfileScreen.tsx:385)
+04-14 16:13:44.327 17121 17193 E ReactNativeJS:     in RCTView (at View.js:116)
+04-14 16:13:44.327 17121 17193 E ReactNativeJS:     in View (at ProfileScreen.tsx:384)
+04-14 16:13:44.327 17121 17193 E ReactNativeJS:     in ProfileScreen (at SceneView.tsx:132)
+04-14 16:13:44.327 17121 17193 E ReactNativeJS:     in StaticContainer
+04-14 16:13:44.327 17121 17193 E ReactNativeJS:     in EnsureSingleNavigator (at SceneView.tsx:124)
+04-14 16:13:44.327 17121 17193 E ReactNativeJS:     in SceneView (at useDescriptors.tsx:218)
+04-14 16:13:44.327 17121 17193 E ReactNativeJS:     in RCTView (at View.js:116)
+04-14 16:13:44.327 17121 17193 E ReactNativeJS:     in View (at CardContainer.tsx:281)
+04-14 16:13:44.327 17121 17193 E ReactNativeJS:     in RCTView (at View.js:116)
+04-14 16:13:44.327 17121 17193 E ReactNativeJS:     in View (at CardContainer.tsx:279)
+04-14 16:13:44.327 17121 17193 E ReactNativeJS:     in RCTView (at View.js:116)
+04-14 16:13:44.327 17121 17193 E ReactNativeJS:     in View (at CardSheet.tsx:45)
+04-14 16:13:44.327 17121 17193 E ReactNativeJS:     in CardSheet (at Card.tsx:563)
+04-14 16:13:44.327 17121 17193 E ReactNativeJS:     in RCTView (at View.js:116)
+04-14 16:13:44.327 17121 17193 E ReactNativeJS:     in View (at createAnimatedComponent.js:54)
+04-14 16:13:44.327 17121 17193 E ReactNativeJS:     in Unknown (at Card.tsx:542)
+04-14 16:13:44.327 17121 17193 E ReactNativeJS:     in PanGestureHandler (at GestureHandlerNative.tsx:14)
+04-14 16:13:44.327 17121 17193 E ReactNativeJS:     in PanGestureHandler (at Card.tsx:536)
+04-14 16:13:44.327 17121 17193 E ReactNativeJS:     in RCTView (at View.js:116)
+04-14 16:13:44.327 17121 17193 E ReactNativeJS:     in View (at createAnimatedComponent.js:54)
+04-14 16:13:44.327 17121 17193 E ReactNativeJS:     in Unknown (at Card.tsx:532)
+04-14 16:13:44.327 17121 17193 E ReactNativeJS:     in RCTView (at View.js:116)
+04-14 16:13:44.327 17121 17193 E ReactNativeJS:     in View (at Card.tsx:520)
+04-14 16:13:44.327 17121 17193 E ReactNativeJS:     in Card (at CardContainer.tsx:219)
+04-14 16:13:44.327 17121 17193 E ReactNativeJS:     in CardContainer (at CardStack.tsx:673)
+04-14 16:13:44.327 17121 17193 E ReactNativeJS:     in RNSScreen (at createAnimatedComponent.js:54)
+04-14 16:13:44.327 17121 17193 E ReactNativeJS:     in Unknown (at src/index.native.tsx:314)
+04-14 16:13:44.327 17121 17193 E ReactNativeJS:     in Suspender (at src/index.tsx:27)
+04-14 16:13:44.327 17121 17193 E ReactNativeJS:     in Suspense (at src/index.tsx:26)
+04-14 16:13:44.327 17121 17193 E ReactNativeJS:     in Freeze (at src/index.native.tsx:206)
+04-14 16:13:44.327 17121 17193 E ReactNativeJS:     in DelayedFreeze (at src/index.native.tsx:313)
+04-14 16:13:44.327 17121 17193 E ReactNativeJS:     in InnerScreen (at src/index.native.tsx:566)
+04-14 16:13:44.327 17121 17193 E ReactNativeJS:     in Screen (at Screens.tsx:38)
+04-14 16:13:44.327 17121 17193 E ReactNativeJS:     in MaybeScreen (at CardStack.tsx:665)
+04-14 16:13:44.327 17121 17193 E ReactNativeJS:     in RNSScreenContainer (at src/index.native.tsx:400)
+04-14 16:13:44.327 17121 17193 E ReactNativeJS:     in ScreenContainer (at Screens.tsx:20)
+04-14 16:13:44.327 17121 17193 E ReactNativeJS:     in MaybeScreenContainer (at CardStack.tsx:572)
+04-14 16:13:44.327 17121 17193 E ReactNativeJS:     in RCTView (at View.js:116)
+04-14 16:13:44.327 17121 17193 E ReactNativeJS:     in View (at Background.tsx:13)
+04-14 16:13:44.327 17121 17193 E ReactNativeJS:     in Background (at CardStack.tsx:570)
+04-14 16:13:44.327 17121 17193 E ReactNativeJS:     in CardStack (at StackView.tsx:437)
+04-14 16:13:44.327 17121 17193 E ReactNativeJS:     in RNCSafeAreaProvider (at SafeAreaContext.tsx:92)
+04-14 16:13:44.327 17121 17193 E ReactNativeJS:     in SafeAreaProvider (at SafeAreaProviderCompat.tsx:55)
+04-14 16:13:44.327 17121 17193 E ReactNativeJS:     in SafeAreaProviderCompat (at StackView.tsx:430)
+04-14 16:13:44.327 17121 17193 E ReactNativeJS:     in RNGestureHandlerRootView (at GestureHandlerRootView.android.tsx:21)
+04-14 16:13:44.327 17121 17193 E ReactNativeJS:     in GestureHandlerRootView (at StackView.tsx:429)
+04-14 16:13:44.327 17121 17193 E ReactNativeJS:     in StackView (at createStackNavigator.tsx:121)
+04-14 16:13:44.327 17121 17193 E ReactNativeJS:     in PreventRemoveProvider (at useNavigationBuilder.tsx:718)
+04-14 16:13:44.327 17121 17193 E ReactNativeJS:     in NavigationContent (at useComponent.tsx:35)
+04-14 16:13:44.327 17121 17193 E ReactNativeJS:     in Unknown (at createStackNavigator.tsx:120)
+04-14 16:13:44.327 17121 17193 E ReactNativeJS:     in StackNavigator (at App.tsx:29)
+04-14 16:13:44.327 17121 17193 E ReactNativeJS:     in EnsureSingleNavigator (at BaseNavigationContainer.tsx:433)
+04-14 16:13:44.327 17121 17193 E ReactNativeJS:     in BaseNavigationContainer (at NavigationContainer.tsx:132)
+04-14 16:13:44.327 17121 17193 E ReactNativeJS:     in ThemeProvider (at NavigationContainer.tsx:131)
+04-14 16:13:44.327 17121 17193 E ReactNativeJS:     in NavigationContainerInner (at App.tsx:28)
+04-14 16:13:44.327 17121 17193 E ReactNativeJS:     in App (at withDevTools.js:18)
+04-14 16:13:44.327 17121 17193 E ReactNativeJS:     in withDevTools(App) (at renderApplication.js:57)
+04-14 16:13:44.327 17121 17193 E ReactNativeJS:     in RCTView (at View.js:116)
+04-14 16:13:44.327 17121 17193 E ReactNativeJS:     in View (at AppContainer.js:127)
+04-14 16:13:44.327 17121 17193 E ReactNativeJS:     in RCTView (at View.js:116)
+04-14 16:13:44.327 17121 17193 E ReactNativeJS:     in View (at AppContainer.js:155)
+04-14 16:13:44.327 17121 17193 E ReactNativeJS:     in AppContainer (at renderApplication.js:50)
+04-14 16:13:44.327 17121 17193 E ReactNativeJS:     in main(RootComponent) (at renderApplication.js:67), js engine: hermes
+04-14 16:13:44.437 17121 17121 I ReactNative: [GESTURE HANDLER] Tearing down gesture handler registered for root view com.facebook.react.ReactRootView{1429681 V.E...... ......ID 0,0-1080,2205 #29}
+04-14 16:14:53.066 17121 17121 I ReactNative: [GESTURE HANDLER] Initialize gesture handler for root view com.facebook.react.ReactRootView{1429681 V.E...... ......ID 0,0-1080,2205 #29}
+04-14 16:15:07.544 17121 17193 E ReactNativeJS: Error: Text strings must be rendered within a <Text> component.
+04-14 16:15:07.544 17121 17193 E ReactNativeJS: 
+04-14 16:15:07.544 17121 17193 E ReactNativeJS: This error is located at:
+04-14 16:15:07.544 17121 17193 E ReactNativeJS:     in RCTView (at View.js:116)
+04-14 16:15:07.544 17121 17193 E ReactNativeJS:     in View (at ScrollView.js:1732)
+04-14 16:15:07.544 17121 17193 E ReactNativeJS:     in RCTScrollView (at ScrollView.js:1855)
+04-14 16:15:07.544 17121 17193 E ReactNativeJS:     in ScrollView (at ScrollView.js:1925)
+04-14 16:15:07.544 17121 17193 E ReactNativeJS:     in ScrollView (at ProfileScreen.tsx:391)
+04-14 16:15:07.544 17121 17193 E ReactNativeJS:     in RCTView (at View.js:116)
+04-14 16:15:07.544 17121 17193 E ReactNativeJS:     in View (at NativeLinearGradient.android.js:21)
+04-14 16:15:07.544 17121 17193 E ReactNativeJS:     in NativeLinearGradient (at LinearGradient.js:15)
+04-14 16:15:07.544 17121 17193 E ReactNativeJS:     in LinearGradient (at ProfileScreen.tsx:385)
+04-14 16:15:07.544 17121 17193 E ReactNativeJS:     in RCTView (at View.js:116)
+04-14 16:15:07.544 17121 17193 E ReactNativeJS:     in View (at ProfileScreen.tsx:384)
+04-14 16:15:07.544 17121 17193 E ReactNativeJS:     in ProfileScreen (at SceneView.tsx:132)
+04-14 16:15:07.544 17121 17193 E ReactNativeJS:     in StaticContainer
+04-14 16:15:07.544 17121 17193 E ReactNativeJS:     in EnsureSingleNavigator (at SceneView.tsx:124)
+04-14 16:15:07.544 17121 17193 E ReactNativeJS:     in SceneView (at useDescriptors.tsx:218)
+04-14 16:15:07.544 17121 17193 E ReactNativeJS:     in RCTView (at View.js:116)
+04-14 16:15:07.544 17121 17193 E ReactNativeJS:     in View (at CardContainer.tsx:281)
+04-14 16:15:07.544 17121 17193 E ReactNativeJS:     in RCTView (at View.js:116)
+04-14 16:15:07.544 17121 17193 E ReactNativeJS:     in View (at CardContainer.tsx:279)
+04-14 16:15:07.544 17121 17193 E ReactNativeJS:     in RCTView (at View.js:116)
+04-14 16:15:07.544 17121 17193 E ReactNativeJS:     in View (at CardSheet.tsx:45)
+04-14 16:15:07.544 17121 17193 E ReactNativeJS:     in CardSheet (at Card.tsx:563)
+04-14 16:15:07.544 17121 17193 E ReactNativeJS:     in RCTView (at View.js:116)
+04-14 16:15:07.544 17121 17193 E ReactNativeJS:     in View (at createAnimatedComponent.js:54)
+04-14 16:15:07.544 17121 17193 E ReactNativeJS:     in Unknown (at Card.tsx:542)
+04-14 16:15:07.544 17121 17193 E ReactNativeJS:     in PanGestureHandler (at GestureHandlerNative.tsx:14)
+04-14 16:15:07.544 17121 17193 E ReactNativeJS:     in PanGestureHandler (at Card.tsx:536)
+04-14 16:15:07.544 17121 17193 E ReactNativeJS:     in RCTView (at View.js:116)
+04-14 16:15:07.544 17121 17193 E ReactNativeJS:     in View (at createAnimatedComponent.js:54)
+04-14 16:15:07.544 17121 17193 E ReactNativeJS:     in Unknown (at Card.tsx:532)
+04-14 16:15:07.544 17121 17193 E ReactNativeJS:     in RCTView (at View.js:116)
+04-14 16:15:07.544 17121 17193 E ReactNativeJS:     in View (at Card.tsx:520)
+04-14 16:15:07.544 17121 17193 E ReactNativeJS:     in Card (at CardContainer.tsx:219)
+04-14 16:15:07.544 17121 17193 E ReactNativeJS:     in CardContainer (at CardStack.tsx:673)
+04-14 16:15:07.544 17121 17193 E ReactNativeJS:     in RNSScreen (at createAnimatedComponent.js:54)
+04-14 16:15:07.544 17121 17193 E ReactNativeJS:     in Unknown (at src/index.native.tsx:314)
+04-14 16:15:07.544 17121 17193 E ReactNativeJS:     in Suspender (at src/index.tsx:27)
+04-14 16:15:07.544 17121 17193 E ReactNativeJS:     in Suspense (at src/index.tsx:26)
+04-14 16:15:07.544 17121 17193 E ReactNativeJS:     in Freeze (at src/index.native.tsx:206)
+04-14 16:15:07.544 17121 17193 E ReactNativeJS:     in DelayedFreeze (at src/index.native.tsx:313)
+04-14 16:15:07.544 17121 17193 E ReactNativeJS:     in InnerScreen (at src/index.native.tsx:566)
+04-14 16:15:07.544 17121 17193 E ReactNativeJS:     in Screen (at Screens.tsx:38)
+04-14 16:15:07.544 17121 17193 E ReactNativeJS:     in MaybeScreen (at CardStack.tsx:665)
+04-14 16:15:07.544 17121 17193 E ReactNativeJS:     in RNSScreenContainer (at src/index.native.tsx:400)
+04-14 16:15:07.544 17121 17193 E ReactNativeJS:     in ScreenContainer (at Screens.tsx:20)
+04-14 16:15:07.544 17121 17193 E ReactNativeJS:     in MaybeScreenContainer (at CardStack.tsx:572)
+04-14 16:15:07.544 17121 17193 E ReactNativeJS:     in RCTView (at View.js:116)
+04-14 16:15:07.544 17121 17193 E ReactNativeJS:     in View (at Background.tsx:13)
+04-14 16:15:07.544 17121 17193 E ReactNativeJS:     in Background (at CardStack.tsx:570)
+04-14 16:15:07.544 17121 17193 E ReactNativeJS:     in CardStack (at StackView.tsx:437)
+04-14 16:15:07.544 17121 17193 E ReactNativeJS:     in RNCSafeAreaProvider (at SafeAreaContext.tsx:92)
+04-14 16:15:07.544 17121 17193 E ReactNativeJS:     in SafeAreaProvider (at SafeAreaProviderCompat.tsx:55)
+04-14 16:15:07.544 17121 17193 E ReactNativeJS:     in SafeAreaProviderCompat (at StackView.tsx:430)
+04-14 16:15:07.544 17121 17193 E ReactNativeJS:     in RNGestureHandlerRootView (at GestureHandlerRootView.android.tsx:21)
+04-14 16:15:07.544 17121 17193 E ReactNativeJS:     in GestureHandlerRootView (at StackView.tsx:429)
+04-14 16:15:07.544 17121 17193 E ReactNativeJS:     in StackView (at createStackNavigator.tsx:121)
+04-14 16:15:07.544 17121 17193 E ReactNativeJS:     in PreventRemoveProvider (at useNavigationBuilder.tsx:718)
+04-14 16:15:07.544 17121 17193 E ReactNativeJS:     in NavigationContent (at useComponent.tsx:35)
+04-14 16:15:07.544 17121 17193 E ReactNativeJS:     in Unknown (at createStackNavigator.tsx:120)
+04-14 16:15:07.544 17121 17193 E ReactNativeJS:     in StackNavigator (at App.tsx:29)
+04-14 16:15:07.544 17121 17193 E ReactNativeJS:     in EnsureSingleNavigator (at BaseNavigationContainer.tsx:433)
+04-14 16:15:07.544 17121 17193 E ReactNativeJS:     in BaseNavigationContainer (at NavigationContainer.tsx:132)
+04-14 16:15:07.544 17121 17193 E ReactNativeJS:     in ThemeProvider (at NavigationContainer.tsx:131)
+04-14 16:15:07.544 17121 17193 E ReactNativeJS:     in NavigationContainerInner (at App.tsx:28)
+04-14 16:15:07.544 17121 17193 E ReactNativeJS:     in App (at withDevTools.js:18)
+04-14 16:15:07.544 17121 17193 E ReactNativeJS:     in withDevTools(App) (at renderApplication.js:57)
+04-14 16:15:07.544 17121 17193 E ReactNativeJS:     in RCTView (at View.js:116)
+04-14 16:15:07.544 17121 17193 E ReactNativeJS:     in View (at AppContainer.js:127)
+04-14 16:15:07.544 17121 17193 E ReactNativeJS:     in RCTView (at View.js:116)
+04-14 16:15:07.544 17121 17193 E ReactNativeJS:     in View (at AppContainer.js:155)
+04-14 16:15:07.544 17121 17193 E ReactNativeJS:     in AppContainer (at renderApplication.js:50)
+04-14 16:15:07.544 17121 17193 E ReactNativeJS:     in main(RootComponent) (at renderApplication.js:67), js engine: hermes
+04-14 16:15:07.545 17121 17193 E ReactNativeJS: Error: Text strings must be rendered within a <Text> component.
+04-14 16:15:07.545 17121 17193 E ReactNativeJS: 
+04-14 16:15:07.545 17121 17193 E ReactNativeJS: This error is located at:
+04-14 16:15:07.545 17121 17193 E ReactNativeJS:     in RCTView (at View.js:116)
+04-14 16:15:07.545 17121 17193 E ReactNativeJS:     in View (at ScrollView.js:1732)
+04-14 16:15:07.545 17121 17193 E ReactNativeJS:     in RCTScrollView (at ScrollView.js:1855)
+04-14 16:15:07.545 17121 17193 E ReactNativeJS:     in ScrollView (at ScrollView.js:1925)
+04-14 16:15:07.545 17121 17193 E ReactNativeJS:     in ScrollView (at ProfileScreen.tsx:391)
+04-14 16:15:07.545 17121 17193 E ReactNativeJS:     in RCTView (at View.js:116)
+04-14 16:15:07.545 17121 17193 E ReactNativeJS:     in View (at NativeLinearGradient.android.js:21)
+04-14 16:15:07.545 17121 17193 E ReactNativeJS:     in NativeLinearGradient (at LinearGradient.js:15)
+04-14 16:15:07.545 17121 17193 E ReactNativeJS:     in LinearGradient (at ProfileScreen.tsx:385)
+04-14 16:15:07.545 17121 17193 E ReactNativeJS:     in RCTView (at View.js:116)
+04-14 16:15:07.545 17121 17193 E ReactNativeJS:     in View (at ProfileScreen.tsx:384)
+04-14 16:15:07.545 17121 17193 E ReactNativeJS:     in ProfileScreen (at SceneView.tsx:132)
+04-14 16:15:07.545 17121 17193 E ReactNativeJS:     in StaticContainer
+04-14 16:15:07.545 17121 17193 E ReactNativeJS:     in EnsureSingleNavigator (at SceneView.tsx:124)
+04-14 16:15:07.545 17121 17193 E ReactNativeJS:     in SceneView (at useDescriptors.tsx:218)
+04-14 16:15:07.545 17121 17193 E ReactNativeJS:     in RCTView (at View.js:116)
+04-14 16:15:07.545 17121 17193 E ReactNativeJS:     in View (at CardContainer.tsx:281)
+04-14 16:15:07.545 17121 17193 E ReactNativeJS:     in RCTView (at View.js:116)
+04-14 16:15:07.545 17121 17193 E ReactNativeJS:     in View (at CardContainer.tsx:279)
+04-14 16:15:07.545 17121 17193 E ReactNativeJS:     in RCTView (at View.js:116)
+04-14 16:15:07.545 17121 17193 E ReactNativeJS:     in View (at CardSheet.tsx:45)
+04-14 16:15:07.545 17121 17193 E ReactNativeJS:     in CardSheet (at Card.tsx:563)
+04-14 16:15:07.545 17121 17193 E ReactNativeJS:     in RCTView (at View.js:116)
+04-14 16:15:07.545 17121 17193 E ReactNativeJS:     in View (at createAnimatedComponent.js:54)
+04-14 16:15:07.545 17121 17193 E ReactNativeJS:     in Unknown (at Card.tsx:542)
+04-14 16:15:07.545 17121 17193 E ReactNativeJS:     in PanGestureHandler (at GestureHandlerNative.tsx:14)
+04-14 16:15:07.545 17121 17193 E ReactNativeJS:     in PanGestureHandler (at Card.tsx:536)
+04-14 16:15:07.545 17121 17193 E ReactNativeJS:     in RCTView (at View.js:116)
+04-14 16:15:07.545 17121 17193 E ReactNativeJS:     in View (at createAnimatedComponent.js:54)
+04-14 16:15:07.545 17121 17193 E ReactNativeJS:     in Unknown (at Card.tsx:532)
+04-14 16:15:07.545 17121 17193 E ReactNativeJS:     in RCTView (at View.js:116)
+04-14 16:15:07.545 17121 17193 E ReactNativeJS:     in View (at Card.tsx:520)
+04-14 16:15:07.545 17121 17193 E ReactNativeJS:     in Card (at CardContainer.tsx:219)
+04-14 16:15:07.545 17121 17193 E ReactNativeJS:     in CardContainer (at CardStack.tsx:673)
+04-14 16:15:07.545 17121 17193 E ReactNativeJS:     in RNSScreen (at createAnimatedComponent.js:54)
+04-14 16:15:07.545 17121 17193 E ReactNativeJS:     in Unknown (at src/index.native.tsx:314)
+04-14 16:15:07.545 17121 17193 E ReactNativeJS:     in Suspender (at src/index.tsx:27)
+04-14 16:15:07.545 17121 17193 E ReactNativeJS:     in Suspense (at src/index.tsx:26)
+04-14 16:15:07.545 17121 17193 E ReactNativeJS:     in Freeze (at src/index.native.tsx:206)
+04-14 16:15:07.545 17121 17193 E ReactNativeJS:     in DelayedFreeze (at src/index.native.tsx:313)
+04-14 16:15:07.545 17121 17193 E ReactNativeJS:     in InnerScreen (at src/index.native.tsx:566)
+04-14 16:15:07.545 17121 17193 E ReactNativeJS:     in Screen (at Screens.tsx:38)
+04-14 16:15:07.545 17121 17193 E ReactNativeJS:     in MaybeScreen (at CardStack.tsx:665)
+04-14 16:15:07.545 17121 17193 E ReactNativeJS:     in RNSScreenContainer (at src/index.native.tsx:400)
+04-14 16:15:07.545 17121 17193 E ReactNativeJS:     in ScreenContainer (at Screens.tsx:20)
+04-14 16:15:07.545 17121 17193 E ReactNativeJS:     in MaybeScreenContainer (at CardStack.tsx:572)
+04-14 16:15:07.545 17121 17193 E ReactNativeJS:     in RCTView (at View.js:116)
+04-14 16:15:07.545 17121 17193 E ReactNativeJS:     in View (at Background.tsx:13)
+04-14 16:15:07.545 17121 17193 E ReactNativeJS:     in Background (at CardStack.tsx:570)
+04-14 16:15:07.545 17121 17193 E ReactNativeJS:     in CardStack (at StackView.tsx:437)
+04-14 16:15:07.545 17121 17193 E ReactNativeJS:     in RNCSafeAreaProvider (at SafeAreaContext.tsx:92)
+04-14 16:15:07.545 17121 17193 E ReactNativeJS:     in SafeAreaProvider (at SafeAreaProviderCompat.tsx:55)
+04-14 16:15:07.545 17121 17193 E ReactNativeJS:     in SafeAreaProviderCompat (at StackView.tsx:430)
+04-14 16:15:07.545 17121 17193 E ReactNativeJS:     in RNGestureHandlerRootView (at GestureHandlerRootView.android.tsx:21)
+04-14 16:15:07.545 17121 17193 E ReactNativeJS:     in GestureHandlerRootView (at StackView.tsx:429)
+04-14 16:15:07.545 17121 17193 E ReactNativeJS:     in StackView (at createStackNavigator.tsx:121)
+04-14 16:15:07.545 17121 17193 E ReactNativeJS:     in PreventRemoveProvider (at useNavigationBuilder.tsx:718)
+04-14 16:15:07.545 17121 17193 E ReactNativeJS:     in NavigationContent (at useComponent.tsx:35)
+04-14 16:15:07.545 17121 17193 E ReactNativeJS:     in Unknown (at createStackNavigator.tsx:120)
+04-14 16:15:07.545 17121 17193 E ReactNativeJS:     in StackNavigator (at App.tsx:29)
+04-14 16:15:07.545 17121 17193 E ReactNativeJS:     in EnsureSingleNavigator (at BaseNavigationContainer.tsx:433)
+04-14 16:15:07.545 17121 17193 E ReactNativeJS:     in BaseNavigationContainer (at NavigationContainer.tsx:132)
+04-14 16:15:07.545 17121 17193 E ReactNativeJS:     in ThemeProvider (at NavigationContainer.tsx:131)
+04-14 16:15:07.545 17121 17193 E ReactNativeJS:     in NavigationContainerInner (at App.tsx:28)
+04-14 16:15:07.545 17121 17193 E ReactNativeJS:     in App (at withDevTools.js:18)
+04-14 16:15:07.545 17121 17193 E ReactNativeJS:     in withDevTools(App) (at renderApplication.js:57)
+04-14 16:15:07.545 17121 17193 E ReactNativeJS:     in RCTView (at View.js:116)
+04-14 16:15:07.545 17121 17193 E ReactNativeJS:     in View (at AppContainer.js:127)
+04-14 16:15:07.545 17121 17193 E ReactNativeJS:     in RCTView (at View.js:116)
+04-14 16:15:07.545 17121 17193 E ReactNativeJS:     in View (at AppContainer.js:155)
+04-14 16:15:07.545 17121 17193 E ReactNativeJS:     in AppContainer (at renderApplication.js:50)
+04-14 16:15:07.545 17121 17193 E ReactNativeJS:     in main(RootComponent) (at renderApplication.js:67), js engine: hermes
+04-14 16:15:07.624 17121 17121 I ReactNative: [GESTURE HANDLER] Tearing down gesture handler registered for root view com.facebook.react.ReactRootView{1429681 V.E...... ......ID 0,0-1080,2205 #29}
+04-14 16:16:47.099 17121 17121 I ReactNative: [GESTURE HANDLER] Initialize gesture handler for root view com.facebook.react.ReactRootView{1429681 V.E...... ......ID 0,0-1080,2205 #29}
+04-14 16:16:55.117 17121 17193 E ReactNativeJS: Error: Text strings must be rendered within a <Text> component.
+04-14 16:16:55.117 17121 17193 E ReactNativeJS: 
+04-14 16:16:55.117 17121 17193 E ReactNativeJS: This error is located at:
+04-14 16:16:55.117 17121 17193 E ReactNativeJS:     in RCTView (at View.js:116)
+04-14 16:16:55.117 17121 17193 E ReactNativeJS:     in View (at ScrollView.js:1732)
+04-14 16:16:55.117 17121 17193 E ReactNativeJS:     in RCTScrollView (at ScrollView.js:1855)
+04-14 16:16:55.117 17121 17193 E ReactNativeJS:     in ScrollView (at ScrollView.js:1925)
+04-14 16:16:55.117 17121 17193 E ReactNativeJS:     in ScrollView (at ProfileScreen.tsx:391)
+04-14 16:16:55.117 17121 17193 E ReactNativeJS:     in RCTView (at View.js:116)
+04-14 16:16:55.117 17121 17193 E ReactNativeJS:     in View (at NativeLinearGradient.android.js:21)
+04-14 16:16:55.117 17121 17193 E ReactNativeJS:     in NativeLinearGradient (at LinearGradient.js:15)
+04-14 16:16:55.117 17121 17193 E ReactNativeJS:     in LinearGradient (at ProfileScreen.tsx:385)
+04-14 16:16:55.117 17121 17193 E ReactNativeJS:     in RCTView (at View.js:116)
+04-14 16:16:55.117 17121 17193 E ReactNativeJS:     in View (at ProfileScreen.tsx:384)
+04-14 16:16:55.117 17121 17193 E ReactNativeJS:     in ProfileScreen (at SceneView.tsx:132)
+04-14 16:16:55.117 17121 17193 E ReactNativeJS:     in StaticContainer
+04-14 16:16:55.117 17121 17193 E ReactNativeJS:     in EnsureSingleNavigator (at SceneView.tsx:124)
+04-14 16:16:55.117 17121 17193 E ReactNativeJS:     in SceneView (at useDescriptors.tsx:218)
+04-14 16:16:55.117 17121 17193 E ReactNativeJS:     in RCTView (at View.js:116)
+04-14 16:16:55.117 17121 17193 E ReactNativeJS:     in View (at CardContainer.tsx:281)
+04-14 16:16:55.117 17121 17193 E ReactNativeJS:     in RCTView (at View.js:116)
+04-14 16:16:55.117 17121 17193 E ReactNativeJS:     in View (at CardContainer.tsx:279)
+04-14 16:16:55.117 17121 17193 E ReactNativeJS:     in RCTView (at View.js:116)
+04-14 16:16:55.117 17121 17193 E ReactNativeJS:     in View (at CardSheet.tsx:45)
+04-14 16:16:55.117 17121 17193 E ReactNativeJS:     in CardSheet (at Card.tsx:563)
+04-14 16:16:55.117 17121 17193 E ReactNativeJS:     in RCTView (at View.js:116)
+04-14 16:16:55.117 17121 17193 E ReactNativeJS:     in View (at createAnimatedComponent.js:54)
+04-14 16:16:55.117 17121 17193 E ReactNativeJS:     in Unknown (at Card.tsx:542)
+04-14 16:16:55.117 17121 17193 E ReactNativeJS:     in PanGestureHandler (at GestureHandlerNative.tsx:14)
+04-14 16:16:55.117 17121 17193 E ReactNativeJS:     in PanGestureHandler (at Card.tsx:536)
+04-14 16:16:55.117 17121 17193 E ReactNativeJS:     in RCTView (at View.js:116)
+04-14 16:16:55.117 17121 17193 E ReactNativeJS:     in View (at createAnimatedComponent.js:54)
+04-14 16:16:55.117 17121 17193 E ReactNativeJS:     in Unknown (at Card.tsx:532)
+04-14 16:16:55.117 17121 17193 E ReactNativeJS:     in RCTView (at View.js:116)
+04-14 16:16:55.117 17121 17193 E ReactNativeJS:     in View (at Card.tsx:520)
+04-14 16:16:55.117 17121 17193 E ReactNativeJS:     in Card (at CardContainer.tsx:219)
+04-14 16:16:55.117 17121 17193 E ReactNativeJS:     in CardContainer (at CardStack.tsx:673)
+04-14 16:16:55.117 17121 17193 E ReactNativeJS:     in RNSScreen (at createAnimatedComponent.js:54)
+04-14 16:16:55.117 17121 17193 E ReactNativeJS:     in Unknown (at src/index.native.tsx:314)
+04-14 16:16:55.117 17121 17193 E ReactNativeJS:     in Suspender (at src/index.tsx:27)
+04-14 16:16:55.117 17121 17193 E ReactNativeJS:     in Suspense (at src/index.tsx:26)
+04-14 16:16:55.117 17121 17193 E ReactNativeJS:     in Freeze (at src/index.native.tsx:206)
+04-14 16:16:55.117 17121 17193 E ReactNativeJS:     in DelayedFreeze (at src/index.native.tsx:313)
+04-14 16:16:55.117 17121 17193 E ReactNativeJS:     in InnerScreen (at src/index.native.tsx:566)
+04-14 16:16:55.117 17121 17193 E ReactNativeJS:     in Screen (at Screens.tsx:38)
+04-14 16:16:55.117 17121 17193 E ReactNativeJS:     in MaybeScreen (at CardStack.tsx:665)
+04-14 16:16:55.117 17121 17193 E ReactNativeJS:     in RNSScreenContainer (at src/index.native.tsx:400)
+04-14 16:16:55.117 17121 17193 E ReactNativeJS:     in ScreenContainer (at Screens.tsx:20)
+04-14 16:16:55.117 17121 17193 E ReactNativeJS:     in MaybeScreenContainer (at CardStack.tsx:572)
+04-14 16:16:55.117 17121 17193 E ReactNativeJS:     in RCTView (at View.js:116)
+04-14 16:16:55.117 17121 17193 E ReactNativeJS:     in View (at Background.tsx:13)
+04-14 16:16:55.117 17121 17193 E ReactNativeJS:     in Background (at CardStack.tsx:570)
+04-14 16:16:55.117 17121 17193 E ReactNativeJS:     in CardStack (at StackView.tsx:437)
+04-14 16:16:55.117 17121 17193 E ReactNativeJS:     in RNCSafeAreaProvider (at SafeAreaContext.tsx:92)
+04-14 16:16:55.117 17121 17193 E ReactNativeJS:     in SafeAreaProvider (at SafeAreaProviderCompat.tsx:55)
+04-14 16:16:55.117 17121 17193 E ReactNativeJS:     in SafeAreaProviderCompat (at StackView.tsx:430)
+04-14 16:16:55.117 17121 17193 E ReactNativeJS:     in RNGestureHandlerRootView (at GestureHandlerRootView.android.tsx:21)
+04-14 16:16:55.117 17121 17193 E ReactNativeJS:     in GestureHandlerRootView (at StackView.tsx:429)
+04-14 16:16:55.117 17121 17193 E ReactNativeJS:     in StackView (at createStackNavigator.tsx:121)
+04-14 16:16:55.117 17121 17193 E ReactNativeJS:     in PreventRemoveProvider (at useNavigationBuilder.tsx:718)
+04-14 16:16:55.117 17121 17193 E ReactNativeJS:     in NavigationContent (at useComponent.tsx:35)
+04-14 16:16:55.117 17121 17193 E ReactNativeJS:     in Unknown (at createStackNavigator.tsx:120)
+04-14 16:16:55.117 17121 17193 E ReactNativeJS:     in StackNavigator (at App.tsx:29)
+04-14 16:16:55.117 17121 17193 E ReactNativeJS:     in EnsureSingleNavigator (at BaseNavigationContainer.tsx:433)
+04-14 16:16:55.117 17121 17193 E ReactNativeJS:     in BaseNavigationContainer (at NavigationContainer.tsx:132)
+04-14 16:16:55.117 17121 17193 E ReactNativeJS:     in ThemeProvider (at NavigationContainer.tsx:131)
+04-14 16:16:55.117 17121 17193 E ReactNativeJS:     in NavigationContainerInner (at App.tsx:28)
+04-14 16:16:55.117 17121 17193 E ReactNativeJS:     in App (at withDevTools.js:18)
+04-14 16:16:55.117 17121 17193 E ReactNativeJS:     in withDevTools(App) (at renderApplication.js:57)
+04-14 16:16:55.117 17121 17193 E ReactNativeJS:     in RCTView (at View.js:116)
+04-14 16:16:55.117 17121 17193 E ReactNativeJS:     in View (at AppContainer.js:127)
+04-14 16:16:55.117 17121 17193 E ReactNativeJS:     in RCTView (at View.js:116)
+04-14 16:16:55.117 17121 17193 E ReactNativeJS:     in View (at AppContainer.js:155)
+04-14 16:16:55.117 17121 17193 E ReactNativeJS:     in AppContainer (at renderApplication.js:50)
+04-14 16:16:55.117 17121 17193 E ReactNativeJS:     in main(RootComponent) (at renderApplication.js:67), js engine: hermes
+04-14 16:16:55.121 17121 17193 E ReactNativeJS: Error: Text strings must be rendered within a <Text> component.
+04-14 16:16:55.121 17121 17193 E ReactNativeJS: 
+04-14 16:16:55.121 17121 17193 E ReactNativeJS: This error is located at:
+04-14 16:16:55.121 17121 17193 E ReactNativeJS:     in RCTView (at View.js:116)
+04-14 16:16:55.121 17121 17193 E ReactNativeJS:     in View (at ScrollView.js:1732)
+04-14 16:16:55.121 17121 17193 E ReactNativeJS:     in RCTScrollView (at ScrollView.js:1855)
+04-14 16:16:55.121 17121 17193 E ReactNativeJS:     in ScrollView (at ScrollView.js:1925)
+04-14 16:16:55.121 17121 17193 E ReactNativeJS:     in ScrollView (at ProfileScreen.tsx:391)
+04-14 16:16:55.121 17121 17193 E ReactNativeJS:     in RCTView (at View.js:116)
+04-14 16:16:55.121 17121 17193 E ReactNativeJS:     in View (at NativeLinearGradient.android.js:21)
+04-14 16:16:55.121 17121 17193 E ReactNativeJS:     in NativeLinearGradient (at LinearGradient.js:15)
+04-14 16:16:55.121 17121 17193 E ReactNativeJS:     in LinearGradient (at ProfileScreen.tsx:385)
+04-14 16:16:55.121 17121 17193 E ReactNativeJS:     in RCTView (at View.js:116)
+04-14 16:16:55.121 17121 17193 E ReactNativeJS:     in View (at ProfileScreen.tsx:384)
+04-14 16:16:55.121 17121 17193 E ReactNativeJS:     in ProfileScreen (at SceneView.tsx:132)
+04-14 16:16:55.121 17121 17193 E ReactNativeJS:     in StaticContainer
+04-14 16:16:55.121 17121 17193 E ReactNativeJS:     in EnsureSingleNavigator (at SceneView.tsx:124)
+04-14 16:16:55.121 17121 17193 E ReactNativeJS:     in SceneView (at useDescriptors.tsx:218)
+04-14 16:16:55.121 17121 17193 E ReactNativeJS:     in RCTView (at View.js:116)
+04-14 16:16:55.121 17121 17193 E ReactNativeJS:     in View (at CardContainer.tsx:281)
+04-14 16:16:55.121 17121 17193 E ReactNativeJS:     in RCTView (at View.js:116)
+04-14 16:16:55.121 17121 17193 E ReactNativeJS:     in View (at CardContainer.tsx:279)
+04-14 16:16:55.121 17121 17193 E ReactNativeJS:     in RCTView (at View.js:116)
+04-14 16:16:55.121 17121 17193 E ReactNativeJS:     in View (at CardSheet.tsx:45)
+04-14 16:16:55.121 17121 17193 E ReactNativeJS:     in CardSheet (at Card.tsx:563)
+04-14 16:16:55.121 17121 17193 E ReactNativeJS:     in RCTView (at View.js:116)
+04-14 16:16:55.121 17121 17193 E ReactNativeJS:     in View (at createAnimatedComponent.js:54)
+04-14 16:16:55.121 17121 17193 E ReactNativeJS:     in Unknown (at Card.tsx:542)
+04-14 16:16:55.121 17121 17193 E ReactNativeJS:     in PanGestureHandler (at GestureHandlerNative.tsx:14)
+04-14 16:16:55.121 17121 17193 E ReactNativeJS:     in PanGestureHandler (at Card.tsx:536)
+04-14 16:16:55.121 17121 17193 E ReactNativeJS:     in RCTView (at View.js:116)
+04-14 16:16:55.121 17121 17193 E ReactNativeJS:     in View (at createAnimatedComponent.js:54)
+04-14 16:16:55.121 17121 17193 E ReactNativeJS:     in Unknown (at Card.tsx:532)
+04-14 16:16:55.121 17121 17193 E ReactNativeJS:     in RCTView (at View.js:116)
+04-14 16:16:55.121 17121 17193 E ReactNativeJS:     in View (at Card.tsx:520)
+04-14 16:16:55.121 17121 17193 E ReactNativeJS:     in Card (at CardContainer.tsx:219)
+04-14 16:16:55.121 17121 17193 E ReactNativeJS:     in CardContainer (at CardStack.tsx:673)
+04-14 16:16:55.121 17121 17193 E ReactNativeJS:     in RNSScreen (at createAnimatedComponent.js:54)
+04-14 16:16:55.121 17121 17193 E ReactNativeJS:     in Unknown (at src/index.native.tsx:314)
+04-14 16:16:55.121 17121 17193 E ReactNativeJS:     in Suspender (at src/index.tsx:27)
+04-14 16:16:55.121 17121 17193 E ReactNativeJS:     in Suspense (at src/index.tsx:26)
+04-14 16:16:55.121 17121 17193 E ReactNativeJS:     in Freeze (at src/index.native.tsx:206)
+04-14 16:16:55.121 17121 17193 E ReactNativeJS:     in DelayedFreeze (at src/index.native.tsx:313)
+04-14 16:16:55.121 17121 17193 E ReactNativeJS:     in InnerScreen (at src/index.native.tsx:566)
+04-14 16:16:55.121 17121 17193 E ReactNativeJS:     in Screen (at Screens.tsx:38)
+04-14 16:16:55.121 17121 17193 E ReactNativeJS:     in MaybeScreen (at CardStack.tsx:665)
+04-14 16:16:55.121 17121 17193 E ReactNativeJS:     in RNSScreenContainer (at src/index.native.tsx:400)
+04-14 16:16:55.121 17121 17193 E ReactNativeJS:     in ScreenContainer (at Screens.tsx:20)
+04-14 16:16:55.121 17121 17193 E ReactNativeJS:     in MaybeScreenContainer (at CardStack.tsx:572)
+04-14 16:16:55.121 17121 17193 E ReactNativeJS:     in RCTView (at View.js:116)
+04-14 16:16:55.121 17121 17193 E ReactNativeJS:     in View (at Background.tsx:13)
+04-14 16:16:55.121 17121 17193 E ReactNativeJS:     in Background (at CardStack.tsx:570)
+04-14 16:16:55.121 17121 17193 E ReactNativeJS:     in CardStack (at StackView.tsx:437)
+04-14 16:16:55.121 17121 17193 E ReactNativeJS:     in RNCSafeAreaProvider (at SafeAreaContext.tsx:92)
+04-14 16:16:55.121 17121 17193 E ReactNativeJS:     in SafeAreaProvider (at SafeAreaProviderCompat.tsx:55)
+04-14 16:16:55.121 17121 17193 E ReactNativeJS:     in SafeAreaProviderCompat (at StackView.tsx:430)
+04-14 16:16:55.121 17121 17193 E ReactNativeJS:     in RNGestureHandlerRootView (at GestureHandlerRootView.android.tsx:21)
+04-14 16:16:55.121 17121 17193 E ReactNativeJS:     in GestureHandlerRootView (at StackView.tsx:429)
+04-14 16:16:55.121 17121 17193 E ReactNativeJS:     in StackView (at createStackNavigator.tsx:121)
+04-14 16:16:55.121 17121 17193 E ReactNativeJS:     in PreventRemoveProvider (at useNavigationBuilder.tsx:718)
+04-14 16:16:55.121 17121 17193 E ReactNativeJS:     in NavigationContent (at useComponent.tsx:35)
+04-14 16:16:55.121 17121 17193 E ReactNativeJS:     in Unknown (at createStackNavigator.tsx:120)
+04-14 16:16:55.121 17121 17193 E ReactNativeJS:     in StackNavigator (at App.tsx:29)
+04-14 16:16:55.121 17121 17193 E ReactNativeJS:     in EnsureSingleNavigator (at BaseNavigationContainer.tsx:433)
+04-14 16:16:55.121 17121 17193 E ReactNativeJS:     in BaseNavigationContainer (at NavigationContainer.tsx:132)
+04-14 16:16:55.121 17121 17193 E ReactNativeJS:     in ThemeProvider (at NavigationContainer.tsx:131)
+04-14 16:16:55.121 17121 17193 E ReactNativeJS:     in NavigationContainerInner (at App.tsx:28)
+04-14 16:16:55.121 17121 17193 E ReactNativeJS:     in App (at withDevTools.js:18)
+04-14 16:16:55.121 17121 17193 E ReactNativeJS:     in withDevTools(App) (at renderApplication.js:57)
+04-14 16:16:55.121 17121 17193 E ReactNativeJS:     in RCTView (at View.js:116)
+04-14 16:16:55.121 17121 17193 E ReactNativeJS:     in View (at AppContainer.js:127)
+04-14 16:16:55.121 17121 17193 E ReactNativeJS:     in RCTView (at View.js:116)
+04-14 16:16:55.121 17121 17193 E ReactNativeJS:     in View (at AppContainer.js:155)
+04-14 16:16:55.121 17121 17193 E ReactNativeJS:     in AppContainer (at renderApplication.js:50)
+04-14 16:16:55.121 17121 17193 E ReactNativeJS:     in main(RootComponent) (at renderApplication.js:67), js engine: hermes
+04-14 16:16:55.199 17121 17121 I ReactNative: [GESTURE HANDLER] Tearing down gesture handler registered for root view com.facebook.react.ReactRootView{1429681 V.E...... ......ID 0,0-1080,2205 #29}
+04-14 16:30:33.015 17121 17121 I ReactNative: [GESTURE HANDLER] Initialize gesture handler for root view com.facebook.react.ReactRootView{1429681 V.E...... ......ID 0,0-1080,2205 #29}
+04-14 16:31:18.228 17121 17193 W ReactNativeJS: Cannot connect to Metro.
+04-14 16:31:18.228 17121 17193 W ReactNativeJS: 
+04-14 16:31:18.228 17121 17193 W ReactNativeJS: Try the following to fix the issue:
+04-14 16:31:18.228 17121 17193 W ReactNativeJS: - Ensure that Metro is running and available on the same network
+04-14 16:31:18.228 17121 17193 W ReactNativeJS: - Ensure that your device/emulator is connected to your machine and has USB debugging enabled - run 'adb devices' to see a list of connected devices
+04-14 16:31:18.228 17121 17193 W ReactNativeJS: - If you're on a physical device connected to the same machine, run 'adb reverse tcp:8081 tcp:8081' to forward requests from your device
+04-14 16:31:18.228 17121 17193 W ReactNativeJS: - If your device is on the same Wi-Fi network, set 'Debug server host & port for device' in 'Dev settings' to your machine's IP address and the port of the local dev server - e.g. 10.0.1.1:8081
+04-14 16:31:18.228 17121 17193 W ReactNativeJS: 
+04-14 16:31:18.228 17121 17193 W ReactNativeJS: URL: 10.0.2.2:8082
+04-14 16:31:18.228 17121 17193 W ReactNativeJS: 
+04-14 16:31:18.228 17121 17193 W ReactNativeJS: Error: Connection reset
+04-14 16:32:23.512 19072 19136 I ReactNativeJS: Running "main" with {"rootTag":11}
+04-14 16:32:24.194 19072 19072 I ReactNative: [GESTURE HANDLER] Initialize gesture handler for root view com.facebook.react.ReactRootView{d5ca497 V.E...... ......ID 0,0-1080,2205 #b}
+04-14 16:32:29.417 19072 19136 I ReactNativeJS: '[ProfileScreenDebug]', { activeProfileId: null, label: '', profileType: 'you' }
+04-14 16:32:29.483 19072 19136 I ReactNativeJS: '[ProfileScreenDebug]', { activeProfileId: null, label: '', profileType: 'you' }
+04-14 16:32:29.501 19072 19136 I ReactNativeJS: '[ProfileScreenDebug]', { activeProfileId: null, label: '', profileType: 'you' }
+04-14 16:35:56.516 19072 19136 I ReactNativeJS: '[ProfileScreenDebug]', { activeProfileId: null, label: '', profileType: 'child' }
+04-14 16:35:57.682 19072 19136 I ReactNativeJS: '[ProfileScreenDebug]', { activeProfileId: null, label: '', profileType: 'pet' }
+04-14 16:35:59.100 19072 19136 I ReactNativeJS: '[ProfileScreenDebug]', { activeProfileId: null, label: '', profileType: 'you' }
+04-14 16:49:07.086 19072 19136 I ReactNativeJS: '[ProfileScreenDebug]', { activeProfileId: null, label: '', profileType: 'you' }
+04-14 16:49:07.110 19072 19136 I ReactNativeJS: '[ProfileScreenDebug]', { activeProfileId: null, label: '', profileType: 'you' }
+04-14 16:49:07.118 19072 19136 I ReactNativeJS: '[ProfileScreenDebug]', { activeProfileId: null, label: '', profileType: 'you' }
+04-14 16:49:07.146 19072 19136 I ReactNativeJS: '[ProfileScreenDebug]', { activeProfileId: null, label: '', profileType: 'you' }
+04-14 16:49:26.716 19072 19136 I ReactNativeJS: '[ProfileScreenDebug]', { activeProfileId: null, label: '', profileType: 'adult' }
+04-14 16:49:27.600 19072 19136 I ReactNativeJS: '[ProfileScreenDebug]', { activeProfileId: null, label: '', profileType: 'child' }
+04-14 16:49:28.500 19072 19136 I ReactNativeJS: '[ProfileScreenDebug]', { activeProfileId: null, label: '', profileType: 'pet' }
+04-14 16:50:58.862 19072 19136 I ReactNativeJS: '[ProfileScreenDebug]', { activeProfileId: null, label: '', profileType: 'you' }
+04-14 16:50:58.936 19072 19136 I ReactNativeJS: '[ProfileScreenDebug]', { activeProfileId: null, label: '', profileType: 'you' }
+04-14 16:50:58.954 19072 19136 I ReactNativeJS: '[ProfileScreenDebug]', { activeProfileId: null, label: '', profileType: 'you' }
+04-14 16:51:24.283 19072 19136 I ReactNativeJS: '[ProfileScreenDebug]', { activeProfileId: null, label: '', profileType: 'you' }
+04-14 16:51:24.304 19072 19136 I ReactNativeJS: '[ProfileScreenDebug]', { activeProfileId: null, label: '', profileType: 'you' }
+04-14 16:51:24.312 19072 19136 I ReactNativeJS: '[ProfileScreenDebug]', { activeProfileId: null, label: '', profileType: 'you' }
+04-14 16:51:24.336 19072 19136 I ReactNativeJS: '[ProfileScreenDebug]', { activeProfileId: null, label: '', profileType: 'you' }
+04-14 16:51:27.767 19072 19136 I ReactNativeJS: '[ProfileScreenDebug]', { activeProfileId: null, label: '', profileType: 'adult' }
+04-14 16:51:28.319 19072 19136 I ReactNativeJS: '[ProfileScreenDebug]', { activeProfileId: null, label: '', profileType: 'child' }
+04-14 16:51:28.885 19072 19136 I ReactNativeJS: '[ProfileScreenDebug]', { activeProfileId: null, label: '', profileType: 'pet' }
+04-14 16:52:57.100 19072 19136 I ReactNativeJS: '[ProfileScreenDebug]', { activeProfileId: null, label: '', profileType: 'you' }
+04-14 16:52:57.175 19072 19136 I ReactNativeJS: '[ProfileScreenDebug]', { activeProfileId: null, label: '', profileType: 'you' }
+04-14 16:52:57.196 19072 19136 I ReactNativeJS: '[ProfileScreenDebug]', { activeProfileId: null, label: '', profileType: 'you' }
+04-14 16:54:19.614 19072 19136 I ReactNativeJS: Running "main" with {"rootTag":41}
+04-14 16:54:19.893 19072 19072 I ReactNative: [GESTURE HANDLER] Initialize gesture handler for root view com.facebook.react.ReactRootView{8c32ec2 V.E...... ......ID 0,0-1080,2205 #29}
+04-14 16:54:30.260 19072 19136 I ReactNativeJS: '[ProfileScreenDebug]', { activeProfileId: null, label: '', profileType: 'you' }
+04-14 16:54:30.326 19072 19136 I ReactNativeJS: '[ProfileScreenDebug]', { activeProfileId: null, label: '', profileType: 'you' }
+04-14 16:54:30.342 19072 19136 I ReactNativeJS: '[ProfileScreenDebug]', { activeProfileId: null, label: '', profileType: 'you' }
+04-14 16:58:44.872 19072 19136 W ReactNativeJS: Cannot connect to Metro.
+04-14 16:58:44.872 19072 19136 W ReactNativeJS: 
+04-14 16:58:44.872 19072 19136 W ReactNativeJS: Try the following to fix the issue:
+04-14 16:58:44.872 19072 19136 W ReactNativeJS: - Ensure that Metro is running and available on the same network
+04-14 16:58:44.872 19072 19136 W ReactNativeJS: - Ensure that your device/emulator is connected to your machine and has USB debugging enabled - run 'adb devices' to see a list of connected devices
+04-14 16:58:44.872 19072 19136 W ReactNativeJS: - If you're on a physical device connected to the same machine, run 'adb reverse tcp:8081 tcp:8081' to forward requests from your device
+04-14 16:58:44.872 19072 19136 W ReactNativeJS: - If your device is on the same Wi-Fi network, set 'Debug server host & port for device' in 'Dev settings' to your machine's IP address and the port of the local dev server - e.g. 10.0.1.1:8081
+04-14 16:58:44.872 19072 19136 W ReactNativeJS: 
+04-14 16:58:44.872 19072 19136 W ReactNativeJS: URL: 10.0.2.2:8081
+04-14 16:58:44.872 19072 19136 W ReactNativeJS: 
+04-14 16:58:44.872 19072 19136 W ReactNativeJS: Error: Connection reset
+04-14 17:01:55.703 21783 21859 I ReactNativeJS: Running "main" with {"rootTag":11}
+04-14 17:01:56.025 21783 21783 I ReactNative: [GESTURE HANDLER] Initialize gesture handler for root view com.facebook.react.ReactRootView{e624684 V.E...... ......ID 0,0-1080,2205 #b}
+04-14 17:04:56.936 21783 21859 I ReactNativeJS: Running "main" with {"rootTag":41}
+04-14 17:04:57.273 21783 21783 I ReactNative: [GESTURE HANDLER] Initialize gesture handler for root view com.facebook.react.ReactRootView{40cdf74 V.E...... ......ID 0,0-1080,2205 #29}
+04-14 17:07:36.193 21783 21859 E ReactNativeJS: { [Error: undefined Unable to resolve module ../../constants/profileOptions from D:\HealthLogic\src\modules\profile\helpers\profileBuilderSections.ts: 
+04-14 17:07:36.193 21783 21859 E ReactNativeJS: 
+04-14 17:07:36.193 21783 21859 E ReactNativeJS: None of these files exist:
+04-14 17:07:36.193 21783 21859 E ReactNativeJS:   * src\modules\constants\profileOptions(.android.ts|.native.ts|.ts|.android.tsx|.native.tsx|.tsx|.android.mjs|.native.mjs|.mjs|.android.js|.native.js|.js|.android.jsx|.native.jsx|.jsx|.android.json|.native.json|.json|.android.cjs|.native.cjs|.cjs|.android.scss|.native.scss|.scss|.android.sass|.native.sass|.sass|.android.css|.native.css|.css)
+04-14 17:07:36.193 21783 21859 E ReactNativeJS:   * src\modules\constants\profileOptions
+04-14 17:07:36.193 21783 21859 E ReactNativeJS: [0m [90m 13 |[39m   [33mPET_LIFE_STAGES[39m[33m,[39m
+04-14 17:07:36.193 21783 21859 E ReactNativeJS:  [90m 14 |[39m   [33mPET_WELLNESS_GOALS[39m[33m,[39m
+04-14 17:07:36.193 21783 21859 E ReactNativeJS: [31m[1m>[22m[39m[90m 15 |[39m } [36mfrom[39m [32m"../../constants/profileOptions"[39m[33m;[39m
+04-14 17:07:36.193 21783 21859 E ReactNativeJS:  [90m    |[39m         [31m[1m^[22m[39m
+04-14 17:07:36.193 21783 21859 E ReactNativeJS:  [90m 16 |[39m
+04-14 17:07:36.193 21783 21859 E ReactNativeJS:  [90m 17 |[39m [36mexport[39m type [33mProfileType[39m [33m=[39m [32m"you"[39m [33m|[39m [32m"adult"[39m [33m|[39m [32m"child"[39m [33m|[39m [32m"pet"[39m[33m;[39m
+04-14 17:07:36.193 21783 21859 E ReactNativeJS:  [90m 18 |[39m[0m] preventSymbolication: true }
+04-14 17:10:48.877 21783 21859 W ReactNativeJS: Cannot connect to Metro.
+04-14 17:10:48.877 21783 21859 W ReactNativeJS: 
+04-14 17:10:48.877 21783 21859 W ReactNativeJS: Try the following to fix the issue:
+04-14 17:10:48.877 21783 21859 W ReactNativeJS: - Ensure that Metro is running and available on the same network
+04-14 17:10:48.877 21783 21859 W ReactNativeJS: - Ensure that your device/emulator is connected to your machine and has USB debugging enabled - run 'adb devices' to see a list of connected devices
+04-14 17:10:48.877 21783 21859 W ReactNativeJS: - If you're on a physical device connected to the same machine, run 'adb reverse tcp:8081 tcp:8081' to forward requests from your device
+04-14 17:10:48.877 21783 21859 W ReactNativeJS: - If your device is on the same Wi-Fi network, set 'Debug server host & port for device' in 'Dev settings' to your machine's IP address and the port of the local dev server - e.g. 10.0.1.1:8081
+04-14 17:10:48.877 21783 21859 W ReactNativeJS: 
+04-14 17:10:48.877 21783 21859 W ReactNativeJS: URL: 10.0.2.2:8081
+04-14 17:10:48.877 21783 21859 W ReactNativeJS: 
+04-14 17:10:48.877 21783 21859 W ReactNativeJS: Error: Connection reset
+04-14 17:11:39.565 16207 22676 I ReactNativeJS: Running "main" with {"initialProps":{"exp":{"initialUri":"exp://192.168.86.21:8082","shell":false,"manifestString":"{\"id\":\"ad60701a-c2a7-40be-abdd-ea4050ee3585\",\"createdAt\":\"2026-04-14T21:11:27.816Z\",\"runtimeVersion\":\"exposdk:50.0.0\",\"launchAsset\":{\"key\":\"bundle\",\"contentType\":\"application\\/javascript\",\"url\":\"http:\\/\\/192.168.86.21:8082\\/index.bundle?platform=android&dev=true&hot=false&transform.engine=hermes&transform.bytecode=true&transform.routerRoot=app\"},\"assets\":[],\"metadata\":{},\"extra\":{\"eas\":{\"projectId\":\"7d932a8e-4415-42e3-ae4a-d527f8b9de23\"},\"expoClient\":{\"name\":\"HealthLogic\",\"slug\":\"healthlogic\",\"version\":\"1.0.0\",\"sdkVersion\":\"50.0.0\",\"platforms\":[\"ios\",\"android\"],\"android\":{\"package\":\"com.healthlogic.app\"},\"extra\":{\"eas\":{\"projectId\":\"7d932a8e-4415-42e3-ae4a-d527f8b9de23\"}},\"owner\":\"michellemink\",\"_internal\":{\"isDebug\":false,\"projectRoot\":\"D:\\\\HealthLogic\",\"dynamicConfigPath\":null,\"staticConfigPath\":\"D:\\\\HealthLogic\\\\app.json\",\"packageJsonPath\":\"D:\\\\HealthLogic\\\\package.json\"},\"hostUri\":\"192.168.86.21:8082\"},\"expoGo\":{\"debuggerHost\":\"192.168.86.21:8082\",\"developer\":{\"tool\":\"expo-cli\",\"projectRoot\":\"D:\\\\HealthLogic\"},\"packagerOpts\":{\"dev\":true},\"mainModuleName\":\"index\",\"__flipperHack\":\"React Native packager is running\"},\"scopeKey\":\"@michellemink\\/healthlogic\"},\"isVerified\":true,\"name\":\"My New Experience\",\"primaryColor\":\"#023C69\",\"iconUrl\":\"https:\\/\\/d3lwq5rlu14cro.cloudfront.net\\/ExponentEmptyManifest_192.png\",\"orientation\":\"default\"}"}},"rootTag":91}
+04-14 17:11:39.798 16207 16207 I ReactNative: [GESTURE HANDLER] Initialize gesture handler for root view versioned.host.exp.exponent.ReactUnthemedRootView{3872a8d V.E...... ......ID 0,0-1080,2337 #5b}
+04-14 17:14:28.446 16207 22676 W ReactNativeJS: Cannot connect to Metro.
+04-14 17:14:28.446 16207 22676 W ReactNativeJS: 
+04-14 17:14:28.446 16207 22676 W ReactNativeJS: Try the following to fix the issue:
+04-14 17:14:28.446 16207 22676 W ReactNativeJS: - Ensure that Metro is running and available on the same network
+04-14 17:14:28.446 16207 22676 W ReactNativeJS: - Ensure that your device/emulator is connected to your machine and has USB debugging enabled - run 'adb devices' to see a list of connected devices
+04-14 17:14:28.446 16207 22676 W ReactNativeJS: - If you're on a physical device connected to the same machine, run 'adb reverse tcp:8081 tcp:8081' to forward requests from your device
+04-14 17:14:28.446 16207 22676 W ReactNativeJS: - If your device is on the same Wi-Fi network, set 'Debug server host & port for device' in 'Dev settings' to your machine's IP address and the port of the local dev server - e.g. 10.0.1.1:8081
+04-14 17:14:28.446 16207 22676 W ReactNativeJS: 
+04-14 17:14:28.446 16207 22676 W ReactNativeJS: URL: 192.168.86.21:8082
+04-14 17:14:28.446 16207 22676 W ReactNativeJS: 
+04-14 17:14:28.446 16207 22676 W ReactNativeJS: Error: Connection reset
+04-14 17:15:12.311 22872 22947 I ReactNativeJS: Running "main" with {"rootTag":11}
+04-14 17:15:12.627 22872 22872 I ReactNative: [GESTURE HANDLER] Initialize gesture handler for root view com.facebook.react.ReactRootView{e624684 V.E...... ......ID 0,0-1080,2205 #b}

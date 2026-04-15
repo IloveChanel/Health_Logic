@@ -20,3 +20,7 @@ export function analyzeCosmeticIngredients(ingredients:string[]){
   }
 
 }
+
+
+
+

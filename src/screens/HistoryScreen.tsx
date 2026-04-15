@@ -1,30 +1,27 @@
 ﻿import React from "react";
-import { SafeAreaView, ScrollView, StyleSheet, Text, View } from "react-native";
-import { colors, spacing, typography } from "../theme/theme";
+import { Text, View } from "react-native";
+import AppTopBar from "../components/AppTopBar";
+import AppCard from "../components/ui/AppCard";
+import AppScreenShell from "../components/layout/AppScreenShell";
+import { LIBRARY_COPY } from "../modules/library/helpers/libraryScreenContent";
 
-export default function HistoryScreen() {
+export default function HistoryScreen({ navigation }: { navigation: any }) {
   return (
-    <SafeAreaView style={styles.safe}>
-      <ScrollView contentContainerStyle={styles.content}>
-        <Text style={styles.title}>Scan History</Text>
-        <View style={styles.card}>
-          <Text style={styles.text}>Your past food, supplement, and beauty scans will appear here.</Text>
+    <AppScreenShell>
+      <AppTopBar navigation={navigation} />
+      <AppCard>
+        <View style={{ gap: 12 }}>
+          <Text style={{ color: "#00FF94", fontSize: 11, fontWeight: "800", letterSpacing: 2 }}>
+            {LIBRARY_COPY.historyEyebrow}
+          </Text>
+          <Text style={{ color: "#F3FFF8", fontSize: 28, fontWeight: "800", lineHeight: 34 }}>
+            {LIBRARY_COPY.historyTitle}
+          </Text>
+          <Text style={{ color: "#A7BBB1", fontSize: 15, lineHeight: 24 }}>
+            {LIBRARY_COPY.historyBody}
+          </Text>
         </View>
-      </ScrollView>
-    </SafeAreaView>
+      </AppCard>
+    </AppScreenShell>
   );
 }
-
-const styles = StyleSheet.create({
-  safe: { flex: 1, backgroundColor: colors.background },
-  content: { padding: spacing.lg },
-  title: { ...typography.h1, color: colors.primaryText, marginBottom: spacing.md },
-  card: {
-    backgroundColor: colors.surface,
-    borderRadius: 18,
-    borderWidth: 1,
-    borderColor: colors.border,
-    padding: spacing.lg,
-  },
-  text: { ...typography.body, color: colors.secondaryText },
-});

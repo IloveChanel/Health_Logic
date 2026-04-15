@@ -155,3 +155,7 @@ export const productCategoryOptions = [
   "makeup",
   "bodycare",
 ] as const;
+
+
+
+

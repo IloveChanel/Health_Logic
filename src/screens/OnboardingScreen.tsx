@@ -30,3 +30,7 @@ const styles = StyleSheet.create({
   title: { ...typography.h1, color: colors.primaryText, marginBottom: spacing.sm },
   subtitle: { ...typography.body, color: colors.secondaryText, marginBottom: spacing.lg },
 });
+
+
+
+

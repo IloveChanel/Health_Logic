@@ -1,4 +1,4 @@
-import React, { JSX } from "react";
+﻿import React, { JSX } from "react";
 import { StyleSheet, Text, View } from "react-native";
 import { colors, radius, spacing, typography } from "../theme/theme";
 
@@ -47,3 +47,7 @@ const styles = StyleSheet.create({
     marginTop: spacing.xs,
   },
 });
+
+
+
+

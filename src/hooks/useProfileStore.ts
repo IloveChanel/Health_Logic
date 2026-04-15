@@ -35,24 +35,28 @@ function countProfilesByType(profiles: HouseholdProfile[]) {
 }
 
 export function useProfileStore() {
-  const [account, setAccount] = useState<HouseholdAccount>({
+  const [account, setAccount] = useState<HouseholdAccount & { hasActiveSubscription?: boolean }>({
     subscriptionTier: "single_monthly",
     activeProfileId: null,
     profiles: [],
+    hasActiveSubscription: false,
   });
   const [isLoaded, setIsLoaded] = useState(false);
 
   useEffect(() => {
     (async () => {
-      const stored = await loadHouseholdAccount();
-      setAccount(stored);
+      const stored: any = await loadHouseholdAccount();
+      setAccount({
+        ...stored,
+        hasActiveSubscription: stored?.hasActiveSubscription ?? false,
+      });
       setIsLoaded(true);
     })();
   }, []);
 
-  const persist = useCallback((next: HouseholdAccount) => {
+  const persist = useCallback((next: HouseholdAccount & { hasActiveSubscription?: boolean }) => {
     setAccount(next);
-    void saveHouseholdAccount(next);
+    void saveHouseholdAccount(next as any);
   }, []);
 
   const activeProfile = useMemo(() => {
@@ -76,7 +80,11 @@ export function useProfileStore() {
 
   const setSubscriptionTier = useCallback(
     (subscriptionTier: SubscriptionTier) => {
-      const next = { ...account, subscriptionTier };
+      const next = {
+        ...account,
+        subscriptionTier,
+        hasActiveSubscription: true,
+      };
       persist(next);
     },
     [account, persist]
@@ -97,7 +105,7 @@ export function useProfileStore() {
     }) => {
       const label = input.label.trim();
       if (!label) {
-        return { ok: false, reason: "NAME_REQUIRED" as const };
+        return { ok: false as const, reason: "NAME_REQUIRED" as const };
       }
 
       const existing = input.id
@@ -107,7 +115,7 @@ export function useProfileStore() {
       if (!existing && !canAddProfile(input.type)) {
         return {
           ok: false,
-          reason: input.type === "pet" ? "PET_LIMIT" as const : "PROFILE_LIMIT" as const,
+          reason: (input.type === "pet" ? "PET_LIMIT" : "PROFILE_LIMIT") as "PET_LIMIT" | "PROFILE_LIMIT",
         };
       }
 
@@ -147,14 +155,14 @@ export function useProfileStore() {
         ? account.profiles.map((item) => (item.id === existing.id ? nextProfile : item))
         : [...account.profiles, nextProfile];
 
-      const next: HouseholdAccount = {
+      const next: HouseholdAccount & { hasActiveSubscription?: boolean } = {
         ...account,
         profiles,
         activeProfileId: nextProfile.id,
       };
 
       persist(next);
-      return { ok: true, profile: nextProfile };
+      return { ok: true as const, profile: nextProfile };
     },
     [account, canAddProfile, persist]
   );
@@ -170,7 +178,7 @@ export function useProfileStore() {
           ? profiles[0]?.id ?? null
           : account.activeProfileId;
 
-      const next: HouseholdAccount = {
+      const next: HouseholdAccount & { hasActiveSubscription?: boolean } = {
         ...account,
         profiles,
         activeProfileId: nextActiveId,
@@ -209,3 +217,10 @@ export function useProfileStore() {
     setActiveProfileId,
   };
 }
+
+
+
+
+
+
+

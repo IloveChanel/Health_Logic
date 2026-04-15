@@ -2,6 +2,7 @@
 import { createStackNavigator } from "@react-navigation/stack";
 import HomeScreen from "../screens/HomeScreen";
 import ProfileScreen from "../screens/ProfileScreen";
+import HouseholdHubScreen from "../screens/HouseholdHubScreen";
 import ScanScreen from "../screens/ScanScreen";
 import ResultScreen from "../screens/ResultScreen";
 import HistoryScreen from "../screens/HistoryScreen";
@@ -13,6 +14,7 @@ export type RootStackParamList = {
   Onboarding: undefined;
   Home: undefined;
   Profile: undefined;
+  HouseholdHub: undefined;
   Scan: undefined;
   Result: {
     scanMode?: "barcode" | "camera";
@@ -37,6 +39,7 @@ export default function AppNavigator() {
     >
       <Stack.Screen name="Onboarding" component={OnboardingScreen} />
       <Stack.Screen name="Home" component={HomeScreen} />
+      <Stack.Screen name="HouseholdHub" component={HouseholdHubScreen} />
       <Stack.Screen name="Profile" component={ProfileScreen} />
       <Stack.Screen name="Scan" component={ScanScreen} />
       <Stack.Screen name="Result" component={ResultScreen} />
@@ -46,6 +49,13 @@ export default function AppNavigator() {
     </Stack.Navigator>
   );
 }
+
+
+
+
+
+
+
 
 
 

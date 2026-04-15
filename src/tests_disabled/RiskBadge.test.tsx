@@ -1,4 +1,4 @@
-import React from 'react';
+﻿import React from 'react';
 import { render } from '@testing-library/react-native';
 import RiskBadge from '../components/RiskBadge';
 
@@ -8,3 +8,7 @@ describe('RiskBadge', () => {
     expect(toJSON()).toBeTruthy();
   });
 });
+
+
+
+

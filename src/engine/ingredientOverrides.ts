@@ -21,3 +21,7 @@ penalty+=10
 return{bonus,penalty}
 
 }
+
+
+
+

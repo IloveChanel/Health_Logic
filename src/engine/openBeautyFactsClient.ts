@@ -7,3 +7,7 @@ export async function fetchOpenBeautyFacts(barcode:string){
   return response.data
 
 }
+
+
+
+

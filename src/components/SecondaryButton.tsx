@@ -1,34 +1,74 @@
-import React from "react";
-import { Pressable, StyleSheet, Text } from "react-native";
-import { colors, radius, spacing, typography } from "../theme/theme";
+﻿import React, { useEffect, useRef } from "react";
+import { Animated, Easing, Pressable, StyleSheet, Text } from "react-native";
+import { UI_BUTTON_TOKENS } from "./ui/buttonTokens";
 
-type Props = {
+export default function SecondaryButton({
+  title,
+  onPress,
+  testID,
+}: {
   title: string;
   onPress: () => void;
   testID?: string;
-};
+}) {
+  const glow = useRef(new Animated.Value(0.72)).current;
 
-export default function SecondaryButton({ title, onPress, testID }: Props) {
+  useEffect(() => {
+    const loop = Animated.loop(
+      Animated.sequence([
+        Animated.timing(glow, {
+          toValue: 1,
+          duration: 2200,
+          easing: Easing.inOut(Easing.ease),
+          useNativeDriver: true,
+        }),
+        Animated.timing(glow, {
+          toValue: 0.72,
+          duration: 2200,
+          easing: Easing.inOut(Easing.ease),
+          useNativeDriver: true,
+        }),
+      ])
+    );
+
+    loop.start();
+    return () => loop.stop();
+  }, [glow]);
+
   return (
-    <Pressable style={styles.button} onPress={onPress} testID={testID} accessibilityLabel={testID}>
-      <Text style={styles.text}>{title}</Text>
-    </Pressable>
+    <Animated.View style={[styles.wrap, { opacity: glow }]}>
+      <Pressable
+        testID={testID}
+        onPress={onPress}
+        style={({ pressed }) => [styles.button, pressed && styles.pressed]}
+      >
+        <Text style={styles.text}>{title}</Text>
+      </Pressable>
+    </Animated.View>
   );
 }
 
 const styles = StyleSheet.create({
+  wrap: {
+    marginTop: 2,
+  },
   button: {
-    backgroundColor: colors.surface,
-    borderRadius: radius.md,
-    paddingVertical: spacing.md,
-    paddingHorizontal: spacing.lg,
+    minHeight: UI_BUTTON_TOKENS.height,
+    borderRadius: UI_BUTTON_TOKENS.radius,
     alignItems: "center",
     justifyContent: "center",
+    backgroundColor: UI_BUTTON_TOKENS.secondaryBg,
     borderWidth: 1,
-    borderColor: colors.border,
+    borderColor: UI_BUTTON_TOKENS.secondaryBorder,
+    paddingHorizontal: 18,
   },
   text: {
-    ...typography.button,
-    color: colors.primaryText,
+    color: UI_BUTTON_TOKENS.secondaryText,
+    fontWeight: "800",
+    fontSize: UI_BUTTON_TOKENS.fontSize,
+    letterSpacing: 1,
+  },
+  pressed: {
+    opacity: 0.9,
   },
 });

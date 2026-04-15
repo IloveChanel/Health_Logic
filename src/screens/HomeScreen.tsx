@@ -3,91 +3,94 @@ import {
   Alert,
   BackHandler,
   Platform,
-  SafeAreaView,
-  ScrollView,
-  StyleSheet,
+  Pressable,
   Text,
   View,
 } from "react-native";
-import { colors, spacing, typography } from "../theme/theme";
-import PrimaryButton from "../components/PrimaryButton";
-import SecondaryButton from "../components/SecondaryButton";
+import { LinearGradient } from "expo-linear-gradient";
 import PricingCard from "../components/PricingCard";
+import HealthLogicLiveLogo from "../components/branding/HealthLogicLiveLogo";
+import SystemTelemetry from "../components/branding/SystemTelemetry";
+import ScanSheen from "../components/effects/ScanSheen";
+import AppScreenShell from "../components/layout/AppScreenShell";
+import { useProfileStore } from "../hooks/useProfileStore";
+import {
+  HOME_CATEGORIES,
+  HOME_COPY,
+} from "../modules/home/helpers/homeScreenContent";
+import { homeScreenStyles as styles } from "../modules/home/styles/homeScreenStyles";
 
 export default function HomeScreen({ navigation }: { navigation: any }) {
+  const { activeProfile, account } = useProfileStore();
+  const hasProfile = !!activeProfile || (account?.profiles?.length ?? 0) > 0;
+
   const handleExitApp = () => {
     if (Platform.OS === "android") {
       BackHandler.exitApp();
       return;
     }
-
     Alert.alert("Exit App", "Exit is Android-only in this build.");
   };
 
   return (
-    <SafeAreaView style={styles.safe}>
-      <ScrollView contentContainerStyle={styles.content}>
-        <Text style={styles.title}>Health Logic</Text>
-        <Text style={styles.subtitle}>
-          Scan food, supplements, and beauty products based on your allergies,
-          health conditions, skin type, and skin concerns.
-        </Text>
+    <AppScreenShell>
+      <View style={styles.systemHeader}>
+        <View />
+        <Pressable onPress={handleExitApp} style={styles.exitChip}>
+          <Text style={styles.exitText}>TERMINATE</Text>
+        </Pressable>
+      </View>
 
-        <View style={styles.stack}>
-          <PrimaryButton
-            title="Scan Product"
-            onPress={() => navigation.navigate("Scan")}
-          />
-          <SecondaryButton
-            title="Your Profile"
-            onPress={() => navigation.navigate("Profile")}
-          />
-          <SecondaryButton
-            title="History"
-            onPress={() => navigation.navigate("History")}
-          />
-          <SecondaryButton
-            title="Search"
-            onPress={() => navigation.navigate("Search")}
-          />
-          <SecondaryButton
-            title="Exit App"
-            onPress={handleExitApp}
-          />
+      <View style={styles.mainContainer}>
+        <ScanSheen />
+        <View style={[styles.bracket, styles.topLeft]} />
+        <View style={[styles.bracket, styles.topRight]} />
+        <View style={[styles.bracket, styles.bottomLeft]} />
+        <View style={[styles.bracket, styles.bottomRight]} />
+
+        <Text style={styles.eyebrow}>{HOME_COPY.eyebrow}</Text>
+        <Text style={styles.welcome}>{HOME_COPY.pretitle}</Text>
+        <HealthLogicLiveLogo showDiagnostics={true} />
+        <SystemTelemetry />
+        <Text style={styles.lead}>{HOME_COPY.subtitle}</Text>
+
+        <View style={styles.categoryGrid}>
+          {HOME_CATEGORIES.map((cat) => (
+            <View key={cat} style={styles.catChip}>
+              <View style={styles.activeDot} />
+              <Text style={styles.catText}>{cat}</Text>
+            </View>
+          ))}
         </View>
 
-        <PricingCard
-          onSingleMonthlyPress={() => navigation.navigate("Profile")}
-          onFamilyMonthlyPress={() => navigation.navigate("Profile")}
-          onSingleAnnualPress={() => navigation.navigate("Profile")}
-          onFamilyAnnualPress={() => navigation.navigate("Profile")}
-        />
-      </ScrollView>
-    </SafeAreaView>
+        <Text style={styles.tagline}>{HOME_COPY.monoSubtitle}</Text>
+        <Text style={styles.bodyCopy}>{HOME_COPY.body}</Text>
+
+        <View style={styles.buttonStack}>
+          <Pressable
+            onPress={() => navigation.navigate("Scan")}
+            style={({ pressed }) => [styles.primaryCta, pressed && styles.pressed]}
+          >
+            <LinearGradient colors={["#00FF94", "#00B368"]} style={styles.gradientButton}>
+              <Text style={styles.primaryText}>{HOME_COPY.primaryCta}</Text>
+            </LinearGradient>
+          </Pressable>
+
+          <Pressable
+            onPress={() => navigation.navigate("HouseholdHub")}
+            style={({ pressed }) => [styles.secondaryCta, pressed && styles.pressed]}
+          >
+            <Text style={styles.secondaryText}>{HOME_COPY.secondaryCta}</Text>
+          </Pressable>
+        </View>
+      </View>
+
+      <PricingCard
+        onSingleMonthlyPress={() => navigation.navigate("Subscription")}
+        onFamilyMonthlyPress={() => navigation.navigate("Subscription")}
+        onSingleAnnualPress={() => navigation.navigate("Subscription")}
+        onFamilyAnnualPress={() => navigation.navigate("Subscription")}
+      />
+    </AppScreenShell>
   );
 }
-
-const styles = StyleSheet.create({
-  safe: {
-    flex: 1,
-    backgroundColor: colors.background,
-  },
-  content: {
-    padding: spacing.lg,
-    paddingBottom: spacing.xxl,
-  },
-  title: {
-    ...typography.h1,
-    color: colors.primaryText,
-    marginBottom: spacing.sm,
-  },
-  subtitle: {
-    ...typography.body,
-    color: colors.secondaryText,
-    marginBottom: spacing.lg,
-  },
-  stack: {
-    gap: spacing.md,
-    marginBottom: spacing.xl,
-  },
-});

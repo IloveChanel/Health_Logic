@@ -1,4 +1,4 @@
-import React, { ReactNode } from "react";
+﻿import React, { ReactNode } from "react";
 import { StyleSheet, Text } from "react-native";
 import { colors, spacing, typography } from "../theme/theme";
 
@@ -17,3 +17,7 @@ const styles = StyleSheet.create({
     marginBottom: spacing.sm,
   },
 });
+
+
+
+

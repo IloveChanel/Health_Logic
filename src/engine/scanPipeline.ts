@@ -5,7 +5,7 @@ import { parseIngredients } from "./ingredientParser"
 
 export async function scanProduct(barcode:string,profile:any){
 
-  const cached = getProduct(barcode)
+  const cached = await getProduct(barcode)
 
   if(cached){
     return analyzeProduct(cached,profile)
@@ -29,7 +29,11 @@ export async function scanProduct(barcode:string,profile:any){
     rawBrand: product.brands || ""
   }
 
-  saveProduct(barcode,simplified)
+  await saveProduct(barcode,simplified)
 
   return analyzeProduct(simplified,profile)
 }
+
+
+
+

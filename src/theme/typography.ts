@@ -1,4 +1,4 @@
-export const typography = {
+﻿export const typography = {
   hero: {
     fontSize: 32,
     lineHeight: 38,
@@ -40,4 +40,14 @@ export const typography = {
     lineHeight: 16,
     fontWeight: "500" as const,
   },
+  label: {
+    fontSize: 13,
+    lineHeight: 18,
+    fontWeight: "700"
+  },
 };
+
+
+
+
+

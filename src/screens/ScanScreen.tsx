@@ -1,46 +1,106 @@
-﻿import React from "react";
-import { SafeAreaView, ScrollView, StyleSheet, Text } from "react-native";
+﻿import React, { useState } from "react";
+import { Alert, Text, View } from "react-native";
 import PrimaryButton from "../components/PrimaryButton";
 import SecondaryButton from "../components/SecondaryButton";
+import AppTopBar from "../components/AppTopBar";
+import AppCard from "../components/ui/AppCard";
+import AppScreenShell from "../components/layout/AppScreenShell";
+import ScanHudOverlay from "../components/branding/ScanHudOverlay";
+import DataStreamOverlay from "../components/effects/DataStreamOverlay";
 import { scanBarcode } from "../api";
-import { colors, spacing, typography } from "../theme/theme";
+import { useProfileStore } from "../hooks/useProfileStore";
+import { getScanAccessDecision } from "../modules/scan/helpers/scanAccessGate";
+import { SCAN_SCREEN_COPY, SCAN_STATUS_LINES } from "../modules/scan/helpers/scanScreenContent";
+import { scanScreenStyles as styles } from "../modules/scan/styles/scanScreenStyles";
 
 export default function ScanScreen({ navigation }: { navigation: any }) {
+  const { account } = useProfileStore();
+  const [analyzing, setAnalyzing] = useState(false);
+
+  const handleBarcodeScan = async () => {
+    const decision = getScanAccessDecision(!!account?.hasActiveSubscription);
+    if (!decision.allowed && decision.redirectRoute) {
+      navigation.navigate(decision.redirectRoute);
+      return;
+    }
+
+    setAnalyzing(true);
+    setTimeout(async () => {
+      try {
+        setAnalyzing(false); navigation.navigate("BarcodeCamera");
+      } catch {
+        setAnalyzing(false);
+        Alert.alert("Scan failed", "We could not complete the barcode scan.");
+      }
+    }, 1200);
+  };
+
+  const handleCameraIngredientScan = () => {
+    const decision = getScanAccessDecision(!!account?.hasActiveSubscription);
+    if (!decision.allowed && decision.redirectRoute) {
+      navigation.navigate(decision.redirectRoute);
+      return;
+    }
+
+    setAnalyzing(true);
+    setTimeout(() => {
+      setAnalyzing(false);
+      navigation.navigate("Result");
+    }, 1200);
+  };
+
   return (
-    <SafeAreaView style={styles.safe}>
-      <ScrollView
-        contentContainerStyle={[styles.content, { flexGrow: 1 }]}
-        keyboardShouldPersistTaps="handled"
-        showsVerticalScrollIndicator={true}
-      >
-        <Text style={styles.title}>Scan</Text>
-        <Text style={styles.subtitle}>
-          Choose barcode scanning or ingredient-photo scanning.
-        </Text>
+    <>
+      <AppScreenShell>
+        <AppTopBar navigation={navigation} />
 
-        <PrimaryButton
-          title="Barcode Scan"
-          onPress={async () => {
-            const result = await scanBarcode("1234567890"); navigation.navigate("Result",{analysis:result});
-          }}
-          testID="barcode_scan_button"
-        />
+        <View style={styles.wrap}>
+          <View style={styles.hero}>
+            <Text style={styles.eyebrow}>{SCAN_SCREEN_COPY.eyebrow}</Text>
+            <Text style={styles.title}>{SCAN_SCREEN_COPY.title}</Text>
+            <Text style={styles.subtitle}>{SCAN_SCREEN_COPY.subtitle}</Text>
+            <Text style={styles.subtitle}>{SCAN_SCREEN_COPY.body}</Text>
+          </View>
 
-        <SecondaryButton
-          title="Camera Ingredient Scan"
-          onPress={() => navigation.navigate("Result")}
-          testID="camera_ingredient_scan_button"
-        />
-      </ScrollView>
-    </SafeAreaView>
+          <AppCard>
+            <View style={styles.card}>
+              <ScanHudOverlay />
+            </View>
+          </AppCard>
+
+          <AppCard>
+            <View style={styles.card}>
+              <Text style={styles.cardTitle}>{SCAN_SCREEN_COPY.barcodeTitle}</Text>
+              <Text style={styles.cardBody}>{SCAN_SCREEN_COPY.barcodeBody}</Text>
+              <PrimaryButton
+                title={SCAN_SCREEN_COPY.barcodeCta}
+                onPress={handleBarcodeScan}
+                testID="barcode_scan_button"
+              />
+            </View>
+          </AppCard>
+
+          <AppCard>
+            <View style={styles.card}>
+              <Text style={styles.cardTitle}>{SCAN_SCREEN_COPY.cameraTitle}</Text>
+              <Text style={styles.cardBody}>{SCAN_SCREEN_COPY.cameraBody}</Text>
+              {SCAN_STATUS_LINES.map((line) => (
+                <Text key={line} style={styles.cardBody}>
+                  • {line}
+                </Text>
+              ))}
+              <SecondaryButton
+                title={SCAN_SCREEN_COPY.cameraCta}
+                onPress={handleCameraIngredientScan}
+                testID="camera_ingredient_scan_button"
+              />
+            </View>
+          </AppCard>
+        </View>
+      </AppScreenShell>
+
+      {analyzing ? <DataStreamOverlay /> : null}
+    </>
   );
 }
-
-const styles = StyleSheet.create({
-  safe: { flex: 1, backgroundColor: colors.background },
-  content: { padding: spacing.lg, paddingBottom: spacing.xxl, gap: spacing.md },
-  title: { ...typography.h1, color: colors.primaryText, marginBottom: spacing.sm },
-  subtitle: { ...typography.body, color: colors.secondaryText, marginBottom: spacing.lg },
-});
-
 

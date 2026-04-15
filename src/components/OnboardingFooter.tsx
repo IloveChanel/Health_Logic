@@ -1,4 +1,4 @@
-import React from "react";
+﻿import React from "react";
 import { StyleSheet, Text, View } from "react-native";
 import { colors, spacing, typography } from "../theme/theme";
 
@@ -23,3 +23,7 @@ const styles = StyleSheet.create({
     textAlign: "center",
   },
 });
+
+
+
+

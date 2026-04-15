@@ -106,3 +106,7 @@ export const defaultHouseholdAccount: HouseholdAccount = {
   activeProfileId: null,
   profiles: [],
 };
+
+
+
+

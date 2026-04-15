@@ -1,32 +1,77 @@
-import React from "react";
-import { Pressable, StyleSheet, Text } from "react-native";
-import { colors, radius, spacing, typography } from "../theme/theme";
+﻿import React, { useEffect, useRef } from "react";
+import { Animated, Easing, Pressable, StyleSheet, Text } from "react-native";
+import { UI_BUTTON_TOKENS } from "./ui/buttonTokens";
 
-type Props = {
+export default function PrimaryButton({
+  title,
+  onPress,
+  testID,
+}: {
   title: string;
   onPress: () => void;
   testID?: string;
-};
+}) {
+  const pulse = useRef(new Animated.Value(0.985)).current;
 
-export default function PrimaryButton({ title, onPress, testID }: Props) {
+  useEffect(() => {
+    const loop = Animated.loop(
+      Animated.sequence([
+        Animated.timing(pulse, {
+          toValue: 1,
+          duration: 1800,
+          easing: Easing.inOut(Easing.ease),
+          useNativeDriver: true,
+        }),
+        Animated.timing(pulse, {
+          toValue: 0.985,
+          duration: 1800,
+          easing: Easing.inOut(Easing.ease),
+          useNativeDriver: true,
+        }),
+      ])
+    );
+
+    loop.start();
+    return () => loop.stop();
+  }, [pulse]);
+
   return (
-    <Pressable style={styles.button} onPress={onPress} testID={testID} accessibilityLabel={testID}>
-      <Text style={styles.text}>{title}</Text>
-    </Pressable>
+    <Animated.View style={[styles.wrap, { transform: [{ scale: pulse }] }]}>
+      <Pressable
+        testID={testID}
+        onPress={onPress}
+        style={({ pressed }) => [styles.button, pressed && styles.pressed]}
+      >
+        <Text style={styles.text}>{title}</Text>
+      </Pressable>
+    </Animated.View>
   );
 }
 
 const styles = StyleSheet.create({
+  wrap: {
+    marginTop: 2,
+  },
   button: {
-    backgroundColor: colors.primary,
-    borderRadius: radius.md,
-    paddingVertical: spacing.md,
-    paddingHorizontal: spacing.lg,
+    minHeight: UI_BUTTON_TOKENS.height,
+    borderRadius: UI_BUTTON_TOKENS.radius,
     alignItems: "center",
     justifyContent: "center",
+    backgroundColor: UI_BUTTON_TOKENS.primaryBg,
+    paddingHorizontal: 18,
+    shadowColor: UI_BUTTON_TOKENS.primaryBg,
+    shadowOpacity: 0.22,
+    shadowRadius: 10,
+    shadowOffset: { width: 0, height: 0 },
+    elevation: 5,
   },
   text: {
-    ...typography.button,
-    color: colors.white,
+    color: UI_BUTTON_TOKENS.primaryText,
+    fontWeight: "900",
+    fontSize: UI_BUTTON_TOKENS.fontSize,
+    letterSpacing: 1,
+  },
+  pressed: {
+    opacity: 0.9,
   },
 });

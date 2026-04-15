@@ -22,3 +22,7 @@ details:"High glycemic carbohydrate with little nutritional value."
 return cards[name.toLowerCase()] || null
 
 }
+
+
+
+

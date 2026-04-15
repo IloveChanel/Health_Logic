@@ -57,3 +57,7 @@ export async function loadScanHistory(): Promise<ScanHistoryItem[]> {
 export async function saveScanHistory(items: ScanHistoryItem[]): Promise<void> {
   await AsyncStorage.setItem(HISTORY_KEY, JSON.stringify(items));
 }
+
+
+
+

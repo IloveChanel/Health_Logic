@@ -7,3 +7,7 @@ export async function fetchOpenFoodFacts(barcode:string){
   return response.data
 
 }
+
+
+
+

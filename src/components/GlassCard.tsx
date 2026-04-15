@@ -1,23 +1,18 @@
-import React, { ReactNode } from "react";
-import { StyleProp, StyleSheet, View, ViewStyle } from "react-native";
-import { colors, radius, spacing, shadows } from "../theme/theme";
+﻿import React from "react";
+import { StyleSheet, View } from "react-native";
+import { UI_SURFACE_TOKENS } from "./ui/surfaceTokens";
 
-type Props = {
-  children: ReactNode;
-  style?: StyleProp<ViewStyle>;
-};
-
-export default function GlassCard({ children, style }: Props) {
-  return <View style={[styles.card, style]}>{children}</View>;
+export default function GlassCard({ children }: { children: React.ReactNode }) {
+  return <View style={styles.card}>{children}</View>;
 }
 
 const styles = StyleSheet.create({
   card: {
-    backgroundColor: colors.surface,
-    borderRadius: radius.lg,
-    padding: spacing.lg,
-    borderWidth: 1,
-    borderColor: colors.border,
-    ...shadows.card,
+    backgroundColor: UI_SURFACE_TOKENS.background,
+    borderRadius: UI_SURFACE_TOKENS.radius,
+    padding: UI_SURFACE_TOKENS.padding,
+    borderWidth: UI_SURFACE_TOKENS.borderWidth,
+    borderColor: UI_SURFACE_TOKENS.borderColor,
+    marginBottom: 16,
   },
 });

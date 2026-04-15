@@ -7,3 +7,7 @@ export function getCachedProduct(barcode:string){
 export function saveCachedProduct(barcode:string,data:any){
   CACHE[barcode]=data
 }
+
+
+
+

@@ -1,4 +1,4 @@
-import { ProductAnalysis, ProductCategory, UserProfile } from "../../types/domain";
+﻿import { ProductAnalysis, ProductCategory, UserProfile } from "../../types/domain";
 
 export function createEmptyAnalysis(category: ProductCategory, profile: UserProfile): ProductAnalysis {
   const redFlags: string[] = [];
@@ -22,3 +22,7 @@ export function createEmptyAnalysis(category: ProductCategory, profile: UserProf
     explanation: "Analysis pipeline placeholder. Barcode and camera modules will feed ingredient intelligence here.",
   };
 }
+
+
+
+

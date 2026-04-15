@@ -47,3 +47,7 @@ export function classifyNOVA(ingredients:string[]){
 
   return { novaScore:1, label:"Unprocessed food" }
 }
+
+
+
+

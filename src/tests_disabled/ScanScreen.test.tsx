@@ -1,4 +1,4 @@
-import React from 'react';
+﻿import React from 'react';
 import { render } from '@testing-library/react-native';
 import ScanScreen from '../screens/ScanScreen';
 
@@ -8,3 +8,7 @@ describe('ScanScreen', () => {
     expect(toJSON()).toBeTruthy();
   });
 });
+
+
+
+

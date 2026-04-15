@@ -27,3 +27,7 @@
 
   return suggestions[category] || suggestions["food"] || []
 }
+
+
+
+

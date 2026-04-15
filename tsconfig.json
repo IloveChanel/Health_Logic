@@ -7,8 +7,21 @@
     "types": ["jest", "node"]
   },
   "exclude": [
+    "audit",
+    "audit/**/*",
+    "_repair_backup*",
+    "_repair_backup*/**/*",
+    "**/_repair_backup*",
+    "**/_repair_backup*/**/*",
+
+    "_repair_backup_headers_*","_audit_backups","src/archive",
     "tests",
     "src/tests_disabled"
   ]
 }
+
+
+
+
+
 

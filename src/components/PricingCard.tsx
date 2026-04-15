@@ -1,6 +1,5 @@
 ﻿import React from "react";
 import { Pressable, StyleSheet, Text, View } from "react-native";
-import { colors, radius, spacing, typography } from "../theme/theme";
 
 type Props = {
   onSingleMonthlyPress: () => void;
@@ -17,7 +16,7 @@ export default function PricingCard({
 }: Props) {
   return (
     <View style={styles.card}>
-      <Text style={styles.eyebrow}>Subscriptions</Text>
+      <Text style={styles.eyebrow}>SUBSCRIPTIONS</Text>
       <Text style={styles.title}>Choose your Health Logic plan</Text>
       <Text style={styles.copy}>
         Monthly plans do not include a pet. Annual plans include 1 pet.
@@ -27,7 +26,7 @@ export default function PricingCard({
         <Text style={styles.planTitle}>Single Monthly</Text>
         <Text style={styles.planPrice}>$9.99/month</Text>
         <Text style={styles.planNote}>1 person • no pet</Text>
-        <Pressable style={styles.primaryButton} onPress={onSingleMonthlyPress}>
+        <Pressable style={({ pressed }) => [styles.primaryButton, pressed && styles.pressed]} onPress={onSingleMonthlyPress}>
           <Text style={styles.primaryButtonText}>Choose Single Monthly</Text>
         </Pressable>
       </View>
@@ -36,7 +35,7 @@ export default function PricingCard({
         <Text style={styles.planTitle}>Family Monthly</Text>
         <Text style={styles.planPrice}>$13.99/month</Text>
         <Text style={styles.planNote}>Up to 5 profiles • no pet</Text>
-        <Pressable style={styles.secondaryButton} onPress={onFamilyMonthlyPress}>
+        <Pressable style={({ pressed }) => [styles.secondaryButton, pressed && styles.pressed]} onPress={onFamilyMonthlyPress}>
           <Text style={styles.secondaryButtonText}>Choose Family Monthly</Text>
         </Pressable>
       </View>
@@ -45,7 +44,7 @@ export default function PricingCard({
         <Text style={styles.planTitle}>Single Annual</Text>
         <Text style={styles.planPrice}>$39.99/year</Text>
         <Text style={styles.planNote}>1 person + 1 pet</Text>
-        <Pressable style={styles.secondaryButton} onPress={onSingleAnnualPress}>
+        <Pressable style={({ pressed }) => [styles.secondaryButton, pressed && styles.pressed]} onPress={onSingleAnnualPress}>
           <Text style={styles.secondaryButtonText}>Choose Single Annual</Text>
         </Pressable>
       </View>
@@ -55,7 +54,7 @@ export default function PricingCard({
         <Text style={styles.planPrice}>$59.99/year</Text>
         <Text style={styles.saveText}>Best value</Text>
         <Text style={styles.planNote}>Up to 5 profiles + 1 pet</Text>
-        <Pressable style={styles.secondaryButton} onPress={onFamilyAnnualPress}>
+        <Pressable style={({ pressed }) => [styles.secondaryButton, pressed && styles.pressed]} onPress={onFamilyAnnualPress}>
           <Text style={styles.secondaryButtonText}>Choose Family Annual</Text>
         </Pressable>
       </View>
@@ -65,75 +64,101 @@ export default function PricingCard({
 
 const styles = StyleSheet.create({
   card: {
-    backgroundColor: colors.accentSoft,
-    borderRadius: radius.lg,
-    padding: spacing.lg,
+    backgroundColor: "rgba(16,24,21,0.92)",
+    borderRadius: 18,
+    padding: 20,
     borderWidth: 1,
-    borderColor: colors.border,
+    borderColor: "rgba(0,255,148,0.18)",
+    marginTop: 16,
+    shadowColor: "#00FF94",
+    shadowOpacity: 0.14,
+    shadowRadius: 12,
+    shadowOffset: { width: 0, height: 0 },
+    elevation: 4,
   },
   eyebrow: {
-    ...typography.caption,
-    color: colors.primaryDark,
-    marginBottom: spacing.xs,
+    color: "#00FF94",
+    marginBottom: 8,
+    letterSpacing: 2,
+    fontWeight: "700",
+    fontSize: 11,
   },
   title: {
-    ...typography.h2,
-    color: colors.primaryText,
-    marginBottom: spacing.sm,
+    color: "#F3FFF8",
+    marginBottom: 10,
+    fontWeight: "800",
+    fontSize: 22,
+    lineHeight: 28,
   },
   copy: {
-    ...typography.bodySecondary,
-    color: colors.secondaryText,
-    marginBottom: spacing.lg,
+    color: "#A7BBB1",
+    marginBottom: 18,
+    fontSize: 14,
+    lineHeight: 22,
   },
   planCard: {
-    backgroundColor: colors.surface,
-    borderRadius: radius.md,
+    backgroundColor: "#16211D",
+    borderRadius: 14,
     borderWidth: 1,
-    borderColor: colors.border,
-    padding: spacing.md,
-    marginBottom: spacing.md,
+    borderColor: "rgba(0,255,148,0.12)",
+    padding: 16,
+    marginBottom: 14,
   },
   planTitle: {
-    ...typography.h3,
-    color: colors.primaryText,
-    marginBottom: spacing.xs,
+    color: "#F3FFF8",
+    marginBottom: 6,
+    fontWeight: "800",
+    fontSize: 16,
   },
   planPrice: {
-    ...typography.body,
-    color: colors.primaryDark,
-    marginBottom: spacing.xs,
+    color: "#00FF94",
+    marginBottom: 6,
+    fontSize: 14,
+    fontWeight: "700",
   },
   planNote: {
-    ...typography.caption,
-    color: colors.secondaryText,
-    marginBottom: spacing.sm,
+    color: "#A7BBB1",
+    marginBottom: 12,
+    fontSize: 12,
   },
   saveText: {
-    ...typography.caption,
-    color: colors.success,
-    marginBottom: spacing.xs,
+    color: "#00FF94",
+    marginBottom: 6,
+    fontSize: 12,
+    fontWeight: "800",
   },
   primaryButton: {
-    backgroundColor: colors.primary,
-    borderRadius: radius.md,
-    paddingVertical: spacing.md,
+    backgroundColor: "#12E381",
+    borderRadius: 12,
+    paddingVertical: 14,
     alignItems: "center",
+    shadowColor: "#12E381",
+    shadowOpacity: 0.22,
+    shadowRadius: 10,
+    shadowOffset: { width: 0, height: 0 },
+    elevation: 5,
   },
   primaryButtonText: {
-    ...typography.button,
-    color: colors.white,
+    color: "#08100D",
+    fontWeight: "900",
+    fontSize: 14,
+    letterSpacing: 1,
   },
   secondaryButton: {
-    backgroundColor: colors.surfaceAlt,
-    borderRadius: radius.md,
-    paddingVertical: spacing.md,
+    backgroundColor: "rgba(0,255,148,0.06)",
+    borderRadius: 12,
+    paddingVertical: 14,
     alignItems: "center",
     borderWidth: 1,
-    borderColor: colors.border,
+    borderColor: "#00FF94",
   },
   secondaryButtonText: {
-    ...typography.button,
-    color: colors.primaryText,
+    color: "#00FF94",
+    fontWeight: "800",
+    fontSize: 14,
+    letterSpacing: 1,
+  },
+  pressed: {
+    opacity: 0.88,
   },
 });

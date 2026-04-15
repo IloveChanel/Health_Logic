@@ -6,7 +6,7 @@ import { analyzeCosmeticIngredients } from "./cosmeticAnalyzer"
 export async function scanBeautyProduct(barcode:string){
 
   const cacheKey = "beauty:" + barcode
-  const cached = getProduct(cacheKey)
+  const cached = await getProduct(cacheKey)
 
   if(cached){
     return analyzeCosmeticIngredients(cached.ingredients || [])
@@ -22,7 +22,11 @@ export async function scanBeautyProduct(barcode:string){
     rawBrand: product.brands || ""
   }
 
-  saveProduct(cacheKey,simplified)
+  await saveProduct(cacheKey,simplified)
 
   return analyzeCosmeticIngredients(simplified.ingredients || [])
 }
+
+
+
+
