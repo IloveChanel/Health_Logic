@@ -7,3 +7,5 @@ _repair_backup_*/
 android/.gradle/
 android/app/build/
 node_modules/
+
+.expo/
