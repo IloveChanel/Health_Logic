@@ -1,17 +1,17 @@
 ﻿export const typography = {
   hero: {
-    fontSize: 32,
-    lineHeight: 38,
+    fontSize: 40,
+    lineHeight: 44,
     fontWeight: "800" as const,
   },
   h1: {
-    fontSize: 28,
-    lineHeight: 34,
+    fontSize: 34,
+    lineHeight: 38,
     fontWeight: "800" as const,
   },
   h2: {
-    fontSize: 22,
-    lineHeight: 28,
+    fontSize: 20,
+    lineHeight: 26,
     fontWeight: "700" as const,
   },
   h3: {
@@ -20,34 +20,33 @@
     fontWeight: "700" as const,
   },
   body: {
-    fontSize: 16,
-    lineHeight: 22,
+    fontSize: 15,
+    lineHeight: 24,
     fontWeight: "400" as const,
   },
   bodySecondary: {
     fontSize: 14,
-    lineHeight: 20,
+    lineHeight: 22,
     fontWeight: "400" as const,
   },
-  button: {
-    fontSize: 16,
-    lineHeight: 20,
-    fontWeight: "700" as const,
-    textTransform: "none" as const,
-  },
   caption: {
-    fontSize: 12,
+    fontSize: 11,
     lineHeight: 16,
-    fontWeight: "500" as const,
+    fontWeight: "700" as const,
   },
   label: {
     fontSize: 13,
     lineHeight: 18,
-    fontWeight: "700"
+    fontWeight: "700" as const,
+  },
+  button: {
+    fontSize: 14,
+    lineHeight: 18,
+    fontWeight: "800" as const,
+  },
+  mono: {
+    fontSize: 11,
+    lineHeight: 16,
+    fontWeight: "700" as const,
   },
 };
-
-
-
-
-

@@ -1,0 +1,24 @@
+=== REFINED ENGINE AUDIT ===
+
+COUNTS
+- High overlap: 2
+- Medium overlap: 1
+- Raw pet misses: 200
+- Pet flag miss only: 0
+- Pet list miss only: 0
+- Pet both miss: 200
+- Only one source: 254
+- Missing graph: 261
+- Missing info: 259
+- Missing rules: 259
+- Missing knowledge: 216
+
+HIGH OVERLAP INGREDIENTS
+- high fructose corn syrup :: ingredient_present_in_multiple_penalty_channels | same_ingredient_flagged_in_base_and_final
+- sugar :: graph_and_context_both_penalize
+
+MEDIUM OVERLAP INGREDIENTS
+- xylitol :: same_ingredient_flagged_in_base_and_final
+
+FILES WRITTEN
+- audit-output/deep-engine-audit-refined.json

@@ -1,0 +1,12 @@
+{
+  "totalIngredients": 265,
+  "missingInfoCount": 259,
+  "missingGraphCount": 261,
+  "missingRuleCount": 259,
+  "missingKnowledgeCount": 216,
+  "parserRoundtripIssueCount": 0,
+  "petToxinCount": 10,
+  "engineErrorCount": 0,
+  "diabetesNotStricterCount": 1,
+  "petToxinNotFlaggedCount": 9
+}

@@ -30,28 +30,16 @@ const graphRisk = calculateGraphRisk(ingredients,profile)
 
 const contextRisk = calculateContextRisk(ingredients,profile)
 
-const graphPenalty = Number(graphRisk?.penalty || 0)
-const contextPenalty = Number(contextRisk?.penalty || 0)
-
-const effectiveGraphPenalty =
-contextPenalty > 0
-? 0
-: graphPenalty
-
 const finalScore = Math.max(0,Math.min(100,
 (scoring.finalScore || 0)
 + overrides.bonus
 - overrides.penalty
-- effectiveGraphPenalty
-- contextPenalty
+- graphRisk.penalty
+- contextRisk.penalty
 ))
 
-const petToxinSet = new Set(
-(PET_TOXINS || []).map(i => String(i).toLowerCase().trim())
-)
-
 const petToxins = ingredients.filter(i =>
-petToxinSet.has(String(i).toLowerCase().trim())
+PET_TOXINS.includes(i)
 )
 
 const alternatives = suggestAlternatives(finalScore,category)
@@ -63,11 +51,11 @@ graphRisk,
 overrides
 )
 
-const flags = [...new Set([
+const flags = [
 ...(scoring.ingredientFlags || []),
 ...(graphRisk.flags || []),
 ...(contextRisk.flags || [])
-])]
+]
 
 const recommendation = getPurchaseRecommendation(finalScore,flags)
 
@@ -78,7 +66,7 @@ flags,
 ingredients,
 nova,
 alternatives,
-petToxins:[...new Set(petToxins)],
+petToxins,
 category,
 overrides,
 breakdown,
@@ -87,4 +75,7 @@ recommendation
 }
 
 }
+
+
+
 

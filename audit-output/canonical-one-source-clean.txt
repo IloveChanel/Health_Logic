@@ -1,0 +1,54 @@
+﻿alcohol
+almond
+artificial flavor
+ascorbic acid
+avocado
+avocado oil
+baking powder
+baking soda
+barley
+bha
+bht
+caffeine
+canola oil
+carrageenan
+casein
+chia
+citric acid
+cocoa
+cocoa butter
+coffee
+corn starch
+corn syrup
+egg
+flaxseed
+fructose
+gelatin
+glucose syrup
+guar gum
+lecithin
+macadamia nuts
+maltodextrin
+milk
+oats
+olive oil
+palm oil
+peanut
+peanut oil
+pectin
+potassium sorbate
+quinoa
+rice
+rye
+salt
+sesame oil
+sodium benzoate
+soy
+sugar
+sunflower oil
+tea
+vanilla
+water
+wheat
+whey
+xanthan gum

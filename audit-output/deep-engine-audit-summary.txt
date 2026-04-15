@@ -1,0 +1,49 @@
+=== DEEP ENGINE AUDIT ===
+
+VERIFIED GOOD
+- Parser + normalizer are stable on the currently known ingredient set; no parser roundtrip issues were found.
+- Core audit modules loaded successfully from the current codebase.
+- The audit runner is read-only with respect to engine logic; it only writes audit reports.
+- Canonical ingredient truth can be measured from the current code because ingredient registries are separately declared in the codebase.
+- Pet-toxin behavior can be exercised directly through analyzeProduct() using a pet profile.
+
+VERIFIED RISKY
+- Some pet-toxin ingredients are present in the codebase but do not consistently surface both a pet warning flag and a petToxins hit.
+- Many normalized ingredients exist in only one registry, which means your truth model is fragmented.
+- Some ingredients appear to be penalized through multiple channels, creating real overlap-risk candidates for double-counting.
+- Some overlap checks are inconclusive because not all engines expose the same level of diagnostic detail.
+
+UNVERIFIED ASSUMPTIONS
+- This audit does not prove medical correctness of ingredient risk values; it only audits internal code consistency.
+- This audit does not prove any guessed synonym list for pet toxins; it only reports misses against your current code.
+- If graphRiskEngine/contextRiskEngine are incomplete or intentionally overlapping, overlap findings indicate risk, not final proof of a bug.
+- This audit does not benchmark real device performance or camera-thread smoothness.
+- This audit does not validate Open Food Facts payload quality or barcode coverage.
+
+IMMEDIATE FIXES
+- Create one canonical ingredient source model, then derive INFO, GRAPH, RULES, and KNOWLEDGE views from it.
+- Unify pet-toxin truth so the same canonical source drives both petToxins detection and user-facing toxic-for-pets flags.
+- Review every HIGH overlap item and decide whether graph/context/base penalties should stack or de-duplicate.
+- Backfill the most important high-risk and condition-sensitive ingredients first instead of auto-filling everything with generic graph nodes.
+- Add explicit audit tests for diabetic, pet, and neutral profiles on the top risky ingredients.
+
+SAFE LATER UPGRADES
+- Phase 2: add a local SQLite product cache layer for high-frequency barcodes before network fallback.
+- Phase 2: store canonical normalized ingredients and precomputed summaries alongside cached barcode data.
+- Phase 2: add confidence metadata so the UI can distinguish verified analysis from partial analysis.
+- Phase 3: add snapshot/visual regression after engine truth and cache behavior are stable.
+- Phase 3: add premium motion and visual polish only after scoring integrity and safety coverage are hardened.
+
+SUMMARY COUNTS
+- Total normalized ingredients: 265
+- Fully mapped across info+graph+rules+knowledge: 0
+- Pet toxin exact misses: 200
+- High overlap risk items: 2
+- Medium overlap risk items: 1
+- Parser roundtrip issues: 0
+
+FILES WRITTEN
+- audit-output/deep-engine-audit-report.json
+- audit-output/deep-engine-canonical-truth.json
+- audit-output/deep-engine-pet-toxin-misses.json
+- audit-output/deep-engine-scoring-overlap.json

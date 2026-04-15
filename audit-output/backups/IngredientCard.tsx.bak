@@ -2,7 +2,7 @@
 import { Pressable, StyleSheet, Text, View } from "react-native";
 import { IngredientAnalysis } from "../types/domain";
 import { INGREDIENT_INFO } from "../engine/ingredientInfoDictionary";
-import { colors, spacing, typography } from "../theme/theme";
+import { colors, radius, spacing, typography } from "../theme/theme";
 
 type Props = {
   ingredient: IngredientAnalysis;
@@ -85,7 +85,7 @@ if(!info){
 const styles = StyleSheet.create({
   card: {
     backgroundColor: colors.surface,
-    borderRadius: 12,
+    borderRadius: radius.md,
     borderWidth: 1,
     borderColor: colors.border,
     padding: spacing.md,
@@ -118,7 +118,7 @@ const styles = StyleSheet.create({
     alignSelf: "flex-start",
     paddingVertical: spacing.xs,
     paddingHorizontal: spacing.sm,
-    borderRadius: 12,
+    borderRadius: radius.md,
     backgroundColor: colors.surfaceAlt,
     borderWidth: 1,
     borderColor: colors.border,
@@ -142,8 +142,6 @@ const styles = StyleSheet.create({
     marginBottom: spacing.xs,
   },
 });
-
-
 
 
 

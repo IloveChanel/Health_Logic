@@ -1,0 +1,2602 @@
+[
+  {
+    "ingredient": "toxin 1",
+    "sourceLocations": [
+      "PET_TOXINS_DATABASE"
+    ],
+    "analyzeScore": 90,
+    "analyzeFlags": [],
+    "analyzePetToxins": [],
+    "graphPetToxic": false,
+    "failedFlag": true,
+    "failedPetToxinList": true,
+    "notes": []
+  },
+  {
+    "ingredient": "toxin 10",
+    "sourceLocations": [
+      "PET_TOXINS_DATABASE"
+    ],
+    "analyzeScore": 90,
+    "analyzeFlags": [],
+    "analyzePetToxins": [],
+    "graphPetToxic": false,
+    "failedFlag": true,
+    "failedPetToxinList": true,
+    "notes": []
+  },
+  {
+    "ingredient": "toxin 100",
+    "sourceLocations": [
+      "PET_TOXINS_DATABASE"
+    ],
+    "analyzeScore": 90,
+    "analyzeFlags": [],
+    "analyzePetToxins": [],
+    "graphPetToxic": false,
+    "failedFlag": true,
+    "failedPetToxinList": true,
+    "notes": []
+  },
+  {
+    "ingredient": "toxin 101",
+    "sourceLocations": [
+      "PET_TOXINS_DATABASE"
+    ],
+    "analyzeScore": 90,
+    "analyzeFlags": [],
+    "analyzePetToxins": [],
+    "graphPetToxic": false,
+    "failedFlag": true,
+    "failedPetToxinList": true,
+    "notes": []
+  },
+  {
+    "ingredient": "toxin 102",
+    "sourceLocations": [
+      "PET_TOXINS_DATABASE"
+    ],
+    "analyzeScore": 90,
+    "analyzeFlags": [],
+    "analyzePetToxins": [],
+    "graphPetToxic": false,
+    "failedFlag": true,
+    "failedPetToxinList": true,
+    "notes": []
+  },
+  {
+    "ingredient": "toxin 103",
+    "sourceLocations": [
+      "PET_TOXINS_DATABASE"
+    ],
+    "analyzeScore": 90,
+    "analyzeFlags": [],
+    "analyzePetToxins": [],
+    "graphPetToxic": false,
+    "failedFlag": true,
+    "failedPetToxinList": true,
+    "notes": []
+  },
+  {
+    "ingredient": "toxin 104",
+    "sourceLocations": [
+      "PET_TOXINS_DATABASE"
+    ],
+    "analyzeScore": 90,
+    "analyzeFlags": [],
+    "analyzePetToxins": [],
+    "graphPetToxic": false,
+    "failedFlag": true,
+    "failedPetToxinList": true,
+    "notes": []
+  },
+  {
+    "ingredient": "toxin 105",
+    "sourceLocations": [
+      "PET_TOXINS_DATABASE"
+    ],
+    "analyzeScore": 90,
+    "analyzeFlags": [],
+    "analyzePetToxins": [],
+    "graphPetToxic": false,
+    "failedFlag": true,
+    "failedPetToxinList": true,
+    "notes": []
+  },
+  {
+    "ingredient": "toxin 106",
+    "sourceLocations": [
+      "PET_TOXINS_DATABASE"
+    ],
+    "analyzeScore": 90,
+    "analyzeFlags": [],
+    "analyzePetToxins": [],
+    "graphPetToxic": false,
+    "failedFlag": true,
+    "failedPetToxinList": true,
+    "notes": []
+  },
+  {
+    "ingredient": "toxin 107",
+    "sourceLocations": [
+      "PET_TOXINS_DATABASE"
+    ],
+    "analyzeScore": 90,
+    "analyzeFlags": [],
+    "analyzePetToxins": [],
+    "graphPetToxic": false,
+    "failedFlag": true,
+    "failedPetToxinList": true,
+    "notes": []
+  },
+  {
+    "ingredient": "toxin 108",
+    "sourceLocations": [
+      "PET_TOXINS_DATABASE"
+    ],
+    "analyzeScore": 90,
+    "analyzeFlags": [],
+    "analyzePetToxins": [],
+    "graphPetToxic": false,
+    "failedFlag": true,
+    "failedPetToxinList": true,
+    "notes": []
+  },
+  {
+    "ingredient": "toxin 109",
+    "sourceLocations": [
+      "PET_TOXINS_DATABASE"
+    ],
+    "analyzeScore": 90,
+    "analyzeFlags": [],
+    "analyzePetToxins": [],
+    "graphPetToxic": false,
+    "failedFlag": true,
+    "failedPetToxinList": true,
+    "notes": []
+  },
+  {
+    "ingredient": "toxin 11",
+    "sourceLocations": [
+      "PET_TOXINS_DATABASE"
+    ],
+    "analyzeScore": 90,
+    "analyzeFlags": [],
+    "analyzePetToxins": [],
+    "graphPetToxic": false,
+    "failedFlag": true,
+    "failedPetToxinList": true,
+    "notes": []
+  },
+  {
+    "ingredient": "toxin 110",
+    "sourceLocations": [
+      "PET_TOXINS_DATABASE"
+    ],
+    "analyzeScore": 90,
+    "analyzeFlags": [],
+    "analyzePetToxins": [],
+    "graphPetToxic": false,
+    "failedFlag": true,
+    "failedPetToxinList": true,
+    "notes": []
+  },
+  {
+    "ingredient": "toxin 111",
+    "sourceLocations": [
+      "PET_TOXINS_DATABASE"
+    ],
+    "analyzeScore": 90,
+    "analyzeFlags": [],
+    "analyzePetToxins": [],
+    "graphPetToxic": false,
+    "failedFlag": true,
+    "failedPetToxinList": true,
+    "notes": []
+  },
+  {
+    "ingredient": "toxin 112",
+    "sourceLocations": [
+      "PET_TOXINS_DATABASE"
+    ],
+    "analyzeScore": 90,
+    "analyzeFlags": [],
+    "analyzePetToxins": [],
+    "graphPetToxic": false,
+    "failedFlag": true,
+    "failedPetToxinList": true,
+    "notes": []
+  },
+  {
+    "ingredient": "toxin 113",
+    "sourceLocations": [
+      "PET_TOXINS_DATABASE"
+    ],
+    "analyzeScore": 90,
+    "analyzeFlags": [],
+    "analyzePetToxins": [],
+    "graphPetToxic": false,
+    "failedFlag": true,
+    "failedPetToxinList": true,
+    "notes": []
+  },
+  {
+    "ingredient": "toxin 114",
+    "sourceLocations": [
+      "PET_TOXINS_DATABASE"
+    ],
+    "analyzeScore": 90,
+    "analyzeFlags": [],
+    "analyzePetToxins": [],
+    "graphPetToxic": false,
+    "failedFlag": true,
+    "failedPetToxinList": true,
+    "notes": []
+  },
+  {
+    "ingredient": "toxin 115",
+    "sourceLocations": [
+      "PET_TOXINS_DATABASE"
+    ],
+    "analyzeScore": 90,
+    "analyzeFlags": [],
+    "analyzePetToxins": [],
+    "graphPetToxic": false,
+    "failedFlag": true,
+    "failedPetToxinList": true,
+    "notes": []
+  },
+  {
+    "ingredient": "toxin 116",
+    "sourceLocations": [
+      "PET_TOXINS_DATABASE"
+    ],
+    "analyzeScore": 90,
+    "analyzeFlags": [],
+    "analyzePetToxins": [],
+    "graphPetToxic": false,
+    "failedFlag": true,
+    "failedPetToxinList": true,
+    "notes": []
+  },
+  {
+    "ingredient": "toxin 117",
+    "sourceLocations": [
+      "PET_TOXINS_DATABASE"
+    ],
+    "analyzeScore": 90,
+    "analyzeFlags": [],
+    "analyzePetToxins": [],
+    "graphPetToxic": false,
+    "failedFlag": true,
+    "failedPetToxinList": true,
+    "notes": []
+  },
+  {
+    "ingredient": "toxin 118",
+    "sourceLocations": [
+      "PET_TOXINS_DATABASE"
+    ],
+    "analyzeScore": 90,
+    "analyzeFlags": [],
+    "analyzePetToxins": [],
+    "graphPetToxic": false,
+    "failedFlag": true,
+    "failedPetToxinList": true,
+    "notes": []
+  },
+  {
+    "ingredient": "toxin 119",
+    "sourceLocations": [
+      "PET_TOXINS_DATABASE"
+    ],
+    "analyzeScore": 90,
+    "analyzeFlags": [],
+    "analyzePetToxins": [],
+    "graphPetToxic": false,
+    "failedFlag": true,
+    "failedPetToxinList": true,
+    "notes": []
+  },
+  {
+    "ingredient": "toxin 12",
+    "sourceLocations": [
+      "PET_TOXINS_DATABASE"
+    ],
+    "analyzeScore": 90,
+    "analyzeFlags": [],
+    "analyzePetToxins": [],
+    "graphPetToxic": false,
+    "failedFlag": true,
+    "failedPetToxinList": true,
+    "notes": []
+  },
+  {
+    "ingredient": "toxin 120",
+    "sourceLocations": [
+      "PET_TOXINS_DATABASE"
+    ],
+    "analyzeScore": 90,
+    "analyzeFlags": [],
+    "analyzePetToxins": [],
+    "graphPetToxic": false,
+    "failedFlag": true,
+    "failedPetToxinList": true,
+    "notes": []
+  },
+  {
+    "ingredient": "toxin 121",
+    "sourceLocations": [
+      "PET_TOXINS_DATABASE"
+    ],
+    "analyzeScore": 90,
+    "analyzeFlags": [],
+    "analyzePetToxins": [],
+    "graphPetToxic": false,
+    "failedFlag": true,
+    "failedPetToxinList": true,
+    "notes": []
+  },
+  {
+    "ingredient": "toxin 122",
+    "sourceLocations": [
+      "PET_TOXINS_DATABASE"
+    ],
+    "analyzeScore": 90,
+    "analyzeFlags": [],
+    "analyzePetToxins": [],
+    "graphPetToxic": false,
+    "failedFlag": true,
+    "failedPetToxinList": true,
+    "notes": []
+  },
+  {
+    "ingredient": "toxin 123",
+    "sourceLocations": [
+      "PET_TOXINS_DATABASE"
+    ],
+    "analyzeScore": 90,
+    "analyzeFlags": [],
+    "analyzePetToxins": [],
+    "graphPetToxic": false,
+    "failedFlag": true,
+    "failedPetToxinList": true,
+    "notes": []
+  },
+  {
+    "ingredient": "toxin 124",
+    "sourceLocations": [
+      "PET_TOXINS_DATABASE"
+    ],
+    "analyzeScore": 90,
+    "analyzeFlags": [],
+    "analyzePetToxins": [],
+    "graphPetToxic": false,
+    "failedFlag": true,
+    "failedPetToxinList": true,
+    "notes": []
+  },
+  {
+    "ingredient": "toxin 125",
+    "sourceLocations": [
+      "PET_TOXINS_DATABASE"
+    ],
+    "analyzeScore": 90,
+    "analyzeFlags": [],
+    "analyzePetToxins": [],
+    "graphPetToxic": false,
+    "failedFlag": true,
+    "failedPetToxinList": true,
+    "notes": []
+  },
+  {
+    "ingredient": "toxin 126",
+    "sourceLocations": [
+      "PET_TOXINS_DATABASE"
+    ],
+    "analyzeScore": 90,
+    "analyzeFlags": [],
+    "analyzePetToxins": [],
+    "graphPetToxic": false,
+    "failedFlag": true,
+    "failedPetToxinList": true,
+    "notes": []
+  },
+  {
+    "ingredient": "toxin 127",
+    "sourceLocations": [
+      "PET_TOXINS_DATABASE"
+    ],
+    "analyzeScore": 90,
+    "analyzeFlags": [],
+    "analyzePetToxins": [],
+    "graphPetToxic": false,
+    "failedFlag": true,
+    "failedPetToxinList": true,
+    "notes": []
+  },
+  {
+    "ingredient": "toxin 128",
+    "sourceLocations": [
+      "PET_TOXINS_DATABASE"
+    ],
+    "analyzeScore": 90,
+    "analyzeFlags": [],
+    "analyzePetToxins": [],
+    "graphPetToxic": false,
+    "failedFlag": true,
+    "failedPetToxinList": true,
+    "notes": []
+  },
+  {
+    "ingredient": "toxin 129",
+    "sourceLocations": [
+      "PET_TOXINS_DATABASE"
+    ],
+    "analyzeScore": 90,
+    "analyzeFlags": [],
+    "analyzePetToxins": [],
+    "graphPetToxic": false,
+    "failedFlag": true,
+    "failedPetToxinList": true,
+    "notes": []
+  },
+  {
+    "ingredient": "toxin 13",
+    "sourceLocations": [
+      "PET_TOXINS_DATABASE"
+    ],
+    "analyzeScore": 90,
+    "analyzeFlags": [],
+    "analyzePetToxins": [],
+    "graphPetToxic": false,
+    "failedFlag": true,
+    "failedPetToxinList": true,
+    "notes": []
+  },
+  {
+    "ingredient": "toxin 130",
+    "sourceLocations": [
+      "PET_TOXINS_DATABASE"
+    ],
+    "analyzeScore": 90,
+    "analyzeFlags": [],
+    "analyzePetToxins": [],
+    "graphPetToxic": false,
+    "failedFlag": true,
+    "failedPetToxinList": true,
+    "notes": []
+  },
+  {
+    "ingredient": "toxin 131",
+    "sourceLocations": [
+      "PET_TOXINS_DATABASE"
+    ],
+    "analyzeScore": 90,
+    "analyzeFlags": [],
+    "analyzePetToxins": [],
+    "graphPetToxic": false,
+    "failedFlag": true,
+    "failedPetToxinList": true,
+    "notes": []
+  },
+  {
+    "ingredient": "toxin 132",
+    "sourceLocations": [
+      "PET_TOXINS_DATABASE"
+    ],
+    "analyzeScore": 90,
+    "analyzeFlags": [],
+    "analyzePetToxins": [],
+    "graphPetToxic": false,
+    "failedFlag": true,
+    "failedPetToxinList": true,
+    "notes": []
+  },
+  {
+    "ingredient": "toxin 133",
+    "sourceLocations": [
+      "PET_TOXINS_DATABASE"
+    ],
+    "analyzeScore": 90,
+    "analyzeFlags": [],
+    "analyzePetToxins": [],
+    "graphPetToxic": false,
+    "failedFlag": true,
+    "failedPetToxinList": true,
+    "notes": []
+  },
+  {
+    "ingredient": "toxin 134",
+    "sourceLocations": [
+      "PET_TOXINS_DATABASE"
+    ],
+    "analyzeScore": 90,
+    "analyzeFlags": [],
+    "analyzePetToxins": [],
+    "graphPetToxic": false,
+    "failedFlag": true,
+    "failedPetToxinList": true,
+    "notes": []
+  },
+  {
+    "ingredient": "toxin 135",
+    "sourceLocations": [
+      "PET_TOXINS_DATABASE"
+    ],
+    "analyzeScore": 90,
+    "analyzeFlags": [],
+    "analyzePetToxins": [],
+    "graphPetToxic": false,
+    "failedFlag": true,
+    "failedPetToxinList": true,
+    "notes": []
+  },
+  {
+    "ingredient": "toxin 136",
+    "sourceLocations": [
+      "PET_TOXINS_DATABASE"
+    ],
+    "analyzeScore": 90,
+    "analyzeFlags": [],
+    "analyzePetToxins": [],
+    "graphPetToxic": false,
+    "failedFlag": true,
+    "failedPetToxinList": true,
+    "notes": []
+  },
+  {
+    "ingredient": "toxin 137",
+    "sourceLocations": [
+      "PET_TOXINS_DATABASE"
+    ],
+    "analyzeScore": 90,
+    "analyzeFlags": [],
+    "analyzePetToxins": [],
+    "graphPetToxic": false,
+    "failedFlag": true,
+    "failedPetToxinList": true,
+    "notes": []
+  },
+  {
+    "ingredient": "toxin 138",
+    "sourceLocations": [
+      "PET_TOXINS_DATABASE"
+    ],
+    "analyzeScore": 90,
+    "analyzeFlags": [],
+    "analyzePetToxins": [],
+    "graphPetToxic": false,
+    "failedFlag": true,
+    "failedPetToxinList": true,
+    "notes": []
+  },
+  {
+    "ingredient": "toxin 139",
+    "sourceLocations": [
+      "PET_TOXINS_DATABASE"
+    ],
+    "analyzeScore": 90,
+    "analyzeFlags": [],
+    "analyzePetToxins": [],
+    "graphPetToxic": false,
+    "failedFlag": true,
+    "failedPetToxinList": true,
+    "notes": []
+  },
+  {
+    "ingredient": "toxin 14",
+    "sourceLocations": [
+      "PET_TOXINS_DATABASE"
+    ],
+    "analyzeScore": 90,
+    "analyzeFlags": [],
+    "analyzePetToxins": [],
+    "graphPetToxic": false,
+    "failedFlag": true,
+    "failedPetToxinList": true,
+    "notes": []
+  },
+  {
+    "ingredient": "toxin 140",
+    "sourceLocations": [
+      "PET_TOXINS_DATABASE"
+    ],
+    "analyzeScore": 90,
+    "analyzeFlags": [],
+    "analyzePetToxins": [],
+    "graphPetToxic": false,
+    "failedFlag": true,
+    "failedPetToxinList": true,
+    "notes": []
+  },
+  {
+    "ingredient": "toxin 141",
+    "sourceLocations": [
+      "PET_TOXINS_DATABASE"
+    ],
+    "analyzeScore": 90,
+    "analyzeFlags": [],
+    "analyzePetToxins": [],
+    "graphPetToxic": false,
+    "failedFlag": true,
+    "failedPetToxinList": true,
+    "notes": []
+  },
+  {
+    "ingredient": "toxin 142",
+    "sourceLocations": [
+      "PET_TOXINS_DATABASE"
+    ],
+    "analyzeScore": 90,
+    "analyzeFlags": [],
+    "analyzePetToxins": [],
+    "graphPetToxic": false,
+    "failedFlag": true,
+    "failedPetToxinList": true,
+    "notes": []
+  },
+  {
+    "ingredient": "toxin 143",
+    "sourceLocations": [
+      "PET_TOXINS_DATABASE"
+    ],
+    "analyzeScore": 90,
+    "analyzeFlags": [],
+    "analyzePetToxins": [],
+    "graphPetToxic": false,
+    "failedFlag": true,
+    "failedPetToxinList": true,
+    "notes": []
+  },
+  {
+    "ingredient": "toxin 144",
+    "sourceLocations": [
+      "PET_TOXINS_DATABASE"
+    ],
+    "analyzeScore": 90,
+    "analyzeFlags": [],
+    "analyzePetToxins": [],
+    "graphPetToxic": false,
+    "failedFlag": true,
+    "failedPetToxinList": true,
+    "notes": []
+  },
+  {
+    "ingredient": "toxin 145",
+    "sourceLocations": [
+      "PET_TOXINS_DATABASE"
+    ],
+    "analyzeScore": 90,
+    "analyzeFlags": [],
+    "analyzePetToxins": [],
+    "graphPetToxic": false,
+    "failedFlag": true,
+    "failedPetToxinList": true,
+    "notes": []
+  },
+  {
+    "ingredient": "toxin 146",
+    "sourceLocations": [
+      "PET_TOXINS_DATABASE"
+    ],
+    "analyzeScore": 90,
+    "analyzeFlags": [],
+    "analyzePetToxins": [],
+    "graphPetToxic": false,
+    "failedFlag": true,
+    "failedPetToxinList": true,
+    "notes": []
+  },
+  {
+    "ingredient": "toxin 147",
+    "sourceLocations": [
+      "PET_TOXINS_DATABASE"
+    ],
+    "analyzeScore": 90,
+    "analyzeFlags": [],
+    "analyzePetToxins": [],
+    "graphPetToxic": false,
+    "failedFlag": true,
+    "failedPetToxinList": true,
+    "notes": []
+  },
+  {
+    "ingredient": "toxin 148",
+    "sourceLocations": [
+      "PET_TOXINS_DATABASE"
+    ],
+    "analyzeScore": 90,
+    "analyzeFlags": [],
+    "analyzePetToxins": [],
+    "graphPetToxic": false,
+    "failedFlag": true,
+    "failedPetToxinList": true,
+    "notes": []
+  },
+  {
+    "ingredient": "toxin 149",
+    "sourceLocations": [
+      "PET_TOXINS_DATABASE"
+    ],
+    "analyzeScore": 90,
+    "analyzeFlags": [],
+    "analyzePetToxins": [],
+    "graphPetToxic": false,
+    "failedFlag": true,
+    "failedPetToxinList": true,
+    "notes": []
+  },
+  {
+    "ingredient": "toxin 15",
+    "sourceLocations": [
+      "PET_TOXINS_DATABASE"
+    ],
+    "analyzeScore": 90,
+    "analyzeFlags": [],
+    "analyzePetToxins": [],
+    "graphPetToxic": false,
+    "failedFlag": true,
+    "failedPetToxinList": true,
+    "notes": []
+  },
+  {
+    "ingredient": "toxin 150",
+    "sourceLocations": [
+      "PET_TOXINS_DATABASE"
+    ],
+    "analyzeScore": 90,
+    "analyzeFlags": [],
+    "analyzePetToxins": [],
+    "graphPetToxic": false,
+    "failedFlag": true,
+    "failedPetToxinList": true,
+    "notes": []
+  },
+  {
+    "ingredient": "toxin 151",
+    "sourceLocations": [
+      "PET_TOXINS_DATABASE"
+    ],
+    "analyzeScore": 90,
+    "analyzeFlags": [],
+    "analyzePetToxins": [],
+    "graphPetToxic": false,
+    "failedFlag": true,
+    "failedPetToxinList": true,
+    "notes": []
+  },
+  {
+    "ingredient": "toxin 152",
+    "sourceLocations": [
+      "PET_TOXINS_DATABASE"
+    ],
+    "analyzeScore": 90,
+    "analyzeFlags": [],
+    "analyzePetToxins": [],
+    "graphPetToxic": false,
+    "failedFlag": true,
+    "failedPetToxinList": true,
+    "notes": []
+  },
+  {
+    "ingredient": "toxin 153",
+    "sourceLocations": [
+      "PET_TOXINS_DATABASE"
+    ],
+    "analyzeScore": 90,
+    "analyzeFlags": [],
+    "analyzePetToxins": [],
+    "graphPetToxic": false,
+    "failedFlag": true,
+    "failedPetToxinList": true,
+    "notes": []
+  },
+  {
+    "ingredient": "toxin 154",
+    "sourceLocations": [
+      "PET_TOXINS_DATABASE"
+    ],
+    "analyzeScore": 90,
+    "analyzeFlags": [],
+    "analyzePetToxins": [],
+    "graphPetToxic": false,
+    "failedFlag": true,
+    "failedPetToxinList": true,
+    "notes": []
+  },
+  {
+    "ingredient": "toxin 155",
+    "sourceLocations": [
+      "PET_TOXINS_DATABASE"
+    ],
+    "analyzeScore": 90,
+    "analyzeFlags": [],
+    "analyzePetToxins": [],
+    "graphPetToxic": false,
+    "failedFlag": true,
+    "failedPetToxinList": true,
+    "notes": []
+  },
+  {
+    "ingredient": "toxin 156",
+    "sourceLocations": [
+      "PET_TOXINS_DATABASE"
+    ],
+    "analyzeScore": 90,
+    "analyzeFlags": [],
+    "analyzePetToxins": [],
+    "graphPetToxic": false,
+    "failedFlag": true,
+    "failedPetToxinList": true,
+    "notes": []
+  },
+  {
+    "ingredient": "toxin 157",
+    "sourceLocations": [
+      "PET_TOXINS_DATABASE"
+    ],
+    "analyzeScore": 90,
+    "analyzeFlags": [],
+    "analyzePetToxins": [],
+    "graphPetToxic": false,
+    "failedFlag": true,
+    "failedPetToxinList": true,
+    "notes": []
+  },
+  {
+    "ingredient": "toxin 158",
+    "sourceLocations": [
+      "PET_TOXINS_DATABASE"
+    ],
+    "analyzeScore": 90,
+    "analyzeFlags": [],
+    "analyzePetToxins": [],
+    "graphPetToxic": false,
+    "failedFlag": true,
+    "failedPetToxinList": true,
+    "notes": []
+  },
+  {
+    "ingredient": "toxin 159",
+    "sourceLocations": [
+      "PET_TOXINS_DATABASE"
+    ],
+    "analyzeScore": 90,
+    "analyzeFlags": [],
+    "analyzePetToxins": [],
+    "graphPetToxic": false,
+    "failedFlag": true,
+    "failedPetToxinList": true,
+    "notes": []
+  },
+  {
+    "ingredient": "toxin 16",
+    "sourceLocations": [
+      "PET_TOXINS_DATABASE"
+    ],
+    "analyzeScore": 90,
+    "analyzeFlags": [],
+    "analyzePetToxins": [],
+    "graphPetToxic": false,
+    "failedFlag": true,
+    "failedPetToxinList": true,
+    "notes": []
+  },
+  {
+    "ingredient": "toxin 160",
+    "sourceLocations": [
+      "PET_TOXINS_DATABASE"
+    ],
+    "analyzeScore": 90,
+    "analyzeFlags": [],
+    "analyzePetToxins": [],
+    "graphPetToxic": false,
+    "failedFlag": true,
+    "failedPetToxinList": true,
+    "notes": []
+  },
+  {
+    "ingredient": "toxin 161",
+    "sourceLocations": [
+      "PET_TOXINS_DATABASE"
+    ],
+    "analyzeScore": 90,
+    "analyzeFlags": [],
+    "analyzePetToxins": [],
+    "graphPetToxic": false,
+    "failedFlag": true,
+    "failedPetToxinList": true,
+    "notes": []
+  },
+  {
+    "ingredient": "toxin 162",
+    "sourceLocations": [
+      "PET_TOXINS_DATABASE"
+    ],
+    "analyzeScore": 90,
+    "analyzeFlags": [],
+    "analyzePetToxins": [],
+    "graphPetToxic": false,
+    "failedFlag": true,
+    "failedPetToxinList": true,
+    "notes": []
+  },
+  {
+    "ingredient": "toxin 163",
+    "sourceLocations": [
+      "PET_TOXINS_DATABASE"
+    ],
+    "analyzeScore": 90,
+    "analyzeFlags": [],
+    "analyzePetToxins": [],
+    "graphPetToxic": false,
+    "failedFlag": true,
+    "failedPetToxinList": true,
+    "notes": []
+  },
+  {
+    "ingredient": "toxin 164",
+    "sourceLocations": [
+      "PET_TOXINS_DATABASE"
+    ],
+    "analyzeScore": 90,
+    "analyzeFlags": [],
+    "analyzePetToxins": [],
+    "graphPetToxic": false,
+    "failedFlag": true,
+    "failedPetToxinList": true,
+    "notes": []
+  },
+  {
+    "ingredient": "toxin 165",
+    "sourceLocations": [
+      "PET_TOXINS_DATABASE"
+    ],
+    "analyzeScore": 90,
+    "analyzeFlags": [],
+    "analyzePetToxins": [],
+    "graphPetToxic": false,
+    "failedFlag": true,
+    "failedPetToxinList": true,
+    "notes": []
+  },
+  {
+    "ingredient": "toxin 166",
+    "sourceLocations": [
+      "PET_TOXINS_DATABASE"
+    ],
+    "analyzeScore": 90,
+    "analyzeFlags": [],
+    "analyzePetToxins": [],
+    "graphPetToxic": false,
+    "failedFlag": true,
+    "failedPetToxinList": true,
+    "notes": []
+  },
+  {
+    "ingredient": "toxin 167",
+    "sourceLocations": [
+      "PET_TOXINS_DATABASE"
+    ],
+    "analyzeScore": 90,
+    "analyzeFlags": [],
+    "analyzePetToxins": [],
+    "graphPetToxic": false,
+    "failedFlag": true,
+    "failedPetToxinList": true,
+    "notes": []
+  },
+  {
+    "ingredient": "toxin 168",
+    "sourceLocations": [
+      "PET_TOXINS_DATABASE"
+    ],
+    "analyzeScore": 90,
+    "analyzeFlags": [],
+    "analyzePetToxins": [],
+    "graphPetToxic": false,
+    "failedFlag": true,
+    "failedPetToxinList": true,
+    "notes": []
+  },
+  {
+    "ingredient": "toxin 169",
+    "sourceLocations": [
+      "PET_TOXINS_DATABASE"
+    ],
+    "analyzeScore": 90,
+    "analyzeFlags": [],
+    "analyzePetToxins": [],
+    "graphPetToxic": false,
+    "failedFlag": true,
+    "failedPetToxinList": true,
+    "notes": []
+  },
+  {
+    "ingredient": "toxin 17",
+    "sourceLocations": [
+      "PET_TOXINS_DATABASE"
+    ],
+    "analyzeScore": 90,
+    "analyzeFlags": [],
+    "analyzePetToxins": [],
+    "graphPetToxic": false,
+    "failedFlag": true,
+    "failedPetToxinList": true,
+    "notes": []
+  },
+  {
+    "ingredient": "toxin 170",
+    "sourceLocations": [
+      "PET_TOXINS_DATABASE"
+    ],
+    "analyzeScore": 90,
+    "analyzeFlags": [],
+    "analyzePetToxins": [],
+    "graphPetToxic": false,
+    "failedFlag": true,
+    "failedPetToxinList": true,
+    "notes": []
+  },
+  {
+    "ingredient": "toxin 171",
+    "sourceLocations": [
+      "PET_TOXINS_DATABASE"
+    ],
+    "analyzeScore": 90,
+    "analyzeFlags": [],
+    "analyzePetToxins": [],
+    "graphPetToxic": false,
+    "failedFlag": true,
+    "failedPetToxinList": true,
+    "notes": []
+  },
+  {
+    "ingredient": "toxin 172",
+    "sourceLocations": [
+      "PET_TOXINS_DATABASE"
+    ],
+    "analyzeScore": 90,
+    "analyzeFlags": [],
+    "analyzePetToxins": [],
+    "graphPetToxic": false,
+    "failedFlag": true,
+    "failedPetToxinList": true,
+    "notes": []
+  },
+  {
+    "ingredient": "toxin 173",
+    "sourceLocations": [
+      "PET_TOXINS_DATABASE"
+    ],
+    "analyzeScore": 90,
+    "analyzeFlags": [],
+    "analyzePetToxins": [],
+    "graphPetToxic": false,
+    "failedFlag": true,
+    "failedPetToxinList": true,
+    "notes": []
+  },
+  {
+    "ingredient": "toxin 174",
+    "sourceLocations": [
+      "PET_TOXINS_DATABASE"
+    ],
+    "analyzeScore": 90,
+    "analyzeFlags": [],
+    "analyzePetToxins": [],
+    "graphPetToxic": false,
+    "failedFlag": true,
+    "failedPetToxinList": true,
+    "notes": []
+  },
+  {
+    "ingredient": "toxin 175",
+    "sourceLocations": [
+      "PET_TOXINS_DATABASE"
+    ],
+    "analyzeScore": 90,
+    "analyzeFlags": [],
+    "analyzePetToxins": [],
+    "graphPetToxic": false,
+    "failedFlag": true,
+    "failedPetToxinList": true,
+    "notes": []
+  },
+  {
+    "ingredient": "toxin 176",
+    "sourceLocations": [
+      "PET_TOXINS_DATABASE"
+    ],
+    "analyzeScore": 90,
+    "analyzeFlags": [],
+    "analyzePetToxins": [],
+    "graphPetToxic": false,
+    "failedFlag": true,
+    "failedPetToxinList": true,
+    "notes": []
+  },
+  {
+    "ingredient": "toxin 177",
+    "sourceLocations": [
+      "PET_TOXINS_DATABASE"
+    ],
+    "analyzeScore": 90,
+    "analyzeFlags": [],
+    "analyzePetToxins": [],
+    "graphPetToxic": false,
+    "failedFlag": true,
+    "failedPetToxinList": true,
+    "notes": []
+  },
+  {
+    "ingredient": "toxin 178",
+    "sourceLocations": [
+      "PET_TOXINS_DATABASE"
+    ],
+    "analyzeScore": 90,
+    "analyzeFlags": [],
+    "analyzePetToxins": [],
+    "graphPetToxic": false,
+    "failedFlag": true,
+    "failedPetToxinList": true,
+    "notes": []
+  },
+  {
+    "ingredient": "toxin 179",
+    "sourceLocations": [
+      "PET_TOXINS_DATABASE"
+    ],
+    "analyzeScore": 90,
+    "analyzeFlags": [],
+    "analyzePetToxins": [],
+    "graphPetToxic": false,
+    "failedFlag": true,
+    "failedPetToxinList": true,
+    "notes": []
+  },
+  {
+    "ingredient": "toxin 18",
+    "sourceLocations": [
+      "PET_TOXINS_DATABASE"
+    ],
+    "analyzeScore": 90,
+    "analyzeFlags": [],
+    "analyzePetToxins": [],
+    "graphPetToxic": false,
+    "failedFlag": true,
+    "failedPetToxinList": true,
+    "notes": []
+  },
+  {
+    "ingredient": "toxin 180",
+    "sourceLocations": [
+      "PET_TOXINS_DATABASE"
+    ],
+    "analyzeScore": 90,
+    "analyzeFlags": [],
+    "analyzePetToxins": [],
+    "graphPetToxic": false,
+    "failedFlag": true,
+    "failedPetToxinList": true,
+    "notes": []
+  },
+  {
+    "ingredient": "toxin 181",
+    "sourceLocations": [
+      "PET_TOXINS_DATABASE"
+    ],
+    "analyzeScore": 90,
+    "analyzeFlags": [],
+    "analyzePetToxins": [],
+    "graphPetToxic": false,
+    "failedFlag": true,
+    "failedPetToxinList": true,
+    "notes": []
+  },
+  {
+    "ingredient": "toxin 182",
+    "sourceLocations": [
+      "PET_TOXINS_DATABASE"
+    ],
+    "analyzeScore": 90,
+    "analyzeFlags": [],
+    "analyzePetToxins": [],
+    "graphPetToxic": false,
+    "failedFlag": true,
+    "failedPetToxinList": true,
+    "notes": []
+  },
+  {
+    "ingredient": "toxin 183",
+    "sourceLocations": [
+      "PET_TOXINS_DATABASE"
+    ],
+    "analyzeScore": 90,
+    "analyzeFlags": [],
+    "analyzePetToxins": [],
+    "graphPetToxic": false,
+    "failedFlag": true,
+    "failedPetToxinList": true,
+    "notes": []
+  },
+  {
+    "ingredient": "toxin 184",
+    "sourceLocations": [
+      "PET_TOXINS_DATABASE"
+    ],
+    "analyzeScore": 90,
+    "analyzeFlags": [],
+    "analyzePetToxins": [],
+    "graphPetToxic": false,
+    "failedFlag": true,
+    "failedPetToxinList": true,
+    "notes": []
+  },
+  {
+    "ingredient": "toxin 185",
+    "sourceLocations": [
+      "PET_TOXINS_DATABASE"
+    ],
+    "analyzeScore": 90,
+    "analyzeFlags": [],
+    "analyzePetToxins": [],
+    "graphPetToxic": false,
+    "failedFlag": true,
+    "failedPetToxinList": true,
+    "notes": []
+  },
+  {
+    "ingredient": "toxin 186",
+    "sourceLocations": [
+      "PET_TOXINS_DATABASE"
+    ],
+    "analyzeScore": 90,
+    "analyzeFlags": [],
+    "analyzePetToxins": [],
+    "graphPetToxic": false,
+    "failedFlag": true,
+    "failedPetToxinList": true,
+    "notes": []
+  },
+  {
+    "ingredient": "toxin 187",
+    "sourceLocations": [
+      "PET_TOXINS_DATABASE"
+    ],
+    "analyzeScore": 90,
+    "analyzeFlags": [],
+    "analyzePetToxins": [],
+    "graphPetToxic": false,
+    "failedFlag": true,
+    "failedPetToxinList": true,
+    "notes": []
+  },
+  {
+    "ingredient": "toxin 188",
+    "sourceLocations": [
+      "PET_TOXINS_DATABASE"
+    ],
+    "analyzeScore": 90,
+    "analyzeFlags": [],
+    "analyzePetToxins": [],
+    "graphPetToxic": false,
+    "failedFlag": true,
+    "failedPetToxinList": true,
+    "notes": []
+  },
+  {
+    "ingredient": "toxin 189",
+    "sourceLocations": [
+      "PET_TOXINS_DATABASE"
+    ],
+    "analyzeScore": 90,
+    "analyzeFlags": [],
+    "analyzePetToxins": [],
+    "graphPetToxic": false,
+    "failedFlag": true,
+    "failedPetToxinList": true,
+    "notes": []
+  },
+  {
+    "ingredient": "toxin 19",
+    "sourceLocations": [
+      "PET_TOXINS_DATABASE"
+    ],
+    "analyzeScore": 90,
+    "analyzeFlags": [],
+    "analyzePetToxins": [],
+    "graphPetToxic": false,
+    "failedFlag": true,
+    "failedPetToxinList": true,
+    "notes": []
+  },
+  {
+    "ingredient": "toxin 190",
+    "sourceLocations": [
+      "PET_TOXINS_DATABASE"
+    ],
+    "analyzeScore": 90,
+    "analyzeFlags": [],
+    "analyzePetToxins": [],
+    "graphPetToxic": false,
+    "failedFlag": true,
+    "failedPetToxinList": true,
+    "notes": []
+  },
+  {
+    "ingredient": "toxin 191",
+    "sourceLocations": [
+      "PET_TOXINS_DATABASE"
+    ],
+    "analyzeScore": 90,
+    "analyzeFlags": [],
+    "analyzePetToxins": [],
+    "graphPetToxic": false,
+    "failedFlag": true,
+    "failedPetToxinList": true,
+    "notes": []
+  },
+  {
+    "ingredient": "toxin 192",
+    "sourceLocations": [
+      "PET_TOXINS_DATABASE"
+    ],
+    "analyzeScore": 90,
+    "analyzeFlags": [],
+    "analyzePetToxins": [],
+    "graphPetToxic": false,
+    "failedFlag": true,
+    "failedPetToxinList": true,
+    "notes": []
+  },
+  {
+    "ingredient": "toxin 193",
+    "sourceLocations": [
+      "PET_TOXINS_DATABASE"
+    ],
+    "analyzeScore": 90,
+    "analyzeFlags": [],
+    "analyzePetToxins": [],
+    "graphPetToxic": false,
+    "failedFlag": true,
+    "failedPetToxinList": true,
+    "notes": []
+  },
+  {
+    "ingredient": "toxin 194",
+    "sourceLocations": [
+      "PET_TOXINS_DATABASE"
+    ],
+    "analyzeScore": 90,
+    "analyzeFlags": [],
+    "analyzePetToxins": [],
+    "graphPetToxic": false,
+    "failedFlag": true,
+    "failedPetToxinList": true,
+    "notes": []
+  },
+  {
+    "ingredient": "toxin 195",
+    "sourceLocations": [
+      "PET_TOXINS_DATABASE"
+    ],
+    "analyzeScore": 90,
+    "analyzeFlags": [],
+    "analyzePetToxins": [],
+    "graphPetToxic": false,
+    "failedFlag": true,
+    "failedPetToxinList": true,
+    "notes": []
+  },
+  {
+    "ingredient": "toxin 196",
+    "sourceLocations": [
+      "PET_TOXINS_DATABASE"
+    ],
+    "analyzeScore": 90,
+    "analyzeFlags": [],
+    "analyzePetToxins": [],
+    "graphPetToxic": false,
+    "failedFlag": true,
+    "failedPetToxinList": true,
+    "notes": []
+  },
+  {
+    "ingredient": "toxin 197",
+    "sourceLocations": [
+      "PET_TOXINS_DATABASE"
+    ],
+    "analyzeScore": 90,
+    "analyzeFlags": [],
+    "analyzePetToxins": [],
+    "graphPetToxic": false,
+    "failedFlag": true,
+    "failedPetToxinList": true,
+    "notes": []
+  },
+  {
+    "ingredient": "toxin 198",
+    "sourceLocations": [
+      "PET_TOXINS_DATABASE"
+    ],
+    "analyzeScore": 90,
+    "analyzeFlags": [],
+    "analyzePetToxins": [],
+    "graphPetToxic": false,
+    "failedFlag": true,
+    "failedPetToxinList": true,
+    "notes": []
+  },
+  {
+    "ingredient": "toxin 199",
+    "sourceLocations": [
+      "PET_TOXINS_DATABASE"
+    ],
+    "analyzeScore": 90,
+    "analyzeFlags": [],
+    "analyzePetToxins": [],
+    "graphPetToxic": false,
+    "failedFlag": true,
+    "failedPetToxinList": true,
+    "notes": []
+  },
+  {
+    "ingredient": "toxin 2",
+    "sourceLocations": [
+      "PET_TOXINS_DATABASE"
+    ],
+    "analyzeScore": 90,
+    "analyzeFlags": [],
+    "analyzePetToxins": [],
+    "graphPetToxic": false,
+    "failedFlag": true,
+    "failedPetToxinList": true,
+    "notes": []
+  },
+  {
+    "ingredient": "toxin 20",
+    "sourceLocations": [
+      "PET_TOXINS_DATABASE"
+    ],
+    "analyzeScore": 90,
+    "analyzeFlags": [],
+    "analyzePetToxins": [],
+    "graphPetToxic": false,
+    "failedFlag": true,
+    "failedPetToxinList": true,
+    "notes": []
+  },
+  {
+    "ingredient": "toxin 200",
+    "sourceLocations": [
+      "PET_TOXINS_DATABASE"
+    ],
+    "analyzeScore": 90,
+    "analyzeFlags": [],
+    "analyzePetToxins": [],
+    "graphPetToxic": false,
+    "failedFlag": true,
+    "failedPetToxinList": true,
+    "notes": []
+  },
+  {
+    "ingredient": "toxin 21",
+    "sourceLocations": [
+      "PET_TOXINS_DATABASE"
+    ],
+    "analyzeScore": 90,
+    "analyzeFlags": [],
+    "analyzePetToxins": [],
+    "graphPetToxic": false,
+    "failedFlag": true,
+    "failedPetToxinList": true,
+    "notes": []
+  },
+  {
+    "ingredient": "toxin 22",
+    "sourceLocations": [
+      "PET_TOXINS_DATABASE"
+    ],
+    "analyzeScore": 90,
+    "analyzeFlags": [],
+    "analyzePetToxins": [],
+    "graphPetToxic": false,
+    "failedFlag": true,
+    "failedPetToxinList": true,
+    "notes": []
+  },
+  {
+    "ingredient": "toxin 23",
+    "sourceLocations": [
+      "PET_TOXINS_DATABASE"
+    ],
+    "analyzeScore": 90,
+    "analyzeFlags": [],
+    "analyzePetToxins": [],
+    "graphPetToxic": false,
+    "failedFlag": true,
+    "failedPetToxinList": true,
+    "notes": []
+  },
+  {
+    "ingredient": "toxin 24",
+    "sourceLocations": [
+      "PET_TOXINS_DATABASE"
+    ],
+    "analyzeScore": 90,
+    "analyzeFlags": [],
+    "analyzePetToxins": [],
+    "graphPetToxic": false,
+    "failedFlag": true,
+    "failedPetToxinList": true,
+    "notes": []
+  },
+  {
+    "ingredient": "toxin 25",
+    "sourceLocations": [
+      "PET_TOXINS_DATABASE"
+    ],
+    "analyzeScore": 90,
+    "analyzeFlags": [],
+    "analyzePetToxins": [],
+    "graphPetToxic": false,
+    "failedFlag": true,
+    "failedPetToxinList": true,
+    "notes": []
+  },
+  {
+    "ingredient": "toxin 26",
+    "sourceLocations": [
+      "PET_TOXINS_DATABASE"
+    ],
+    "analyzeScore": 90,
+    "analyzeFlags": [],
+    "analyzePetToxins": [],
+    "graphPetToxic": false,
+    "failedFlag": true,
+    "failedPetToxinList": true,
+    "notes": []
+  },
+  {
+    "ingredient": "toxin 27",
+    "sourceLocations": [
+      "PET_TOXINS_DATABASE"
+    ],
+    "analyzeScore": 90,
+    "analyzeFlags": [],
+    "analyzePetToxins": [],
+    "graphPetToxic": false,
+    "failedFlag": true,
+    "failedPetToxinList": true,
+    "notes": []
+  },
+  {
+    "ingredient": "toxin 28",
+    "sourceLocations": [
+      "PET_TOXINS_DATABASE"
+    ],
+    "analyzeScore": 90,
+    "analyzeFlags": [],
+    "analyzePetToxins": [],
+    "graphPetToxic": false,
+    "failedFlag": true,
+    "failedPetToxinList": true,
+    "notes": []
+  },
+  {
+    "ingredient": "toxin 29",
+    "sourceLocations": [
+      "PET_TOXINS_DATABASE"
+    ],
+    "analyzeScore": 90,
+    "analyzeFlags": [],
+    "analyzePetToxins": [],
+    "graphPetToxic": false,
+    "failedFlag": true,
+    "failedPetToxinList": true,
+    "notes": []
+  },
+  {
+    "ingredient": "toxin 3",
+    "sourceLocations": [
+      "PET_TOXINS_DATABASE"
+    ],
+    "analyzeScore": 90,
+    "analyzeFlags": [],
+    "analyzePetToxins": [],
+    "graphPetToxic": false,
+    "failedFlag": true,
+    "failedPetToxinList": true,
+    "notes": []
+  },
+  {
+    "ingredient": "toxin 30",
+    "sourceLocations": [
+      "PET_TOXINS_DATABASE"
+    ],
+    "analyzeScore": 90,
+    "analyzeFlags": [],
+    "analyzePetToxins": [],
+    "graphPetToxic": false,
+    "failedFlag": true,
+    "failedPetToxinList": true,
+    "notes": []
+  },
+  {
+    "ingredient": "toxin 31",
+    "sourceLocations": [
+      "PET_TOXINS_DATABASE"
+    ],
+    "analyzeScore": 90,
+    "analyzeFlags": [],
+    "analyzePetToxins": [],
+    "graphPetToxic": false,
+    "failedFlag": true,
+    "failedPetToxinList": true,
+    "notes": []
+  },
+  {
+    "ingredient": "toxin 32",
+    "sourceLocations": [
+      "PET_TOXINS_DATABASE"
+    ],
+    "analyzeScore": 90,
+    "analyzeFlags": [],
+    "analyzePetToxins": [],
+    "graphPetToxic": false,
+    "failedFlag": true,
+    "failedPetToxinList": true,
+    "notes": []
+  },
+  {
+    "ingredient": "toxin 33",
+    "sourceLocations": [
+      "PET_TOXINS_DATABASE"
+    ],
+    "analyzeScore": 90,
+    "analyzeFlags": [],
+    "analyzePetToxins": [],
+    "graphPetToxic": false,
+    "failedFlag": true,
+    "failedPetToxinList": true,
+    "notes": []
+  },
+  {
+    "ingredient": "toxin 34",
+    "sourceLocations": [
+      "PET_TOXINS_DATABASE"
+    ],
+    "analyzeScore": 90,
+    "analyzeFlags": [],
+    "analyzePetToxins": [],
+    "graphPetToxic": false,
+    "failedFlag": true,
+    "failedPetToxinList": true,
+    "notes": []
+  },
+  {
+    "ingredient": "toxin 35",
+    "sourceLocations": [
+      "PET_TOXINS_DATABASE"
+    ],
+    "analyzeScore": 90,
+    "analyzeFlags": [],
+    "analyzePetToxins": [],
+    "graphPetToxic": false,
+    "failedFlag": true,
+    "failedPetToxinList": true,
+    "notes": []
+  },
+  {
+    "ingredient": "toxin 36",
+    "sourceLocations": [
+      "PET_TOXINS_DATABASE"
+    ],
+    "analyzeScore": 90,
+    "analyzeFlags": [],
+    "analyzePetToxins": [],
+    "graphPetToxic": false,
+    "failedFlag": true,
+    "failedPetToxinList": true,
+    "notes": []
+  },
+  {
+    "ingredient": "toxin 37",
+    "sourceLocations": [
+      "PET_TOXINS_DATABASE"
+    ],
+    "analyzeScore": 90,
+    "analyzeFlags": [],
+    "analyzePetToxins": [],
+    "graphPetToxic": false,
+    "failedFlag": true,
+    "failedPetToxinList": true,
+    "notes": []
+  },
+  {
+    "ingredient": "toxin 38",
+    "sourceLocations": [
+      "PET_TOXINS_DATABASE"
+    ],
+    "analyzeScore": 90,
+    "analyzeFlags": [],
+    "analyzePetToxins": [],
+    "graphPetToxic": false,
+    "failedFlag": true,
+    "failedPetToxinList": true,
+    "notes": []
+  },
+  {
+    "ingredient": "toxin 39",
+    "sourceLocations": [
+      "PET_TOXINS_DATABASE"
+    ],
+    "analyzeScore": 90,
+    "analyzeFlags": [],
+    "analyzePetToxins": [],
+    "graphPetToxic": false,
+    "failedFlag": true,
+    "failedPetToxinList": true,
+    "notes": []
+  },
+  {
+    "ingredient": "toxin 4",
+    "sourceLocations": [
+      "PET_TOXINS_DATABASE"
+    ],
+    "analyzeScore": 90,
+    "analyzeFlags": [],
+    "analyzePetToxins": [],
+    "graphPetToxic": false,
+    "failedFlag": true,
+    "failedPetToxinList": true,
+    "notes": []
+  },
+  {
+    "ingredient": "toxin 40",
+    "sourceLocations": [
+      "PET_TOXINS_DATABASE"
+    ],
+    "analyzeScore": 90,
+    "analyzeFlags": [],
+    "analyzePetToxins": [],
+    "graphPetToxic": false,
+    "failedFlag": true,
+    "failedPetToxinList": true,
+    "notes": []
+  },
+  {
+    "ingredient": "toxin 41",
+    "sourceLocations": [
+      "PET_TOXINS_DATABASE"
+    ],
+    "analyzeScore": 90,
+    "analyzeFlags": [],
+    "analyzePetToxins": [],
+    "graphPetToxic": false,
+    "failedFlag": true,
+    "failedPetToxinList": true,
+    "notes": []
+  },
+  {
+    "ingredient": "toxin 42",
+    "sourceLocations": [
+      "PET_TOXINS_DATABASE"
+    ],
+    "analyzeScore": 90,
+    "analyzeFlags": [],
+    "analyzePetToxins": [],
+    "graphPetToxic": false,
+    "failedFlag": true,
+    "failedPetToxinList": true,
+    "notes": []
+  },
+  {
+    "ingredient": "toxin 43",
+    "sourceLocations": [
+      "PET_TOXINS_DATABASE"
+    ],
+    "analyzeScore": 90,
+    "analyzeFlags": [],
+    "analyzePetToxins": [],
+    "graphPetToxic": false,
+    "failedFlag": true,
+    "failedPetToxinList": true,
+    "notes": []
+  },
+  {
+    "ingredient": "toxin 44",
+    "sourceLocations": [
+      "PET_TOXINS_DATABASE"
+    ],
+    "analyzeScore": 90,
+    "analyzeFlags": [],
+    "analyzePetToxins": [],
+    "graphPetToxic": false,
+    "failedFlag": true,
+    "failedPetToxinList": true,
+    "notes": []
+  },
+  {
+    "ingredient": "toxin 45",
+    "sourceLocations": [
+      "PET_TOXINS_DATABASE"
+    ],
+    "analyzeScore": 90,
+    "analyzeFlags": [],
+    "analyzePetToxins": [],
+    "graphPetToxic": false,
+    "failedFlag": true,
+    "failedPetToxinList": true,
+    "notes": []
+  },
+  {
+    "ingredient": "toxin 46",
+    "sourceLocations": [
+      "PET_TOXINS_DATABASE"
+    ],
+    "analyzeScore": 90,
+    "analyzeFlags": [],
+    "analyzePetToxins": [],
+    "graphPetToxic": false,
+    "failedFlag": true,
+    "failedPetToxinList": true,
+    "notes": []
+  },
+  {
+    "ingredient": "toxin 47",
+    "sourceLocations": [
+      "PET_TOXINS_DATABASE"
+    ],
+    "analyzeScore": 90,
+    "analyzeFlags": [],
+    "analyzePetToxins": [],
+    "graphPetToxic": false,
+    "failedFlag": true,
+    "failedPetToxinList": true,
+    "notes": []
+  },
+  {
+    "ingredient": "toxin 48",
+    "sourceLocations": [
+      "PET_TOXINS_DATABASE"
+    ],
+    "analyzeScore": 90,
+    "analyzeFlags": [],
+    "analyzePetToxins": [],
+    "graphPetToxic": false,
+    "failedFlag": true,
+    "failedPetToxinList": true,
+    "notes": []
+  },
+  {
+    "ingredient": "toxin 49",
+    "sourceLocations": [
+      "PET_TOXINS_DATABASE"
+    ],
+    "analyzeScore": 90,
+    "analyzeFlags": [],
+    "analyzePetToxins": [],
+    "graphPetToxic": false,
+    "failedFlag": true,
+    "failedPetToxinList": true,
+    "notes": []
+  },
+  {
+    "ingredient": "toxin 5",
+    "sourceLocations": [
+      "PET_TOXINS_DATABASE"
+    ],
+    "analyzeScore": 90,
+    "analyzeFlags": [],
+    "analyzePetToxins": [],
+    "graphPetToxic": false,
+    "failedFlag": true,
+    "failedPetToxinList": true,
+    "notes": []
+  },
+  {
+    "ingredient": "toxin 50",
+    "sourceLocations": [
+      "PET_TOXINS_DATABASE"
+    ],
+    "analyzeScore": 90,
+    "analyzeFlags": [],
+    "analyzePetToxins": [],
+    "graphPetToxic": false,
+    "failedFlag": true,
+    "failedPetToxinList": true,
+    "notes": []
+  },
+  {
+    "ingredient": "toxin 51",
+    "sourceLocations": [
+      "PET_TOXINS_DATABASE"
+    ],
+    "analyzeScore": 90,
+    "analyzeFlags": [],
+    "analyzePetToxins": [],
+    "graphPetToxic": false,
+    "failedFlag": true,
+    "failedPetToxinList": true,
+    "notes": []
+  },
+  {
+    "ingredient": "toxin 52",
+    "sourceLocations": [
+      "PET_TOXINS_DATABASE"
+    ],
+    "analyzeScore": 90,
+    "analyzeFlags": [],
+    "analyzePetToxins": [],
+    "graphPetToxic": false,
+    "failedFlag": true,
+    "failedPetToxinList": true,
+    "notes": []
+  },
+  {
+    "ingredient": "toxin 53",
+    "sourceLocations": [
+      "PET_TOXINS_DATABASE"
+    ],
+    "analyzeScore": 90,
+    "analyzeFlags": [],
+    "analyzePetToxins": [],
+    "graphPetToxic": false,
+    "failedFlag": true,
+    "failedPetToxinList": true,
+    "notes": []
+  },
+  {
+    "ingredient": "toxin 54",
+    "sourceLocations": [
+      "PET_TOXINS_DATABASE"
+    ],
+    "analyzeScore": 90,
+    "analyzeFlags": [],
+    "analyzePetToxins": [],
+    "graphPetToxic": false,
+    "failedFlag": true,
+    "failedPetToxinList": true,
+    "notes": []
+  },
+  {
+    "ingredient": "toxin 55",
+    "sourceLocations": [
+      "PET_TOXINS_DATABASE"
+    ],
+    "analyzeScore": 90,
+    "analyzeFlags": [],
+    "analyzePetToxins": [],
+    "graphPetToxic": false,
+    "failedFlag": true,
+    "failedPetToxinList": true,
+    "notes": []
+  },
+  {
+    "ingredient": "toxin 56",
+    "sourceLocations": [
+      "PET_TOXINS_DATABASE"
+    ],
+    "analyzeScore": 90,
+    "analyzeFlags": [],
+    "analyzePetToxins": [],
+    "graphPetToxic": false,
+    "failedFlag": true,
+    "failedPetToxinList": true,
+    "notes": []
+  },
+  {
+    "ingredient": "toxin 57",
+    "sourceLocations": [
+      "PET_TOXINS_DATABASE"
+    ],
+    "analyzeScore": 90,
+    "analyzeFlags": [],
+    "analyzePetToxins": [],
+    "graphPetToxic": false,
+    "failedFlag": true,
+    "failedPetToxinList": true,
+    "notes": []
+  },
+  {
+    "ingredient": "toxin 58",
+    "sourceLocations": [
+      "PET_TOXINS_DATABASE"
+    ],
+    "analyzeScore": 90,
+    "analyzeFlags": [],
+    "analyzePetToxins": [],
+    "graphPetToxic": false,
+    "failedFlag": true,
+    "failedPetToxinList": true,
+    "notes": []
+  },
+  {
+    "ingredient": "toxin 59",
+    "sourceLocations": [
+      "PET_TOXINS_DATABASE"
+    ],
+    "analyzeScore": 90,
+    "analyzeFlags": [],
+    "analyzePetToxins": [],
+    "graphPetToxic": false,
+    "failedFlag": true,
+    "failedPetToxinList": true,
+    "notes": []
+  },
+  {
+    "ingredient": "toxin 6",
+    "sourceLocations": [
+      "PET_TOXINS_DATABASE"
+    ],
+    "analyzeScore": 90,
+    "analyzeFlags": [],
+    "analyzePetToxins": [],
+    "graphPetToxic": false,
+    "failedFlag": true,
+    "failedPetToxinList": true,
+    "notes": []
+  },
+  {
+    "ingredient": "toxin 60",
+    "sourceLocations": [
+      "PET_TOXINS_DATABASE"
+    ],
+    "analyzeScore": 90,
+    "analyzeFlags": [],
+    "analyzePetToxins": [],
+    "graphPetToxic": false,
+    "failedFlag": true,
+    "failedPetToxinList": true,
+    "notes": []
+  },
+  {
+    "ingredient": "toxin 61",
+    "sourceLocations": [
+      "PET_TOXINS_DATABASE"
+    ],
+    "analyzeScore": 90,
+    "analyzeFlags": [],
+    "analyzePetToxins": [],
+    "graphPetToxic": false,
+    "failedFlag": true,
+    "failedPetToxinList": true,
+    "notes": []
+  },
+  {
+    "ingredient": "toxin 62",
+    "sourceLocations": [
+      "PET_TOXINS_DATABASE"
+    ],
+    "analyzeScore": 90,
+    "analyzeFlags": [],
+    "analyzePetToxins": [],
+    "graphPetToxic": false,
+    "failedFlag": true,
+    "failedPetToxinList": true,
+    "notes": []
+  },
+  {
+    "ingredient": "toxin 63",
+    "sourceLocations": [
+      "PET_TOXINS_DATABASE"
+    ],
+    "analyzeScore": 90,
+    "analyzeFlags": [],
+    "analyzePetToxins": [],
+    "graphPetToxic": false,
+    "failedFlag": true,
+    "failedPetToxinList": true,
+    "notes": []
+  },
+  {
+    "ingredient": "toxin 64",
+    "sourceLocations": [
+      "PET_TOXINS_DATABASE"
+    ],
+    "analyzeScore": 90,
+    "analyzeFlags": [],
+    "analyzePetToxins": [],
+    "graphPetToxic": false,
+    "failedFlag": true,
+    "failedPetToxinList": true,
+    "notes": []
+  },
+  {
+    "ingredient": "toxin 65",
+    "sourceLocations": [
+      "PET_TOXINS_DATABASE"
+    ],
+    "analyzeScore": 90,
+    "analyzeFlags": [],
+    "analyzePetToxins": [],
+    "graphPetToxic": false,
+    "failedFlag": true,
+    "failedPetToxinList": true,
+    "notes": []
+  },
+  {
+    "ingredient": "toxin 66",
+    "sourceLocations": [
+      "PET_TOXINS_DATABASE"
+    ],
+    "analyzeScore": 90,
+    "analyzeFlags": [],
+    "analyzePetToxins": [],
+    "graphPetToxic": false,
+    "failedFlag": true,
+    "failedPetToxinList": true,
+    "notes": []
+  },
+  {
+    "ingredient": "toxin 67",
+    "sourceLocations": [
+      "PET_TOXINS_DATABASE"
+    ],
+    "analyzeScore": 90,
+    "analyzeFlags": [],
+    "analyzePetToxins": [],
+    "graphPetToxic": false,
+    "failedFlag": true,
+    "failedPetToxinList": true,
+    "notes": []
+  },
+  {
+    "ingredient": "toxin 68",
+    "sourceLocations": [
+      "PET_TOXINS_DATABASE"
+    ],
+    "analyzeScore": 90,
+    "analyzeFlags": [],
+    "analyzePetToxins": [],
+    "graphPetToxic": false,
+    "failedFlag": true,
+    "failedPetToxinList": true,
+    "notes": []
+  },
+  {
+    "ingredient": "toxin 69",
+    "sourceLocations": [
+      "PET_TOXINS_DATABASE"
+    ],
+    "analyzeScore": 90,
+    "analyzeFlags": [],
+    "analyzePetToxins": [],
+    "graphPetToxic": false,
+    "failedFlag": true,
+    "failedPetToxinList": true,
+    "notes": []
+  },
+  {
+    "ingredient": "toxin 7",
+    "sourceLocations": [
+      "PET_TOXINS_DATABASE"
+    ],
+    "analyzeScore": 90,
+    "analyzeFlags": [],
+    "analyzePetToxins": [],
+    "graphPetToxic": false,
+    "failedFlag": true,
+    "failedPetToxinList": true,
+    "notes": []
+  },
+  {
+    "ingredient": "toxin 70",
+    "sourceLocations": [
+      "PET_TOXINS_DATABASE"
+    ],
+    "analyzeScore": 90,
+    "analyzeFlags": [],
+    "analyzePetToxins": [],
+    "graphPetToxic": false,
+    "failedFlag": true,
+    "failedPetToxinList": true,
+    "notes": []
+  },
+  {
+    "ingredient": "toxin 71",
+    "sourceLocations": [
+      "PET_TOXINS_DATABASE"
+    ],
+    "analyzeScore": 90,
+    "analyzeFlags": [],
+    "analyzePetToxins": [],
+    "graphPetToxic": false,
+    "failedFlag": true,
+    "failedPetToxinList": true,
+    "notes": []
+  },
+  {
+    "ingredient": "toxin 72",
+    "sourceLocations": [
+      "PET_TOXINS_DATABASE"
+    ],
+    "analyzeScore": 90,
+    "analyzeFlags": [],
+    "analyzePetToxins": [],
+    "graphPetToxic": false,
+    "failedFlag": true,
+    "failedPetToxinList": true,
+    "notes": []
+  },
+  {
+    "ingredient": "toxin 73",
+    "sourceLocations": [
+      "PET_TOXINS_DATABASE"
+    ],
+    "analyzeScore": 90,
+    "analyzeFlags": [],
+    "analyzePetToxins": [],
+    "graphPetToxic": false,
+    "failedFlag": true,
+    "failedPetToxinList": true,
+    "notes": []
+  },
+  {
+    "ingredient": "toxin 74",
+    "sourceLocations": [
+      "PET_TOXINS_DATABASE"
+    ],
+    "analyzeScore": 90,
+    "analyzeFlags": [],
+    "analyzePetToxins": [],
+    "graphPetToxic": false,
+    "failedFlag": true,
+    "failedPetToxinList": true,
+    "notes": []
+  },
+  {
+    "ingredient": "toxin 75",
+    "sourceLocations": [
+      "PET_TOXINS_DATABASE"
+    ],
+    "analyzeScore": 90,
+    "analyzeFlags": [],
+    "analyzePetToxins": [],
+    "graphPetToxic": false,
+    "failedFlag": true,
+    "failedPetToxinList": true,
+    "notes": []
+  },
+  {
+    "ingredient": "toxin 76",
+    "sourceLocations": [
+      "PET_TOXINS_DATABASE"
+    ],
+    "analyzeScore": 90,
+    "analyzeFlags": [],
+    "analyzePetToxins": [],
+    "graphPetToxic": false,
+    "failedFlag": true,
+    "failedPetToxinList": true,
+    "notes": []
+  },
+  {
+    "ingredient": "toxin 77",
+    "sourceLocations": [
+      "PET_TOXINS_DATABASE"
+    ],
+    "analyzeScore": 90,
+    "analyzeFlags": [],
+    "analyzePetToxins": [],
+    "graphPetToxic": false,
+    "failedFlag": true,
+    "failedPetToxinList": true,
+    "notes": []
+  },
+  {
+    "ingredient": "toxin 78",
+    "sourceLocations": [
+      "PET_TOXINS_DATABASE"
+    ],
+    "analyzeScore": 90,
+    "analyzeFlags": [],
+    "analyzePetToxins": [],
+    "graphPetToxic": false,
+    "failedFlag": true,
+    "failedPetToxinList": true,
+    "notes": []
+  },
+  {
+    "ingredient": "toxin 79",
+    "sourceLocations": [
+      "PET_TOXINS_DATABASE"
+    ],
+    "analyzeScore": 90,
+    "analyzeFlags": [],
+    "analyzePetToxins": [],
+    "graphPetToxic": false,
+    "failedFlag": true,
+    "failedPetToxinList": true,
+    "notes": []
+  },
+  {
+    "ingredient": "toxin 8",
+    "sourceLocations": [
+      "PET_TOXINS_DATABASE"
+    ],
+    "analyzeScore": 90,
+    "analyzeFlags": [],
+    "analyzePetToxins": [],
+    "graphPetToxic": false,
+    "failedFlag": true,
+    "failedPetToxinList": true,
+    "notes": []
+  },
+  {
+    "ingredient": "toxin 80",
+    "sourceLocations": [
+      "PET_TOXINS_DATABASE"
+    ],
+    "analyzeScore": 90,
+    "analyzeFlags": [],
+    "analyzePetToxins": [],
+    "graphPetToxic": false,
+    "failedFlag": true,
+    "failedPetToxinList": true,
+    "notes": []
+  },
+  {
+    "ingredient": "toxin 81",
+    "sourceLocations": [
+      "PET_TOXINS_DATABASE"
+    ],
+    "analyzeScore": 90,
+    "analyzeFlags": [],
+    "analyzePetToxins": [],
+    "graphPetToxic": false,
+    "failedFlag": true,
+    "failedPetToxinList": true,
+    "notes": []
+  },
+  {
+    "ingredient": "toxin 82",
+    "sourceLocations": [
+      "PET_TOXINS_DATABASE"
+    ],
+    "analyzeScore": 90,
+    "analyzeFlags": [],
+    "analyzePetToxins": [],
+    "graphPetToxic": false,
+    "failedFlag": true,
+    "failedPetToxinList": true,
+    "notes": []
+  },
+  {
+    "ingredient": "toxin 83",
+    "sourceLocations": [
+      "PET_TOXINS_DATABASE"
+    ],
+    "analyzeScore": 90,
+    "analyzeFlags": [],
+    "analyzePetToxins": [],
+    "graphPetToxic": false,
+    "failedFlag": true,
+    "failedPetToxinList": true,
+    "notes": []
+  },
+  {
+    "ingredient": "toxin 84",
+    "sourceLocations": [
+      "PET_TOXINS_DATABASE"
+    ],
+    "analyzeScore": 90,
+    "analyzeFlags": [],
+    "analyzePetToxins": [],
+    "graphPetToxic": false,
+    "failedFlag": true,
+    "failedPetToxinList": true,
+    "notes": []
+  },
+  {
+    "ingredient": "toxin 85",
+    "sourceLocations": [
+      "PET_TOXINS_DATABASE"
+    ],
+    "analyzeScore": 90,
+    "analyzeFlags": [],
+    "analyzePetToxins": [],
+    "graphPetToxic": false,
+    "failedFlag": true,
+    "failedPetToxinList": true,
+    "notes": []
+  },
+  {
+    "ingredient": "toxin 86",
+    "sourceLocations": [
+      "PET_TOXINS_DATABASE"
+    ],
+    "analyzeScore": 90,
+    "analyzeFlags": [],
+    "analyzePetToxins": [],
+    "graphPetToxic": false,
+    "failedFlag": true,
+    "failedPetToxinList": true,
+    "notes": []
+  },
+  {
+    "ingredient": "toxin 87",
+    "sourceLocations": [
+      "PET_TOXINS_DATABASE"
+    ],
+    "analyzeScore": 90,
+    "analyzeFlags": [],
+    "analyzePetToxins": [],
+    "graphPetToxic": false,
+    "failedFlag": true,
+    "failedPetToxinList": true,
+    "notes": []
+  },
+  {
+    "ingredient": "toxin 88",
+    "sourceLocations": [
+      "PET_TOXINS_DATABASE"
+    ],
+    "analyzeScore": 90,
+    "analyzeFlags": [],
+    "analyzePetToxins": [],
+    "graphPetToxic": false,
+    "failedFlag": true,
+    "failedPetToxinList": true,
+    "notes": []
+  },
+  {
+    "ingredient": "toxin 89",
+    "sourceLocations": [
+      "PET_TOXINS_DATABASE"
+    ],
+    "analyzeScore": 90,
+    "analyzeFlags": [],
+    "analyzePetToxins": [],
+    "graphPetToxic": false,
+    "failedFlag": true,
+    "failedPetToxinList": true,
+    "notes": []
+  },
+  {
+    "ingredient": "toxin 9",
+    "sourceLocations": [
+      "PET_TOXINS_DATABASE"
+    ],
+    "analyzeScore": 90,
+    "analyzeFlags": [],
+    "analyzePetToxins": [],
+    "graphPetToxic": false,
+    "failedFlag": true,
+    "failedPetToxinList": true,
+    "notes": []
+  },
+  {
+    "ingredient": "toxin 90",
+    "sourceLocations": [
+      "PET_TOXINS_DATABASE"
+    ],
+    "analyzeScore": 90,
+    "analyzeFlags": [],
+    "analyzePetToxins": [],
+    "graphPetToxic": false,
+    "failedFlag": true,
+    "failedPetToxinList": true,
+    "notes": []
+  },
+  {
+    "ingredient": "toxin 91",
+    "sourceLocations": [
+      "PET_TOXINS_DATABASE"
+    ],
+    "analyzeScore": 90,
+    "analyzeFlags": [],
+    "analyzePetToxins": [],
+    "graphPetToxic": false,
+    "failedFlag": true,
+    "failedPetToxinList": true,
+    "notes": []
+  },
+  {
+    "ingredient": "toxin 92",
+    "sourceLocations": [
+      "PET_TOXINS_DATABASE"
+    ],
+    "analyzeScore": 90,
+    "analyzeFlags": [],
+    "analyzePetToxins": [],
+    "graphPetToxic": false,
+    "failedFlag": true,
+    "failedPetToxinList": true,
+    "notes": []
+  },
+  {
+    "ingredient": "toxin 93",
+    "sourceLocations": [
+      "PET_TOXINS_DATABASE"
+    ],
+    "analyzeScore": 90,
+    "analyzeFlags": [],
+    "analyzePetToxins": [],
+    "graphPetToxic": false,
+    "failedFlag": true,
+    "failedPetToxinList": true,
+    "notes": []
+  },
+  {
+    "ingredient": "toxin 94",
+    "sourceLocations": [
+      "PET_TOXINS_DATABASE"
+    ],
+    "analyzeScore": 90,
+    "analyzeFlags": [],
+    "analyzePetToxins": [],
+    "graphPetToxic": false,
+    "failedFlag": true,
+    "failedPetToxinList": true,
+    "notes": []
+  },
+  {
+    "ingredient": "toxin 95",
+    "sourceLocations": [
+      "PET_TOXINS_DATABASE"
+    ],
+    "analyzeScore": 90,
+    "analyzeFlags": [],
+    "analyzePetToxins": [],
+    "graphPetToxic": false,
+    "failedFlag": true,
+    "failedPetToxinList": true,
+    "notes": []
+  },
+  {
+    "ingredient": "toxin 96",
+    "sourceLocations": [
+      "PET_TOXINS_DATABASE"
+    ],
+    "analyzeScore": 90,
+    "analyzeFlags": [],
+    "analyzePetToxins": [],
+    "graphPetToxic": false,
+    "failedFlag": true,
+    "failedPetToxinList": true,
+    "notes": []
+  },
+  {
+    "ingredient": "toxin 97",
+    "sourceLocations": [
+      "PET_TOXINS_DATABASE"
+    ],
+    "analyzeScore": 90,
+    "analyzeFlags": [],
+    "analyzePetToxins": [],
+    "graphPetToxic": false,
+    "failedFlag": true,
+    "failedPetToxinList": true,
+    "notes": []
+  },
+  {
+    "ingredient": "toxin 98",
+    "sourceLocations": [
+      "PET_TOXINS_DATABASE"
+    ],
+    "analyzeScore": 90,
+    "analyzeFlags": [],
+    "analyzePetToxins": [],
+    "graphPetToxic": false,
+    "failedFlag": true,
+    "failedPetToxinList": true,
+    "notes": []
+  },
+  {
+    "ingredient": "toxin 99",
+    "sourceLocations": [
+      "PET_TOXINS_DATABASE"
+    ],
+    "analyzeScore": 90,
+    "analyzeFlags": [],
+    "analyzePetToxins": [],
+    "graphPetToxic": false,
+    "failedFlag": true,
+    "failedPetToxinList": true,
+    "notes": []
+  }
+]

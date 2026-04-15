@@ -1,6 +1,7 @@
 ﻿import React from "react";
 import { Pressable, StyleSheet, Text } from "react-native";
 import { UI_BUTTON_TOKENS } from "./buttonTokens";
+import { typography } from "../../theme/typography";
 
 type Props = {
   title: string;
@@ -34,9 +35,9 @@ const styles = StyleSheet.create({
     paddingHorizontal: 18,
   },
   primaryText: {
+    ...typography.button,
     color: UI_BUTTON_TOKENS.primaryText,
     fontWeight: "900",
-    fontSize: UI_BUTTON_TOKENS.fontSize,
     letterSpacing: 1,
   },
   secondary: {
@@ -50,9 +51,9 @@ const styles = StyleSheet.create({
     paddingHorizontal: 18,
   },
   secondaryText: {
+    ...typography.button,
     color: UI_BUTTON_TOKENS.secondaryText,
     fontWeight: "800",
-    fontSize: UI_BUTTON_TOKENS.fontSize,
     letterSpacing: 1,
   },
   pressed: {

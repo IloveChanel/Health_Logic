@@ -30,8 +30,7 @@ export default function HouseholdHubScreen({ navigation }: { navigation: any }) 
   };
 
   const handleEditProfile = (profileId: string) => {
-    setActiveProfileId(profileId);
-    navigation.navigate("Profile", { mode: "edit", profileId });
+    setActiveProfileId(profileId);`r`n    navigation.navigate("Profile", { mode: "edit", profileId });
   };
 
   const handleDeleteProfile = (profileId: string, label: string) => {
@@ -113,7 +112,6 @@ export default function HouseholdHubScreen({ navigation }: { navigation: any }) 
     </AppScreenShell>
   );
 }
-
 
 
 

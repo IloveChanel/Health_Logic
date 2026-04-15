@@ -1,0 +1,7199 @@
+[
+  {
+    "ingredient": "alcohol",
+    "normalized": "alcohol",
+    "sources": [
+      "PET_TOXINS"
+    ],
+    "hasInfo": false,
+    "hasGraph": false,
+    "hasRule": false,
+    "hasKnowledge": false,
+    "inPetToxins": true,
+    "humanScore": 90,
+    "diabetesScore": 90,
+    "petScore": 90,
+    "humanFlags": [],
+    "diabetesFlags": [],
+    "petFlags": [],
+    "recommendationHuman": "BUY",
+    "recommendationDiabetes": "BUY",
+    "recommendationPet": "BUY",
+    "issues": [
+      "missing_graph",
+      "missing_info",
+      "missing_knowledge",
+      "missing_rule",
+      "pet_toxin_not_flagged"
+    ]
+  },
+  {
+    "ingredient": "almond",
+    "normalized": "almond",
+    "sources": [
+      "INGREDIENT_KNOWLEDGE"
+    ],
+    "hasInfo": false,
+    "hasGraph": false,
+    "hasRule": false,
+    "hasKnowledge": true,
+    "inPetToxins": false,
+    "humanScore": 90,
+    "diabetesScore": 90,
+    "petScore": 90,
+    "humanFlags": [],
+    "diabetesFlags": [],
+    "petFlags": [],
+    "recommendationHuman": "BUY",
+    "recommendationDiabetes": "BUY",
+    "recommendationPet": "BUY",
+    "issues": [
+      "missing_graph",
+      "missing_info",
+      "missing_rule"
+    ]
+  },
+  {
+    "ingredient": "artificial flavor",
+    "normalized": "artificial flavor",
+    "sources": [
+      "INGREDIENT_RULES"
+    ],
+    "hasInfo": false,
+    "hasGraph": false,
+    "hasRule": true,
+    "hasKnowledge": false,
+    "inPetToxins": false,
+    "humanScore": 90,
+    "diabetesScore": 90,
+    "petScore": 90,
+    "humanFlags": [],
+    "diabetesFlags": [],
+    "petFlags": [],
+    "recommendationHuman": "BUY",
+    "recommendationDiabetes": "BUY",
+    "recommendationPet": "BUY",
+    "issues": [
+      "missing_graph",
+      "missing_info",
+      "missing_knowledge"
+    ]
+  },
+  {
+    "ingredient": "ascorbic acid",
+    "normalized": "ascorbic acid",
+    "sources": [
+      "INGREDIENT_KNOWLEDGE"
+    ],
+    "hasInfo": false,
+    "hasGraph": false,
+    "hasRule": false,
+    "hasKnowledge": true,
+    "inPetToxins": false,
+    "humanScore": 90,
+    "diabetesScore": 90,
+    "petScore": 90,
+    "humanFlags": [],
+    "diabetesFlags": [],
+    "petFlags": [],
+    "recommendationHuman": "BUY",
+    "recommendationDiabetes": "BUY",
+    "recommendationPet": "BUY",
+    "issues": [
+      "missing_graph",
+      "missing_info",
+      "missing_rule"
+    ]
+  },
+  {
+    "ingredient": "aspartame",
+    "normalized": "aspartame",
+    "sources": [
+      "INGREDIENT_INFO",
+      "INGREDIENT_RULES"
+    ],
+    "hasInfo": true,
+    "hasGraph": false,
+    "hasRule": true,
+    "hasKnowledge": false,
+    "inPetToxins": false,
+    "humanScore": 85,
+    "diabetesScore": 85,
+    "petScore": 85,
+    "humanFlags": [],
+    "diabetesFlags": [],
+    "petFlags": [],
+    "recommendationHuman": "BUY",
+    "recommendationDiabetes": "BUY",
+    "recommendationPet": "BUY",
+    "issues": [
+      "missing_graph",
+      "missing_knowledge"
+    ]
+  },
+  {
+    "ingredient": "avocado",
+    "normalized": "avocado",
+    "sources": [
+      "PET_TOXINS"
+    ],
+    "hasInfo": false,
+    "hasGraph": false,
+    "hasRule": false,
+    "hasKnowledge": false,
+    "inPetToxins": true,
+    "humanScore": 90,
+    "diabetesScore": 90,
+    "petScore": 90,
+    "humanFlags": [],
+    "diabetesFlags": [],
+    "petFlags": [],
+    "recommendationHuman": "BUY",
+    "recommendationDiabetes": "BUY",
+    "recommendationPet": "BUY",
+    "issues": [
+      "missing_graph",
+      "missing_info",
+      "missing_knowledge",
+      "missing_rule",
+      "pet_toxin_not_flagged"
+    ]
+  },
+  {
+    "ingredient": "avocado oil",
+    "normalized": "avocado oil",
+    "sources": [
+      "INGREDIENT_KNOWLEDGE"
+    ],
+    "hasInfo": false,
+    "hasGraph": false,
+    "hasRule": false,
+    "hasKnowledge": true,
+    "inPetToxins": false,
+    "humanScore": 90,
+    "diabetesScore": 90,
+    "petScore": 90,
+    "humanFlags": [],
+    "diabetesFlags": [],
+    "petFlags": [],
+    "recommendationHuman": "BUY",
+    "recommendationDiabetes": "BUY",
+    "recommendationPet": "BUY",
+    "issues": [
+      "missing_graph",
+      "missing_info",
+      "missing_rule"
+    ]
+  },
+  {
+    "ingredient": "baking powder",
+    "normalized": "baking powder",
+    "sources": [
+      "INGREDIENT_KNOWLEDGE"
+    ],
+    "hasInfo": false,
+    "hasGraph": false,
+    "hasRule": false,
+    "hasKnowledge": true,
+    "inPetToxins": false,
+    "humanScore": 90,
+    "diabetesScore": 90,
+    "petScore": 90,
+    "humanFlags": [],
+    "diabetesFlags": [],
+    "petFlags": [],
+    "recommendationHuman": "BUY",
+    "recommendationDiabetes": "BUY",
+    "recommendationPet": "BUY",
+    "issues": [
+      "missing_graph",
+      "missing_info",
+      "missing_rule"
+    ]
+  },
+  {
+    "ingredient": "baking soda",
+    "normalized": "baking soda",
+    "sources": [
+      "INGREDIENT_KNOWLEDGE"
+    ],
+    "hasInfo": false,
+    "hasGraph": false,
+    "hasRule": false,
+    "hasKnowledge": true,
+    "inPetToxins": false,
+    "humanScore": 90,
+    "diabetesScore": 90,
+    "petScore": 90,
+    "humanFlags": [],
+    "diabetesFlags": [],
+    "petFlags": [],
+    "recommendationHuman": "BUY",
+    "recommendationDiabetes": "BUY",
+    "recommendationPet": "BUY",
+    "issues": [
+      "missing_graph",
+      "missing_info",
+      "missing_rule"
+    ]
+  },
+  {
+    "ingredient": "barley",
+    "normalized": "barley",
+    "sources": [
+      "INGREDIENT_KNOWLEDGE"
+    ],
+    "hasInfo": false,
+    "hasGraph": false,
+    "hasRule": false,
+    "hasKnowledge": true,
+    "inPetToxins": false,
+    "humanScore": 90,
+    "diabetesScore": 90,
+    "petScore": 90,
+    "humanFlags": [],
+    "diabetesFlags": [],
+    "petFlags": [],
+    "recommendationHuman": "BUY",
+    "recommendationDiabetes": "BUY",
+    "recommendationPet": "BUY",
+    "issues": [
+      "missing_graph",
+      "missing_info",
+      "missing_rule"
+    ]
+  },
+  {
+    "ingredient": "bha",
+    "normalized": "bha",
+    "sources": [
+      "INGREDIENT_RULES"
+    ],
+    "hasInfo": false,
+    "hasGraph": false,
+    "hasRule": true,
+    "hasKnowledge": false,
+    "inPetToxins": false,
+    "humanScore": 85,
+    "diabetesScore": 85,
+    "petScore": 85,
+    "humanFlags": [],
+    "diabetesFlags": [],
+    "petFlags": [],
+    "recommendationHuman": "BUY",
+    "recommendationDiabetes": "BUY",
+    "recommendationPet": "BUY",
+    "issues": [
+      "missing_graph",
+      "missing_info",
+      "missing_knowledge"
+    ]
+  },
+  {
+    "ingredient": "bht",
+    "normalized": "bht",
+    "sources": [
+      "INGREDIENT_RULES"
+    ],
+    "hasInfo": false,
+    "hasGraph": false,
+    "hasRule": true,
+    "hasKnowledge": false,
+    "inPetToxins": false,
+    "humanScore": 85,
+    "diabetesScore": 85,
+    "petScore": 85,
+    "humanFlags": [],
+    "diabetesFlags": [],
+    "petFlags": [],
+    "recommendationHuman": "BUY",
+    "recommendationDiabetes": "BUY",
+    "recommendationPet": "BUY",
+    "issues": [
+      "missing_graph",
+      "missing_info",
+      "missing_knowledge"
+    ]
+  },
+  {
+    "ingredient": "caffeine",
+    "normalized": "caffeine",
+    "sources": [
+      "PET_TOXINS"
+    ],
+    "hasInfo": false,
+    "hasGraph": false,
+    "hasRule": false,
+    "hasKnowledge": false,
+    "inPetToxins": true,
+    "humanScore": 90,
+    "diabetesScore": 90,
+    "petScore": 90,
+    "humanFlags": [],
+    "diabetesFlags": [],
+    "petFlags": [],
+    "recommendationHuman": "BUY",
+    "recommendationDiabetes": "BUY",
+    "recommendationPet": "BUY",
+    "issues": [
+      "missing_graph",
+      "missing_info",
+      "missing_knowledge",
+      "missing_rule",
+      "pet_toxin_not_flagged"
+    ]
+  },
+  {
+    "ingredient": "canola oil",
+    "normalized": "canola oil",
+    "sources": [
+      "INGREDIENT_KNOWLEDGE"
+    ],
+    "hasInfo": false,
+    "hasGraph": false,
+    "hasRule": false,
+    "hasKnowledge": true,
+    "inPetToxins": false,
+    "humanScore": 90,
+    "diabetesScore": 90,
+    "petScore": 90,
+    "humanFlags": [],
+    "diabetesFlags": [],
+    "petFlags": [],
+    "recommendationHuman": "BUY",
+    "recommendationDiabetes": "BUY",
+    "recommendationPet": "BUY",
+    "issues": [
+      "missing_graph",
+      "missing_info",
+      "missing_rule"
+    ]
+  },
+  {
+    "ingredient": "carrageenan",
+    "normalized": "carrageenan",
+    "sources": [
+      "INGREDIENT_KNOWLEDGE"
+    ],
+    "hasInfo": false,
+    "hasGraph": false,
+    "hasRule": false,
+    "hasKnowledge": true,
+    "inPetToxins": false,
+    "humanScore": 90,
+    "diabetesScore": 90,
+    "petScore": 90,
+    "humanFlags": [],
+    "diabetesFlags": [],
+    "petFlags": [],
+    "recommendationHuman": "BUY",
+    "recommendationDiabetes": "BUY",
+    "recommendationPet": "BUY",
+    "issues": [
+      "missing_graph",
+      "missing_info",
+      "missing_rule"
+    ]
+  },
+  {
+    "ingredient": "casein",
+    "normalized": "casein",
+    "sources": [
+      "INGREDIENT_KNOWLEDGE"
+    ],
+    "hasInfo": false,
+    "hasGraph": false,
+    "hasRule": false,
+    "hasKnowledge": true,
+    "inPetToxins": false,
+    "humanScore": 90,
+    "diabetesScore": 90,
+    "petScore": 90,
+    "humanFlags": [],
+    "diabetesFlags": [],
+    "petFlags": [],
+    "recommendationHuman": "BUY",
+    "recommendationDiabetes": "BUY",
+    "recommendationPet": "BUY",
+    "issues": [
+      "missing_graph",
+      "missing_info",
+      "missing_rule"
+    ]
+  },
+  {
+    "ingredient": "chia",
+    "normalized": "chia",
+    "sources": [
+      "INGREDIENT_KNOWLEDGE"
+    ],
+    "hasInfo": false,
+    "hasGraph": false,
+    "hasRule": false,
+    "hasKnowledge": true,
+    "inPetToxins": false,
+    "humanScore": 90,
+    "diabetesScore": 90,
+    "petScore": 90,
+    "humanFlags": [],
+    "diabetesFlags": [],
+    "petFlags": [],
+    "recommendationHuman": "BUY",
+    "recommendationDiabetes": "BUY",
+    "recommendationPet": "BUY",
+    "issues": [
+      "missing_graph",
+      "missing_info",
+      "missing_rule"
+    ]
+  },
+  {
+    "ingredient": "chocolate",
+    "normalized": "chocolate",
+    "sources": [
+      "INGREDIENT_KNOWLEDGE",
+      "PET_TOXINS"
+    ],
+    "hasInfo": false,
+    "hasGraph": false,
+    "hasRule": false,
+    "hasKnowledge": true,
+    "inPetToxins": true,
+    "humanScore": 90,
+    "diabetesScore": 90,
+    "petScore": 90,
+    "humanFlags": [],
+    "diabetesFlags": [],
+    "petFlags": [],
+    "recommendationHuman": "BUY",
+    "recommendationDiabetes": "BUY",
+    "recommendationPet": "BUY",
+    "issues": [
+      "missing_graph",
+      "missing_info",
+      "missing_rule",
+      "pet_toxin_not_flagged"
+    ]
+  },
+  {
+    "ingredient": "citric acid",
+    "normalized": "citric acid",
+    "sources": [
+      "INGREDIENT_KNOWLEDGE"
+    ],
+    "hasInfo": false,
+    "hasGraph": false,
+    "hasRule": false,
+    "hasKnowledge": true,
+    "inPetToxins": false,
+    "humanScore": 85,
+    "diabetesScore": 85,
+    "petScore": 85,
+    "humanFlags": [
+      "citric acid risk"
+    ],
+    "diabetesFlags": [
+      "citric acid risk"
+    ],
+    "petFlags": [
+      "citric acid risk"
+    ],
+    "recommendationHuman": "BUY",
+    "recommendationDiabetes": "BUY",
+    "recommendationPet": "BUY",
+    "issues": [
+      "missing_graph",
+      "missing_info",
+      "missing_rule"
+    ]
+  },
+  {
+    "ingredient": "cocoa",
+    "normalized": "cocoa",
+    "sources": [
+      "INGREDIENT_KNOWLEDGE"
+    ],
+    "hasInfo": false,
+    "hasGraph": false,
+    "hasRule": false,
+    "hasKnowledge": true,
+    "inPetToxins": false,
+    "humanScore": 90,
+    "diabetesScore": 90,
+    "petScore": 90,
+    "humanFlags": [],
+    "diabetesFlags": [],
+    "petFlags": [],
+    "recommendationHuman": "BUY",
+    "recommendationDiabetes": "BUY",
+    "recommendationPet": "BUY",
+    "issues": [
+      "missing_graph",
+      "missing_info",
+      "missing_rule"
+    ]
+  },
+  {
+    "ingredient": "cocoa butter",
+    "normalized": "cocoa butter",
+    "sources": [
+      "INGREDIENT_KNOWLEDGE"
+    ],
+    "hasInfo": false,
+    "hasGraph": false,
+    "hasRule": false,
+    "hasKnowledge": true,
+    "inPetToxins": false,
+    "humanScore": 90,
+    "diabetesScore": 90,
+    "petScore": 90,
+    "humanFlags": [],
+    "diabetesFlags": [],
+    "petFlags": [],
+    "recommendationHuman": "BUY",
+    "recommendationDiabetes": "BUY",
+    "recommendationPet": "BUY",
+    "issues": [
+      "missing_graph",
+      "missing_info",
+      "missing_rule"
+    ]
+  },
+  {
+    "ingredient": "coffee",
+    "normalized": "coffee",
+    "sources": [
+      "INGREDIENT_KNOWLEDGE"
+    ],
+    "hasInfo": false,
+    "hasGraph": false,
+    "hasRule": false,
+    "hasKnowledge": true,
+    "inPetToxins": false,
+    "humanScore": 90,
+    "diabetesScore": 90,
+    "petScore": 90,
+    "humanFlags": [],
+    "diabetesFlags": [],
+    "petFlags": [],
+    "recommendationHuman": "BUY",
+    "recommendationDiabetes": "BUY",
+    "recommendationPet": "BUY",
+    "issues": [
+      "missing_graph",
+      "missing_info",
+      "missing_rule"
+    ]
+  },
+  {
+    "ingredient": "corn starch",
+    "normalized": "corn starch",
+    "sources": [
+      "INGREDIENT_KNOWLEDGE"
+    ],
+    "hasInfo": false,
+    "hasGraph": false,
+    "hasRule": false,
+    "hasKnowledge": true,
+    "inPetToxins": false,
+    "humanScore": 85,
+    "diabetesScore": 85,
+    "petScore": 85,
+    "humanFlags": [
+      "corn starch risk"
+    ],
+    "diabetesFlags": [
+      "corn starch risk"
+    ],
+    "petFlags": [
+      "corn starch risk"
+    ],
+    "recommendationHuman": "BUY",
+    "recommendationDiabetes": "BUY",
+    "recommendationPet": "BUY",
+    "issues": [
+      "missing_graph",
+      "missing_info",
+      "missing_rule"
+    ]
+  },
+  {
+    "ingredient": "corn syrup",
+    "normalized": "corn syrup",
+    "sources": [
+      "INGREDIENT_KNOWLEDGE"
+    ],
+    "hasInfo": false,
+    "hasGraph": false,
+    "hasRule": false,
+    "hasKnowledge": true,
+    "inPetToxins": false,
+    "humanScore": 90,
+    "diabetesScore": 90,
+    "petScore": 90,
+    "humanFlags": [],
+    "diabetesFlags": [],
+    "petFlags": [],
+    "recommendationHuman": "BUY",
+    "recommendationDiabetes": "BUY",
+    "recommendationPet": "BUY",
+    "issues": [
+      "missing_graph",
+      "missing_info",
+      "missing_rule"
+    ]
+  },
+  {
+    "ingredient": "cornstarch",
+    "normalized": "cornstarch",
+    "sources": [
+      "INGREDIENT_GRAPH",
+      "INGREDIENT_INFO"
+    ],
+    "hasInfo": true,
+    "hasGraph": true,
+    "hasRule": false,
+    "hasKnowledge": false,
+    "inPetToxins": false,
+    "humanScore": 90,
+    "diabetesScore": 90,
+    "petScore": 90,
+    "humanFlags": [
+      "Unhealthy ingredient: cornstarch"
+    ],
+    "diabetesFlags": [
+      "Unhealthy ingredient: cornstarch"
+    ],
+    "petFlags": [
+      "Unhealthy ingredient: cornstarch"
+    ],
+    "recommendationHuman": "BUY",
+    "recommendationDiabetes": "BUY",
+    "recommendationPet": "BUY",
+    "issues": [
+      "missing_knowledge",
+      "missing_rule"
+    ]
+  },
+  {
+    "ingredient": "egg",
+    "normalized": "egg",
+    "sources": [
+      "INGREDIENT_KNOWLEDGE"
+    ],
+    "hasInfo": false,
+    "hasGraph": false,
+    "hasRule": false,
+    "hasKnowledge": true,
+    "inPetToxins": false,
+    "humanScore": 90,
+    "diabetesScore": 90,
+    "petScore": 90,
+    "humanFlags": [],
+    "diabetesFlags": [],
+    "petFlags": [],
+    "recommendationHuman": "BUY",
+    "recommendationDiabetes": "BUY",
+    "recommendationPet": "BUY",
+    "issues": [
+      "missing_graph",
+      "missing_info",
+      "missing_rule"
+    ]
+  },
+  {
+    "ingredient": "flaxseed",
+    "normalized": "flaxseed",
+    "sources": [
+      "INGREDIENT_KNOWLEDGE"
+    ],
+    "hasInfo": false,
+    "hasGraph": false,
+    "hasRule": false,
+    "hasKnowledge": true,
+    "inPetToxins": false,
+    "humanScore": 90,
+    "diabetesScore": 90,
+    "petScore": 90,
+    "humanFlags": [],
+    "diabetesFlags": [],
+    "petFlags": [],
+    "recommendationHuman": "BUY",
+    "recommendationDiabetes": "BUY",
+    "recommendationPet": "BUY",
+    "issues": [
+      "missing_graph",
+      "missing_info",
+      "missing_rule"
+    ]
+  },
+  {
+    "ingredient": "fructose",
+    "normalized": "fructose",
+    "sources": [
+      "INGREDIENT_KNOWLEDGE"
+    ],
+    "hasInfo": false,
+    "hasGraph": false,
+    "hasRule": false,
+    "hasKnowledge": true,
+    "inPetToxins": false,
+    "humanScore": 90,
+    "diabetesScore": 90,
+    "petScore": 90,
+    "humanFlags": [],
+    "diabetesFlags": [],
+    "petFlags": [],
+    "recommendationHuman": "BUY",
+    "recommendationDiabetes": "BUY",
+    "recommendationPet": "BUY",
+    "issues": [
+      "missing_graph",
+      "missing_info",
+      "missing_rule"
+    ]
+  },
+  {
+    "ingredient": "garlic",
+    "normalized": "garlic",
+    "sources": [
+      "PET_TOXINS"
+    ],
+    "hasInfo": false,
+    "hasGraph": false,
+    "hasRule": false,
+    "hasKnowledge": false,
+    "inPetToxins": true,
+    "humanScore": 85,
+    "diabetesScore": 85,
+    "petScore": 85,
+    "humanFlags": [
+      "garlic risk"
+    ],
+    "diabetesFlags": [
+      "garlic risk"
+    ],
+    "petFlags": [
+      "garlic risk"
+    ],
+    "recommendationHuman": "BUY",
+    "recommendationDiabetes": "BUY",
+    "recommendationPet": "BUY",
+    "issues": [
+      "missing_graph",
+      "missing_info",
+      "missing_knowledge",
+      "missing_rule",
+      "pet_toxin_not_flagged"
+    ]
+  },
+  {
+    "ingredient": "gelatin",
+    "normalized": "gelatin",
+    "sources": [
+      "INGREDIENT_KNOWLEDGE"
+    ],
+    "hasInfo": false,
+    "hasGraph": false,
+    "hasRule": false,
+    "hasKnowledge": true,
+    "inPetToxins": false,
+    "humanScore": 90,
+    "diabetesScore": 90,
+    "petScore": 90,
+    "humanFlags": [],
+    "diabetesFlags": [],
+    "petFlags": [],
+    "recommendationHuman": "BUY",
+    "recommendationDiabetes": "BUY",
+    "recommendationPet": "BUY",
+    "issues": [
+      "missing_graph",
+      "missing_info",
+      "missing_rule"
+    ]
+  },
+  {
+    "ingredient": "glucose syrup",
+    "normalized": "glucose syrup",
+    "sources": [
+      "INGREDIENT_KNOWLEDGE"
+    ],
+    "hasInfo": false,
+    "hasGraph": false,
+    "hasRule": false,
+    "hasKnowledge": true,
+    "inPetToxins": false,
+    "humanScore": 90,
+    "diabetesScore": 90,
+    "petScore": 90,
+    "humanFlags": [],
+    "diabetesFlags": [],
+    "petFlags": [],
+    "recommendationHuman": "BUY",
+    "recommendationDiabetes": "BUY",
+    "recommendationPet": "BUY",
+    "issues": [
+      "missing_graph",
+      "missing_info",
+      "missing_rule"
+    ]
+  },
+  {
+    "ingredient": "grapes",
+    "normalized": "grapes",
+    "sources": [
+      "PET_TOXINS"
+    ],
+    "hasInfo": false,
+    "hasGraph": false,
+    "hasRule": false,
+    "hasKnowledge": false,
+    "inPetToxins": true,
+    "humanScore": 90,
+    "diabetesScore": 90,
+    "petScore": 90,
+    "humanFlags": [],
+    "diabetesFlags": [],
+    "petFlags": [],
+    "recommendationHuman": "BUY",
+    "recommendationDiabetes": "BUY",
+    "recommendationPet": "BUY",
+    "issues": [
+      "missing_graph",
+      "missing_info",
+      "missing_knowledge",
+      "missing_rule",
+      "pet_toxin_not_flagged"
+    ]
+  },
+  {
+    "ingredient": "guar gum",
+    "normalized": "guar gum",
+    "sources": [
+      "INGREDIENT_KNOWLEDGE"
+    ],
+    "hasInfo": false,
+    "hasGraph": false,
+    "hasRule": false,
+    "hasKnowledge": true,
+    "inPetToxins": false,
+    "humanScore": 90,
+    "diabetesScore": 90,
+    "petScore": 90,
+    "humanFlags": [],
+    "diabetesFlags": [],
+    "petFlags": [],
+    "recommendationHuman": "BUY",
+    "recommendationDiabetes": "BUY",
+    "recommendationPet": "BUY",
+    "issues": [
+      "missing_graph",
+      "missing_info",
+      "missing_rule"
+    ]
+  },
+  {
+    "ingredient": "high fructose corn syrup",
+    "normalized": "high fructose corn syrup",
+    "sources": [
+      "INGREDIENT_GRAPH",
+      "INGREDIENT_INFO",
+      "INGREDIENT_RULES"
+    ],
+    "hasInfo": true,
+    "hasGraph": true,
+    "hasRule": true,
+    "hasKnowledge": false,
+    "inPetToxins": false,
+    "humanScore": 85,
+    "diabetesScore": 85,
+    "petScore": 85,
+    "humanFlags": [
+      "high fructose corn syrup risk",
+      "Unhealthy ingredient: high fructose corn syrup"
+    ],
+    "diabetesFlags": [
+      "Condition conflict: high fructose corn syrup",
+      "high fructose corn syrup risk",
+      "Unhealthy ingredient: high fructose corn syrup"
+    ],
+    "petFlags": [
+      "high fructose corn syrup risk",
+      "Unhealthy ingredient: high fructose corn syrup"
+    ],
+    "recommendationHuman": "BUY",
+    "recommendationDiabetes": "BUY",
+    "recommendationPet": "BUY",
+    "issues": [
+      "diabetes_profile_not_more_strict",
+      "missing_knowledge"
+    ]
+  },
+  {
+    "ingredient": "lecithin",
+    "normalized": "lecithin",
+    "sources": [
+      "INGREDIENT_KNOWLEDGE"
+    ],
+    "hasInfo": false,
+    "hasGraph": false,
+    "hasRule": false,
+    "hasKnowledge": true,
+    "inPetToxins": false,
+    "humanScore": 90,
+    "diabetesScore": 90,
+    "petScore": 90,
+    "humanFlags": [],
+    "diabetesFlags": [],
+    "petFlags": [],
+    "recommendationHuman": "BUY",
+    "recommendationDiabetes": "BUY",
+    "recommendationPet": "BUY",
+    "issues": [
+      "missing_graph",
+      "missing_info",
+      "missing_rule"
+    ]
+  },
+  {
+    "ingredient": "macadamia nuts",
+    "normalized": "macadamia nuts",
+    "sources": [
+      "PET_TOXINS"
+    ],
+    "hasInfo": false,
+    "hasGraph": false,
+    "hasRule": false,
+    "hasKnowledge": false,
+    "inPetToxins": true,
+    "humanScore": 90,
+    "diabetesScore": 90,
+    "petScore": 90,
+    "humanFlags": [],
+    "diabetesFlags": [],
+    "petFlags": [],
+    "recommendationHuman": "BUY",
+    "recommendationDiabetes": "BUY",
+    "recommendationPet": "BUY",
+    "issues": [
+      "missing_graph",
+      "missing_info",
+      "missing_knowledge",
+      "missing_rule",
+      "pet_toxin_not_flagged"
+    ]
+  },
+  {
+    "ingredient": "maltodextrin",
+    "normalized": "maltodextrin",
+    "sources": [
+      "INGREDIENT_KNOWLEDGE"
+    ],
+    "hasInfo": false,
+    "hasGraph": false,
+    "hasRule": false,
+    "hasKnowledge": true,
+    "inPetToxins": false,
+    "humanScore": 90,
+    "diabetesScore": 90,
+    "petScore": 90,
+    "humanFlags": [],
+    "diabetesFlags": [],
+    "petFlags": [],
+    "recommendationHuman": "BUY",
+    "recommendationDiabetes": "BUY",
+    "recommendationPet": "BUY",
+    "issues": [
+      "missing_graph",
+      "missing_info",
+      "missing_rule"
+    ]
+  },
+  {
+    "ingredient": "milk",
+    "normalized": "milk",
+    "sources": [
+      "INGREDIENT_KNOWLEDGE"
+    ],
+    "hasInfo": false,
+    "hasGraph": false,
+    "hasRule": false,
+    "hasKnowledge": true,
+    "inPetToxins": false,
+    "humanScore": 90,
+    "diabetesScore": 90,
+    "petScore": 90,
+    "humanFlags": [],
+    "diabetesFlags": [],
+    "petFlags": [],
+    "recommendationHuman": "BUY",
+    "recommendationDiabetes": "BUY",
+    "recommendationPet": "BUY",
+    "issues": [
+      "missing_graph",
+      "missing_info",
+      "missing_rule"
+    ]
+  },
+  {
+    "ingredient": "msg",
+    "normalized": "msg",
+    "sources": [
+      "INGREDIENT_INFO",
+      "INGREDIENT_RULES"
+    ],
+    "hasInfo": true,
+    "hasGraph": false,
+    "hasRule": true,
+    "hasKnowledge": false,
+    "inPetToxins": false,
+    "humanScore": 80,
+    "diabetesScore": 80,
+    "petScore": 80,
+    "humanFlags": [
+      "msg risk"
+    ],
+    "diabetesFlags": [
+      "msg risk"
+    ],
+    "petFlags": [
+      "msg risk"
+    ],
+    "recommendationHuman": "BUY",
+    "recommendationDiabetes": "BUY",
+    "recommendationPet": "BUY",
+    "issues": [
+      "missing_graph",
+      "missing_knowledge"
+    ]
+  },
+  {
+    "ingredient": "oats",
+    "normalized": "oats",
+    "sources": [
+      "INGREDIENT_KNOWLEDGE"
+    ],
+    "hasInfo": false,
+    "hasGraph": false,
+    "hasRule": false,
+    "hasKnowledge": true,
+    "inPetToxins": false,
+    "humanScore": 90,
+    "diabetesScore": 90,
+    "petScore": 90,
+    "humanFlags": [],
+    "diabetesFlags": [],
+    "petFlags": [],
+    "recommendationHuman": "BUY",
+    "recommendationDiabetes": "BUY",
+    "recommendationPet": "BUY",
+    "issues": [
+      "missing_graph",
+      "missing_info",
+      "missing_rule"
+    ]
+  },
+  {
+    "ingredient": "olive oil",
+    "normalized": "olive oil",
+    "sources": [
+      "INGREDIENT_KNOWLEDGE"
+    ],
+    "hasInfo": false,
+    "hasGraph": false,
+    "hasRule": false,
+    "hasKnowledge": true,
+    "inPetToxins": false,
+    "humanScore": 90,
+    "diabetesScore": 90,
+    "petScore": 90,
+    "humanFlags": [],
+    "diabetesFlags": [],
+    "petFlags": [],
+    "recommendationHuman": "BUY",
+    "recommendationDiabetes": "BUY",
+    "recommendationPet": "BUY",
+    "issues": [
+      "missing_graph",
+      "missing_info",
+      "missing_rule"
+    ]
+  },
+  {
+    "ingredient": "onion",
+    "normalized": "onion",
+    "sources": [
+      "PET_TOXINS"
+    ],
+    "hasInfo": false,
+    "hasGraph": false,
+    "hasRule": false,
+    "hasKnowledge": false,
+    "inPetToxins": true,
+    "humanScore": 85,
+    "diabetesScore": 85,
+    "petScore": 85,
+    "humanFlags": [
+      "onion risk"
+    ],
+    "diabetesFlags": [
+      "onion risk"
+    ],
+    "petFlags": [
+      "onion risk"
+    ],
+    "recommendationHuman": "BUY",
+    "recommendationDiabetes": "BUY",
+    "recommendationPet": "BUY",
+    "issues": [
+      "missing_graph",
+      "missing_info",
+      "missing_knowledge",
+      "missing_rule",
+      "pet_toxin_not_flagged"
+    ]
+  },
+  {
+    "ingredient": "palm oil",
+    "normalized": "palm oil",
+    "sources": [
+      "INGREDIENT_KNOWLEDGE"
+    ],
+    "hasInfo": false,
+    "hasGraph": false,
+    "hasRule": false,
+    "hasKnowledge": true,
+    "inPetToxins": false,
+    "humanScore": 90,
+    "diabetesScore": 90,
+    "petScore": 90,
+    "humanFlags": [],
+    "diabetesFlags": [],
+    "petFlags": [],
+    "recommendationHuman": "BUY",
+    "recommendationDiabetes": "BUY",
+    "recommendationPet": "BUY",
+    "issues": [
+      "missing_graph",
+      "missing_info",
+      "missing_rule"
+    ]
+  },
+  {
+    "ingredient": "peanut",
+    "normalized": "peanut",
+    "sources": [
+      "INGREDIENT_KNOWLEDGE"
+    ],
+    "hasInfo": false,
+    "hasGraph": false,
+    "hasRule": false,
+    "hasKnowledge": true,
+    "inPetToxins": false,
+    "humanScore": 90,
+    "diabetesScore": 90,
+    "petScore": 90,
+    "humanFlags": [],
+    "diabetesFlags": [],
+    "petFlags": [],
+    "recommendationHuman": "BUY",
+    "recommendationDiabetes": "BUY",
+    "recommendationPet": "BUY",
+    "issues": [
+      "missing_graph",
+      "missing_info",
+      "missing_rule"
+    ]
+  },
+  {
+    "ingredient": "peanut oil",
+    "normalized": "peanut oil",
+    "sources": [
+      "INGREDIENT_KNOWLEDGE"
+    ],
+    "hasInfo": false,
+    "hasGraph": false,
+    "hasRule": false,
+    "hasKnowledge": true,
+    "inPetToxins": false,
+    "humanScore": 85,
+    "diabetesScore": 85,
+    "petScore": 85,
+    "humanFlags": [
+      "peanut oil risk"
+    ],
+    "diabetesFlags": [
+      "peanut oil risk"
+    ],
+    "petFlags": [
+      "peanut oil risk"
+    ],
+    "recommendationHuman": "BUY",
+    "recommendationDiabetes": "BUY",
+    "recommendationPet": "BUY",
+    "issues": [
+      "missing_graph",
+      "missing_info",
+      "missing_rule"
+    ]
+  },
+  {
+    "ingredient": "pectin",
+    "normalized": "pectin",
+    "sources": [
+      "INGREDIENT_KNOWLEDGE"
+    ],
+    "hasInfo": false,
+    "hasGraph": false,
+    "hasRule": false,
+    "hasKnowledge": true,
+    "inPetToxins": false,
+    "humanScore": 90,
+    "diabetesScore": 90,
+    "petScore": 90,
+    "humanFlags": [],
+    "diabetesFlags": [],
+    "petFlags": [],
+    "recommendationHuman": "BUY",
+    "recommendationDiabetes": "BUY",
+    "recommendationPet": "BUY",
+    "issues": [
+      "missing_graph",
+      "missing_info",
+      "missing_rule"
+    ]
+  },
+  {
+    "ingredient": "potassium sorbate",
+    "normalized": "potassium sorbate",
+    "sources": [
+      "INGREDIENT_KNOWLEDGE"
+    ],
+    "hasInfo": false,
+    "hasGraph": false,
+    "hasRule": false,
+    "hasKnowledge": true,
+    "inPetToxins": false,
+    "humanScore": 85,
+    "diabetesScore": 85,
+    "petScore": 85,
+    "humanFlags": [],
+    "diabetesFlags": [],
+    "petFlags": [],
+    "recommendationHuman": "BUY",
+    "recommendationDiabetes": "BUY",
+    "recommendationPet": "BUY",
+    "issues": [
+      "missing_graph",
+      "missing_info",
+      "missing_rule"
+    ]
+  },
+  {
+    "ingredient": "quinoa",
+    "normalized": "quinoa",
+    "sources": [
+      "INGREDIENT_KNOWLEDGE"
+    ],
+    "hasInfo": false,
+    "hasGraph": false,
+    "hasRule": false,
+    "hasKnowledge": true,
+    "inPetToxins": false,
+    "humanScore": 90,
+    "diabetesScore": 90,
+    "petScore": 90,
+    "humanFlags": [],
+    "diabetesFlags": [],
+    "petFlags": [],
+    "recommendationHuman": "BUY",
+    "recommendationDiabetes": "BUY",
+    "recommendationPet": "BUY",
+    "issues": [
+      "missing_graph",
+      "missing_info",
+      "missing_rule"
+    ]
+  },
+  {
+    "ingredient": "raisins",
+    "normalized": "raisins",
+    "sources": [
+      "PET_TOXINS"
+    ],
+    "hasInfo": false,
+    "hasGraph": false,
+    "hasRule": false,
+    "hasKnowledge": false,
+    "inPetToxins": true,
+    "humanScore": 90,
+    "diabetesScore": 90,
+    "petScore": 90,
+    "humanFlags": [],
+    "diabetesFlags": [],
+    "petFlags": [],
+    "recommendationHuman": "BUY",
+    "recommendationDiabetes": "BUY",
+    "recommendationPet": "BUY",
+    "issues": [
+      "missing_graph",
+      "missing_info",
+      "missing_knowledge",
+      "missing_rule",
+      "pet_toxin_not_flagged"
+    ]
+  },
+  {
+    "ingredient": "rice",
+    "normalized": "rice",
+    "sources": [
+      "INGREDIENT_KNOWLEDGE"
+    ],
+    "hasInfo": false,
+    "hasGraph": false,
+    "hasRule": false,
+    "hasKnowledge": true,
+    "inPetToxins": false,
+    "humanScore": 90,
+    "diabetesScore": 90,
+    "petScore": 90,
+    "humanFlags": [],
+    "diabetesFlags": [],
+    "petFlags": [],
+    "recommendationHuman": "BUY",
+    "recommendationDiabetes": "BUY",
+    "recommendationPet": "BUY",
+    "issues": [
+      "missing_graph",
+      "missing_info",
+      "missing_rule"
+    ]
+  },
+  {
+    "ingredient": "rye",
+    "normalized": "rye",
+    "sources": [
+      "INGREDIENT_KNOWLEDGE"
+    ],
+    "hasInfo": false,
+    "hasGraph": false,
+    "hasRule": false,
+    "hasKnowledge": true,
+    "inPetToxins": false,
+    "humanScore": 90,
+    "diabetesScore": 90,
+    "petScore": 90,
+    "humanFlags": [],
+    "diabetesFlags": [],
+    "petFlags": [],
+    "recommendationHuman": "BUY",
+    "recommendationDiabetes": "BUY",
+    "recommendationPet": "BUY",
+    "issues": [
+      "missing_graph",
+      "missing_info",
+      "missing_rule"
+    ]
+  },
+  {
+    "ingredient": "salt",
+    "normalized": "salt",
+    "sources": [
+      "INGREDIENT_KNOWLEDGE"
+    ],
+    "hasInfo": false,
+    "hasGraph": false,
+    "hasRule": false,
+    "hasKnowledge": true,
+    "inPetToxins": false,
+    "humanScore": 85,
+    "diabetesScore": 85,
+    "petScore": 85,
+    "humanFlags": [
+      "salt risk"
+    ],
+    "diabetesFlags": [
+      "salt risk"
+    ],
+    "petFlags": [
+      "salt risk"
+    ],
+    "recommendationHuman": "BUY",
+    "recommendationDiabetes": "BUY",
+    "recommendationPet": "BUY",
+    "issues": [
+      "missing_graph",
+      "missing_info",
+      "missing_rule"
+    ]
+  },
+  {
+    "ingredient": "sesame oil",
+    "normalized": "sesame oil",
+    "sources": [
+      "INGREDIENT_KNOWLEDGE"
+    ],
+    "hasInfo": false,
+    "hasGraph": false,
+    "hasRule": false,
+    "hasKnowledge": true,
+    "inPetToxins": false,
+    "humanScore": 85,
+    "diabetesScore": 85,
+    "petScore": 85,
+    "humanFlags": [
+      "sesame oil risk"
+    ],
+    "diabetesFlags": [
+      "sesame oil risk"
+    ],
+    "petFlags": [
+      "sesame oil risk"
+    ],
+    "recommendationHuman": "BUY",
+    "recommendationDiabetes": "BUY",
+    "recommendationPet": "BUY",
+    "issues": [
+      "missing_graph",
+      "missing_info",
+      "missing_rule"
+    ]
+  },
+  {
+    "ingredient": "sodium benzoate",
+    "normalized": "sodium benzoate",
+    "sources": [
+      "INGREDIENT_KNOWLEDGE"
+    ],
+    "hasInfo": false,
+    "hasGraph": false,
+    "hasRule": false,
+    "hasKnowledge": true,
+    "inPetToxins": false,
+    "humanScore": 90,
+    "diabetesScore": 90,
+    "petScore": 90,
+    "humanFlags": [],
+    "diabetesFlags": [],
+    "petFlags": [],
+    "recommendationHuman": "BUY",
+    "recommendationDiabetes": "BUY",
+    "recommendationPet": "BUY",
+    "issues": [
+      "missing_graph",
+      "missing_info",
+      "missing_rule"
+    ]
+  },
+  {
+    "ingredient": "soy",
+    "normalized": "soy",
+    "sources": [
+      "INGREDIENT_KNOWLEDGE"
+    ],
+    "hasInfo": false,
+    "hasGraph": false,
+    "hasRule": false,
+    "hasKnowledge": true,
+    "inPetToxins": false,
+    "humanScore": 90,
+    "diabetesScore": 90,
+    "petScore": 90,
+    "humanFlags": [],
+    "diabetesFlags": [],
+    "petFlags": [],
+    "recommendationHuman": "BUY",
+    "recommendationDiabetes": "BUY",
+    "recommendationPet": "BUY",
+    "issues": [
+      "missing_graph",
+      "missing_info",
+      "missing_rule"
+    ]
+  },
+  {
+    "ingredient": "sugar",
+    "normalized": "sugar",
+    "sources": [
+      "INGREDIENT_KNOWLEDGE"
+    ],
+    "hasInfo": false,
+    "hasGraph": false,
+    "hasRule": false,
+    "hasKnowledge": true,
+    "inPetToxins": false,
+    "humanScore": 85,
+    "diabetesScore": 70,
+    "petScore": 85,
+    "humanFlags": [
+      "sugar risk"
+    ],
+    "diabetesFlags": [
+      "High sugar risk for diabetes",
+      "sugar risk"
+    ],
+    "petFlags": [
+      "sugar risk"
+    ],
+    "recommendationHuman": "BUY",
+    "recommendationDiabetes": "CAUTION",
+    "recommendationPet": "BUY",
+    "issues": [
+      "missing_graph",
+      "missing_info",
+      "missing_rule"
+    ]
+  },
+  {
+    "ingredient": "sunflower oil",
+    "normalized": "sunflower oil",
+    "sources": [
+      "INGREDIENT_KNOWLEDGE"
+    ],
+    "hasInfo": false,
+    "hasGraph": false,
+    "hasRule": false,
+    "hasKnowledge": true,
+    "inPetToxins": false,
+    "humanScore": 90,
+    "diabetesScore": 90,
+    "petScore": 90,
+    "humanFlags": [],
+    "diabetesFlags": [],
+    "petFlags": [],
+    "recommendationHuman": "BUY",
+    "recommendationDiabetes": "BUY",
+    "recommendationPet": "BUY",
+    "issues": [
+      "missing_graph",
+      "missing_info",
+      "missing_rule"
+    ]
+  },
+  {
+    "ingredient": "tea",
+    "normalized": "tea",
+    "sources": [
+      "INGREDIENT_KNOWLEDGE"
+    ],
+    "hasInfo": false,
+    "hasGraph": false,
+    "hasRule": false,
+    "hasKnowledge": true,
+    "inPetToxins": false,
+    "humanScore": 90,
+    "diabetesScore": 90,
+    "petScore": 90,
+    "humanFlags": [],
+    "diabetesFlags": [],
+    "petFlags": [],
+    "recommendationHuman": "BUY",
+    "recommendationDiabetes": "BUY",
+    "recommendationPet": "BUY",
+    "issues": [
+      "missing_graph",
+      "missing_info",
+      "missing_rule"
+    ]
+  },
+  {
+    "ingredient": "toxin 1",
+    "normalized": "toxin 1",
+    "sources": [
+      "PET_TOXINS"
+    ],
+    "hasInfo": false,
+    "hasGraph": false,
+    "hasRule": false,
+    "hasKnowledge": false,
+    "inPetToxins": false,
+    "humanScore": 90,
+    "diabetesScore": 90,
+    "petScore": 90,
+    "humanFlags": [],
+    "diabetesFlags": [],
+    "petFlags": [],
+    "recommendationHuman": "BUY",
+    "recommendationDiabetes": "BUY",
+    "recommendationPet": "BUY",
+    "issues": [
+      "missing_graph",
+      "missing_info",
+      "missing_knowledge",
+      "missing_rule"
+    ]
+  },
+  {
+    "ingredient": "toxin 10",
+    "normalized": "toxin 10",
+    "sources": [
+      "PET_TOXINS"
+    ],
+    "hasInfo": false,
+    "hasGraph": false,
+    "hasRule": false,
+    "hasKnowledge": false,
+    "inPetToxins": false,
+    "humanScore": 90,
+    "diabetesScore": 90,
+    "petScore": 90,
+    "humanFlags": [],
+    "diabetesFlags": [],
+    "petFlags": [],
+    "recommendationHuman": "BUY",
+    "recommendationDiabetes": "BUY",
+    "recommendationPet": "BUY",
+    "issues": [
+      "missing_graph",
+      "missing_info",
+      "missing_knowledge",
+      "missing_rule"
+    ]
+  },
+  {
+    "ingredient": "toxin 100",
+    "normalized": "toxin 100",
+    "sources": [
+      "PET_TOXINS"
+    ],
+    "hasInfo": false,
+    "hasGraph": false,
+    "hasRule": false,
+    "hasKnowledge": false,
+    "inPetToxins": false,
+    "humanScore": 90,
+    "diabetesScore": 90,
+    "petScore": 90,
+    "humanFlags": [],
+    "diabetesFlags": [],
+    "petFlags": [],
+    "recommendationHuman": "BUY",
+    "recommendationDiabetes": "BUY",
+    "recommendationPet": "BUY",
+    "issues": [
+      "missing_graph",
+      "missing_info",
+      "missing_knowledge",
+      "missing_rule"
+    ]
+  },
+  {
+    "ingredient": "toxin 101",
+    "normalized": "toxin 101",
+    "sources": [
+      "PET_TOXINS"
+    ],
+    "hasInfo": false,
+    "hasGraph": false,
+    "hasRule": false,
+    "hasKnowledge": false,
+    "inPetToxins": false,
+    "humanScore": 90,
+    "diabetesScore": 90,
+    "petScore": 90,
+    "humanFlags": [],
+    "diabetesFlags": [],
+    "petFlags": [],
+    "recommendationHuman": "BUY",
+    "recommendationDiabetes": "BUY",
+    "recommendationPet": "BUY",
+    "issues": [
+      "missing_graph",
+      "missing_info",
+      "missing_knowledge",
+      "missing_rule"
+    ]
+  },
+  {
+    "ingredient": "toxin 102",
+    "normalized": "toxin 102",
+    "sources": [
+      "PET_TOXINS"
+    ],
+    "hasInfo": false,
+    "hasGraph": false,
+    "hasRule": false,
+    "hasKnowledge": false,
+    "inPetToxins": false,
+    "humanScore": 90,
+    "diabetesScore": 90,
+    "petScore": 90,
+    "humanFlags": [],
+    "diabetesFlags": [],
+    "petFlags": [],
+    "recommendationHuman": "BUY",
+    "recommendationDiabetes": "BUY",
+    "recommendationPet": "BUY",
+    "issues": [
+      "missing_graph",
+      "missing_info",
+      "missing_knowledge",
+      "missing_rule"
+    ]
+  },
+  {
+    "ingredient": "toxin 103",
+    "normalized": "toxin 103",
+    "sources": [
+      "PET_TOXINS"
+    ],
+    "hasInfo": false,
+    "hasGraph": false,
+    "hasRule": false,
+    "hasKnowledge": false,
+    "inPetToxins": false,
+    "humanScore": 90,
+    "diabetesScore": 90,
+    "petScore": 90,
+    "humanFlags": [],
+    "diabetesFlags": [],
+    "petFlags": [],
+    "recommendationHuman": "BUY",
+    "recommendationDiabetes": "BUY",
+    "recommendationPet": "BUY",
+    "issues": [
+      "missing_graph",
+      "missing_info",
+      "missing_knowledge",
+      "missing_rule"
+    ]
+  },
+  {
+    "ingredient": "toxin 104",
+    "normalized": "toxin 104",
+    "sources": [
+      "PET_TOXINS"
+    ],
+    "hasInfo": false,
+    "hasGraph": false,
+    "hasRule": false,
+    "hasKnowledge": false,
+    "inPetToxins": false,
+    "humanScore": 90,
+    "diabetesScore": 90,
+    "petScore": 90,
+    "humanFlags": [],
+    "diabetesFlags": [],
+    "petFlags": [],
+    "recommendationHuman": "BUY",
+    "recommendationDiabetes": "BUY",
+    "recommendationPet": "BUY",
+    "issues": [
+      "missing_graph",
+      "missing_info",
+      "missing_knowledge",
+      "missing_rule"
+    ]
+  },
+  {
+    "ingredient": "toxin 105",
+    "normalized": "toxin 105",
+    "sources": [
+      "PET_TOXINS"
+    ],
+    "hasInfo": false,
+    "hasGraph": false,
+    "hasRule": false,
+    "hasKnowledge": false,
+    "inPetToxins": false,
+    "humanScore": 90,
+    "diabetesScore": 90,
+    "petScore": 90,
+    "humanFlags": [],
+    "diabetesFlags": [],
+    "petFlags": [],
+    "recommendationHuman": "BUY",
+    "recommendationDiabetes": "BUY",
+    "recommendationPet": "BUY",
+    "issues": [
+      "missing_graph",
+      "missing_info",
+      "missing_knowledge",
+      "missing_rule"
+    ]
+  },
+  {
+    "ingredient": "toxin 106",
+    "normalized": "toxin 106",
+    "sources": [
+      "PET_TOXINS"
+    ],
+    "hasInfo": false,
+    "hasGraph": false,
+    "hasRule": false,
+    "hasKnowledge": false,
+    "inPetToxins": false,
+    "humanScore": 90,
+    "diabetesScore": 90,
+    "petScore": 90,
+    "humanFlags": [],
+    "diabetesFlags": [],
+    "petFlags": [],
+    "recommendationHuman": "BUY",
+    "recommendationDiabetes": "BUY",
+    "recommendationPet": "BUY",
+    "issues": [
+      "missing_graph",
+      "missing_info",
+      "missing_knowledge",
+      "missing_rule"
+    ]
+  },
+  {
+    "ingredient": "toxin 107",
+    "normalized": "toxin 107",
+    "sources": [
+      "PET_TOXINS"
+    ],
+    "hasInfo": false,
+    "hasGraph": false,
+    "hasRule": false,
+    "hasKnowledge": false,
+    "inPetToxins": false,
+    "humanScore": 90,
+    "diabetesScore": 90,
+    "petScore": 90,
+    "humanFlags": [],
+    "diabetesFlags": [],
+    "petFlags": [],
+    "recommendationHuman": "BUY",
+    "recommendationDiabetes": "BUY",
+    "recommendationPet": "BUY",
+    "issues": [
+      "missing_graph",
+      "missing_info",
+      "missing_knowledge",
+      "missing_rule"
+    ]
+  },
+  {
+    "ingredient": "toxin 108",
+    "normalized": "toxin 108",
+    "sources": [
+      "PET_TOXINS"
+    ],
+    "hasInfo": false,
+    "hasGraph": false,
+    "hasRule": false,
+    "hasKnowledge": false,
+    "inPetToxins": false,
+    "humanScore": 90,
+    "diabetesScore": 90,
+    "petScore": 90,
+    "humanFlags": [],
+    "diabetesFlags": [],
+    "petFlags": [],
+    "recommendationHuman": "BUY",
+    "recommendationDiabetes": "BUY",
+    "recommendationPet": "BUY",
+    "issues": [
+      "missing_graph",
+      "missing_info",
+      "missing_knowledge",
+      "missing_rule"
+    ]
+  },
+  {
+    "ingredient": "toxin 109",
+    "normalized": "toxin 109",
+    "sources": [
+      "PET_TOXINS"
+    ],
+    "hasInfo": false,
+    "hasGraph": false,
+    "hasRule": false,
+    "hasKnowledge": false,
+    "inPetToxins": false,
+    "humanScore": 90,
+    "diabetesScore": 90,
+    "petScore": 90,
+    "humanFlags": [],
+    "diabetesFlags": [],
+    "petFlags": [],
+    "recommendationHuman": "BUY",
+    "recommendationDiabetes": "BUY",
+    "recommendationPet": "BUY",
+    "issues": [
+      "missing_graph",
+      "missing_info",
+      "missing_knowledge",
+      "missing_rule"
+    ]
+  },
+  {
+    "ingredient": "toxin 11",
+    "normalized": "toxin 11",
+    "sources": [
+      "PET_TOXINS"
+    ],
+    "hasInfo": false,
+    "hasGraph": false,
+    "hasRule": false,
+    "hasKnowledge": false,
+    "inPetToxins": false,
+    "humanScore": 90,
+    "diabetesScore": 90,
+    "petScore": 90,
+    "humanFlags": [],
+    "diabetesFlags": [],
+    "petFlags": [],
+    "recommendationHuman": "BUY",
+    "recommendationDiabetes": "BUY",
+    "recommendationPet": "BUY",
+    "issues": [
+      "missing_graph",
+      "missing_info",
+      "missing_knowledge",
+      "missing_rule"
+    ]
+  },
+  {
+    "ingredient": "toxin 110",
+    "normalized": "toxin 110",
+    "sources": [
+      "PET_TOXINS"
+    ],
+    "hasInfo": false,
+    "hasGraph": false,
+    "hasRule": false,
+    "hasKnowledge": false,
+    "inPetToxins": false,
+    "humanScore": 90,
+    "diabetesScore": 90,
+    "petScore": 90,
+    "humanFlags": [],
+    "diabetesFlags": [],
+    "petFlags": [],
+    "recommendationHuman": "BUY",
+    "recommendationDiabetes": "BUY",
+    "recommendationPet": "BUY",
+    "issues": [
+      "missing_graph",
+      "missing_info",
+      "missing_knowledge",
+      "missing_rule"
+    ]
+  },
+  {
+    "ingredient": "toxin 111",
+    "normalized": "toxin 111",
+    "sources": [
+      "PET_TOXINS"
+    ],
+    "hasInfo": false,
+    "hasGraph": false,
+    "hasRule": false,
+    "hasKnowledge": false,
+    "inPetToxins": false,
+    "humanScore": 90,
+    "diabetesScore": 90,
+    "petScore": 90,
+    "humanFlags": [],
+    "diabetesFlags": [],
+    "petFlags": [],
+    "recommendationHuman": "BUY",
+    "recommendationDiabetes": "BUY",
+    "recommendationPet": "BUY",
+    "issues": [
+      "missing_graph",
+      "missing_info",
+      "missing_knowledge",
+      "missing_rule"
+    ]
+  },
+  {
+    "ingredient": "toxin 112",
+    "normalized": "toxin 112",
+    "sources": [
+      "PET_TOXINS"
+    ],
+    "hasInfo": false,
+    "hasGraph": false,
+    "hasRule": false,
+    "hasKnowledge": false,
+    "inPetToxins": false,
+    "humanScore": 90,
+    "diabetesScore": 90,
+    "petScore": 90,
+    "humanFlags": [],
+    "diabetesFlags": [],
+    "petFlags": [],
+    "recommendationHuman": "BUY",
+    "recommendationDiabetes": "BUY",
+    "recommendationPet": "BUY",
+    "issues": [
+      "missing_graph",
+      "missing_info",
+      "missing_knowledge",
+      "missing_rule"
+    ]
+  },
+  {
+    "ingredient": "toxin 113",
+    "normalized": "toxin 113",
+    "sources": [
+      "PET_TOXINS"
+    ],
+    "hasInfo": false,
+    "hasGraph": false,
+    "hasRule": false,
+    "hasKnowledge": false,
+    "inPetToxins": false,
+    "humanScore": 90,
+    "diabetesScore": 90,
+    "petScore": 90,
+    "humanFlags": [],
+    "diabetesFlags": [],
+    "petFlags": [],
+    "recommendationHuman": "BUY",
+    "recommendationDiabetes": "BUY",
+    "recommendationPet": "BUY",
+    "issues": [
+      "missing_graph",
+      "missing_info",
+      "missing_knowledge",
+      "missing_rule"
+    ]
+  },
+  {
+    "ingredient": "toxin 114",
+    "normalized": "toxin 114",
+    "sources": [
+      "PET_TOXINS"
+    ],
+    "hasInfo": false,
+    "hasGraph": false,
+    "hasRule": false,
+    "hasKnowledge": false,
+    "inPetToxins": false,
+    "humanScore": 90,
+    "diabetesScore": 90,
+    "petScore": 90,
+    "humanFlags": [],
+    "diabetesFlags": [],
+    "petFlags": [],
+    "recommendationHuman": "BUY",
+    "recommendationDiabetes": "BUY",
+    "recommendationPet": "BUY",
+    "issues": [
+      "missing_graph",
+      "missing_info",
+      "missing_knowledge",
+      "missing_rule"
+    ]
+  },
+  {
+    "ingredient": "toxin 115",
+    "normalized": "toxin 115",
+    "sources": [
+      "PET_TOXINS"
+    ],
+    "hasInfo": false,
+    "hasGraph": false,
+    "hasRule": false,
+    "hasKnowledge": false,
+    "inPetToxins": false,
+    "humanScore": 90,
+    "diabetesScore": 90,
+    "petScore": 90,
+    "humanFlags": [],
+    "diabetesFlags": [],
+    "petFlags": [],
+    "recommendationHuman": "BUY",
+    "recommendationDiabetes": "BUY",
+    "recommendationPet": "BUY",
+    "issues": [
+      "missing_graph",
+      "missing_info",
+      "missing_knowledge",
+      "missing_rule"
+    ]
+  },
+  {
+    "ingredient": "toxin 116",
+    "normalized": "toxin 116",
+    "sources": [
+      "PET_TOXINS"
+    ],
+    "hasInfo": false,
+    "hasGraph": false,
+    "hasRule": false,
+    "hasKnowledge": false,
+    "inPetToxins": false,
+    "humanScore": 90,
+    "diabetesScore": 90,
+    "petScore": 90,
+    "humanFlags": [],
+    "diabetesFlags": [],
+    "petFlags": [],
+    "recommendationHuman": "BUY",
+    "recommendationDiabetes": "BUY",
+    "recommendationPet": "BUY",
+    "issues": [
+      "missing_graph",
+      "missing_info",
+      "missing_knowledge",
+      "missing_rule"
+    ]
+  },
+  {
+    "ingredient": "toxin 117",
+    "normalized": "toxin 117",
+    "sources": [
+      "PET_TOXINS"
+    ],
+    "hasInfo": false,
+    "hasGraph": false,
+    "hasRule": false,
+    "hasKnowledge": false,
+    "inPetToxins": false,
+    "humanScore": 90,
+    "diabetesScore": 90,
+    "petScore": 90,
+    "humanFlags": [],
+    "diabetesFlags": [],
+    "petFlags": [],
+    "recommendationHuman": "BUY",
+    "recommendationDiabetes": "BUY",
+    "recommendationPet": "BUY",
+    "issues": [
+      "missing_graph",
+      "missing_info",
+      "missing_knowledge",
+      "missing_rule"
+    ]
+  },
+  {
+    "ingredient": "toxin 118",
+    "normalized": "toxin 118",
+    "sources": [
+      "PET_TOXINS"
+    ],
+    "hasInfo": false,
+    "hasGraph": false,
+    "hasRule": false,
+    "hasKnowledge": false,
+    "inPetToxins": false,
+    "humanScore": 90,
+    "diabetesScore": 90,
+    "petScore": 90,
+    "humanFlags": [],
+    "diabetesFlags": [],
+    "petFlags": [],
+    "recommendationHuman": "BUY",
+    "recommendationDiabetes": "BUY",
+    "recommendationPet": "BUY",
+    "issues": [
+      "missing_graph",
+      "missing_info",
+      "missing_knowledge",
+      "missing_rule"
+    ]
+  },
+  {
+    "ingredient": "toxin 119",
+    "normalized": "toxin 119",
+    "sources": [
+      "PET_TOXINS"
+    ],
+    "hasInfo": false,
+    "hasGraph": false,
+    "hasRule": false,
+    "hasKnowledge": false,
+    "inPetToxins": false,
+    "humanScore": 90,
+    "diabetesScore": 90,
+    "petScore": 90,
+    "humanFlags": [],
+    "diabetesFlags": [],
+    "petFlags": [],
+    "recommendationHuman": "BUY",
+    "recommendationDiabetes": "BUY",
+    "recommendationPet": "BUY",
+    "issues": [
+      "missing_graph",
+      "missing_info",
+      "missing_knowledge",
+      "missing_rule"
+    ]
+  },
+  {
+    "ingredient": "toxin 12",
+    "normalized": "toxin 12",
+    "sources": [
+      "PET_TOXINS"
+    ],
+    "hasInfo": false,
+    "hasGraph": false,
+    "hasRule": false,
+    "hasKnowledge": false,
+    "inPetToxins": false,
+    "humanScore": 90,
+    "diabetesScore": 90,
+    "petScore": 90,
+    "humanFlags": [],
+    "diabetesFlags": [],
+    "petFlags": [],
+    "recommendationHuman": "BUY",
+    "recommendationDiabetes": "BUY",
+    "recommendationPet": "BUY",
+    "issues": [
+      "missing_graph",
+      "missing_info",
+      "missing_knowledge",
+      "missing_rule"
+    ]
+  },
+  {
+    "ingredient": "toxin 120",
+    "normalized": "toxin 120",
+    "sources": [
+      "PET_TOXINS"
+    ],
+    "hasInfo": false,
+    "hasGraph": false,
+    "hasRule": false,
+    "hasKnowledge": false,
+    "inPetToxins": false,
+    "humanScore": 90,
+    "diabetesScore": 90,
+    "petScore": 90,
+    "humanFlags": [],
+    "diabetesFlags": [],
+    "petFlags": [],
+    "recommendationHuman": "BUY",
+    "recommendationDiabetes": "BUY",
+    "recommendationPet": "BUY",
+    "issues": [
+      "missing_graph",
+      "missing_info",
+      "missing_knowledge",
+      "missing_rule"
+    ]
+  },
+  {
+    "ingredient": "toxin 121",
+    "normalized": "toxin 121",
+    "sources": [
+      "PET_TOXINS"
+    ],
+    "hasInfo": false,
+    "hasGraph": false,
+    "hasRule": false,
+    "hasKnowledge": false,
+    "inPetToxins": false,
+    "humanScore": 90,
+    "diabetesScore": 90,
+    "petScore": 90,
+    "humanFlags": [],
+    "diabetesFlags": [],
+    "petFlags": [],
+    "recommendationHuman": "BUY",
+    "recommendationDiabetes": "BUY",
+    "recommendationPet": "BUY",
+    "issues": [
+      "missing_graph",
+      "missing_info",
+      "missing_knowledge",
+      "missing_rule"
+    ]
+  },
+  {
+    "ingredient": "toxin 122",
+    "normalized": "toxin 122",
+    "sources": [
+      "PET_TOXINS"
+    ],
+    "hasInfo": false,
+    "hasGraph": false,
+    "hasRule": false,
+    "hasKnowledge": false,
+    "inPetToxins": false,
+    "humanScore": 90,
+    "diabetesScore": 90,
+    "petScore": 90,
+    "humanFlags": [],
+    "diabetesFlags": [],
+    "petFlags": [],
+    "recommendationHuman": "BUY",
+    "recommendationDiabetes": "BUY",
+    "recommendationPet": "BUY",
+    "issues": [
+      "missing_graph",
+      "missing_info",
+      "missing_knowledge",
+      "missing_rule"
+    ]
+  },
+  {
+    "ingredient": "toxin 123",
+    "normalized": "toxin 123",
+    "sources": [
+      "PET_TOXINS"
+    ],
+    "hasInfo": false,
+    "hasGraph": false,
+    "hasRule": false,
+    "hasKnowledge": false,
+    "inPetToxins": false,
+    "humanScore": 90,
+    "diabetesScore": 90,
+    "petScore": 90,
+    "humanFlags": [],
+    "diabetesFlags": [],
+    "petFlags": [],
+    "recommendationHuman": "BUY",
+    "recommendationDiabetes": "BUY",
+    "recommendationPet": "BUY",
+    "issues": [
+      "missing_graph",
+      "missing_info",
+      "missing_knowledge",
+      "missing_rule"
+    ]
+  },
+  {
+    "ingredient": "toxin 124",
+    "normalized": "toxin 124",
+    "sources": [
+      "PET_TOXINS"
+    ],
+    "hasInfo": false,
+    "hasGraph": false,
+    "hasRule": false,
+    "hasKnowledge": false,
+    "inPetToxins": false,
+    "humanScore": 90,
+    "diabetesScore": 90,
+    "petScore": 90,
+    "humanFlags": [],
+    "diabetesFlags": [],
+    "petFlags": [],
+    "recommendationHuman": "BUY",
+    "recommendationDiabetes": "BUY",
+    "recommendationPet": "BUY",
+    "issues": [
+      "missing_graph",
+      "missing_info",
+      "missing_knowledge",
+      "missing_rule"
+    ]
+  },
+  {
+    "ingredient": "toxin 125",
+    "normalized": "toxin 125",
+    "sources": [
+      "PET_TOXINS"
+    ],
+    "hasInfo": false,
+    "hasGraph": false,
+    "hasRule": false,
+    "hasKnowledge": false,
+    "inPetToxins": false,
+    "humanScore": 90,
+    "diabetesScore": 90,
+    "petScore": 90,
+    "humanFlags": [],
+    "diabetesFlags": [],
+    "petFlags": [],
+    "recommendationHuman": "BUY",
+    "recommendationDiabetes": "BUY",
+    "recommendationPet": "BUY",
+    "issues": [
+      "missing_graph",
+      "missing_info",
+      "missing_knowledge",
+      "missing_rule"
+    ]
+  },
+  {
+    "ingredient": "toxin 126",
+    "normalized": "toxin 126",
+    "sources": [
+      "PET_TOXINS"
+    ],
+    "hasInfo": false,
+    "hasGraph": false,
+    "hasRule": false,
+    "hasKnowledge": false,
+    "inPetToxins": false,
+    "humanScore": 90,
+    "diabetesScore": 90,
+    "petScore": 90,
+    "humanFlags": [],
+    "diabetesFlags": [],
+    "petFlags": [],
+    "recommendationHuman": "BUY",
+    "recommendationDiabetes": "BUY",
+    "recommendationPet": "BUY",
+    "issues": [
+      "missing_graph",
+      "missing_info",
+      "missing_knowledge",
+      "missing_rule"
+    ]
+  },
+  {
+    "ingredient": "toxin 127",
+    "normalized": "toxin 127",
+    "sources": [
+      "PET_TOXINS"
+    ],
+    "hasInfo": false,
+    "hasGraph": false,
+    "hasRule": false,
+    "hasKnowledge": false,
+    "inPetToxins": false,
+    "humanScore": 90,
+    "diabetesScore": 90,
+    "petScore": 90,
+    "humanFlags": [],
+    "diabetesFlags": [],
+    "petFlags": [],
+    "recommendationHuman": "BUY",
+    "recommendationDiabetes": "BUY",
+    "recommendationPet": "BUY",
+    "issues": [
+      "missing_graph",
+      "missing_info",
+      "missing_knowledge",
+      "missing_rule"
+    ]
+  },
+  {
+    "ingredient": "toxin 128",
+    "normalized": "toxin 128",
+    "sources": [
+      "PET_TOXINS"
+    ],
+    "hasInfo": false,
+    "hasGraph": false,
+    "hasRule": false,
+    "hasKnowledge": false,
+    "inPetToxins": false,
+    "humanScore": 90,
+    "diabetesScore": 90,
+    "petScore": 90,
+    "humanFlags": [],
+    "diabetesFlags": [],
+    "petFlags": [],
+    "recommendationHuman": "BUY",
+    "recommendationDiabetes": "BUY",
+    "recommendationPet": "BUY",
+    "issues": [
+      "missing_graph",
+      "missing_info",
+      "missing_knowledge",
+      "missing_rule"
+    ]
+  },
+  {
+    "ingredient": "toxin 129",
+    "normalized": "toxin 129",
+    "sources": [
+      "PET_TOXINS"
+    ],
+    "hasInfo": false,
+    "hasGraph": false,
+    "hasRule": false,
+    "hasKnowledge": false,
+    "inPetToxins": false,
+    "humanScore": 90,
+    "diabetesScore": 90,
+    "petScore": 90,
+    "humanFlags": [],
+    "diabetesFlags": [],
+    "petFlags": [],
+    "recommendationHuman": "BUY",
+    "recommendationDiabetes": "BUY",
+    "recommendationPet": "BUY",
+    "issues": [
+      "missing_graph",
+      "missing_info",
+      "missing_knowledge",
+      "missing_rule"
+    ]
+  },
+  {
+    "ingredient": "toxin 13",
+    "normalized": "toxin 13",
+    "sources": [
+      "PET_TOXINS"
+    ],
+    "hasInfo": false,
+    "hasGraph": false,
+    "hasRule": false,
+    "hasKnowledge": false,
+    "inPetToxins": false,
+    "humanScore": 90,
+    "diabetesScore": 90,
+    "petScore": 90,
+    "humanFlags": [],
+    "diabetesFlags": [],
+    "petFlags": [],
+    "recommendationHuman": "BUY",
+    "recommendationDiabetes": "BUY",
+    "recommendationPet": "BUY",
+    "issues": [
+      "missing_graph",
+      "missing_info",
+      "missing_knowledge",
+      "missing_rule"
+    ]
+  },
+  {
+    "ingredient": "toxin 130",
+    "normalized": "toxin 130",
+    "sources": [
+      "PET_TOXINS"
+    ],
+    "hasInfo": false,
+    "hasGraph": false,
+    "hasRule": false,
+    "hasKnowledge": false,
+    "inPetToxins": false,
+    "humanScore": 90,
+    "diabetesScore": 90,
+    "petScore": 90,
+    "humanFlags": [],
+    "diabetesFlags": [],
+    "petFlags": [],
+    "recommendationHuman": "BUY",
+    "recommendationDiabetes": "BUY",
+    "recommendationPet": "BUY",
+    "issues": [
+      "missing_graph",
+      "missing_info",
+      "missing_knowledge",
+      "missing_rule"
+    ]
+  },
+  {
+    "ingredient": "toxin 131",
+    "normalized": "toxin 131",
+    "sources": [
+      "PET_TOXINS"
+    ],
+    "hasInfo": false,
+    "hasGraph": false,
+    "hasRule": false,
+    "hasKnowledge": false,
+    "inPetToxins": false,
+    "humanScore": 90,
+    "diabetesScore": 90,
+    "petScore": 90,
+    "humanFlags": [],
+    "diabetesFlags": [],
+    "petFlags": [],
+    "recommendationHuman": "BUY",
+    "recommendationDiabetes": "BUY",
+    "recommendationPet": "BUY",
+    "issues": [
+      "missing_graph",
+      "missing_info",
+      "missing_knowledge",
+      "missing_rule"
+    ]
+  },
+  {
+    "ingredient": "toxin 132",
+    "normalized": "toxin 132",
+    "sources": [
+      "PET_TOXINS"
+    ],
+    "hasInfo": false,
+    "hasGraph": false,
+    "hasRule": false,
+    "hasKnowledge": false,
+    "inPetToxins": false,
+    "humanScore": 90,
+    "diabetesScore": 90,
+    "petScore": 90,
+    "humanFlags": [],
+    "diabetesFlags": [],
+    "petFlags": [],
+    "recommendationHuman": "BUY",
+    "recommendationDiabetes": "BUY",
+    "recommendationPet": "BUY",
+    "issues": [
+      "missing_graph",
+      "missing_info",
+      "missing_knowledge",
+      "missing_rule"
+    ]
+  },
+  {
+    "ingredient": "toxin 133",
+    "normalized": "toxin 133",
+    "sources": [
+      "PET_TOXINS"
+    ],
+    "hasInfo": false,
+    "hasGraph": false,
+    "hasRule": false,
+    "hasKnowledge": false,
+    "inPetToxins": false,
+    "humanScore": 90,
+    "diabetesScore": 90,
+    "petScore": 90,
+    "humanFlags": [],
+    "diabetesFlags": [],
+    "petFlags": [],
+    "recommendationHuman": "BUY",
+    "recommendationDiabetes": "BUY",
+    "recommendationPet": "BUY",
+    "issues": [
+      "missing_graph",
+      "missing_info",
+      "missing_knowledge",
+      "missing_rule"
+    ]
+  },
+  {
+    "ingredient": "toxin 134",
+    "normalized": "toxin 134",
+    "sources": [
+      "PET_TOXINS"
+    ],
+    "hasInfo": false,
+    "hasGraph": false,
+    "hasRule": false,
+    "hasKnowledge": false,
+    "inPetToxins": false,
+    "humanScore": 90,
+    "diabetesScore": 90,
+    "petScore": 90,
+    "humanFlags": [],
+    "diabetesFlags": [],
+    "petFlags": [],
+    "recommendationHuman": "BUY",
+    "recommendationDiabetes": "BUY",
+    "recommendationPet": "BUY",
+    "issues": [
+      "missing_graph",
+      "missing_info",
+      "missing_knowledge",
+      "missing_rule"
+    ]
+  },
+  {
+    "ingredient": "toxin 135",
+    "normalized": "toxin 135",
+    "sources": [
+      "PET_TOXINS"
+    ],
+    "hasInfo": false,
+    "hasGraph": false,
+    "hasRule": false,
+    "hasKnowledge": false,
+    "inPetToxins": false,
+    "humanScore": 90,
+    "diabetesScore": 90,
+    "petScore": 90,
+    "humanFlags": [],
+    "diabetesFlags": [],
+    "petFlags": [],
+    "recommendationHuman": "BUY",
+    "recommendationDiabetes": "BUY",
+    "recommendationPet": "BUY",
+    "issues": [
+      "missing_graph",
+      "missing_info",
+      "missing_knowledge",
+      "missing_rule"
+    ]
+  },
+  {
+    "ingredient": "toxin 136",
+    "normalized": "toxin 136",
+    "sources": [
+      "PET_TOXINS"
+    ],
+    "hasInfo": false,
+    "hasGraph": false,
+    "hasRule": false,
+    "hasKnowledge": false,
+    "inPetToxins": false,
+    "humanScore": 90,
+    "diabetesScore": 90,
+    "petScore": 90,
+    "humanFlags": [],
+    "diabetesFlags": [],
+    "petFlags": [],
+    "recommendationHuman": "BUY",
+    "recommendationDiabetes": "BUY",
+    "recommendationPet": "BUY",
+    "issues": [
+      "missing_graph",
+      "missing_info",
+      "missing_knowledge",
+      "missing_rule"
+    ]
+  },
+  {
+    "ingredient": "toxin 137",
+    "normalized": "toxin 137",
+    "sources": [
+      "PET_TOXINS"
+    ],
+    "hasInfo": false,
+    "hasGraph": false,
+    "hasRule": false,
+    "hasKnowledge": false,
+    "inPetToxins": false,
+    "humanScore": 90,
+    "diabetesScore": 90,
+    "petScore": 90,
+    "humanFlags": [],
+    "diabetesFlags": [],
+    "petFlags": [],
+    "recommendationHuman": "BUY",
+    "recommendationDiabetes": "BUY",
+    "recommendationPet": "BUY",
+    "issues": [
+      "missing_graph",
+      "missing_info",
+      "missing_knowledge",
+      "missing_rule"
+    ]
+  },
+  {
+    "ingredient": "toxin 138",
+    "normalized": "toxin 138",
+    "sources": [
+      "PET_TOXINS"
+    ],
+    "hasInfo": false,
+    "hasGraph": false,
+    "hasRule": false,
+    "hasKnowledge": false,
+    "inPetToxins": false,
+    "humanScore": 90,
+    "diabetesScore": 90,
+    "petScore": 90,
+    "humanFlags": [],
+    "diabetesFlags": [],
+    "petFlags": [],
+    "recommendationHuman": "BUY",
+    "recommendationDiabetes": "BUY",
+    "recommendationPet": "BUY",
+    "issues": [
+      "missing_graph",
+      "missing_info",
+      "missing_knowledge",
+      "missing_rule"
+    ]
+  },
+  {
+    "ingredient": "toxin 139",
+    "normalized": "toxin 139",
+    "sources": [
+      "PET_TOXINS"
+    ],
+    "hasInfo": false,
+    "hasGraph": false,
+    "hasRule": false,
+    "hasKnowledge": false,
+    "inPetToxins": false,
+    "humanScore": 90,
+    "diabetesScore": 90,
+    "petScore": 90,
+    "humanFlags": [],
+    "diabetesFlags": [],
+    "petFlags": [],
+    "recommendationHuman": "BUY",
+    "recommendationDiabetes": "BUY",
+    "recommendationPet": "BUY",
+    "issues": [
+      "missing_graph",
+      "missing_info",
+      "missing_knowledge",
+      "missing_rule"
+    ]
+  },
+  {
+    "ingredient": "toxin 14",
+    "normalized": "toxin 14",
+    "sources": [
+      "PET_TOXINS"
+    ],
+    "hasInfo": false,
+    "hasGraph": false,
+    "hasRule": false,
+    "hasKnowledge": false,
+    "inPetToxins": false,
+    "humanScore": 90,
+    "diabetesScore": 90,
+    "petScore": 90,
+    "humanFlags": [],
+    "diabetesFlags": [],
+    "petFlags": [],
+    "recommendationHuman": "BUY",
+    "recommendationDiabetes": "BUY",
+    "recommendationPet": "BUY",
+    "issues": [
+      "missing_graph",
+      "missing_info",
+      "missing_knowledge",
+      "missing_rule"
+    ]
+  },
+  {
+    "ingredient": "toxin 140",
+    "normalized": "toxin 140",
+    "sources": [
+      "PET_TOXINS"
+    ],
+    "hasInfo": false,
+    "hasGraph": false,
+    "hasRule": false,
+    "hasKnowledge": false,
+    "inPetToxins": false,
+    "humanScore": 90,
+    "diabetesScore": 90,
+    "petScore": 90,
+    "humanFlags": [],
+    "diabetesFlags": [],
+    "petFlags": [],
+    "recommendationHuman": "BUY",
+    "recommendationDiabetes": "BUY",
+    "recommendationPet": "BUY",
+    "issues": [
+      "missing_graph",
+      "missing_info",
+      "missing_knowledge",
+      "missing_rule"
+    ]
+  },
+  {
+    "ingredient": "toxin 141",
+    "normalized": "toxin 141",
+    "sources": [
+      "PET_TOXINS"
+    ],
+    "hasInfo": false,
+    "hasGraph": false,
+    "hasRule": false,
+    "hasKnowledge": false,
+    "inPetToxins": false,
+    "humanScore": 90,
+    "diabetesScore": 90,
+    "petScore": 90,
+    "humanFlags": [],
+    "diabetesFlags": [],
+    "petFlags": [],
+    "recommendationHuman": "BUY",
+    "recommendationDiabetes": "BUY",
+    "recommendationPet": "BUY",
+    "issues": [
+      "missing_graph",
+      "missing_info",
+      "missing_knowledge",
+      "missing_rule"
+    ]
+  },
+  {
+    "ingredient": "toxin 142",
+    "normalized": "toxin 142",
+    "sources": [
+      "PET_TOXINS"
+    ],
+    "hasInfo": false,
+    "hasGraph": false,
+    "hasRule": false,
+    "hasKnowledge": false,
+    "inPetToxins": false,
+    "humanScore": 90,
+    "diabetesScore": 90,
+    "petScore": 90,
+    "humanFlags": [],
+    "diabetesFlags": [],
+    "petFlags": [],
+    "recommendationHuman": "BUY",
+    "recommendationDiabetes": "BUY",
+    "recommendationPet": "BUY",
+    "issues": [
+      "missing_graph",
+      "missing_info",
+      "missing_knowledge",
+      "missing_rule"
+    ]
+  },
+  {
+    "ingredient": "toxin 143",
+    "normalized": "toxin 143",
+    "sources": [
+      "PET_TOXINS"
+    ],
+    "hasInfo": false,
+    "hasGraph": false,
+    "hasRule": false,
+    "hasKnowledge": false,
+    "inPetToxins": false,
+    "humanScore": 90,
+    "diabetesScore": 90,
+    "petScore": 90,
+    "humanFlags": [],
+    "diabetesFlags": [],
+    "petFlags": [],
+    "recommendationHuman": "BUY",
+    "recommendationDiabetes": "BUY",
+    "recommendationPet": "BUY",
+    "issues": [
+      "missing_graph",
+      "missing_info",
+      "missing_knowledge",
+      "missing_rule"
+    ]
+  },
+  {
+    "ingredient": "toxin 144",
+    "normalized": "toxin 144",
+    "sources": [
+      "PET_TOXINS"
+    ],
+    "hasInfo": false,
+    "hasGraph": false,
+    "hasRule": false,
+    "hasKnowledge": false,
+    "inPetToxins": false,
+    "humanScore": 90,
+    "diabetesScore": 90,
+    "petScore": 90,
+    "humanFlags": [],
+    "diabetesFlags": [],
+    "petFlags": [],
+    "recommendationHuman": "BUY",
+    "recommendationDiabetes": "BUY",
+    "recommendationPet": "BUY",
+    "issues": [
+      "missing_graph",
+      "missing_info",
+      "missing_knowledge",
+      "missing_rule"
+    ]
+  },
+  {
+    "ingredient": "toxin 145",
+    "normalized": "toxin 145",
+    "sources": [
+      "PET_TOXINS"
+    ],
+    "hasInfo": false,
+    "hasGraph": false,
+    "hasRule": false,
+    "hasKnowledge": false,
+    "inPetToxins": false,
+    "humanScore": 90,
+    "diabetesScore": 90,
+    "petScore": 90,
+    "humanFlags": [],
+    "diabetesFlags": [],
+    "petFlags": [],
+    "recommendationHuman": "BUY",
+    "recommendationDiabetes": "BUY",
+    "recommendationPet": "BUY",
+    "issues": [
+      "missing_graph",
+      "missing_info",
+      "missing_knowledge",
+      "missing_rule"
+    ]
+  },
+  {
+    "ingredient": "toxin 146",
+    "normalized": "toxin 146",
+    "sources": [
+      "PET_TOXINS"
+    ],
+    "hasInfo": false,
+    "hasGraph": false,
+    "hasRule": false,
+    "hasKnowledge": false,
+    "inPetToxins": false,
+    "humanScore": 90,
+    "diabetesScore": 90,
+    "petScore": 90,
+    "humanFlags": [],
+    "diabetesFlags": [],
+    "petFlags": [],
+    "recommendationHuman": "BUY",
+    "recommendationDiabetes": "BUY",
+    "recommendationPet": "BUY",
+    "issues": [
+      "missing_graph",
+      "missing_info",
+      "missing_knowledge",
+      "missing_rule"
+    ]
+  },
+  {
+    "ingredient": "toxin 147",
+    "normalized": "toxin 147",
+    "sources": [
+      "PET_TOXINS"
+    ],
+    "hasInfo": false,
+    "hasGraph": false,
+    "hasRule": false,
+    "hasKnowledge": false,
+    "inPetToxins": false,
+    "humanScore": 90,
+    "diabetesScore": 90,
+    "petScore": 90,
+    "humanFlags": [],
+    "diabetesFlags": [],
+    "petFlags": [],
+    "recommendationHuman": "BUY",
+    "recommendationDiabetes": "BUY",
+    "recommendationPet": "BUY",
+    "issues": [
+      "missing_graph",
+      "missing_info",
+      "missing_knowledge",
+      "missing_rule"
+    ]
+  },
+  {
+    "ingredient": "toxin 148",
+    "normalized": "toxin 148",
+    "sources": [
+      "PET_TOXINS"
+    ],
+    "hasInfo": false,
+    "hasGraph": false,
+    "hasRule": false,
+    "hasKnowledge": false,
+    "inPetToxins": false,
+    "humanScore": 90,
+    "diabetesScore": 90,
+    "petScore": 90,
+    "humanFlags": [],
+    "diabetesFlags": [],
+    "petFlags": [],
+    "recommendationHuman": "BUY",
+    "recommendationDiabetes": "BUY",
+    "recommendationPet": "BUY",
+    "issues": [
+      "missing_graph",
+      "missing_info",
+      "missing_knowledge",
+      "missing_rule"
+    ]
+  },
+  {
+    "ingredient": "toxin 149",
+    "normalized": "toxin 149",
+    "sources": [
+      "PET_TOXINS"
+    ],
+    "hasInfo": false,
+    "hasGraph": false,
+    "hasRule": false,
+    "hasKnowledge": false,
+    "inPetToxins": false,
+    "humanScore": 90,
+    "diabetesScore": 90,
+    "petScore": 90,
+    "humanFlags": [],
+    "diabetesFlags": [],
+    "petFlags": [],
+    "recommendationHuman": "BUY",
+    "recommendationDiabetes": "BUY",
+    "recommendationPet": "BUY",
+    "issues": [
+      "missing_graph",
+      "missing_info",
+      "missing_knowledge",
+      "missing_rule"
+    ]
+  },
+  {
+    "ingredient": "toxin 15",
+    "normalized": "toxin 15",
+    "sources": [
+      "PET_TOXINS"
+    ],
+    "hasInfo": false,
+    "hasGraph": false,
+    "hasRule": false,
+    "hasKnowledge": false,
+    "inPetToxins": false,
+    "humanScore": 90,
+    "diabetesScore": 90,
+    "petScore": 90,
+    "humanFlags": [],
+    "diabetesFlags": [],
+    "petFlags": [],
+    "recommendationHuman": "BUY",
+    "recommendationDiabetes": "BUY",
+    "recommendationPet": "BUY",
+    "issues": [
+      "missing_graph",
+      "missing_info",
+      "missing_knowledge",
+      "missing_rule"
+    ]
+  },
+  {
+    "ingredient": "toxin 150",
+    "normalized": "toxin 150",
+    "sources": [
+      "PET_TOXINS"
+    ],
+    "hasInfo": false,
+    "hasGraph": false,
+    "hasRule": false,
+    "hasKnowledge": false,
+    "inPetToxins": false,
+    "humanScore": 90,
+    "diabetesScore": 90,
+    "petScore": 90,
+    "humanFlags": [],
+    "diabetesFlags": [],
+    "petFlags": [],
+    "recommendationHuman": "BUY",
+    "recommendationDiabetes": "BUY",
+    "recommendationPet": "BUY",
+    "issues": [
+      "missing_graph",
+      "missing_info",
+      "missing_knowledge",
+      "missing_rule"
+    ]
+  },
+  {
+    "ingredient": "toxin 151",
+    "normalized": "toxin 151",
+    "sources": [
+      "PET_TOXINS"
+    ],
+    "hasInfo": false,
+    "hasGraph": false,
+    "hasRule": false,
+    "hasKnowledge": false,
+    "inPetToxins": false,
+    "humanScore": 90,
+    "diabetesScore": 90,
+    "petScore": 90,
+    "humanFlags": [],
+    "diabetesFlags": [],
+    "petFlags": [],
+    "recommendationHuman": "BUY",
+    "recommendationDiabetes": "BUY",
+    "recommendationPet": "BUY",
+    "issues": [
+      "missing_graph",
+      "missing_info",
+      "missing_knowledge",
+      "missing_rule"
+    ]
+  },
+  {
+    "ingredient": "toxin 152",
+    "normalized": "toxin 152",
+    "sources": [
+      "PET_TOXINS"
+    ],
+    "hasInfo": false,
+    "hasGraph": false,
+    "hasRule": false,
+    "hasKnowledge": false,
+    "inPetToxins": false,
+    "humanScore": 90,
+    "diabetesScore": 90,
+    "petScore": 90,
+    "humanFlags": [],
+    "diabetesFlags": [],
+    "petFlags": [],
+    "recommendationHuman": "BUY",
+    "recommendationDiabetes": "BUY",
+    "recommendationPet": "BUY",
+    "issues": [
+      "missing_graph",
+      "missing_info",
+      "missing_knowledge",
+      "missing_rule"
+    ]
+  },
+  {
+    "ingredient": "toxin 153",
+    "normalized": "toxin 153",
+    "sources": [
+      "PET_TOXINS"
+    ],
+    "hasInfo": false,
+    "hasGraph": false,
+    "hasRule": false,
+    "hasKnowledge": false,
+    "inPetToxins": false,
+    "humanScore": 90,
+    "diabetesScore": 90,
+    "petScore": 90,
+    "humanFlags": [],
+    "diabetesFlags": [],
+    "petFlags": [],
+    "recommendationHuman": "BUY",
+    "recommendationDiabetes": "BUY",
+    "recommendationPet": "BUY",
+    "issues": [
+      "missing_graph",
+      "missing_info",
+      "missing_knowledge",
+      "missing_rule"
+    ]
+  },
+  {
+    "ingredient": "toxin 154",
+    "normalized": "toxin 154",
+    "sources": [
+      "PET_TOXINS"
+    ],
+    "hasInfo": false,
+    "hasGraph": false,
+    "hasRule": false,
+    "hasKnowledge": false,
+    "inPetToxins": false,
+    "humanScore": 90,
+    "diabetesScore": 90,
+    "petScore": 90,
+    "humanFlags": [],
+    "diabetesFlags": [],
+    "petFlags": [],
+    "recommendationHuman": "BUY",
+    "recommendationDiabetes": "BUY",
+    "recommendationPet": "BUY",
+    "issues": [
+      "missing_graph",
+      "missing_info",
+      "missing_knowledge",
+      "missing_rule"
+    ]
+  },
+  {
+    "ingredient": "toxin 155",
+    "normalized": "toxin 155",
+    "sources": [
+      "PET_TOXINS"
+    ],
+    "hasInfo": false,
+    "hasGraph": false,
+    "hasRule": false,
+    "hasKnowledge": false,
+    "inPetToxins": false,
+    "humanScore": 90,
+    "diabetesScore": 90,
+    "petScore": 90,
+    "humanFlags": [],
+    "diabetesFlags": [],
+    "petFlags": [],
+    "recommendationHuman": "BUY",
+    "recommendationDiabetes": "BUY",
+    "recommendationPet": "BUY",
+    "issues": [
+      "missing_graph",
+      "missing_info",
+      "missing_knowledge",
+      "missing_rule"
+    ]
+  },
+  {
+    "ingredient": "toxin 156",
+    "normalized": "toxin 156",
+    "sources": [
+      "PET_TOXINS"
+    ],
+    "hasInfo": false,
+    "hasGraph": false,
+    "hasRule": false,
+    "hasKnowledge": false,
+    "inPetToxins": false,
+    "humanScore": 90,
+    "diabetesScore": 90,
+    "petScore": 90,
+    "humanFlags": [],
+    "diabetesFlags": [],
+    "petFlags": [],
+    "recommendationHuman": "BUY",
+    "recommendationDiabetes": "BUY",
+    "recommendationPet": "BUY",
+    "issues": [
+      "missing_graph",
+      "missing_info",
+      "missing_knowledge",
+      "missing_rule"
+    ]
+  },
+  {
+    "ingredient": "toxin 157",
+    "normalized": "toxin 157",
+    "sources": [
+      "PET_TOXINS"
+    ],
+    "hasInfo": false,
+    "hasGraph": false,
+    "hasRule": false,
+    "hasKnowledge": false,
+    "inPetToxins": false,
+    "humanScore": 90,
+    "diabetesScore": 90,
+    "petScore": 90,
+    "humanFlags": [],
+    "diabetesFlags": [],
+    "petFlags": [],
+    "recommendationHuman": "BUY",
+    "recommendationDiabetes": "BUY",
+    "recommendationPet": "BUY",
+    "issues": [
+      "missing_graph",
+      "missing_info",
+      "missing_knowledge",
+      "missing_rule"
+    ]
+  },
+  {
+    "ingredient": "toxin 158",
+    "normalized": "toxin 158",
+    "sources": [
+      "PET_TOXINS"
+    ],
+    "hasInfo": false,
+    "hasGraph": false,
+    "hasRule": false,
+    "hasKnowledge": false,
+    "inPetToxins": false,
+    "humanScore": 90,
+    "diabetesScore": 90,
+    "petScore": 90,
+    "humanFlags": [],
+    "diabetesFlags": [],
+    "petFlags": [],
+    "recommendationHuman": "BUY",
+    "recommendationDiabetes": "BUY",
+    "recommendationPet": "BUY",
+    "issues": [
+      "missing_graph",
+      "missing_info",
+      "missing_knowledge",
+      "missing_rule"
+    ]
+  },
+  {
+    "ingredient": "toxin 159",
+    "normalized": "toxin 159",
+    "sources": [
+      "PET_TOXINS"
+    ],
+    "hasInfo": false,
+    "hasGraph": false,
+    "hasRule": false,
+    "hasKnowledge": false,
+    "inPetToxins": false,
+    "humanScore": 90,
+    "diabetesScore": 90,
+    "petScore": 90,
+    "humanFlags": [],
+    "diabetesFlags": [],
+    "petFlags": [],
+    "recommendationHuman": "BUY",
+    "recommendationDiabetes": "BUY",
+    "recommendationPet": "BUY",
+    "issues": [
+      "missing_graph",
+      "missing_info",
+      "missing_knowledge",
+      "missing_rule"
+    ]
+  },
+  {
+    "ingredient": "toxin 16",
+    "normalized": "toxin 16",
+    "sources": [
+      "PET_TOXINS"
+    ],
+    "hasInfo": false,
+    "hasGraph": false,
+    "hasRule": false,
+    "hasKnowledge": false,
+    "inPetToxins": false,
+    "humanScore": 90,
+    "diabetesScore": 90,
+    "petScore": 90,
+    "humanFlags": [],
+    "diabetesFlags": [],
+    "petFlags": [],
+    "recommendationHuman": "BUY",
+    "recommendationDiabetes": "BUY",
+    "recommendationPet": "BUY",
+    "issues": [
+      "missing_graph",
+      "missing_info",
+      "missing_knowledge",
+      "missing_rule"
+    ]
+  },
+  {
+    "ingredient": "toxin 160",
+    "normalized": "toxin 160",
+    "sources": [
+      "PET_TOXINS"
+    ],
+    "hasInfo": false,
+    "hasGraph": false,
+    "hasRule": false,
+    "hasKnowledge": false,
+    "inPetToxins": false,
+    "humanScore": 90,
+    "diabetesScore": 90,
+    "petScore": 90,
+    "humanFlags": [],
+    "diabetesFlags": [],
+    "petFlags": [],
+    "recommendationHuman": "BUY",
+    "recommendationDiabetes": "BUY",
+    "recommendationPet": "BUY",
+    "issues": [
+      "missing_graph",
+      "missing_info",
+      "missing_knowledge",
+      "missing_rule"
+    ]
+  },
+  {
+    "ingredient": "toxin 161",
+    "normalized": "toxin 161",
+    "sources": [
+      "PET_TOXINS"
+    ],
+    "hasInfo": false,
+    "hasGraph": false,
+    "hasRule": false,
+    "hasKnowledge": false,
+    "inPetToxins": false,
+    "humanScore": 90,
+    "diabetesScore": 90,
+    "petScore": 90,
+    "humanFlags": [],
+    "diabetesFlags": [],
+    "petFlags": [],
+    "recommendationHuman": "BUY",
+    "recommendationDiabetes": "BUY",
+    "recommendationPet": "BUY",
+    "issues": [
+      "missing_graph",
+      "missing_info",
+      "missing_knowledge",
+      "missing_rule"
+    ]
+  },
+  {
+    "ingredient": "toxin 162",
+    "normalized": "toxin 162",
+    "sources": [
+      "PET_TOXINS"
+    ],
+    "hasInfo": false,
+    "hasGraph": false,
+    "hasRule": false,
+    "hasKnowledge": false,
+    "inPetToxins": false,
+    "humanScore": 90,
+    "diabetesScore": 90,
+    "petScore": 90,
+    "humanFlags": [],
+    "diabetesFlags": [],
+    "petFlags": [],
+    "recommendationHuman": "BUY",
+    "recommendationDiabetes": "BUY",
+    "recommendationPet": "BUY",
+    "issues": [
+      "missing_graph",
+      "missing_info",
+      "missing_knowledge",
+      "missing_rule"
+    ]
+  },
+  {
+    "ingredient": "toxin 163",
+    "normalized": "toxin 163",
+    "sources": [
+      "PET_TOXINS"
+    ],
+    "hasInfo": false,
+    "hasGraph": false,
+    "hasRule": false,
+    "hasKnowledge": false,
+    "inPetToxins": false,
+    "humanScore": 90,
+    "diabetesScore": 90,
+    "petScore": 90,
+    "humanFlags": [],
+    "diabetesFlags": [],
+    "petFlags": [],
+    "recommendationHuman": "BUY",
+    "recommendationDiabetes": "BUY",
+    "recommendationPet": "BUY",
+    "issues": [
+      "missing_graph",
+      "missing_info",
+      "missing_knowledge",
+      "missing_rule"
+    ]
+  },
+  {
+    "ingredient": "toxin 164",
+    "normalized": "toxin 164",
+    "sources": [
+      "PET_TOXINS"
+    ],
+    "hasInfo": false,
+    "hasGraph": false,
+    "hasRule": false,
+    "hasKnowledge": false,
+    "inPetToxins": false,
+    "humanScore": 90,
+    "diabetesScore": 90,
+    "petScore": 90,
+    "humanFlags": [],
+    "diabetesFlags": [],
+    "petFlags": [],
+    "recommendationHuman": "BUY",
+    "recommendationDiabetes": "BUY",
+    "recommendationPet": "BUY",
+    "issues": [
+      "missing_graph",
+      "missing_info",
+      "missing_knowledge",
+      "missing_rule"
+    ]
+  },
+  {
+    "ingredient": "toxin 165",
+    "normalized": "toxin 165",
+    "sources": [
+      "PET_TOXINS"
+    ],
+    "hasInfo": false,
+    "hasGraph": false,
+    "hasRule": false,
+    "hasKnowledge": false,
+    "inPetToxins": false,
+    "humanScore": 90,
+    "diabetesScore": 90,
+    "petScore": 90,
+    "humanFlags": [],
+    "diabetesFlags": [],
+    "petFlags": [],
+    "recommendationHuman": "BUY",
+    "recommendationDiabetes": "BUY",
+    "recommendationPet": "BUY",
+    "issues": [
+      "missing_graph",
+      "missing_info",
+      "missing_knowledge",
+      "missing_rule"
+    ]
+  },
+  {
+    "ingredient": "toxin 166",
+    "normalized": "toxin 166",
+    "sources": [
+      "PET_TOXINS"
+    ],
+    "hasInfo": false,
+    "hasGraph": false,
+    "hasRule": false,
+    "hasKnowledge": false,
+    "inPetToxins": false,
+    "humanScore": 90,
+    "diabetesScore": 90,
+    "petScore": 90,
+    "humanFlags": [],
+    "diabetesFlags": [],
+    "petFlags": [],
+    "recommendationHuman": "BUY",
+    "recommendationDiabetes": "BUY",
+    "recommendationPet": "BUY",
+    "issues": [
+      "missing_graph",
+      "missing_info",
+      "missing_knowledge",
+      "missing_rule"
+    ]
+  },
+  {
+    "ingredient": "toxin 167",
+    "normalized": "toxin 167",
+    "sources": [
+      "PET_TOXINS"
+    ],
+    "hasInfo": false,
+    "hasGraph": false,
+    "hasRule": false,
+    "hasKnowledge": false,
+    "inPetToxins": false,
+    "humanScore": 90,
+    "diabetesScore": 90,
+    "petScore": 90,
+    "humanFlags": [],
+    "diabetesFlags": [],
+    "petFlags": [],
+    "recommendationHuman": "BUY",
+    "recommendationDiabetes": "BUY",
+    "recommendationPet": "BUY",
+    "issues": [
+      "missing_graph",
+      "missing_info",
+      "missing_knowledge",
+      "missing_rule"
+    ]
+  },
+  {
+    "ingredient": "toxin 168",
+    "normalized": "toxin 168",
+    "sources": [
+      "PET_TOXINS"
+    ],
+    "hasInfo": false,
+    "hasGraph": false,
+    "hasRule": false,
+    "hasKnowledge": false,
+    "inPetToxins": false,
+    "humanScore": 90,
+    "diabetesScore": 90,
+    "petScore": 90,
+    "humanFlags": [],
+    "diabetesFlags": [],
+    "petFlags": [],
+    "recommendationHuman": "BUY",
+    "recommendationDiabetes": "BUY",
+    "recommendationPet": "BUY",
+    "issues": [
+      "missing_graph",
+      "missing_info",
+      "missing_knowledge",
+      "missing_rule"
+    ]
+  },
+  {
+    "ingredient": "toxin 169",
+    "normalized": "toxin 169",
+    "sources": [
+      "PET_TOXINS"
+    ],
+    "hasInfo": false,
+    "hasGraph": false,
+    "hasRule": false,
+    "hasKnowledge": false,
+    "inPetToxins": false,
+    "humanScore": 90,
+    "diabetesScore": 90,
+    "petScore": 90,
+    "humanFlags": [],
+    "diabetesFlags": [],
+    "petFlags": [],
+    "recommendationHuman": "BUY",
+    "recommendationDiabetes": "BUY",
+    "recommendationPet": "BUY",
+    "issues": [
+      "missing_graph",
+      "missing_info",
+      "missing_knowledge",
+      "missing_rule"
+    ]
+  },
+  {
+    "ingredient": "toxin 17",
+    "normalized": "toxin 17",
+    "sources": [
+      "PET_TOXINS"
+    ],
+    "hasInfo": false,
+    "hasGraph": false,
+    "hasRule": false,
+    "hasKnowledge": false,
+    "inPetToxins": false,
+    "humanScore": 90,
+    "diabetesScore": 90,
+    "petScore": 90,
+    "humanFlags": [],
+    "diabetesFlags": [],
+    "petFlags": [],
+    "recommendationHuman": "BUY",
+    "recommendationDiabetes": "BUY",
+    "recommendationPet": "BUY",
+    "issues": [
+      "missing_graph",
+      "missing_info",
+      "missing_knowledge",
+      "missing_rule"
+    ]
+  },
+  {
+    "ingredient": "toxin 170",
+    "normalized": "toxin 170",
+    "sources": [
+      "PET_TOXINS"
+    ],
+    "hasInfo": false,
+    "hasGraph": false,
+    "hasRule": false,
+    "hasKnowledge": false,
+    "inPetToxins": false,
+    "humanScore": 90,
+    "diabetesScore": 90,
+    "petScore": 90,
+    "humanFlags": [],
+    "diabetesFlags": [],
+    "petFlags": [],
+    "recommendationHuman": "BUY",
+    "recommendationDiabetes": "BUY",
+    "recommendationPet": "BUY",
+    "issues": [
+      "missing_graph",
+      "missing_info",
+      "missing_knowledge",
+      "missing_rule"
+    ]
+  },
+  {
+    "ingredient": "toxin 171",
+    "normalized": "toxin 171",
+    "sources": [
+      "PET_TOXINS"
+    ],
+    "hasInfo": false,
+    "hasGraph": false,
+    "hasRule": false,
+    "hasKnowledge": false,
+    "inPetToxins": false,
+    "humanScore": 90,
+    "diabetesScore": 90,
+    "petScore": 90,
+    "humanFlags": [],
+    "diabetesFlags": [],
+    "petFlags": [],
+    "recommendationHuman": "BUY",
+    "recommendationDiabetes": "BUY",
+    "recommendationPet": "BUY",
+    "issues": [
+      "missing_graph",
+      "missing_info",
+      "missing_knowledge",
+      "missing_rule"
+    ]
+  },
+  {
+    "ingredient": "toxin 172",
+    "normalized": "toxin 172",
+    "sources": [
+      "PET_TOXINS"
+    ],
+    "hasInfo": false,
+    "hasGraph": false,
+    "hasRule": false,
+    "hasKnowledge": false,
+    "inPetToxins": false,
+    "humanScore": 90,
+    "diabetesScore": 90,
+    "petScore": 90,
+    "humanFlags": [],
+    "diabetesFlags": [],
+    "petFlags": [],
+    "recommendationHuman": "BUY",
+    "recommendationDiabetes": "BUY",
+    "recommendationPet": "BUY",
+    "issues": [
+      "missing_graph",
+      "missing_info",
+      "missing_knowledge",
+      "missing_rule"
+    ]
+  },
+  {
+    "ingredient": "toxin 173",
+    "normalized": "toxin 173",
+    "sources": [
+      "PET_TOXINS"
+    ],
+    "hasInfo": false,
+    "hasGraph": false,
+    "hasRule": false,
+    "hasKnowledge": false,
+    "inPetToxins": false,
+    "humanScore": 90,
+    "diabetesScore": 90,
+    "petScore": 90,
+    "humanFlags": [],
+    "diabetesFlags": [],
+    "petFlags": [],
+    "recommendationHuman": "BUY",
+    "recommendationDiabetes": "BUY",
+    "recommendationPet": "BUY",
+    "issues": [
+      "missing_graph",
+      "missing_info",
+      "missing_knowledge",
+      "missing_rule"
+    ]
+  },
+  {
+    "ingredient": "toxin 174",
+    "normalized": "toxin 174",
+    "sources": [
+      "PET_TOXINS"
+    ],
+    "hasInfo": false,
+    "hasGraph": false,
+    "hasRule": false,
+    "hasKnowledge": false,
+    "inPetToxins": false,
+    "humanScore": 90,
+    "diabetesScore": 90,
+    "petScore": 90,
+    "humanFlags": [],
+    "diabetesFlags": [],
+    "petFlags": [],
+    "recommendationHuman": "BUY",
+    "recommendationDiabetes": "BUY",
+    "recommendationPet": "BUY",
+    "issues": [
+      "missing_graph",
+      "missing_info",
+      "missing_knowledge",
+      "missing_rule"
+    ]
+  },
+  {
+    "ingredient": "toxin 175",
+    "normalized": "toxin 175",
+    "sources": [
+      "PET_TOXINS"
+    ],
+    "hasInfo": false,
+    "hasGraph": false,
+    "hasRule": false,
+    "hasKnowledge": false,
+    "inPetToxins": false,
+    "humanScore": 90,
+    "diabetesScore": 90,
+    "petScore": 90,
+    "humanFlags": [],
+    "diabetesFlags": [],
+    "petFlags": [],
+    "recommendationHuman": "BUY",
+    "recommendationDiabetes": "BUY",
+    "recommendationPet": "BUY",
+    "issues": [
+      "missing_graph",
+      "missing_info",
+      "missing_knowledge",
+      "missing_rule"
+    ]
+  },
+  {
+    "ingredient": "toxin 176",
+    "normalized": "toxin 176",
+    "sources": [
+      "PET_TOXINS"
+    ],
+    "hasInfo": false,
+    "hasGraph": false,
+    "hasRule": false,
+    "hasKnowledge": false,
+    "inPetToxins": false,
+    "humanScore": 90,
+    "diabetesScore": 90,
+    "petScore": 90,
+    "humanFlags": [],
+    "diabetesFlags": [],
+    "petFlags": [],
+    "recommendationHuman": "BUY",
+    "recommendationDiabetes": "BUY",
+    "recommendationPet": "BUY",
+    "issues": [
+      "missing_graph",
+      "missing_info",
+      "missing_knowledge",
+      "missing_rule"
+    ]
+  },
+  {
+    "ingredient": "toxin 177",
+    "normalized": "toxin 177",
+    "sources": [
+      "PET_TOXINS"
+    ],
+    "hasInfo": false,
+    "hasGraph": false,
+    "hasRule": false,
+    "hasKnowledge": false,
+    "inPetToxins": false,
+    "humanScore": 90,
+    "diabetesScore": 90,
+    "petScore": 90,
+    "humanFlags": [],
+    "diabetesFlags": [],
+    "petFlags": [],
+    "recommendationHuman": "BUY",
+    "recommendationDiabetes": "BUY",
+    "recommendationPet": "BUY",
+    "issues": [
+      "missing_graph",
+      "missing_info",
+      "missing_knowledge",
+      "missing_rule"
+    ]
+  },
+  {
+    "ingredient": "toxin 178",
+    "normalized": "toxin 178",
+    "sources": [
+      "PET_TOXINS"
+    ],
+    "hasInfo": false,
+    "hasGraph": false,
+    "hasRule": false,
+    "hasKnowledge": false,
+    "inPetToxins": false,
+    "humanScore": 90,
+    "diabetesScore": 90,
+    "petScore": 90,
+    "humanFlags": [],
+    "diabetesFlags": [],
+    "petFlags": [],
+    "recommendationHuman": "BUY",
+    "recommendationDiabetes": "BUY",
+    "recommendationPet": "BUY",
+    "issues": [
+      "missing_graph",
+      "missing_info",
+      "missing_knowledge",
+      "missing_rule"
+    ]
+  },
+  {
+    "ingredient": "toxin 179",
+    "normalized": "toxin 179",
+    "sources": [
+      "PET_TOXINS"
+    ],
+    "hasInfo": false,
+    "hasGraph": false,
+    "hasRule": false,
+    "hasKnowledge": false,
+    "inPetToxins": false,
+    "humanScore": 90,
+    "diabetesScore": 90,
+    "petScore": 90,
+    "humanFlags": [],
+    "diabetesFlags": [],
+    "petFlags": [],
+    "recommendationHuman": "BUY",
+    "recommendationDiabetes": "BUY",
+    "recommendationPet": "BUY",
+    "issues": [
+      "missing_graph",
+      "missing_info",
+      "missing_knowledge",
+      "missing_rule"
+    ]
+  },
+  {
+    "ingredient": "toxin 18",
+    "normalized": "toxin 18",
+    "sources": [
+      "PET_TOXINS"
+    ],
+    "hasInfo": false,
+    "hasGraph": false,
+    "hasRule": false,
+    "hasKnowledge": false,
+    "inPetToxins": false,
+    "humanScore": 90,
+    "diabetesScore": 90,
+    "petScore": 90,
+    "humanFlags": [],
+    "diabetesFlags": [],
+    "petFlags": [],
+    "recommendationHuman": "BUY",
+    "recommendationDiabetes": "BUY",
+    "recommendationPet": "BUY",
+    "issues": [
+      "missing_graph",
+      "missing_info",
+      "missing_knowledge",
+      "missing_rule"
+    ]
+  },
+  {
+    "ingredient": "toxin 180",
+    "normalized": "toxin 180",
+    "sources": [
+      "PET_TOXINS"
+    ],
+    "hasInfo": false,
+    "hasGraph": false,
+    "hasRule": false,
+    "hasKnowledge": false,
+    "inPetToxins": false,
+    "humanScore": 90,
+    "diabetesScore": 90,
+    "petScore": 90,
+    "humanFlags": [],
+    "diabetesFlags": [],
+    "petFlags": [],
+    "recommendationHuman": "BUY",
+    "recommendationDiabetes": "BUY",
+    "recommendationPet": "BUY",
+    "issues": [
+      "missing_graph",
+      "missing_info",
+      "missing_knowledge",
+      "missing_rule"
+    ]
+  },
+  {
+    "ingredient": "toxin 181",
+    "normalized": "toxin 181",
+    "sources": [
+      "PET_TOXINS"
+    ],
+    "hasInfo": false,
+    "hasGraph": false,
+    "hasRule": false,
+    "hasKnowledge": false,
+    "inPetToxins": false,
+    "humanScore": 90,
+    "diabetesScore": 90,
+    "petScore": 90,
+    "humanFlags": [],
+    "diabetesFlags": [],
+    "petFlags": [],
+    "recommendationHuman": "BUY",
+    "recommendationDiabetes": "BUY",
+    "recommendationPet": "BUY",
+    "issues": [
+      "missing_graph",
+      "missing_info",
+      "missing_knowledge",
+      "missing_rule"
+    ]
+  },
+  {
+    "ingredient": "toxin 182",
+    "normalized": "toxin 182",
+    "sources": [
+      "PET_TOXINS"
+    ],
+    "hasInfo": false,
+    "hasGraph": false,
+    "hasRule": false,
+    "hasKnowledge": false,
+    "inPetToxins": false,
+    "humanScore": 90,
+    "diabetesScore": 90,
+    "petScore": 90,
+    "humanFlags": [],
+    "diabetesFlags": [],
+    "petFlags": [],
+    "recommendationHuman": "BUY",
+    "recommendationDiabetes": "BUY",
+    "recommendationPet": "BUY",
+    "issues": [
+      "missing_graph",
+      "missing_info",
+      "missing_knowledge",
+      "missing_rule"
+    ]
+  },
+  {
+    "ingredient": "toxin 183",
+    "normalized": "toxin 183",
+    "sources": [
+      "PET_TOXINS"
+    ],
+    "hasInfo": false,
+    "hasGraph": false,
+    "hasRule": false,
+    "hasKnowledge": false,
+    "inPetToxins": false,
+    "humanScore": 90,
+    "diabetesScore": 90,
+    "petScore": 90,
+    "humanFlags": [],
+    "diabetesFlags": [],
+    "petFlags": [],
+    "recommendationHuman": "BUY",
+    "recommendationDiabetes": "BUY",
+    "recommendationPet": "BUY",
+    "issues": [
+      "missing_graph",
+      "missing_info",
+      "missing_knowledge",
+      "missing_rule"
+    ]
+  },
+  {
+    "ingredient": "toxin 184",
+    "normalized": "toxin 184",
+    "sources": [
+      "PET_TOXINS"
+    ],
+    "hasInfo": false,
+    "hasGraph": false,
+    "hasRule": false,
+    "hasKnowledge": false,
+    "inPetToxins": false,
+    "humanScore": 90,
+    "diabetesScore": 90,
+    "petScore": 90,
+    "humanFlags": [],
+    "diabetesFlags": [],
+    "petFlags": [],
+    "recommendationHuman": "BUY",
+    "recommendationDiabetes": "BUY",
+    "recommendationPet": "BUY",
+    "issues": [
+      "missing_graph",
+      "missing_info",
+      "missing_knowledge",
+      "missing_rule"
+    ]
+  },
+  {
+    "ingredient": "toxin 185",
+    "normalized": "toxin 185",
+    "sources": [
+      "PET_TOXINS"
+    ],
+    "hasInfo": false,
+    "hasGraph": false,
+    "hasRule": false,
+    "hasKnowledge": false,
+    "inPetToxins": false,
+    "humanScore": 90,
+    "diabetesScore": 90,
+    "petScore": 90,
+    "humanFlags": [],
+    "diabetesFlags": [],
+    "petFlags": [],
+    "recommendationHuman": "BUY",
+    "recommendationDiabetes": "BUY",
+    "recommendationPet": "BUY",
+    "issues": [
+      "missing_graph",
+      "missing_info",
+      "missing_knowledge",
+      "missing_rule"
+    ]
+  },
+  {
+    "ingredient": "toxin 186",
+    "normalized": "toxin 186",
+    "sources": [
+      "PET_TOXINS"
+    ],
+    "hasInfo": false,
+    "hasGraph": false,
+    "hasRule": false,
+    "hasKnowledge": false,
+    "inPetToxins": false,
+    "humanScore": 90,
+    "diabetesScore": 90,
+    "petScore": 90,
+    "humanFlags": [],
+    "diabetesFlags": [],
+    "petFlags": [],
+    "recommendationHuman": "BUY",
+    "recommendationDiabetes": "BUY",
+    "recommendationPet": "BUY",
+    "issues": [
+      "missing_graph",
+      "missing_info",
+      "missing_knowledge",
+      "missing_rule"
+    ]
+  },
+  {
+    "ingredient": "toxin 187",
+    "normalized": "toxin 187",
+    "sources": [
+      "PET_TOXINS"
+    ],
+    "hasInfo": false,
+    "hasGraph": false,
+    "hasRule": false,
+    "hasKnowledge": false,
+    "inPetToxins": false,
+    "humanScore": 90,
+    "diabetesScore": 90,
+    "petScore": 90,
+    "humanFlags": [],
+    "diabetesFlags": [],
+    "petFlags": [],
+    "recommendationHuman": "BUY",
+    "recommendationDiabetes": "BUY",
+    "recommendationPet": "BUY",
+    "issues": [
+      "missing_graph",
+      "missing_info",
+      "missing_knowledge",
+      "missing_rule"
+    ]
+  },
+  {
+    "ingredient": "toxin 188",
+    "normalized": "toxin 188",
+    "sources": [
+      "PET_TOXINS"
+    ],
+    "hasInfo": false,
+    "hasGraph": false,
+    "hasRule": false,
+    "hasKnowledge": false,
+    "inPetToxins": false,
+    "humanScore": 90,
+    "diabetesScore": 90,
+    "petScore": 90,
+    "humanFlags": [],
+    "diabetesFlags": [],
+    "petFlags": [],
+    "recommendationHuman": "BUY",
+    "recommendationDiabetes": "BUY",
+    "recommendationPet": "BUY",
+    "issues": [
+      "missing_graph",
+      "missing_info",
+      "missing_knowledge",
+      "missing_rule"
+    ]
+  },
+  {
+    "ingredient": "toxin 189",
+    "normalized": "toxin 189",
+    "sources": [
+      "PET_TOXINS"
+    ],
+    "hasInfo": false,
+    "hasGraph": false,
+    "hasRule": false,
+    "hasKnowledge": false,
+    "inPetToxins": false,
+    "humanScore": 90,
+    "diabetesScore": 90,
+    "petScore": 90,
+    "humanFlags": [],
+    "diabetesFlags": [],
+    "petFlags": [],
+    "recommendationHuman": "BUY",
+    "recommendationDiabetes": "BUY",
+    "recommendationPet": "BUY",
+    "issues": [
+      "missing_graph",
+      "missing_info",
+      "missing_knowledge",
+      "missing_rule"
+    ]
+  },
+  {
+    "ingredient": "toxin 19",
+    "normalized": "toxin 19",
+    "sources": [
+      "PET_TOXINS"
+    ],
+    "hasInfo": false,
+    "hasGraph": false,
+    "hasRule": false,
+    "hasKnowledge": false,
+    "inPetToxins": false,
+    "humanScore": 90,
+    "diabetesScore": 90,
+    "petScore": 90,
+    "humanFlags": [],
+    "diabetesFlags": [],
+    "petFlags": [],
+    "recommendationHuman": "BUY",
+    "recommendationDiabetes": "BUY",
+    "recommendationPet": "BUY",
+    "issues": [
+      "missing_graph",
+      "missing_info",
+      "missing_knowledge",
+      "missing_rule"
+    ]
+  },
+  {
+    "ingredient": "toxin 190",
+    "normalized": "toxin 190",
+    "sources": [
+      "PET_TOXINS"
+    ],
+    "hasInfo": false,
+    "hasGraph": false,
+    "hasRule": false,
+    "hasKnowledge": false,
+    "inPetToxins": false,
+    "humanScore": 90,
+    "diabetesScore": 90,
+    "petScore": 90,
+    "humanFlags": [],
+    "diabetesFlags": [],
+    "petFlags": [],
+    "recommendationHuman": "BUY",
+    "recommendationDiabetes": "BUY",
+    "recommendationPet": "BUY",
+    "issues": [
+      "missing_graph",
+      "missing_info",
+      "missing_knowledge",
+      "missing_rule"
+    ]
+  },
+  {
+    "ingredient": "toxin 191",
+    "normalized": "toxin 191",
+    "sources": [
+      "PET_TOXINS"
+    ],
+    "hasInfo": false,
+    "hasGraph": false,
+    "hasRule": false,
+    "hasKnowledge": false,
+    "inPetToxins": false,
+    "humanScore": 90,
+    "diabetesScore": 90,
+    "petScore": 90,
+    "humanFlags": [],
+    "diabetesFlags": [],
+    "petFlags": [],
+    "recommendationHuman": "BUY",
+    "recommendationDiabetes": "BUY",
+    "recommendationPet": "BUY",
+    "issues": [
+      "missing_graph",
+      "missing_info",
+      "missing_knowledge",
+      "missing_rule"
+    ]
+  },
+  {
+    "ingredient": "toxin 192",
+    "normalized": "toxin 192",
+    "sources": [
+      "PET_TOXINS"
+    ],
+    "hasInfo": false,
+    "hasGraph": false,
+    "hasRule": false,
+    "hasKnowledge": false,
+    "inPetToxins": false,
+    "humanScore": 90,
+    "diabetesScore": 90,
+    "petScore": 90,
+    "humanFlags": [],
+    "diabetesFlags": [],
+    "petFlags": [],
+    "recommendationHuman": "BUY",
+    "recommendationDiabetes": "BUY",
+    "recommendationPet": "BUY",
+    "issues": [
+      "missing_graph",
+      "missing_info",
+      "missing_knowledge",
+      "missing_rule"
+    ]
+  },
+  {
+    "ingredient": "toxin 193",
+    "normalized": "toxin 193",
+    "sources": [
+      "PET_TOXINS"
+    ],
+    "hasInfo": false,
+    "hasGraph": false,
+    "hasRule": false,
+    "hasKnowledge": false,
+    "inPetToxins": false,
+    "humanScore": 90,
+    "diabetesScore": 90,
+    "petScore": 90,
+    "humanFlags": [],
+    "diabetesFlags": [],
+    "petFlags": [],
+    "recommendationHuman": "BUY",
+    "recommendationDiabetes": "BUY",
+    "recommendationPet": "BUY",
+    "issues": [
+      "missing_graph",
+      "missing_info",
+      "missing_knowledge",
+      "missing_rule"
+    ]
+  },
+  {
+    "ingredient": "toxin 194",
+    "normalized": "toxin 194",
+    "sources": [
+      "PET_TOXINS"
+    ],
+    "hasInfo": false,
+    "hasGraph": false,
+    "hasRule": false,
+    "hasKnowledge": false,
+    "inPetToxins": false,
+    "humanScore": 90,
+    "diabetesScore": 90,
+    "petScore": 90,
+    "humanFlags": [],
+    "diabetesFlags": [],
+    "petFlags": [],
+    "recommendationHuman": "BUY",
+    "recommendationDiabetes": "BUY",
+    "recommendationPet": "BUY",
+    "issues": [
+      "missing_graph",
+      "missing_info",
+      "missing_knowledge",
+      "missing_rule"
+    ]
+  },
+  {
+    "ingredient": "toxin 195",
+    "normalized": "toxin 195",
+    "sources": [
+      "PET_TOXINS"
+    ],
+    "hasInfo": false,
+    "hasGraph": false,
+    "hasRule": false,
+    "hasKnowledge": false,
+    "inPetToxins": false,
+    "humanScore": 90,
+    "diabetesScore": 90,
+    "petScore": 90,
+    "humanFlags": [],
+    "diabetesFlags": [],
+    "petFlags": [],
+    "recommendationHuman": "BUY",
+    "recommendationDiabetes": "BUY",
+    "recommendationPet": "BUY",
+    "issues": [
+      "missing_graph",
+      "missing_info",
+      "missing_knowledge",
+      "missing_rule"
+    ]
+  },
+  {
+    "ingredient": "toxin 196",
+    "normalized": "toxin 196",
+    "sources": [
+      "PET_TOXINS"
+    ],
+    "hasInfo": false,
+    "hasGraph": false,
+    "hasRule": false,
+    "hasKnowledge": false,
+    "inPetToxins": false,
+    "humanScore": 90,
+    "diabetesScore": 90,
+    "petScore": 90,
+    "humanFlags": [],
+    "diabetesFlags": [],
+    "petFlags": [],
+    "recommendationHuman": "BUY",
+    "recommendationDiabetes": "BUY",
+    "recommendationPet": "BUY",
+    "issues": [
+      "missing_graph",
+      "missing_info",
+      "missing_knowledge",
+      "missing_rule"
+    ]
+  },
+  {
+    "ingredient": "toxin 197",
+    "normalized": "toxin 197",
+    "sources": [
+      "PET_TOXINS"
+    ],
+    "hasInfo": false,
+    "hasGraph": false,
+    "hasRule": false,
+    "hasKnowledge": false,
+    "inPetToxins": false,
+    "humanScore": 90,
+    "diabetesScore": 90,
+    "petScore": 90,
+    "humanFlags": [],
+    "diabetesFlags": [],
+    "petFlags": [],
+    "recommendationHuman": "BUY",
+    "recommendationDiabetes": "BUY",
+    "recommendationPet": "BUY",
+    "issues": [
+      "missing_graph",
+      "missing_info",
+      "missing_knowledge",
+      "missing_rule"
+    ]
+  },
+  {
+    "ingredient": "toxin 198",
+    "normalized": "toxin 198",
+    "sources": [
+      "PET_TOXINS"
+    ],
+    "hasInfo": false,
+    "hasGraph": false,
+    "hasRule": false,
+    "hasKnowledge": false,
+    "inPetToxins": false,
+    "humanScore": 90,
+    "diabetesScore": 90,
+    "petScore": 90,
+    "humanFlags": [],
+    "diabetesFlags": [],
+    "petFlags": [],
+    "recommendationHuman": "BUY",
+    "recommendationDiabetes": "BUY",
+    "recommendationPet": "BUY",
+    "issues": [
+      "missing_graph",
+      "missing_info",
+      "missing_knowledge",
+      "missing_rule"
+    ]
+  },
+  {
+    "ingredient": "toxin 199",
+    "normalized": "toxin 199",
+    "sources": [
+      "PET_TOXINS"
+    ],
+    "hasInfo": false,
+    "hasGraph": false,
+    "hasRule": false,
+    "hasKnowledge": false,
+    "inPetToxins": false,
+    "humanScore": 90,
+    "diabetesScore": 90,
+    "petScore": 90,
+    "humanFlags": [],
+    "diabetesFlags": [],
+    "petFlags": [],
+    "recommendationHuman": "BUY",
+    "recommendationDiabetes": "BUY",
+    "recommendationPet": "BUY",
+    "issues": [
+      "missing_graph",
+      "missing_info",
+      "missing_knowledge",
+      "missing_rule"
+    ]
+  },
+  {
+    "ingredient": "toxin 2",
+    "normalized": "toxin 2",
+    "sources": [
+      "PET_TOXINS"
+    ],
+    "hasInfo": false,
+    "hasGraph": false,
+    "hasRule": false,
+    "hasKnowledge": false,
+    "inPetToxins": false,
+    "humanScore": 90,
+    "diabetesScore": 90,
+    "petScore": 90,
+    "humanFlags": [],
+    "diabetesFlags": [],
+    "petFlags": [],
+    "recommendationHuman": "BUY",
+    "recommendationDiabetes": "BUY",
+    "recommendationPet": "BUY",
+    "issues": [
+      "missing_graph",
+      "missing_info",
+      "missing_knowledge",
+      "missing_rule"
+    ]
+  },
+  {
+    "ingredient": "toxin 20",
+    "normalized": "toxin 20",
+    "sources": [
+      "PET_TOXINS"
+    ],
+    "hasInfo": false,
+    "hasGraph": false,
+    "hasRule": false,
+    "hasKnowledge": false,
+    "inPetToxins": false,
+    "humanScore": 90,
+    "diabetesScore": 90,
+    "petScore": 90,
+    "humanFlags": [],
+    "diabetesFlags": [],
+    "petFlags": [],
+    "recommendationHuman": "BUY",
+    "recommendationDiabetes": "BUY",
+    "recommendationPet": "BUY",
+    "issues": [
+      "missing_graph",
+      "missing_info",
+      "missing_knowledge",
+      "missing_rule"
+    ]
+  },
+  {
+    "ingredient": "toxin 200",
+    "normalized": "toxin 200",
+    "sources": [
+      "PET_TOXINS"
+    ],
+    "hasInfo": false,
+    "hasGraph": false,
+    "hasRule": false,
+    "hasKnowledge": false,
+    "inPetToxins": false,
+    "humanScore": 90,
+    "diabetesScore": 90,
+    "petScore": 90,
+    "humanFlags": [],
+    "diabetesFlags": [],
+    "petFlags": [],
+    "recommendationHuman": "BUY",
+    "recommendationDiabetes": "BUY",
+    "recommendationPet": "BUY",
+    "issues": [
+      "missing_graph",
+      "missing_info",
+      "missing_knowledge",
+      "missing_rule"
+    ]
+  },
+  {
+    "ingredient": "toxin 21",
+    "normalized": "toxin 21",
+    "sources": [
+      "PET_TOXINS"
+    ],
+    "hasInfo": false,
+    "hasGraph": false,
+    "hasRule": false,
+    "hasKnowledge": false,
+    "inPetToxins": false,
+    "humanScore": 90,
+    "diabetesScore": 90,
+    "petScore": 90,
+    "humanFlags": [],
+    "diabetesFlags": [],
+    "petFlags": [],
+    "recommendationHuman": "BUY",
+    "recommendationDiabetes": "BUY",
+    "recommendationPet": "BUY",
+    "issues": [
+      "missing_graph",
+      "missing_info",
+      "missing_knowledge",
+      "missing_rule"
+    ]
+  },
+  {
+    "ingredient": "toxin 22",
+    "normalized": "toxin 22",
+    "sources": [
+      "PET_TOXINS"
+    ],
+    "hasInfo": false,
+    "hasGraph": false,
+    "hasRule": false,
+    "hasKnowledge": false,
+    "inPetToxins": false,
+    "humanScore": 90,
+    "diabetesScore": 90,
+    "petScore": 90,
+    "humanFlags": [],
+    "diabetesFlags": [],
+    "petFlags": [],
+    "recommendationHuman": "BUY",
+    "recommendationDiabetes": "BUY",
+    "recommendationPet": "BUY",
+    "issues": [
+      "missing_graph",
+      "missing_info",
+      "missing_knowledge",
+      "missing_rule"
+    ]
+  },
+  {
+    "ingredient": "toxin 23",
+    "normalized": "toxin 23",
+    "sources": [
+      "PET_TOXINS"
+    ],
+    "hasInfo": false,
+    "hasGraph": false,
+    "hasRule": false,
+    "hasKnowledge": false,
+    "inPetToxins": false,
+    "humanScore": 90,
+    "diabetesScore": 90,
+    "petScore": 90,
+    "humanFlags": [],
+    "diabetesFlags": [],
+    "petFlags": [],
+    "recommendationHuman": "BUY",
+    "recommendationDiabetes": "BUY",
+    "recommendationPet": "BUY",
+    "issues": [
+      "missing_graph",
+      "missing_info",
+      "missing_knowledge",
+      "missing_rule"
+    ]
+  },
+  {
+    "ingredient": "toxin 24",
+    "normalized": "toxin 24",
+    "sources": [
+      "PET_TOXINS"
+    ],
+    "hasInfo": false,
+    "hasGraph": false,
+    "hasRule": false,
+    "hasKnowledge": false,
+    "inPetToxins": false,
+    "humanScore": 90,
+    "diabetesScore": 90,
+    "petScore": 90,
+    "humanFlags": [],
+    "diabetesFlags": [],
+    "petFlags": [],
+    "recommendationHuman": "BUY",
+    "recommendationDiabetes": "BUY",
+    "recommendationPet": "BUY",
+    "issues": [
+      "missing_graph",
+      "missing_info",
+      "missing_knowledge",
+      "missing_rule"
+    ]
+  },
+  {
+    "ingredient": "toxin 25",
+    "normalized": "toxin 25",
+    "sources": [
+      "PET_TOXINS"
+    ],
+    "hasInfo": false,
+    "hasGraph": false,
+    "hasRule": false,
+    "hasKnowledge": false,
+    "inPetToxins": false,
+    "humanScore": 90,
+    "diabetesScore": 90,
+    "petScore": 90,
+    "humanFlags": [],
+    "diabetesFlags": [],
+    "petFlags": [],
+    "recommendationHuman": "BUY",
+    "recommendationDiabetes": "BUY",
+    "recommendationPet": "BUY",
+    "issues": [
+      "missing_graph",
+      "missing_info",
+      "missing_knowledge",
+      "missing_rule"
+    ]
+  },
+  {
+    "ingredient": "toxin 26",
+    "normalized": "toxin 26",
+    "sources": [
+      "PET_TOXINS"
+    ],
+    "hasInfo": false,
+    "hasGraph": false,
+    "hasRule": false,
+    "hasKnowledge": false,
+    "inPetToxins": false,
+    "humanScore": 90,
+    "diabetesScore": 90,
+    "petScore": 90,
+    "humanFlags": [],
+    "diabetesFlags": [],
+    "petFlags": [],
+    "recommendationHuman": "BUY",
+    "recommendationDiabetes": "BUY",
+    "recommendationPet": "BUY",
+    "issues": [
+      "missing_graph",
+      "missing_info",
+      "missing_knowledge",
+      "missing_rule"
+    ]
+  },
+  {
+    "ingredient": "toxin 27",
+    "normalized": "toxin 27",
+    "sources": [
+      "PET_TOXINS"
+    ],
+    "hasInfo": false,
+    "hasGraph": false,
+    "hasRule": false,
+    "hasKnowledge": false,
+    "inPetToxins": false,
+    "humanScore": 90,
+    "diabetesScore": 90,
+    "petScore": 90,
+    "humanFlags": [],
+    "diabetesFlags": [],
+    "petFlags": [],
+    "recommendationHuman": "BUY",
+    "recommendationDiabetes": "BUY",
+    "recommendationPet": "BUY",
+    "issues": [
+      "missing_graph",
+      "missing_info",
+      "missing_knowledge",
+      "missing_rule"
+    ]
+  },
+  {
+    "ingredient": "toxin 28",
+    "normalized": "toxin 28",
+    "sources": [
+      "PET_TOXINS"
+    ],
+    "hasInfo": false,
+    "hasGraph": false,
+    "hasRule": false,
+    "hasKnowledge": false,
+    "inPetToxins": false,
+    "humanScore": 90,
+    "diabetesScore": 90,
+    "petScore": 90,
+    "humanFlags": [],
+    "diabetesFlags": [],
+    "petFlags": [],
+    "recommendationHuman": "BUY",
+    "recommendationDiabetes": "BUY",
+    "recommendationPet": "BUY",
+    "issues": [
+      "missing_graph",
+      "missing_info",
+      "missing_knowledge",
+      "missing_rule"
+    ]
+  },
+  {
+    "ingredient": "toxin 29",
+    "normalized": "toxin 29",
+    "sources": [
+      "PET_TOXINS"
+    ],
+    "hasInfo": false,
+    "hasGraph": false,
+    "hasRule": false,
+    "hasKnowledge": false,
+    "inPetToxins": false,
+    "humanScore": 90,
+    "diabetesScore": 90,
+    "petScore": 90,
+    "humanFlags": [],
+    "diabetesFlags": [],
+    "petFlags": [],
+    "recommendationHuman": "BUY",
+    "recommendationDiabetes": "BUY",
+    "recommendationPet": "BUY",
+    "issues": [
+      "missing_graph",
+      "missing_info",
+      "missing_knowledge",
+      "missing_rule"
+    ]
+  },
+  {
+    "ingredient": "toxin 3",
+    "normalized": "toxin 3",
+    "sources": [
+      "PET_TOXINS"
+    ],
+    "hasInfo": false,
+    "hasGraph": false,
+    "hasRule": false,
+    "hasKnowledge": false,
+    "inPetToxins": false,
+    "humanScore": 90,
+    "diabetesScore": 90,
+    "petScore": 90,
+    "humanFlags": [],
+    "diabetesFlags": [],
+    "petFlags": [],
+    "recommendationHuman": "BUY",
+    "recommendationDiabetes": "BUY",
+    "recommendationPet": "BUY",
+    "issues": [
+      "missing_graph",
+      "missing_info",
+      "missing_knowledge",
+      "missing_rule"
+    ]
+  },
+  {
+    "ingredient": "toxin 30",
+    "normalized": "toxin 30",
+    "sources": [
+      "PET_TOXINS"
+    ],
+    "hasInfo": false,
+    "hasGraph": false,
+    "hasRule": false,
+    "hasKnowledge": false,
+    "inPetToxins": false,
+    "humanScore": 90,
+    "diabetesScore": 90,
+    "petScore": 90,
+    "humanFlags": [],
+    "diabetesFlags": [],
+    "petFlags": [],
+    "recommendationHuman": "BUY",
+    "recommendationDiabetes": "BUY",
+    "recommendationPet": "BUY",
+    "issues": [
+      "missing_graph",
+      "missing_info",
+      "missing_knowledge",
+      "missing_rule"
+    ]
+  },
+  {
+    "ingredient": "toxin 31",
+    "normalized": "toxin 31",
+    "sources": [
+      "PET_TOXINS"
+    ],
+    "hasInfo": false,
+    "hasGraph": false,
+    "hasRule": false,
+    "hasKnowledge": false,
+    "inPetToxins": false,
+    "humanScore": 90,
+    "diabetesScore": 90,
+    "petScore": 90,
+    "humanFlags": [],
+    "diabetesFlags": [],
+    "petFlags": [],
+    "recommendationHuman": "BUY",
+    "recommendationDiabetes": "BUY",
+    "recommendationPet": "BUY",
+    "issues": [
+      "missing_graph",
+      "missing_info",
+      "missing_knowledge",
+      "missing_rule"
+    ]
+  },
+  {
+    "ingredient": "toxin 32",
+    "normalized": "toxin 32",
+    "sources": [
+      "PET_TOXINS"
+    ],
+    "hasInfo": false,
+    "hasGraph": false,
+    "hasRule": false,
+    "hasKnowledge": false,
+    "inPetToxins": false,
+    "humanScore": 90,
+    "diabetesScore": 90,
+    "petScore": 90,
+    "humanFlags": [],
+    "diabetesFlags": [],
+    "petFlags": [],
+    "recommendationHuman": "BUY",
+    "recommendationDiabetes": "BUY",
+    "recommendationPet": "BUY",
+    "issues": [
+      "missing_graph",
+      "missing_info",
+      "missing_knowledge",
+      "missing_rule"
+    ]
+  },
+  {
+    "ingredient": "toxin 33",
+    "normalized": "toxin 33",
+    "sources": [
+      "PET_TOXINS"
+    ],
+    "hasInfo": false,
+    "hasGraph": false,
+    "hasRule": false,
+    "hasKnowledge": false,
+    "inPetToxins": false,
+    "humanScore": 90,
+    "diabetesScore": 90,
+    "petScore": 90,
+    "humanFlags": [],
+    "diabetesFlags": [],
+    "petFlags": [],
+    "recommendationHuman": "BUY",
+    "recommendationDiabetes": "BUY",
+    "recommendationPet": "BUY",
+    "issues": [
+      "missing_graph",
+      "missing_info",
+      "missing_knowledge",
+      "missing_rule"
+    ]
+  },
+  {
+    "ingredient": "toxin 34",
+    "normalized": "toxin 34",
+    "sources": [
+      "PET_TOXINS"
+    ],
+    "hasInfo": false,
+    "hasGraph": false,
+    "hasRule": false,
+    "hasKnowledge": false,
+    "inPetToxins": false,
+    "humanScore": 90,
+    "diabetesScore": 90,
+    "petScore": 90,
+    "humanFlags": [],
+    "diabetesFlags": [],
+    "petFlags": [],
+    "recommendationHuman": "BUY",
+    "recommendationDiabetes": "BUY",
+    "recommendationPet": "BUY",
+    "issues": [
+      "missing_graph",
+      "missing_info",
+      "missing_knowledge",
+      "missing_rule"
+    ]
+  },
+  {
+    "ingredient": "toxin 35",
+    "normalized": "toxin 35",
+    "sources": [
+      "PET_TOXINS"
+    ],
+    "hasInfo": false,
+    "hasGraph": false,
+    "hasRule": false,
+    "hasKnowledge": false,
+    "inPetToxins": false,
+    "humanScore": 90,
+    "diabetesScore": 90,
+    "petScore": 90,
+    "humanFlags": [],
+    "diabetesFlags": [],
+    "petFlags": [],
+    "recommendationHuman": "BUY",
+    "recommendationDiabetes": "BUY",
+    "recommendationPet": "BUY",
+    "issues": [
+      "missing_graph",
+      "missing_info",
+      "missing_knowledge",
+      "missing_rule"
+    ]
+  },
+  {
+    "ingredient": "toxin 36",
+    "normalized": "toxin 36",
+    "sources": [
+      "PET_TOXINS"
+    ],
+    "hasInfo": false,
+    "hasGraph": false,
+    "hasRule": false,
+    "hasKnowledge": false,
+    "inPetToxins": false,
+    "humanScore": 90,
+    "diabetesScore": 90,
+    "petScore": 90,
+    "humanFlags": [],
+    "diabetesFlags": [],
+    "petFlags": [],
+    "recommendationHuman": "BUY",
+    "recommendationDiabetes": "BUY",
+    "recommendationPet": "BUY",
+    "issues": [
+      "missing_graph",
+      "missing_info",
+      "missing_knowledge",
+      "missing_rule"
+    ]
+  },
+  {
+    "ingredient": "toxin 37",
+    "normalized": "toxin 37",
+    "sources": [
+      "PET_TOXINS"
+    ],
+    "hasInfo": false,
+    "hasGraph": false,
+    "hasRule": false,
+    "hasKnowledge": false,
+    "inPetToxins": false,
+    "humanScore": 90,
+    "diabetesScore": 90,
+    "petScore": 90,
+    "humanFlags": [],
+    "diabetesFlags": [],
+    "petFlags": [],
+    "recommendationHuman": "BUY",
+    "recommendationDiabetes": "BUY",
+    "recommendationPet": "BUY",
+    "issues": [
+      "missing_graph",
+      "missing_info",
+      "missing_knowledge",
+      "missing_rule"
+    ]
+  },
+  {
+    "ingredient": "toxin 38",
+    "normalized": "toxin 38",
+    "sources": [
+      "PET_TOXINS"
+    ],
+    "hasInfo": false,
+    "hasGraph": false,
+    "hasRule": false,
+    "hasKnowledge": false,
+    "inPetToxins": false,
+    "humanScore": 90,
+    "diabetesScore": 90,
+    "petScore": 90,
+    "humanFlags": [],
+    "diabetesFlags": [],
+    "petFlags": [],
+    "recommendationHuman": "BUY",
+    "recommendationDiabetes": "BUY",
+    "recommendationPet": "BUY",
+    "issues": [
+      "missing_graph",
+      "missing_info",
+      "missing_knowledge",
+      "missing_rule"
+    ]
+  },
+  {
+    "ingredient": "toxin 39",
+    "normalized": "toxin 39",
+    "sources": [
+      "PET_TOXINS"
+    ],
+    "hasInfo": false,
+    "hasGraph": false,
+    "hasRule": false,
+    "hasKnowledge": false,
+    "inPetToxins": false,
+    "humanScore": 90,
+    "diabetesScore": 90,
+    "petScore": 90,
+    "humanFlags": [],
+    "diabetesFlags": [],
+    "petFlags": [],
+    "recommendationHuman": "BUY",
+    "recommendationDiabetes": "BUY",
+    "recommendationPet": "BUY",
+    "issues": [
+      "missing_graph",
+      "missing_info",
+      "missing_knowledge",
+      "missing_rule"
+    ]
+  },
+  {
+    "ingredient": "toxin 4",
+    "normalized": "toxin 4",
+    "sources": [
+      "PET_TOXINS"
+    ],
+    "hasInfo": false,
+    "hasGraph": false,
+    "hasRule": false,
+    "hasKnowledge": false,
+    "inPetToxins": false,
+    "humanScore": 90,
+    "diabetesScore": 90,
+    "petScore": 90,
+    "humanFlags": [],
+    "diabetesFlags": [],
+    "petFlags": [],
+    "recommendationHuman": "BUY",
+    "recommendationDiabetes": "BUY",
+    "recommendationPet": "BUY",
+    "issues": [
+      "missing_graph",
+      "missing_info",
+      "missing_knowledge",
+      "missing_rule"
+    ]
+  },
+  {
+    "ingredient": "toxin 40",
+    "normalized": "toxin 40",
+    "sources": [
+      "PET_TOXINS"
+    ],
+    "hasInfo": false,
+    "hasGraph": false,
+    "hasRule": false,
+    "hasKnowledge": false,
+    "inPetToxins": false,
+    "humanScore": 90,
+    "diabetesScore": 90,
+    "petScore": 90,
+    "humanFlags": [],
+    "diabetesFlags": [],
+    "petFlags": [],
+    "recommendationHuman": "BUY",
+    "recommendationDiabetes": "BUY",
+    "recommendationPet": "BUY",
+    "issues": [
+      "missing_graph",
+      "missing_info",
+      "missing_knowledge",
+      "missing_rule"
+    ]
+  },
+  {
+    "ingredient": "toxin 41",
+    "normalized": "toxin 41",
+    "sources": [
+      "PET_TOXINS"
+    ],
+    "hasInfo": false,
+    "hasGraph": false,
+    "hasRule": false,
+    "hasKnowledge": false,
+    "inPetToxins": false,
+    "humanScore": 90,
+    "diabetesScore": 90,
+    "petScore": 90,
+    "humanFlags": [],
+    "diabetesFlags": [],
+    "petFlags": [],
+    "recommendationHuman": "BUY",
+    "recommendationDiabetes": "BUY",
+    "recommendationPet": "BUY",
+    "issues": [
+      "missing_graph",
+      "missing_info",
+      "missing_knowledge",
+      "missing_rule"
+    ]
+  },
+  {
+    "ingredient": "toxin 42",
+    "normalized": "toxin 42",
+    "sources": [
+      "PET_TOXINS"
+    ],
+    "hasInfo": false,
+    "hasGraph": false,
+    "hasRule": false,
+    "hasKnowledge": false,
+    "inPetToxins": false,
+    "humanScore": 90,
+    "diabetesScore": 90,
+    "petScore": 90,
+    "humanFlags": [],
+    "diabetesFlags": [],
+    "petFlags": [],
+    "recommendationHuman": "BUY",
+    "recommendationDiabetes": "BUY",
+    "recommendationPet": "BUY",
+    "issues": [
+      "missing_graph",
+      "missing_info",
+      "missing_knowledge",
+      "missing_rule"
+    ]
+  },
+  {
+    "ingredient": "toxin 43",
+    "normalized": "toxin 43",
+    "sources": [
+      "PET_TOXINS"
+    ],
+    "hasInfo": false,
+    "hasGraph": false,
+    "hasRule": false,
+    "hasKnowledge": false,
+    "inPetToxins": false,
+    "humanScore": 90,
+    "diabetesScore": 90,
+    "petScore": 90,
+    "humanFlags": [],
+    "diabetesFlags": [],
+    "petFlags": [],
+    "recommendationHuman": "BUY",
+    "recommendationDiabetes": "BUY",
+    "recommendationPet": "BUY",
+    "issues": [
+      "missing_graph",
+      "missing_info",
+      "missing_knowledge",
+      "missing_rule"
+    ]
+  },
+  {
+    "ingredient": "toxin 44",
+    "normalized": "toxin 44",
+    "sources": [
+      "PET_TOXINS"
+    ],
+    "hasInfo": false,
+    "hasGraph": false,
+    "hasRule": false,
+    "hasKnowledge": false,
+    "inPetToxins": false,
+    "humanScore": 90,
+    "diabetesScore": 90,
+    "petScore": 90,
+    "humanFlags": [],
+    "diabetesFlags": [],
+    "petFlags": [],
+    "recommendationHuman": "BUY",
+    "recommendationDiabetes": "BUY",
+    "recommendationPet": "BUY",
+    "issues": [
+      "missing_graph",
+      "missing_info",
+      "missing_knowledge",
+      "missing_rule"
+    ]
+  },
+  {
+    "ingredient": "toxin 45",
+    "normalized": "toxin 45",
+    "sources": [
+      "PET_TOXINS"
+    ],
+    "hasInfo": false,
+    "hasGraph": false,
+    "hasRule": false,
+    "hasKnowledge": false,
+    "inPetToxins": false,
+    "humanScore": 90,
+    "diabetesScore": 90,
+    "petScore": 90,
+    "humanFlags": [],
+    "diabetesFlags": [],
+    "petFlags": [],
+    "recommendationHuman": "BUY",
+    "recommendationDiabetes": "BUY",
+    "recommendationPet": "BUY",
+    "issues": [
+      "missing_graph",
+      "missing_info",
+      "missing_knowledge",
+      "missing_rule"
+    ]
+  },
+  {
+    "ingredient": "toxin 46",
+    "normalized": "toxin 46",
+    "sources": [
+      "PET_TOXINS"
+    ],
+    "hasInfo": false,
+    "hasGraph": false,
+    "hasRule": false,
+    "hasKnowledge": false,
+    "inPetToxins": false,
+    "humanScore": 90,
+    "diabetesScore": 90,
+    "petScore": 90,
+    "humanFlags": [],
+    "diabetesFlags": [],
+    "petFlags": [],
+    "recommendationHuman": "BUY",
+    "recommendationDiabetes": "BUY",
+    "recommendationPet": "BUY",
+    "issues": [
+      "missing_graph",
+      "missing_info",
+      "missing_knowledge",
+      "missing_rule"
+    ]
+  },
+  {
+    "ingredient": "toxin 47",
+    "normalized": "toxin 47",
+    "sources": [
+      "PET_TOXINS"
+    ],
+    "hasInfo": false,
+    "hasGraph": false,
+    "hasRule": false,
+    "hasKnowledge": false,
+    "inPetToxins": false,
+    "humanScore": 90,
+    "diabetesScore": 90,
+    "petScore": 90,
+    "humanFlags": [],
+    "diabetesFlags": [],
+    "petFlags": [],
+    "recommendationHuman": "BUY",
+    "recommendationDiabetes": "BUY",
+    "recommendationPet": "BUY",
+    "issues": [
+      "missing_graph",
+      "missing_info",
+      "missing_knowledge",
+      "missing_rule"
+    ]
+  },
+  {
+    "ingredient": "toxin 48",
+    "normalized": "toxin 48",
+    "sources": [
+      "PET_TOXINS"
+    ],
+    "hasInfo": false,
+    "hasGraph": false,
+    "hasRule": false,
+    "hasKnowledge": false,
+    "inPetToxins": false,
+    "humanScore": 90,
+    "diabetesScore": 90,
+    "petScore": 90,
+    "humanFlags": [],
+    "diabetesFlags": [],
+    "petFlags": [],
+    "recommendationHuman": "BUY",
+    "recommendationDiabetes": "BUY",
+    "recommendationPet": "BUY",
+    "issues": [
+      "missing_graph",
+      "missing_info",
+      "missing_knowledge",
+      "missing_rule"
+    ]
+  },
+  {
+    "ingredient": "toxin 49",
+    "normalized": "toxin 49",
+    "sources": [
+      "PET_TOXINS"
+    ],
+    "hasInfo": false,
+    "hasGraph": false,
+    "hasRule": false,
+    "hasKnowledge": false,
+    "inPetToxins": false,
+    "humanScore": 90,
+    "diabetesScore": 90,
+    "petScore": 90,
+    "humanFlags": [],
+    "diabetesFlags": [],
+    "petFlags": [],
+    "recommendationHuman": "BUY",
+    "recommendationDiabetes": "BUY",
+    "recommendationPet": "BUY",
+    "issues": [
+      "missing_graph",
+      "missing_info",
+      "missing_knowledge",
+      "missing_rule"
+    ]
+  },
+  {
+    "ingredient": "toxin 5",
+    "normalized": "toxin 5",
+    "sources": [
+      "PET_TOXINS"
+    ],
+    "hasInfo": false,
+    "hasGraph": false,
+    "hasRule": false,
+    "hasKnowledge": false,
+    "inPetToxins": false,
+    "humanScore": 90,
+    "diabetesScore": 90,
+    "petScore": 90,
+    "humanFlags": [],
+    "diabetesFlags": [],
+    "petFlags": [],
+    "recommendationHuman": "BUY",
+    "recommendationDiabetes": "BUY",
+    "recommendationPet": "BUY",
+    "issues": [
+      "missing_graph",
+      "missing_info",
+      "missing_knowledge",
+      "missing_rule"
+    ]
+  },
+  {
+    "ingredient": "toxin 50",
+    "normalized": "toxin 50",
+    "sources": [
+      "PET_TOXINS"
+    ],
+    "hasInfo": false,
+    "hasGraph": false,
+    "hasRule": false,
+    "hasKnowledge": false,
+    "inPetToxins": false,
+    "humanScore": 90,
+    "diabetesScore": 90,
+    "petScore": 90,
+    "humanFlags": [],
+    "diabetesFlags": [],
+    "petFlags": [],
+    "recommendationHuman": "BUY",
+    "recommendationDiabetes": "BUY",
+    "recommendationPet": "BUY",
+    "issues": [
+      "missing_graph",
+      "missing_info",
+      "missing_knowledge",
+      "missing_rule"
+    ]
+  },
+  {
+    "ingredient": "toxin 51",
+    "normalized": "toxin 51",
+    "sources": [
+      "PET_TOXINS"
+    ],
+    "hasInfo": false,
+    "hasGraph": false,
+    "hasRule": false,
+    "hasKnowledge": false,
+    "inPetToxins": false,
+    "humanScore": 90,
+    "diabetesScore": 90,
+    "petScore": 90,
+    "humanFlags": [],
+    "diabetesFlags": [],
+    "petFlags": [],
+    "recommendationHuman": "BUY",
+    "recommendationDiabetes": "BUY",
+    "recommendationPet": "BUY",
+    "issues": [
+      "missing_graph",
+      "missing_info",
+      "missing_knowledge",
+      "missing_rule"
+    ]
+  },
+  {
+    "ingredient": "toxin 52",
+    "normalized": "toxin 52",
+    "sources": [
+      "PET_TOXINS"
+    ],
+    "hasInfo": false,
+    "hasGraph": false,
+    "hasRule": false,
+    "hasKnowledge": false,
+    "inPetToxins": false,
+    "humanScore": 90,
+    "diabetesScore": 90,
+    "petScore": 90,
+    "humanFlags": [],
+    "diabetesFlags": [],
+    "petFlags": [],
+    "recommendationHuman": "BUY",
+    "recommendationDiabetes": "BUY",
+    "recommendationPet": "BUY",
+    "issues": [
+      "missing_graph",
+      "missing_info",
+      "missing_knowledge",
+      "missing_rule"
+    ]
+  },
+  {
+    "ingredient": "toxin 53",
+    "normalized": "toxin 53",
+    "sources": [
+      "PET_TOXINS"
+    ],
+    "hasInfo": false,
+    "hasGraph": false,
+    "hasRule": false,
+    "hasKnowledge": false,
+    "inPetToxins": false,
+    "humanScore": 90,
+    "diabetesScore": 90,
+    "petScore": 90,
+    "humanFlags": [],
+    "diabetesFlags": [],
+    "petFlags": [],
+    "recommendationHuman": "BUY",
+    "recommendationDiabetes": "BUY",
+    "recommendationPet": "BUY",
+    "issues": [
+      "missing_graph",
+      "missing_info",
+      "missing_knowledge",
+      "missing_rule"
+    ]
+  },
+  {
+    "ingredient": "toxin 54",
+    "normalized": "toxin 54",
+    "sources": [
+      "PET_TOXINS"
+    ],
+    "hasInfo": false,
+    "hasGraph": false,
+    "hasRule": false,
+    "hasKnowledge": false,
+    "inPetToxins": false,
+    "humanScore": 90,
+    "diabetesScore": 90,
+    "petScore": 90,
+    "humanFlags": [],
+    "diabetesFlags": [],
+    "petFlags": [],
+    "recommendationHuman": "BUY",
+    "recommendationDiabetes": "BUY",
+    "recommendationPet": "BUY",
+    "issues": [
+      "missing_graph",
+      "missing_info",
+      "missing_knowledge",
+      "missing_rule"
+    ]
+  },
+  {
+    "ingredient": "toxin 55",
+    "normalized": "toxin 55",
+    "sources": [
+      "PET_TOXINS"
+    ],
+    "hasInfo": false,
+    "hasGraph": false,
+    "hasRule": false,
+    "hasKnowledge": false,
+    "inPetToxins": false,
+    "humanScore": 90,
+    "diabetesScore": 90,
+    "petScore": 90,
+    "humanFlags": [],
+    "diabetesFlags": [],
+    "petFlags": [],
+    "recommendationHuman": "BUY",
+    "recommendationDiabetes": "BUY",
+    "recommendationPet": "BUY",
+    "issues": [
+      "missing_graph",
+      "missing_info",
+      "missing_knowledge",
+      "missing_rule"
+    ]
+  },
+  {
+    "ingredient": "toxin 56",
+    "normalized": "toxin 56",
+    "sources": [
+      "PET_TOXINS"
+    ],
+    "hasInfo": false,
+    "hasGraph": false,
+    "hasRule": false,
+    "hasKnowledge": false,
+    "inPetToxins": false,
+    "humanScore": 90,
+    "diabetesScore": 90,
+    "petScore": 90,
+    "humanFlags": [],
+    "diabetesFlags": [],
+    "petFlags": [],
+    "recommendationHuman": "BUY",
+    "recommendationDiabetes": "BUY",
+    "recommendationPet": "BUY",
+    "issues": [
+      "missing_graph",
+      "missing_info",
+      "missing_knowledge",
+      "missing_rule"
+    ]
+  },
+  {
+    "ingredient": "toxin 57",
+    "normalized": "toxin 57",
+    "sources": [
+      "PET_TOXINS"
+    ],
+    "hasInfo": false,
+    "hasGraph": false,
+    "hasRule": false,
+    "hasKnowledge": false,
+    "inPetToxins": false,
+    "humanScore": 90,
+    "diabetesScore": 90,
+    "petScore": 90,
+    "humanFlags": [],
+    "diabetesFlags": [],
+    "petFlags": [],
+    "recommendationHuman": "BUY",
+    "recommendationDiabetes": "BUY",
+    "recommendationPet": "BUY",
+    "issues": [
+      "missing_graph",
+      "missing_info",
+      "missing_knowledge",
+      "missing_rule"
+    ]
+  },
+  {
+    "ingredient": "toxin 58",
+    "normalized": "toxin 58",
+    "sources": [
+      "PET_TOXINS"
+    ],
+    "hasInfo": false,
+    "hasGraph": false,
+    "hasRule": false,
+    "hasKnowledge": false,
+    "inPetToxins": false,
+    "humanScore": 90,
+    "diabetesScore": 90,
+    "petScore": 90,
+    "humanFlags": [],
+    "diabetesFlags": [],
+    "petFlags": [],
+    "recommendationHuman": "BUY",
+    "recommendationDiabetes": "BUY",
+    "recommendationPet": "BUY",
+    "issues": [
+      "missing_graph",
+      "missing_info",
+      "missing_knowledge",
+      "missing_rule"
+    ]
+  },
+  {
+    "ingredient": "toxin 59",
+    "normalized": "toxin 59",
+    "sources": [
+      "PET_TOXINS"
+    ],
+    "hasInfo": false,
+    "hasGraph": false,
+    "hasRule": false,
+    "hasKnowledge": false,
+    "inPetToxins": false,
+    "humanScore": 90,
+    "diabetesScore": 90,
+    "petScore": 90,
+    "humanFlags": [],
+    "diabetesFlags": [],
+    "petFlags": [],
+    "recommendationHuman": "BUY",
+    "recommendationDiabetes": "BUY",
+    "recommendationPet": "BUY",
+    "issues": [
+      "missing_graph",
+      "missing_info",
+      "missing_knowledge",
+      "missing_rule"
+    ]
+  },
+  {
+    "ingredient": "toxin 6",
+    "normalized": "toxin 6",
+    "sources": [
+      "PET_TOXINS"
+    ],
+    "hasInfo": false,
+    "hasGraph": false,
+    "hasRule": false,
+    "hasKnowledge": false,
+    "inPetToxins": false,
+    "humanScore": 90,
+    "diabetesScore": 90,
+    "petScore": 90,
+    "humanFlags": [],
+    "diabetesFlags": [],
+    "petFlags": [],
+    "recommendationHuman": "BUY",
+    "recommendationDiabetes": "BUY",
+    "recommendationPet": "BUY",
+    "issues": [
+      "missing_graph",
+      "missing_info",
+      "missing_knowledge",
+      "missing_rule"
+    ]
+  },
+  {
+    "ingredient": "toxin 60",
+    "normalized": "toxin 60",
+    "sources": [
+      "PET_TOXINS"
+    ],
+    "hasInfo": false,
+    "hasGraph": false,
+    "hasRule": false,
+    "hasKnowledge": false,
+    "inPetToxins": false,
+    "humanScore": 90,
+    "diabetesScore": 90,
+    "petScore": 90,
+    "humanFlags": [],
+    "diabetesFlags": [],
+    "petFlags": [],
+    "recommendationHuman": "BUY",
+    "recommendationDiabetes": "BUY",
+    "recommendationPet": "BUY",
+    "issues": [
+      "missing_graph",
+      "missing_info",
+      "missing_knowledge",
+      "missing_rule"
+    ]
+  },
+  {
+    "ingredient": "toxin 61",
+    "normalized": "toxin 61",
+    "sources": [
+      "PET_TOXINS"
+    ],
+    "hasInfo": false,
+    "hasGraph": false,
+    "hasRule": false,
+    "hasKnowledge": false,
+    "inPetToxins": false,
+    "humanScore": 90,
+    "diabetesScore": 90,
+    "petScore": 90,
+    "humanFlags": [],
+    "diabetesFlags": [],
+    "petFlags": [],
+    "recommendationHuman": "BUY",
+    "recommendationDiabetes": "BUY",
+    "recommendationPet": "BUY",
+    "issues": [
+      "missing_graph",
+      "missing_info",
+      "missing_knowledge",
+      "missing_rule"
+    ]
+  },
+  {
+    "ingredient": "toxin 62",
+    "normalized": "toxin 62",
+    "sources": [
+      "PET_TOXINS"
+    ],
+    "hasInfo": false,
+    "hasGraph": false,
+    "hasRule": false,
+    "hasKnowledge": false,
+    "inPetToxins": false,
+    "humanScore": 90,
+    "diabetesScore": 90,
+    "petScore": 90,
+    "humanFlags": [],
+    "diabetesFlags": [],
+    "petFlags": [],
+    "recommendationHuman": "BUY",
+    "recommendationDiabetes": "BUY",
+    "recommendationPet": "BUY",
+    "issues": [
+      "missing_graph",
+      "missing_info",
+      "missing_knowledge",
+      "missing_rule"
+    ]
+  },
+  {
+    "ingredient": "toxin 63",
+    "normalized": "toxin 63",
+    "sources": [
+      "PET_TOXINS"
+    ],
+    "hasInfo": false,
+    "hasGraph": false,
+    "hasRule": false,
+    "hasKnowledge": false,
+    "inPetToxins": false,
+    "humanScore": 90,
+    "diabetesScore": 90,
+    "petScore": 90,
+    "humanFlags": [],
+    "diabetesFlags": [],
+    "petFlags": [],
+    "recommendationHuman": "BUY",
+    "recommendationDiabetes": "BUY",
+    "recommendationPet": "BUY",
+    "issues": [
+      "missing_graph",
+      "missing_info",
+      "missing_knowledge",
+      "missing_rule"
+    ]
+  },
+  {
+    "ingredient": "toxin 64",
+    "normalized": "toxin 64",
+    "sources": [
+      "PET_TOXINS"
+    ],
+    "hasInfo": false,
+    "hasGraph": false,
+    "hasRule": false,
+    "hasKnowledge": false,
+    "inPetToxins": false,
+    "humanScore": 90,
+    "diabetesScore": 90,
+    "petScore": 90,
+    "humanFlags": [],
+    "diabetesFlags": [],
+    "petFlags": [],
+    "recommendationHuman": "BUY",
+    "recommendationDiabetes": "BUY",
+    "recommendationPet": "BUY",
+    "issues": [
+      "missing_graph",
+      "missing_info",
+      "missing_knowledge",
+      "missing_rule"
+    ]
+  },
+  {
+    "ingredient": "toxin 65",
+    "normalized": "toxin 65",
+    "sources": [
+      "PET_TOXINS"
+    ],
+    "hasInfo": false,
+    "hasGraph": false,
+    "hasRule": false,
+    "hasKnowledge": false,
+    "inPetToxins": false,
+    "humanScore": 90,
+    "diabetesScore": 90,
+    "petScore": 90,
+    "humanFlags": [],
+    "diabetesFlags": [],
+    "petFlags": [],
+    "recommendationHuman": "BUY",
+    "recommendationDiabetes": "BUY",
+    "recommendationPet": "BUY",
+    "issues": [
+      "missing_graph",
+      "missing_info",
+      "missing_knowledge",
+      "missing_rule"
+    ]
+  },
+  {
+    "ingredient": "toxin 66",
+    "normalized": "toxin 66",
+    "sources": [
+      "PET_TOXINS"
+    ],
+    "hasInfo": false,
+    "hasGraph": false,
+    "hasRule": false,
+    "hasKnowledge": false,
+    "inPetToxins": false,
+    "humanScore": 90,
+    "diabetesScore": 90,
+    "petScore": 90,
+    "humanFlags": [],
+    "diabetesFlags": [],
+    "petFlags": [],
+    "recommendationHuman": "BUY",
+    "recommendationDiabetes": "BUY",
+    "recommendationPet": "BUY",
+    "issues": [
+      "missing_graph",
+      "missing_info",
+      "missing_knowledge",
+      "missing_rule"
+    ]
+  },
+  {
+    "ingredient": "toxin 67",
+    "normalized": "toxin 67",
+    "sources": [
+      "PET_TOXINS"
+    ],
+    "hasInfo": false,
+    "hasGraph": false,
+    "hasRule": false,
+    "hasKnowledge": false,
+    "inPetToxins": false,
+    "humanScore": 90,
+    "diabetesScore": 90,
+    "petScore": 90,
+    "humanFlags": [],
+    "diabetesFlags": [],
+    "petFlags": [],
+    "recommendationHuman": "BUY",
+    "recommendationDiabetes": "BUY",
+    "recommendationPet": "BUY",
+    "issues": [
+      "missing_graph",
+      "missing_info",
+      "missing_knowledge",
+      "missing_rule"
+    ]
+  },
+  {
+    "ingredient": "toxin 68",
+    "normalized": "toxin 68",
+    "sources": [
+      "PET_TOXINS"
+    ],
+    "hasInfo": false,
+    "hasGraph": false,
+    "hasRule": false,
+    "hasKnowledge": false,
+    "inPetToxins": false,
+    "humanScore": 90,
+    "diabetesScore": 90,
+    "petScore": 90,
+    "humanFlags": [],
+    "diabetesFlags": [],
+    "petFlags": [],
+    "recommendationHuman": "BUY",
+    "recommendationDiabetes": "BUY",
+    "recommendationPet": "BUY",
+    "issues": [
+      "missing_graph",
+      "missing_info",
+      "missing_knowledge",
+      "missing_rule"
+    ]
+  },
+  {
+    "ingredient": "toxin 69",
+    "normalized": "toxin 69",
+    "sources": [
+      "PET_TOXINS"
+    ],
+    "hasInfo": false,
+    "hasGraph": false,
+    "hasRule": false,
+    "hasKnowledge": false,
+    "inPetToxins": false,
+    "humanScore": 90,
+    "diabetesScore": 90,
+    "petScore": 90,
+    "humanFlags": [],
+    "diabetesFlags": [],
+    "petFlags": [],
+    "recommendationHuman": "BUY",
+    "recommendationDiabetes": "BUY",
+    "recommendationPet": "BUY",
+    "issues": [
+      "missing_graph",
+      "missing_info",
+      "missing_knowledge",
+      "missing_rule"
+    ]
+  },
+  {
+    "ingredient": "toxin 7",
+    "normalized": "toxin 7",
+    "sources": [
+      "PET_TOXINS"
+    ],
+    "hasInfo": false,
+    "hasGraph": false,
+    "hasRule": false,
+    "hasKnowledge": false,
+    "inPetToxins": false,
+    "humanScore": 90,
+    "diabetesScore": 90,
+    "petScore": 90,
+    "humanFlags": [],
+    "diabetesFlags": [],
+    "petFlags": [],
+    "recommendationHuman": "BUY",
+    "recommendationDiabetes": "BUY",
+    "recommendationPet": "BUY",
+    "issues": [
+      "missing_graph",
+      "missing_info",
+      "missing_knowledge",
+      "missing_rule"
+    ]
+  },
+  {
+    "ingredient": "toxin 70",
+    "normalized": "toxin 70",
+    "sources": [
+      "PET_TOXINS"
+    ],
+    "hasInfo": false,
+    "hasGraph": false,
+    "hasRule": false,
+    "hasKnowledge": false,
+    "inPetToxins": false,
+    "humanScore": 90,
+    "diabetesScore": 90,
+    "petScore": 90,
+    "humanFlags": [],
+    "diabetesFlags": [],
+    "petFlags": [],
+    "recommendationHuman": "BUY",
+    "recommendationDiabetes": "BUY",
+    "recommendationPet": "BUY",
+    "issues": [
+      "missing_graph",
+      "missing_info",
+      "missing_knowledge",
+      "missing_rule"
+    ]
+  },
+  {
+    "ingredient": "toxin 71",
+    "normalized": "toxin 71",
+    "sources": [
+      "PET_TOXINS"
+    ],
+    "hasInfo": false,
+    "hasGraph": false,
+    "hasRule": false,
+    "hasKnowledge": false,
+    "inPetToxins": false,
+    "humanScore": 90,
+    "diabetesScore": 90,
+    "petScore": 90,
+    "humanFlags": [],
+    "diabetesFlags": [],
+    "petFlags": [],
+    "recommendationHuman": "BUY",
+    "recommendationDiabetes": "BUY",
+    "recommendationPet": "BUY",
+    "issues": [
+      "missing_graph",
+      "missing_info",
+      "missing_knowledge",
+      "missing_rule"
+    ]
+  },
+  {
+    "ingredient": "toxin 72",
+    "normalized": "toxin 72",
+    "sources": [
+      "PET_TOXINS"
+    ],
+    "hasInfo": false,
+    "hasGraph": false,
+    "hasRule": false,
+    "hasKnowledge": false,
+    "inPetToxins": false,
+    "humanScore": 90,
+    "diabetesScore": 90,
+    "petScore": 90,
+    "humanFlags": [],
+    "diabetesFlags": [],
+    "petFlags": [],
+    "recommendationHuman": "BUY",
+    "recommendationDiabetes": "BUY",
+    "recommendationPet": "BUY",
+    "issues": [
+      "missing_graph",
+      "missing_info",
+      "missing_knowledge",
+      "missing_rule"
+    ]
+  },
+  {
+    "ingredient": "toxin 73",
+    "normalized": "toxin 73",
+    "sources": [
+      "PET_TOXINS"
+    ],
+    "hasInfo": false,
+    "hasGraph": false,
+    "hasRule": false,
+    "hasKnowledge": false,
+    "inPetToxins": false,
+    "humanScore": 90,
+    "diabetesScore": 90,
+    "petScore": 90,
+    "humanFlags": [],
+    "diabetesFlags": [],
+    "petFlags": [],
+    "recommendationHuman": "BUY",
+    "recommendationDiabetes": "BUY",
+    "recommendationPet": "BUY",
+    "issues": [
+      "missing_graph",
+      "missing_info",
+      "missing_knowledge",
+      "missing_rule"
+    ]
+  },
+  {
+    "ingredient": "toxin 74",
+    "normalized": "toxin 74",
+    "sources": [
+      "PET_TOXINS"
+    ],
+    "hasInfo": false,
+    "hasGraph": false,
+    "hasRule": false,
+    "hasKnowledge": false,
+    "inPetToxins": false,
+    "humanScore": 90,
+    "diabetesScore": 90,
+    "petScore": 90,
+    "humanFlags": [],
+    "diabetesFlags": [],
+    "petFlags": [],
+    "recommendationHuman": "BUY",
+    "recommendationDiabetes": "BUY",
+    "recommendationPet": "BUY",
+    "issues": [
+      "missing_graph",
+      "missing_info",
+      "missing_knowledge",
+      "missing_rule"
+    ]
+  },
+  {
+    "ingredient": "toxin 75",
+    "normalized": "toxin 75",
+    "sources": [
+      "PET_TOXINS"
+    ],
+    "hasInfo": false,
+    "hasGraph": false,
+    "hasRule": false,
+    "hasKnowledge": false,
+    "inPetToxins": false,
+    "humanScore": 90,
+    "diabetesScore": 90,
+    "petScore": 90,
+    "humanFlags": [],
+    "diabetesFlags": [],
+    "petFlags": [],
+    "recommendationHuman": "BUY",
+    "recommendationDiabetes": "BUY",
+    "recommendationPet": "BUY",
+    "issues": [
+      "missing_graph",
+      "missing_info",
+      "missing_knowledge",
+      "missing_rule"
+    ]
+  },
+  {
+    "ingredient": "toxin 76",
+    "normalized": "toxin 76",
+    "sources": [
+      "PET_TOXINS"
+    ],
+    "hasInfo": false,
+    "hasGraph": false,
+    "hasRule": false,
+    "hasKnowledge": false,
+    "inPetToxins": false,
+    "humanScore": 90,
+    "diabetesScore": 90,
+    "petScore": 90,
+    "humanFlags": [],
+    "diabetesFlags": [],
+    "petFlags": [],
+    "recommendationHuman": "BUY",
+    "recommendationDiabetes": "BUY",
+    "recommendationPet": "BUY",
+    "issues": [
+      "missing_graph",
+      "missing_info",
+      "missing_knowledge",
+      "missing_rule"
+    ]
+  },
+  {
+    "ingredient": "toxin 77",
+    "normalized": "toxin 77",
+    "sources": [
+      "PET_TOXINS"
+    ],
+    "hasInfo": false,
+    "hasGraph": false,
+    "hasRule": false,
+    "hasKnowledge": false,
+    "inPetToxins": false,
+    "humanScore": 90,
+    "diabetesScore": 90,
+    "petScore": 90,
+    "humanFlags": [],
+    "diabetesFlags": [],
+    "petFlags": [],
+    "recommendationHuman": "BUY",
+    "recommendationDiabetes": "BUY",
+    "recommendationPet": "BUY",
+    "issues": [
+      "missing_graph",
+      "missing_info",
+      "missing_knowledge",
+      "missing_rule"
+    ]
+  },
+  {
+    "ingredient": "toxin 78",
+    "normalized": "toxin 78",
+    "sources": [
+      "PET_TOXINS"
+    ],
+    "hasInfo": false,
+    "hasGraph": false,
+    "hasRule": false,
+    "hasKnowledge": false,
+    "inPetToxins": false,
+    "humanScore": 90,
+    "diabetesScore": 90,
+    "petScore": 90,
+    "humanFlags": [],
+    "diabetesFlags": [],
+    "petFlags": [],
+    "recommendationHuman": "BUY",
+    "recommendationDiabetes": "BUY",
+    "recommendationPet": "BUY",
+    "issues": [
+      "missing_graph",
+      "missing_info",
+      "missing_knowledge",
+      "missing_rule"
+    ]
+  },
+  {
+    "ingredient": "toxin 79",
+    "normalized": "toxin 79",
+    "sources": [
+      "PET_TOXINS"
+    ],
+    "hasInfo": false,
+    "hasGraph": false,
+    "hasRule": false,
+    "hasKnowledge": false,
+    "inPetToxins": false,
+    "humanScore": 90,
+    "diabetesScore": 90,
+    "petScore": 90,
+    "humanFlags": [],
+    "diabetesFlags": [],
+    "petFlags": [],
+    "recommendationHuman": "BUY",
+    "recommendationDiabetes": "BUY",
+    "recommendationPet": "BUY",
+    "issues": [
+      "missing_graph",
+      "missing_info",
+      "missing_knowledge",
+      "missing_rule"
+    ]
+  },
+  {
+    "ingredient": "toxin 8",
+    "normalized": "toxin 8",
+    "sources": [
+      "PET_TOXINS"
+    ],
+    "hasInfo": false,
+    "hasGraph": false,
+    "hasRule": false,
+    "hasKnowledge": false,
+    "inPetToxins": false,
+    "humanScore": 90,
+    "diabetesScore": 90,
+    "petScore": 90,
+    "humanFlags": [],
+    "diabetesFlags": [],
+    "petFlags": [],
+    "recommendationHuman": "BUY",
+    "recommendationDiabetes": "BUY",
+    "recommendationPet": "BUY",
+    "issues": [
+      "missing_graph",
+      "missing_info",
+      "missing_knowledge",
+      "missing_rule"
+    ]
+  },
+  {
+    "ingredient": "toxin 80",
+    "normalized": "toxin 80",
+    "sources": [
+      "PET_TOXINS"
+    ],
+    "hasInfo": false,
+    "hasGraph": false,
+    "hasRule": false,
+    "hasKnowledge": false,
+    "inPetToxins": false,
+    "humanScore": 90,
+    "diabetesScore": 90,
+    "petScore": 90,
+    "humanFlags": [],
+    "diabetesFlags": [],
+    "petFlags": [],
+    "recommendationHuman": "BUY",
+    "recommendationDiabetes": "BUY",
+    "recommendationPet": "BUY",
+    "issues": [
+      "missing_graph",
+      "missing_info",
+      "missing_knowledge",
+      "missing_rule"
+    ]
+  },
+  {
+    "ingredient": "toxin 81",
+    "normalized": "toxin 81",
+    "sources": [
+      "PET_TOXINS"
+    ],
+    "hasInfo": false,
+    "hasGraph": false,
+    "hasRule": false,
+    "hasKnowledge": false,
+    "inPetToxins": false,
+    "humanScore": 90,
+    "diabetesScore": 90,
+    "petScore": 90,
+    "humanFlags": [],
+    "diabetesFlags": [],
+    "petFlags": [],
+    "recommendationHuman": "BUY",
+    "recommendationDiabetes": "BUY",
+    "recommendationPet": "BUY",
+    "issues": [
+      "missing_graph",
+      "missing_info",
+      "missing_knowledge",
+      "missing_rule"
+    ]
+  },
+  {
+    "ingredient": "toxin 82",
+    "normalized": "toxin 82",
+    "sources": [
+      "PET_TOXINS"
+    ],
+    "hasInfo": false,
+    "hasGraph": false,
+    "hasRule": false,
+    "hasKnowledge": false,
+    "inPetToxins": false,
+    "humanScore": 90,
+    "diabetesScore": 90,
+    "petScore": 90,
+    "humanFlags": [],
+    "diabetesFlags": [],
+    "petFlags": [],
+    "recommendationHuman": "BUY",
+    "recommendationDiabetes": "BUY",
+    "recommendationPet": "BUY",
+    "issues": [
+      "missing_graph",
+      "missing_info",
+      "missing_knowledge",
+      "missing_rule"
+    ]
+  },
+  {
+    "ingredient": "toxin 83",
+    "normalized": "toxin 83",
+    "sources": [
+      "PET_TOXINS"
+    ],
+    "hasInfo": false,
+    "hasGraph": false,
+    "hasRule": false,
+    "hasKnowledge": false,
+    "inPetToxins": false,
+    "humanScore": 90,
+    "diabetesScore": 90,
+    "petScore": 90,
+    "humanFlags": [],
+    "diabetesFlags": [],
+    "petFlags": [],
+    "recommendationHuman": "BUY",
+    "recommendationDiabetes": "BUY",
+    "recommendationPet": "BUY",
+    "issues": [
+      "missing_graph",
+      "missing_info",
+      "missing_knowledge",
+      "missing_rule"
+    ]
+  },
+  {
+    "ingredient": "toxin 84",
+    "normalized": "toxin 84",
+    "sources": [
+      "PET_TOXINS"
+    ],
+    "hasInfo": false,
+    "hasGraph": false,
+    "hasRule": false,
+    "hasKnowledge": false,
+    "inPetToxins": false,
+    "humanScore": 90,
+    "diabetesScore": 90,
+    "petScore": 90,
+    "humanFlags": [],
+    "diabetesFlags": [],
+    "petFlags": [],
+    "recommendationHuman": "BUY",
+    "recommendationDiabetes": "BUY",
+    "recommendationPet": "BUY",
+    "issues": [
+      "missing_graph",
+      "missing_info",
+      "missing_knowledge",
+      "missing_rule"
+    ]
+  },
+  {
+    "ingredient": "toxin 85",
+    "normalized": "toxin 85",
+    "sources": [
+      "PET_TOXINS"
+    ],
+    "hasInfo": false,
+    "hasGraph": false,
+    "hasRule": false,
+    "hasKnowledge": false,
+    "inPetToxins": false,
+    "humanScore": 90,
+    "diabetesScore": 90,
+    "petScore": 90,
+    "humanFlags": [],
+    "diabetesFlags": [],
+    "petFlags": [],
+    "recommendationHuman": "BUY",
+    "recommendationDiabetes": "BUY",
+    "recommendationPet": "BUY",
+    "issues": [
+      "missing_graph",
+      "missing_info",
+      "missing_knowledge",
+      "missing_rule"
+    ]
+  },
+  {
+    "ingredient": "toxin 86",
+    "normalized": "toxin 86",
+    "sources": [
+      "PET_TOXINS"
+    ],
+    "hasInfo": false,
+    "hasGraph": false,
+    "hasRule": false,
+    "hasKnowledge": false,
+    "inPetToxins": false,
+    "humanScore": 90,
+    "diabetesScore": 90,
+    "petScore": 90,
+    "humanFlags": [],
+    "diabetesFlags": [],
+    "petFlags": [],
+    "recommendationHuman": "BUY",
+    "recommendationDiabetes": "BUY",
+    "recommendationPet": "BUY",
+    "issues": [
+      "missing_graph",
+      "missing_info",
+      "missing_knowledge",
+      "missing_rule"
+    ]
+  },
+  {
+    "ingredient": "toxin 87",
+    "normalized": "toxin 87",
+    "sources": [
+      "PET_TOXINS"
+    ],
+    "hasInfo": false,
+    "hasGraph": false,
+    "hasRule": false,
+    "hasKnowledge": false,
+    "inPetToxins": false,
+    "humanScore": 90,
+    "diabetesScore": 90,
+    "petScore": 90,
+    "humanFlags": [],
+    "diabetesFlags": [],
+    "petFlags": [],
+    "recommendationHuman": "BUY",
+    "recommendationDiabetes": "BUY",
+    "recommendationPet": "BUY",
+    "issues": [
+      "missing_graph",
+      "missing_info",
+      "missing_knowledge",
+      "missing_rule"
+    ]
+  },
+  {
+    "ingredient": "toxin 88",
+    "normalized": "toxin 88",
+    "sources": [
+      "PET_TOXINS"
+    ],
+    "hasInfo": false,
+    "hasGraph": false,
+    "hasRule": false,
+    "hasKnowledge": false,
+    "inPetToxins": false,
+    "humanScore": 90,
+    "diabetesScore": 90,
+    "petScore": 90,
+    "humanFlags": [],
+    "diabetesFlags": [],
+    "petFlags": [],
+    "recommendationHuman": "BUY",
+    "recommendationDiabetes": "BUY",
+    "recommendationPet": "BUY",
+    "issues": [
+      "missing_graph",
+      "missing_info",
+      "missing_knowledge",
+      "missing_rule"
+    ]
+  },
+  {
+    "ingredient": "toxin 89",
+    "normalized": "toxin 89",
+    "sources": [
+      "PET_TOXINS"
+    ],
+    "hasInfo": false,
+    "hasGraph": false,
+    "hasRule": false,
+    "hasKnowledge": false,
+    "inPetToxins": false,
+    "humanScore": 90,
+    "diabetesScore": 90,
+    "petScore": 90,
+    "humanFlags": [],
+    "diabetesFlags": [],
+    "petFlags": [],
+    "recommendationHuman": "BUY",
+    "recommendationDiabetes": "BUY",
+    "recommendationPet": "BUY",
+    "issues": [
+      "missing_graph",
+      "missing_info",
+      "missing_knowledge",
+      "missing_rule"
+    ]
+  },
+  {
+    "ingredient": "toxin 9",
+    "normalized": "toxin 9",
+    "sources": [
+      "PET_TOXINS"
+    ],
+    "hasInfo": false,
+    "hasGraph": false,
+    "hasRule": false,
+    "hasKnowledge": false,
+    "inPetToxins": false,
+    "humanScore": 90,
+    "diabetesScore": 90,
+    "petScore": 90,
+    "humanFlags": [],
+    "diabetesFlags": [],
+    "petFlags": [],
+    "recommendationHuman": "BUY",
+    "recommendationDiabetes": "BUY",
+    "recommendationPet": "BUY",
+    "issues": [
+      "missing_graph",
+      "missing_info",
+      "missing_knowledge",
+      "missing_rule"
+    ]
+  },
+  {
+    "ingredient": "toxin 90",
+    "normalized": "toxin 90",
+    "sources": [
+      "PET_TOXINS"
+    ],
+    "hasInfo": false,
+    "hasGraph": false,
+    "hasRule": false,
+    "hasKnowledge": false,
+    "inPetToxins": false,
+    "humanScore": 90,
+    "diabetesScore": 90,
+    "petScore": 90,
+    "humanFlags": [],
+    "diabetesFlags": [],
+    "petFlags": [],
+    "recommendationHuman": "BUY",
+    "recommendationDiabetes": "BUY",
+    "recommendationPet": "BUY",
+    "issues": [
+      "missing_graph",
+      "missing_info",
+      "missing_knowledge",
+      "missing_rule"
+    ]
+  },
+  {
+    "ingredient": "toxin 91",
+    "normalized": "toxin 91",
+    "sources": [
+      "PET_TOXINS"
+    ],
+    "hasInfo": false,
+    "hasGraph": false,
+    "hasRule": false,
+    "hasKnowledge": false,
+    "inPetToxins": false,
+    "humanScore": 90,
+    "diabetesScore": 90,
+    "petScore": 90,
+    "humanFlags": [],
+    "diabetesFlags": [],
+    "petFlags": [],
+    "recommendationHuman": "BUY",
+    "recommendationDiabetes": "BUY",
+    "recommendationPet": "BUY",
+    "issues": [
+      "missing_graph",
+      "missing_info",
+      "missing_knowledge",
+      "missing_rule"
+    ]
+  },
+  {
+    "ingredient": "toxin 92",
+    "normalized": "toxin 92",
+    "sources": [
+      "PET_TOXINS"
+    ],
+    "hasInfo": false,
+    "hasGraph": false,
+    "hasRule": false,
+    "hasKnowledge": false,
+    "inPetToxins": false,
+    "humanScore": 90,
+    "diabetesScore": 90,
+    "petScore": 90,
+    "humanFlags": [],
+    "diabetesFlags": [],
+    "petFlags": [],
+    "recommendationHuman": "BUY",
+    "recommendationDiabetes": "BUY",
+    "recommendationPet": "BUY",
+    "issues": [
+      "missing_graph",
+      "missing_info",
+      "missing_knowledge",
+      "missing_rule"
+    ]
+  },
+  {
+    "ingredient": "toxin 93",
+    "normalized": "toxin 93",
+    "sources": [
+      "PET_TOXINS"
+    ],
+    "hasInfo": false,
+    "hasGraph": false,
+    "hasRule": false,
+    "hasKnowledge": false,
+    "inPetToxins": false,
+    "humanScore": 90,
+    "diabetesScore": 90,
+    "petScore": 90,
+    "humanFlags": [],
+    "diabetesFlags": [],
+    "petFlags": [],
+    "recommendationHuman": "BUY",
+    "recommendationDiabetes": "BUY",
+    "recommendationPet": "BUY",
+    "issues": [
+      "missing_graph",
+      "missing_info",
+      "missing_knowledge",
+      "missing_rule"
+    ]
+  },
+  {
+    "ingredient": "toxin 94",
+    "normalized": "toxin 94",
+    "sources": [
+      "PET_TOXINS"
+    ],
+    "hasInfo": false,
+    "hasGraph": false,
+    "hasRule": false,
+    "hasKnowledge": false,
+    "inPetToxins": false,
+    "humanScore": 90,
+    "diabetesScore": 90,
+    "petScore": 90,
+    "humanFlags": [],
+    "diabetesFlags": [],
+    "petFlags": [],
+    "recommendationHuman": "BUY",
+    "recommendationDiabetes": "BUY",
+    "recommendationPet": "BUY",
+    "issues": [
+      "missing_graph",
+      "missing_info",
+      "missing_knowledge",
+      "missing_rule"
+    ]
+  },
+  {
+    "ingredient": "toxin 95",
+    "normalized": "toxin 95",
+    "sources": [
+      "PET_TOXINS"
+    ],
+    "hasInfo": false,
+    "hasGraph": false,
+    "hasRule": false,
+    "hasKnowledge": false,
+    "inPetToxins": false,
+    "humanScore": 90,
+    "diabetesScore": 90,
+    "petScore": 90,
+    "humanFlags": [],
+    "diabetesFlags": [],
+    "petFlags": [],
+    "recommendationHuman": "BUY",
+    "recommendationDiabetes": "BUY",
+    "recommendationPet": "BUY",
+    "issues": [
+      "missing_graph",
+      "missing_info",
+      "missing_knowledge",
+      "missing_rule"
+    ]
+  },
+  {
+    "ingredient": "toxin 96",
+    "normalized": "toxin 96",
+    "sources": [
+      "PET_TOXINS"
+    ],
+    "hasInfo": false,
+    "hasGraph": false,
+    "hasRule": false,
+    "hasKnowledge": false,
+    "inPetToxins": false,
+    "humanScore": 90,
+    "diabetesScore": 90,
+    "petScore": 90,
+    "humanFlags": [],
+    "diabetesFlags": [],
+    "petFlags": [],
+    "recommendationHuman": "BUY",
+    "recommendationDiabetes": "BUY",
+    "recommendationPet": "BUY",
+    "issues": [
+      "missing_graph",
+      "missing_info",
+      "missing_knowledge",
+      "missing_rule"
+    ]
+  },
+  {
+    "ingredient": "toxin 97",
+    "normalized": "toxin 97",
+    "sources": [
+      "PET_TOXINS"
+    ],
+    "hasInfo": false,
+    "hasGraph": false,
+    "hasRule": false,
+    "hasKnowledge": false,
+    "inPetToxins": false,
+    "humanScore": 90,
+    "diabetesScore": 90,
+    "petScore": 90,
+    "humanFlags": [],
+    "diabetesFlags": [],
+    "petFlags": [],
+    "recommendationHuman": "BUY",
+    "recommendationDiabetes": "BUY",
+    "recommendationPet": "BUY",
+    "issues": [
+      "missing_graph",
+      "missing_info",
+      "missing_knowledge",
+      "missing_rule"
+    ]
+  },
+  {
+    "ingredient": "toxin 98",
+    "normalized": "toxin 98",
+    "sources": [
+      "PET_TOXINS"
+    ],
+    "hasInfo": false,
+    "hasGraph": false,
+    "hasRule": false,
+    "hasKnowledge": false,
+    "inPetToxins": false,
+    "humanScore": 90,
+    "diabetesScore": 90,
+    "petScore": 90,
+    "humanFlags": [],
+    "diabetesFlags": [],
+    "petFlags": [],
+    "recommendationHuman": "BUY",
+    "recommendationDiabetes": "BUY",
+    "recommendationPet": "BUY",
+    "issues": [
+      "missing_graph",
+      "missing_info",
+      "missing_knowledge",
+      "missing_rule"
+    ]
+  },
+  {
+    "ingredient": "toxin 99",
+    "normalized": "toxin 99",
+    "sources": [
+      "PET_TOXINS"
+    ],
+    "hasInfo": false,
+    "hasGraph": false,
+    "hasRule": false,
+    "hasKnowledge": false,
+    "inPetToxins": false,
+    "humanScore": 90,
+    "diabetesScore": 90,
+    "petScore": 90,
+    "humanFlags": [],
+    "diabetesFlags": [],
+    "petFlags": [],
+    "recommendationHuman": "BUY",
+    "recommendationDiabetes": "BUY",
+    "recommendationPet": "BUY",
+    "issues": [
+      "missing_graph",
+      "missing_info",
+      "missing_knowledge",
+      "missing_rule"
+    ]
+  },
+  {
+    "ingredient": "vanilla",
+    "normalized": "vanilla",
+    "sources": [
+      "INGREDIENT_KNOWLEDGE"
+    ],
+    "hasInfo": false,
+    "hasGraph": false,
+    "hasRule": false,
+    "hasKnowledge": true,
+    "inPetToxins": false,
+    "humanScore": 90,
+    "diabetesScore": 90,
+    "petScore": 90,
+    "humanFlags": [],
+    "diabetesFlags": [],
+    "petFlags": [],
+    "recommendationHuman": "BUY",
+    "recommendationDiabetes": "BUY",
+    "recommendationPet": "BUY",
+    "issues": [
+      "missing_graph",
+      "missing_info",
+      "missing_rule"
+    ]
+  },
+  {
+    "ingredient": "water",
+    "normalized": "water",
+    "sources": [
+      "INGREDIENT_KNOWLEDGE"
+    ],
+    "hasInfo": false,
+    "hasGraph": false,
+    "hasRule": false,
+    "hasKnowledge": true,
+    "inPetToxins": false,
+    "humanScore": 90,
+    "diabetesScore": 90,
+    "petScore": 90,
+    "humanFlags": [],
+    "diabetesFlags": [],
+    "petFlags": [],
+    "recommendationHuman": "BUY",
+    "recommendationDiabetes": "BUY",
+    "recommendationPet": "BUY",
+    "issues": [
+      "missing_graph",
+      "missing_info",
+      "missing_rule"
+    ]
+  },
+  {
+    "ingredient": "wheat",
+    "normalized": "wheat",
+    "sources": [
+      "INGREDIENT_KNOWLEDGE"
+    ],
+    "hasInfo": false,
+    "hasGraph": false,
+    "hasRule": false,
+    "hasKnowledge": true,
+    "inPetToxins": false,
+    "humanScore": 90,
+    "diabetesScore": 90,
+    "petScore": 90,
+    "humanFlags": [],
+    "diabetesFlags": [],
+    "petFlags": [],
+    "recommendationHuman": "BUY",
+    "recommendationDiabetes": "BUY",
+    "recommendationPet": "BUY",
+    "issues": [
+      "missing_graph",
+      "missing_info",
+      "missing_rule"
+    ]
+  },
+  {
+    "ingredient": "whey",
+    "normalized": "whey",
+    "sources": [
+      "INGREDIENT_KNOWLEDGE"
+    ],
+    "hasInfo": false,
+    "hasGraph": false,
+    "hasRule": false,
+    "hasKnowledge": true,
+    "inPetToxins": false,
+    "humanScore": 90,
+    "diabetesScore": 90,
+    "petScore": 90,
+    "humanFlags": [],
+    "diabetesFlags": [],
+    "petFlags": [],
+    "recommendationHuman": "BUY",
+    "recommendationDiabetes": "BUY",
+    "recommendationPet": "BUY",
+    "issues": [
+      "missing_graph",
+      "missing_info",
+      "missing_rule"
+    ]
+  },
+  {
+    "ingredient": "xanthan gum",
+    "normalized": "xanthan gum",
+    "sources": [
+      "INGREDIENT_KNOWLEDGE"
+    ],
+    "hasInfo": false,
+    "hasGraph": false,
+    "hasRule": false,
+    "hasKnowledge": true,
+    "inPetToxins": false,
+    "humanScore": 90,
+    "diabetesScore": 90,
+    "petScore": 90,
+    "humanFlags": [],
+    "diabetesFlags": [],
+    "petFlags": [],
+    "recommendationHuman": "BUY",
+    "recommendationDiabetes": "BUY",
+    "recommendationPet": "BUY",
+    "issues": [
+      "missing_graph",
+      "missing_info",
+      "missing_rule"
+    ]
+  },
+  {
+    "ingredient": "xylitol",
+    "normalized": "xylitol",
+    "sources": [
+      "INGREDIENT_GRAPH",
+      "INGREDIENT_INFO",
+      "PET_TOXINS"
+    ],
+    "hasInfo": true,
+    "hasGraph": true,
+    "hasRule": false,
+    "hasKnowledge": false,
+    "inPetToxins": true,
+    "humanScore": 85,
+    "diabetesScore": 85,
+    "petScore": 85,
+    "humanFlags": [
+      "Unhealthy ingredient: xylitol",
+      "xylitol risk"
+    ],
+    "diabetesFlags": [
+      "Unhealthy ingredient: xylitol",
+      "xylitol risk"
+    ],
+    "petFlags": [
+      "Toxic for pets: xylitol",
+      "Unhealthy ingredient: xylitol",
+      "xylitol risk"
+    ],
+    "recommendationHuman": "BUY",
+    "recommendationDiabetes": "BUY",
+    "recommendationPet": "BUY",
+    "issues": [
+      "missing_knowledge",
+      "missing_rule"
+    ]
+  },
+  {
+    "ingredient": "yeast",
+    "normalized": "yeast",
+    "sources": [
+      "INGREDIENT_GRAPH",
+      "INGREDIENT_INFO",
+      "INGREDIENT_KNOWLEDGE"
+    ],
+    "hasInfo": true,
+    "hasGraph": true,
+    "hasRule": false,
+    "hasKnowledge": true,
+    "inPetToxins": false,
+    "humanScore": 85,
+    "diabetesScore": 85,
+    "petScore": 85,
+    "humanFlags": [
+      "yeast risk"
+    ],
+    "diabetesFlags": [
+      "yeast risk"
+    ],
+    "petFlags": [
+      "yeast risk"
+    ],
+    "recommendationHuman": "BUY",
+    "recommendationDiabetes": "BUY",
+    "recommendationPet": "BUY",
+    "issues": [
+      "missing_rule"
+    ]
+  }
+]

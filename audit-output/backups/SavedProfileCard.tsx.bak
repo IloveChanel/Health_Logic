@@ -1,0 +1,146 @@
+﻿import React from "react";
+import { Pressable, StyleSheet, Text, View } from "react-native";
+import { typography } from "../../../theme/typography";
+
+function profileTypeLabel(type: string) {
+  if (type === "pet") return "Pet";
+  if (type === "child") return "Child";
+  if (type === "adult" -or type === "you") return "Adult";
+  return "Profile";
+}
+
+export default function SavedProfileCard({
+  profile,
+  isActive,
+  onSetActive,
+  onEdit,
+  onDelete,
+}: {
+  profile: any;
+  isActive: boolean;
+  onSetActive: () => void;
+  onEdit: () => void;
+  onDelete: () => void;
+}) {
+  return (
+    <View style={[styles.card, isActive && styles.cardActive]}>
+      <View style={styles.topRow}>
+        <View style={styles.textWrap}>
+          <Text style={[styles.name, isActive && styles.nameActive]} numberOfLines={1}>
+            {profile.label}
+          </Text>
+          <Text style={[styles.meta, isActive && styles.metaActive]}>
+            {profileTypeLabel(profile.type)}
+          </Text>
+        </View>
+
+        {isActive ? (
+          <View style={styles.activeBadge}>
+            <Text style={styles.activeBadgeText}>ACTIVE</Text>
+          </View>
+        ) : null}
+      </View>
+
+      <View style={styles.actions}>
+        {!isActive ? (
+          <Pressable onPress={onSetActive} style={styles.actionPill}>
+            <Text style={styles.actionPillText}>Set Active</Text>
+          </Pressable>
+        ) : null}
+
+        <Pressable onPress={onEdit} style={styles.actionPillPrimary}>
+          <Text style={styles.actionPillPrimaryText}>Edit</Text>
+        </Pressable>
+
+        <Pressable onPress={onDelete} style={styles.actionPill}>
+          <Text style={styles.actionPillText}>Delete</Text>
+        </Pressable>
+      </View>
+    </View>
+  );
+}
+
+const styles = StyleSheet.create({
+  card: {
+    backgroundColor: "#16211D",
+    borderRadius: 18,
+    borderWidth: 1,
+    borderColor: "rgba(0,255,148,0.12)",
+    padding: 16,
+    marginBottom: 12,
+  },
+  cardActive: {
+    borderColor: "#12E381",
+    shadowColor: "#12E381",
+    shadowOpacity: 0.14,
+    shadowRadius: 10,
+    shadowOffset: { width: 0, height: 0 },
+    elevation: 4,
+  },
+  topRow: {
+    flexDirection: "row",
+    justifyContent: "space-between",
+    alignItems: "flex-start",
+    marginBottom: 14,
+  },
+  textWrap: {
+    flex: 1,
+    paddingRight: 12,
+  },
+  name: {
+    ...typography.h3,
+    color: "#F3FFF8",
+    marginBottom: 4,
+  },
+  nameActive: {
+    color: "#12E381",
+  },
+  meta: {
+    ...typography.bodySecondary,
+    color: "#A7BBB1",
+  },
+  metaActive: {
+    color: "#D8FEEB",
+  },
+  activeBadge: {
+    backgroundColor: "#12E381",
+    borderRadius: 999,
+    paddingVertical: 6,
+    paddingHorizontal: 10,
+  },
+  activeBadgeText: {
+    ...typography.caption,
+    color: "#08100D",
+    fontWeight: "900",
+    letterSpacing: 1,
+  },
+  actions: {
+    flexDirection: "row",
+    flexWrap: "wrap",
+    gap: 10,
+  },
+  actionPill: {
+    borderRadius: 999,
+    borderWidth: 1,
+    borderColor: "rgba(0,255,148,0.18)",
+    backgroundColor: "rgba(0,255,148,0.05)",
+    paddingVertical: 10,
+    paddingHorizontal: 14,
+  },
+  actionPillText: {
+    ...typography.bodySecondary,
+    color: "#F3FFF8",
+    fontWeight: "700",
+  },
+  actionPillPrimary: {
+    borderRadius: 999,
+    backgroundColor: "#12E381",
+    paddingVertical: 10,
+    paddingHorizontal: 14,
+  },
+  actionPillPrimaryText: {
+    ...typography.bodySecondary,
+    color: "#08100D",
+    fontWeight: "800",
+  },
+});

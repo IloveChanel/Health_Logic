@@ -30,20 +30,12 @@ const graphRisk = calculateGraphRisk(ingredients,profile)
 
 const contextRisk = calculateContextRisk(ingredients,profile)
 
-const graphPenalty = Number(graphRisk?.penalty || 0)
-const contextPenalty = Number(contextRisk?.penalty || 0)
-
-const effectiveGraphPenalty =
-contextPenalty > 0
-? 0
-: graphPenalty
-
 const finalScore = Math.max(0,Math.min(100,
 (scoring.finalScore || 0)
 + overrides.bonus
 - overrides.penalty
-- effectiveGraphPenalty
-- contextPenalty
+- graphRisk.penalty
+- contextRisk.penalty
 ))
 
 const petToxinSet = new Set(
@@ -87,4 +79,3 @@ recommendation
 }
 
 }
-

@@ -1,4 +1,4 @@
-import React from "react";
+﻿import React from "react";
 import { Pressable, StyleSheet, Text, View } from "react-native";
 import { typography } from "../../../theme/typography";
 
@@ -42,7 +42,7 @@ const styles = StyleSheet.create({
     gap: 8,
   },
   label: {
-    ...(typography.label as any),
+    ...typography.label,
     color: "#A7BBB1",
     textTransform: "uppercase",
     letterSpacing: 1,

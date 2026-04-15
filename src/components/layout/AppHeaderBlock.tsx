@@ -65,7 +65,6 @@ const styles = StyleSheet.create({
     ...typography.h1,
     color: "#F3FFF8",
     fontWeight: "300",
-    lineHeight: 38,
     marginBottom: 10,
   },
   titleAccent: {
@@ -76,14 +75,12 @@ const styles = StyleSheet.create({
     ...typography.h2,
     color: "#F3FFF8",
     fontWeight: "800",
-    lineHeight: 26,
     marginBottom: 12,
   },
   subtitleMono: {
     ...typography.body,
     color: "#A7BBB1",
     fontSize: 18,
-    lineHeight: 24,
     fontFamily: Platform.OS === "ios" ? "Menlo" : "monospace",
   },
   body: {

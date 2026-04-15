@@ -1,0 +1,2 @@
+﻿high fructose corn syrup :: ingredient_present_in_multiple_penalty_channels | same_ingredient_flagged_in_base_and_final
+sugar :: graph_and_context_both_penalize

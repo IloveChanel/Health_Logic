@@ -1,0 +1,259 @@
+alcohol
+almond
+artificial flavor
+ascorbic acid
+avocado
+avocado oil
+baking powder
+baking soda
+barley
+bha
+bht
+caffeine
+canola oil
+carrageenan
+casein
+chia
+chocolate
+citric acid
+cocoa
+cocoa butter
+coffee
+corn starch
+corn syrup
+egg
+flaxseed
+fructose
+garlic
+gelatin
+glucose syrup
+grapes
+guar gum
+lecithin
+macadamia nuts
+maltodextrin
+milk
+oats
+olive oil
+onion
+palm oil
+peanut
+peanut oil
+pectin
+potassium sorbate
+quinoa
+raisins
+rice
+rye
+salt
+sesame oil
+sodium benzoate
+soy
+sugar
+sunflower oil
+tea
+toxin 1
+toxin 10
+toxin 100
+toxin 101
+toxin 102
+toxin 103
+toxin 104
+toxin 105
+toxin 106
+toxin 107
+toxin 108
+toxin 109
+toxin 11
+toxin 110
+toxin 111
+toxin 112
+toxin 113
+toxin 114
+toxin 115
+toxin 116
+toxin 117
+toxin 118
+toxin 119
+toxin 12
+toxin 120
+toxin 121
+toxin 122
+toxin 123
+toxin 124
+toxin 125
+toxin 126
+toxin 127
+toxin 128
+toxin 129
+toxin 13
+toxin 130
+toxin 131
+toxin 132
+toxin 133
+toxin 134
+toxin 135
+toxin 136
+toxin 137
+toxin 138
+toxin 139
+toxin 14
+toxin 140
+toxin 141
+toxin 142
+toxin 143
+toxin 144
+toxin 145
+toxin 146
+toxin 147
+toxin 148
+toxin 149
+toxin 15
+toxin 150
+toxin 151
+toxin 152
+toxin 153
+toxin 154
+toxin 155
+toxin 156
+toxin 157
+toxin 158
+toxin 159
+toxin 16
+toxin 160
+toxin 161
+toxin 162
+toxin 163
+toxin 164
+toxin 165
+toxin 166
+toxin 167
+toxin 168
+toxin 169
+toxin 17
+toxin 170
+toxin 171
+toxin 172
+toxin 173
+toxin 174
+toxin 175
+toxin 176
+toxin 177
+toxin 178
+toxin 179
+toxin 18
+toxin 180
+toxin 181
+toxin 182
+toxin 183
+toxin 184
+toxin 185
+toxin 186
+toxin 187
+toxin 188
+toxin 189
+toxin 19
+toxin 190
+toxin 191
+toxin 192
+toxin 193
+toxin 194
+toxin 195
+toxin 196
+toxin 197
+toxin 198
+toxin 199
+toxin 2
+toxin 20
+toxin 200
+toxin 21
+toxin 22
+toxin 23
+toxin 24
+toxin 25
+toxin 26
+toxin 27
+toxin 28
+toxin 29
+toxin 3
+toxin 30
+toxin 31
+toxin 32
+toxin 33
+toxin 34
+toxin 35
+toxin 36
+toxin 37
+toxin 38
+toxin 39
+toxin 4
+toxin 40
+toxin 41
+toxin 42
+toxin 43
+toxin 44
+toxin 45
+toxin 46
+toxin 47
+toxin 48
+toxin 49
+toxin 5
+toxin 50
+toxin 51
+toxin 52
+toxin 53
+toxin 54
+toxin 55
+toxin 56
+toxin 57
+toxin 58
+toxin 59
+toxin 6
+toxin 60
+toxin 61
+toxin 62
+toxin 63
+toxin 64
+toxin 65
+toxin 66
+toxin 67
+toxin 68
+toxin 69
+toxin 7
+toxin 70
+toxin 71
+toxin 72
+toxin 73
+toxin 74
+toxin 75
+toxin 76
+toxin 77
+toxin 78
+toxin 79
+toxin 8
+toxin 80
+toxin 81
+toxin 82
+toxin 83
+toxin 84
+toxin 85
+toxin 86
+toxin 87
+toxin 88
+toxin 89
+toxin 9
+toxin 90
+toxin 91
+toxin 92
+toxin 93
+toxin 94
+toxin 95
+toxin 96
+toxin 97
+toxin 98
+toxin 99
+vanilla
+water
+wheat
+whey
+xanthan gum

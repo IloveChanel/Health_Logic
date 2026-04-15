@@ -1,6 +1,7 @@
 ﻿import React, { useEffect, useRef } from "react";
 import { Animated, Easing, Pressable, StyleSheet, Text } from "react-native";
 import { UI_BUTTON_TOKENS } from "./ui/buttonTokens";
+import { typography } from "../theme/typography";
 
 export default function SecondaryButton({
   title,
@@ -63,9 +64,9 @@ const styles = StyleSheet.create({
     paddingHorizontal: 18,
   },
   text: {
+    ...typography.button,
     color: UI_BUTTON_TOKENS.secondaryText,
     fontWeight: "800",
-    fontSize: UI_BUTTON_TOKENS.fontSize,
     letterSpacing: 1,
   },
   pressed: {

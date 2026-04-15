@@ -1,6 +1,7 @@
 ﻿import React, { useEffect, useRef } from "react";
 import { Animated, Easing, Pressable, StyleSheet, Text } from "react-native";
 import { UI_BUTTON_TOKENS } from "./ui/buttonTokens";
+import { typography } from "../theme/typography";
 
 export default function PrimaryButton({
   title,
@@ -66,9 +67,9 @@ const styles = StyleSheet.create({
     elevation: 5,
   },
   text: {
+    ...typography.button,
     color: UI_BUTTON_TOKENS.primaryText,
     fontWeight: "900",
-    fontSize: UI_BUTTON_TOKENS.fontSize,
     letterSpacing: 1,
   },
   pressed: {
