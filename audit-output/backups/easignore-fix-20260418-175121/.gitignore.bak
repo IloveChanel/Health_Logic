@@ -1,0 +1,11 @@
+node_modules
+
+.expo/
+audit/
+_repair_backup_*/
+*.log
+android/.gradle/
+android/app/build/
+node_modules/
+
+.expo/

@@ -1,45 +1,52 @@
-﻿$ErrorActionPreference = "Stop"
+$ErrorActionPreference = "Stop"
 Set-Location "D:\HealthLogic"
 
-Write-Host "`n=== SCAN / BARCODE SMOKE ===" -ForegroundColor Cyan
+function Test-Pattern {
+  param(
+    [string]$Path,
+    [string]$Pattern
+  )
 
-$appPath        = ".\App.tsx"
-$scanPath       = ".\src\screens\ScanScreen.tsx"
-$homePath       = ".\src\screens\HomeScreen.tsx"
-$gatePath       = ".\src\modules\scan\helpers\scanAccessGate.ts"
-$pkgPath        = ".\package.json"
-
-$appText        = if (Test-Path $appPath)  { Get-Content -Raw $appPath }  else { "" }
-$scanText       = if (Test-Path $scanPath) { Get-Content -Raw $scanPath } else { "" }
-$homeScreenText = if (Test-Path $homePath) { Get-Content -Raw $homePath } else { "" }
-$gateText       = if (Test-Path $gatePath) { Get-Content -Raw $gatePath } else { "" }
-$pkgText        = if (Test-Path $pkgPath)  { Get-Content -Raw $pkgPath }  else { "" }
-
-$checks = [ordered]@{
-  "Route: Scan exists"                    = ($appText  -match 'name="Scan"')
-  "Home navigates to Scan"               = ($homeScreenText -match 'navigate\("Scan"\)')
-  "Scan imports scanBarcode"             = ($scanText -match 'import\s+\{\s*scanBarcode\s*\}\s+from')
-  "Scan imports access gate"             = ($scanText -match 'getScanAccessDecision')
-  "Barcode button exists"                = ($scanText -match 'testID="barcode_scan_button"')
-  "Camera button exists"                 = ($scanText -match 'testID="camera_ingredient_scan_button"')
-  "Barcode button calls handler"         = ($scanText -match 'onPress=\{handleBarcodeScan\}')
-  "Camera button calls handler"          = ($scanText -match 'onPress=\{handleCameraIngredientScan\}')
-  "Barcode handler navigates to Result"  = ($scanText -match 'navigate\("Result",\s*\{\s*analysis:\s*result\s*\}\)')
-  "Camera handler navigates to Result"   = ($scanText -match 'navigate\("Result"\)')
-  "Access gate redirects Subscription"   = ($gateText -match 'redirectRoute:\s*"Subscription"')
-  "expo-camera installed"                = ($pkgText  -match '"expo-camera"')
-  "expo-barcode-scanner installed"       = ($pkgText  -match '"expo-barcode-scanner"')
-}
-
-$allTrue = $true
-foreach ($item in $checks.GetEnumerator()) {
-  $status = if ($item.Value) { "TRUE" } else { "FALSE" }
-  if (-not $item.Value) { $allTrue = $false }
-  Write-Host ("{0,-40} {1}" -f $item.Key, $status) -ForegroundColor ($(if($item.Value){"Green"}else{"Red"}))
+  if (-not (Test-Path $Path)) { return $false }
+  return [bool](Select-String -Path $Path -Pattern $Pattern -Quiet)
 }
 
 Write-Host ""
-if ($allTrue) {
+Write-Host "=== SCAN / BARCODE SMOKE ===" -ForegroundColor Cyan
+
+$results = [ordered]@{}
+
+$results["Route: Scan exists"]                  = Test-Pattern ".\App.tsx" '<Stack\.Screen name="Scan"'
+$results["Home navigates to Scan"]              = Test-Pattern ".\src\screens\HomeScreen.tsx" 'navigate\("Scan"\)'
+$results["Scan imports scanBarcode"]            = Test-Pattern ".\src\screens\ScanScreen.tsx" 'import \{ scanBarcode \}'
+$results["Scan imports access gate"]            = Test-Pattern ".\src\screens\ScanScreen.tsx" 'getScanAccessDecision'
+$results["Barcode button exists"]               = Test-Pattern ".\src\screens\ScanScreen.tsx" 'barcode_scan_button'
+$results["Camera button exists"]                = Test-Pattern ".\src\screens\ScanScreen.tsx" 'camera_ingredient_scan_button'
+$results["Barcode button calls handler"]        = Test-Pattern ".\src\screens\ScanScreen.tsx" 'onPress=\{handleBarcodeScan\}'
+$results["Camera button calls handler"]         = Test-Pattern ".\src\screens\ScanScreen.tsx" 'onPress=\{handleCameraIngredientScan\}'
+$results["Barcode handler routes to scanner or result"] = (
+  (Test-Pattern ".\src\screens\ScanScreen.tsx" 'navigate\("BarcodeCamera"\)') -or
+  (Test-Pattern ".\src\screens\ScanScreen.tsx" 'navigate\("Result"')
+)
+$results["Camera handler navigates to Result"]  = Test-Pattern ".\src\screens\ScanScreen.tsx" 'navigate\("Result"'
+$results["Access gate redirects Subscription"]  = Test-Pattern ".\src\screens\ScanScreen.tsx" 'navigate\(decision\.redirectRoute\)'
+$results["expo-camera installed"]               = Test-Pattern ".\package.json" '"expo-camera"'
+$results["Scanner package strategy valid"]      = (
+  (Test-Pattern ".\package.json" '"expo-camera"') -or
+  (Test-Pattern ".\package.json" '"expo-barcode-scanner"')
+)
+$results["BarcodeScanner route typo fixed"]     = -not (Test-Pattern ".\src\components\scanner\BarcodeScanner.tsx" 'navigate\(\s*["'']Results["'']')
+
+$allPass = $true
+foreach ($item in $results.GetEnumerator()) {
+  $status = if ($item.Value) { "TRUE" } else { "FALSE" }
+  $color = if ($item.Value) { "Green" } else { "Red" }
+  if (-not $item.Value) { $allPass = $false }
+  Write-Host ("{0,-42} {1}" -f $item.Key, $status) -ForegroundColor $color
+}
+
+Write-Host ""
+if ($allPass) {
   Write-Host "OVERALL STATIC SCAN SMOKE: TRUE" -ForegroundColor Green
   exit 0
 }

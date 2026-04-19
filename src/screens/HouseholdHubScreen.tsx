@@ -1,4 +1,4 @@
-﻿import React from "react";
+import React from "react";
 import { Alert, BackHandler, Platform, Pressable, Text, View } from "react-native";
 import { LinearGradient } from "expo-linear-gradient";
 import PrimaryButton from "../components/PrimaryButton";
@@ -32,6 +32,11 @@ export default function HouseholdHubScreen({ navigation }: { navigation: any }) 
   const handleEditProfile = (profileId: string) => {
     setActiveProfileId(profileId);
     navigation.navigate("Profile", { mode: "edit", profileId });
+  };
+
+  
+  const handleCreateProfile = () => {
+    navigation.navigate("Profile");
   };
 
   const handleDeleteProfile = (profileId: string, label: string) => {
@@ -108,11 +113,12 @@ export default function HouseholdHubScreen({ navigation }: { navigation: any }) 
 
       <AppCard>
         <Text style={styles.sectionTitle}>{HOUSEHOLD_COPY.createTitle}</Text>
-        <PrimaryButton title={HOUSEHOLD_COPY.createTitle} onPress={() => navigation.navigate("Profile", { mode: "create" })} />
+        <PrimaryButton title={HOUSEHOLD_COPY.createTitle} onPress={() => handleCreateProfile()} />
       </AppCard>
     </AppScreenShell>
   );
 }
+
 
 
 

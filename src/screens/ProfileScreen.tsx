@@ -1,4 +1,4 @@
-﻿import React, { useEffect, useMemo, useState } from "react";
+import React, { useEffect, useMemo, useState } from "react";
 import { Alert, Text, TextInput, View } from "react-native";
 import PrimaryButton from "../components/PrimaryButton";
 import SecondaryButton from "../components/SecondaryButton";
@@ -29,6 +29,7 @@ import {
   mergeCustomOptions,
   saveCustomProfileOption,
 } from "../modules/profile/helpers/customProfileOptions";
+import { getProfileSelectionCount } from "../modules/profile/helpers/profileSelectionCount";
 
 export default function ProfileScreen({ navigation, route }: { navigation: any; route?: { params?: { mode?: "create" | "edit"; profileId?: string | null } } }) {
   const { account, activeProfile, saveOrUpdateProfile } = useProfileStore();
@@ -80,22 +81,24 @@ export default function ProfileScreen({ navigation, route }: { navigation: any; 
   }, []);
 
   const selectedCount = useMemo(() => {
-    return (
-      dietPreferences.length +
-      allergies.length +
-      healthConditions.length +
-      skinTypes.length +
-      skinConditions.length +
-      lifeStageFlags.length +
-      wellnessGoals.length +
-      petBreedTypes.length +
-      petLifeStages.length +
-      petDietaryNeed.length +
-      petAllergies.length +
-      petHealthConditions.length +
-      petWellnessGoals.length
-    );
-  }, [    allergies,
+    return getProfileSelectionCount({
+      dietPreferences,
+      allergies,
+      healthConditions,
+      skinTypes,
+      skinConditions,
+      lifeStageFlags,
+      wellnessGoals,
+      petBreedTypes,
+      petLifeStages,
+      petDietaryNeed,
+      petAllergies,
+      petHealthConditions,
+      petWellnessGoals,
+    });
+  }, [
+    dietPreferences,
+    allergies,
     healthConditions,
     skinTypes,
     skinConditions,

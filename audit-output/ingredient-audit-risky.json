@@ -20,7 +20,8 @@
       "garlic risk"
     ],
     "petFlags": [
-      "garlic risk"
+      "garlic risk",
+      "Toxic for pets: garlic"
     ],
     "recommendationHuman": "BUY",
     "recommendationDiabetes": "BUY",
@@ -29,8 +30,7 @@
       "missing_graph",
       "missing_info",
       "missing_knowledge",
-      "missing_rule",
-      "pet_toxin_not_flagged"
+      "missing_rule"
     ]
   },
   {
@@ -54,7 +54,8 @@
       "onion risk"
     ],
     "petFlags": [
-      "onion risk"
+      "onion risk",
+      "Toxic for pets: onion"
     ],
     "recommendationHuman": "BUY",
     "recommendationDiabetes": "BUY",
@@ -63,8 +64,7 @@
       "missing_graph",
       "missing_info",
       "missing_knowledge",
-      "missing_rule",
-      "pet_toxin_not_flagged"
+      "missing_rule"
     ]
   },
   {
@@ -83,7 +83,9 @@
     "petScore": 90,
     "humanFlags": [],
     "diabetesFlags": [],
-    "petFlags": [],
+    "petFlags": [
+      "Toxic for pets: alcohol"
+    ],
     "recommendationHuman": "BUY",
     "recommendationDiabetes": "BUY",
     "recommendationPet": "BUY",
@@ -91,8 +93,7 @@
       "missing_graph",
       "missing_info",
       "missing_knowledge",
-      "missing_rule",
-      "pet_toxin_not_flagged"
+      "missing_rule"
     ]
   },
   {
@@ -111,7 +112,9 @@
     "petScore": 90,
     "humanFlags": [],
     "diabetesFlags": [],
-    "petFlags": [],
+    "petFlags": [
+      "Toxic for pets: avocado"
+    ],
     "recommendationHuman": "BUY",
     "recommendationDiabetes": "BUY",
     "recommendationPet": "BUY",
@@ -119,8 +122,7 @@
       "missing_graph",
       "missing_info",
       "missing_knowledge",
-      "missing_rule",
-      "pet_toxin_not_flagged"
+      "missing_rule"
     ]
   },
   {
@@ -139,7 +141,9 @@
     "petScore": 90,
     "humanFlags": [],
     "diabetesFlags": [],
-    "petFlags": [],
+    "petFlags": [
+      "Toxic for pets: caffeine"
+    ],
     "recommendationHuman": "BUY",
     "recommendationDiabetes": "BUY",
     "recommendationPet": "BUY",
@@ -147,8 +151,7 @@
       "missing_graph",
       "missing_info",
       "missing_knowledge",
-      "missing_rule",
-      "pet_toxin_not_flagged"
+      "missing_rule"
     ]
   },
   {
@@ -167,7 +170,9 @@
     "petScore": 90,
     "humanFlags": [],
     "diabetesFlags": [],
-    "petFlags": [],
+    "petFlags": [
+      "Toxic for pets: grapes"
+    ],
     "recommendationHuman": "BUY",
     "recommendationDiabetes": "BUY",
     "recommendationPet": "BUY",
@@ -175,8 +180,7 @@
       "missing_graph",
       "missing_info",
       "missing_knowledge",
-      "missing_rule",
-      "pet_toxin_not_flagged"
+      "missing_rule"
     ]
   },
   {
@@ -195,7 +199,9 @@
     "petScore": 90,
     "humanFlags": [],
     "diabetesFlags": [],
-    "petFlags": [],
+    "petFlags": [
+      "Toxic for pets: macadamia nuts"
+    ],
     "recommendationHuman": "BUY",
     "recommendationDiabetes": "BUY",
     "recommendationPet": "BUY",
@@ -203,8 +209,7 @@
       "missing_graph",
       "missing_info",
       "missing_knowledge",
-      "missing_rule",
-      "pet_toxin_not_flagged"
+      "missing_rule"
     ]
   },
   {
@@ -223,7 +228,9 @@
     "petScore": 90,
     "humanFlags": [],
     "diabetesFlags": [],
-    "petFlags": [],
+    "petFlags": [
+      "Toxic for pets: raisins"
+    ],
     "recommendationHuman": "BUY",
     "recommendationDiabetes": "BUY",
     "recommendationPet": "BUY",
@@ -231,36 +238,7 @@
       "missing_graph",
       "missing_info",
       "missing_knowledge",
-      "missing_rule",
-      "pet_toxin_not_flagged"
-    ]
-  },
-  {
-    "ingredient": "chocolate",
-    "normalized": "chocolate",
-    "sources": [
-      "INGREDIENT_KNOWLEDGE",
-      "PET_TOXINS"
-    ],
-    "hasInfo": false,
-    "hasGraph": false,
-    "hasRule": false,
-    "hasKnowledge": true,
-    "inPetToxins": true,
-    "humanScore": 90,
-    "diabetesScore": 90,
-    "petScore": 90,
-    "humanFlags": [],
-    "diabetesFlags": [],
-    "petFlags": [],
-    "recommendationHuman": "BUY",
-    "recommendationDiabetes": "BUY",
-    "recommendationPet": "BUY",
-    "issues": [
-      "missing_graph",
-      "missing_info",
-      "missing_rule",
-      "pet_toxin_not_flagged"
+      "missing_rule"
     ]
   },
   {
@@ -5913,7 +5891,7 @@
     "hasKnowledge": true,
     "inPetToxins": false,
     "humanScore": 85,
-    "diabetesScore": 70,
+    "diabetesScore": 75,
     "petScore": 85,
     "humanFlags": [
       "sugar risk"
@@ -6211,6 +6189,35 @@
     "humanFlags": [],
     "diabetesFlags": [],
     "petFlags": [],
+    "recommendationHuman": "BUY",
+    "recommendationDiabetes": "BUY",
+    "recommendationPet": "BUY",
+    "issues": [
+      "missing_graph",
+      "missing_info",
+      "missing_rule"
+    ]
+  },
+  {
+    "ingredient": "chocolate",
+    "normalized": "chocolate",
+    "sources": [
+      "INGREDIENT_KNOWLEDGE",
+      "PET_TOXINS"
+    ],
+    "hasInfo": false,
+    "hasGraph": false,
+    "hasRule": false,
+    "hasKnowledge": true,
+    "inPetToxins": true,
+    "humanScore": 90,
+    "diabetesScore": 90,
+    "petScore": 90,
+    "humanFlags": [],
+    "diabetesFlags": [],
+    "petFlags": [
+      "Toxic for pets: chocolate"
+    ],
     "recommendationHuman": "BUY",
     "recommendationDiabetes": "BUY",
     "recommendationPet": "BUY",

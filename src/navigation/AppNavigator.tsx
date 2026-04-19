@@ -1,4 +1,4 @@
-﻿import React from "react";
+import React from "react";
 import { createStackNavigator } from "@react-navigation/stack";
 import HomeScreen from "../screens/HomeScreen";
 import ProfileScreen from "../screens/ProfileScreen";
@@ -9,11 +9,12 @@ import HistoryScreen from "../screens/HistoryScreen";
 import BrandScreen from "../screens/BrandScreen";
 import OnboardingScreen from "../screens/OnboardingScreen";
 import SearchScreen from "../screens/SearchScreen";
+import SubscriptionScreen from "../screens/SubscriptionScreen";
 
 export type RootStackParamList = {
   Onboarding: undefined;
   Home: undefined;
-  Profile: undefined;
+  Profile: { mode?: "create" | "edit"; profileId?: string } | undefined;
   HouseholdHub: undefined;
   Scan: undefined;
   Result: {
@@ -24,7 +25,7 @@ export type RootStackParamList = {
   } | undefined;
   History: undefined;
   Brand: { brandName?: string } | undefined;
-  Search: undefined;
+  Search: undefined;`n  Subscription: undefined;
 };
 
 const Stack = createStackNavigator<RootStackParamList>();
@@ -46,9 +47,12 @@ export default function AppNavigator() {
       <Stack.Screen name="History" component={HistoryScreen} />
       <Stack.Screen name="Brand" component={BrandScreen} />
       <Stack.Screen name="Search" component={SearchScreen} />
+      <Stack.Screen name="Subscription" component={SubscriptionScreen} />
     </Stack.Navigator>
   );
 }
+
+
 
 
 

@@ -1,5 +1,40 @@
 node_modules
-.git
-.gitignore
-android/build
+
+.expo/
+audit/
+_repair_backup_*/
+*.log
+android/.gradle/
+android/app/build/
+node_modules/
+
+.expo/
+# ---- EAS upload slimming ----
+# local build outputs
 android/.gradle
+android/build
+android/app/build
+dist
+build
+coverage
+
+# local audits / reports / backups
+audit-output
+backups_*
+debug_audit
+
+# caches and temp
+npm-cache
+.npm
+.tmp
+tmp
+temp
+
+# editor / OS noise
+*.log
+*.tmp
+*.bak
+.DS_Store
+
+# keep native folder because this project uses committed android sources
+# DO NOT ignore /android here

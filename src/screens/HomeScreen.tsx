@@ -1,4 +1,4 @@
-﻿import React from "react";
+import React from "react";
 import {
   Alert,
   BackHandler,
@@ -30,6 +30,10 @@ export default function HomeScreen({ navigation }: { navigation: any }) {
       return;
     }
     Alert.alert("Exit App", "Exit is Android-only in this build.");
+  };
+
+  const handleOpenSubscription = () => {
+    navigation.navigate("Subscription");
   };
 
   return (
@@ -86,10 +90,10 @@ export default function HomeScreen({ navigation }: { navigation: any }) {
       </View>
 
       <PricingCard
-        onSingleMonthlyPress={() => navigation.navigate("Subscription")}
-        onFamilyMonthlyPress={() => navigation.navigate("Subscription")}
-        onSingleAnnualPress={() => navigation.navigate("Subscription")}
-        onFamilyAnnualPress={() => navigation.navigate("Subscription")}
+        onSingleMonthlyPress={handleOpenSubscription}
+        onFamilyMonthlyPress={handleOpenSubscription}
+        onSingleAnnualPress={handleOpenSubscription}
+        onFamilyAnnualPress={handleOpenSubscription}
       />
     </AppScreenShell>
   );
