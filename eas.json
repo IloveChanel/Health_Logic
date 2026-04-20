@@ -1,8 +1,11 @@
 ﻿{
+  "cli": {
+    "appVersionSource": "remote"
+  },
   "build": {
     "production": {
       "android": {
-        "buildType": "apk"
+        "buildType": "app-bundle"
       }
     }
   }
