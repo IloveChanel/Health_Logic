@@ -1,4 +1,4 @@
-import React from "react";
+﻿import React from "react";
 import { createStackNavigator } from "@react-navigation/stack";
 import HomeScreen from "../screens/HomeScreen";
 import ProfileScreen from "../screens/ProfileScreen";
@@ -25,7 +25,8 @@ export type RootStackParamList = {
   } | undefined;
   History: undefined;
   Brand: { brandName?: string } | undefined;
-  Search: undefined;`n  Subscription: undefined;
+  Search: undefined;
+  Subscription: undefined;
 };
 
 const Stack = createStackNavigator<RootStackParamList>();
@@ -51,6 +52,7 @@ export default function AppNavigator() {
     </Stack.Navigator>
   );
 }
+
 
 
 

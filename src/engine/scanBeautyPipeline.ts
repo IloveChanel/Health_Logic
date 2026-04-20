@@ -17,7 +17,7 @@ export async function scanBeautyProduct(barcode:string){
 
   const simplified = {
     category:"beauty",
-    ingredients: parseIngredients(product.ingredients_text || ""),
+    ingredients: parseIngredients(product),
     rawName: product.product_name || "",
     rawBrand: product.brands || ""
   }
@@ -26,6 +26,7 @@ export async function scanBeautyProduct(barcode:string){
 
   return analyzeCosmeticIngredients(simplified.ingredients || [])
 }
+
 
 
 

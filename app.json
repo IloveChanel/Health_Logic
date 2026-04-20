@@ -1,9 +1,9 @@
 {
     "expo":  {
-                 "version":  "4.0.0",
+                 "version":  "6.0.0",
                  "orientation":  "portrait",
                  "android":  {
-                                 "versionCode":  5,
+                                 "versionCode":  6,
                                  "permissions":  [
                                                      "CAMERA",
                                                      "RECORD_AUDIO"

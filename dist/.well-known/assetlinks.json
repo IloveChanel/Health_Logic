@@ -1,0 +1,12 @@
+﻿[
+  {
+    "relation": ["delegate_permission/common.handle_all_urls"],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "com.healthlogic.app",
+      "sha256_cert_fingerprints": [
+        "CD:38:59:6B:93:B7:CD:20:FA:3D:68:66:40:BC:E9:8B:48:07:7A:6B:EF:26:FF:EF:74:86:ED:30:4A:AD:14:A2"
+      ]
+    }
+  }
+]

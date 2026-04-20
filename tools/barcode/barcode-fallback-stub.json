@@ -1,0 +1,15 @@
+﻿{
+  "productName": "Heinz Tomato Ketchup",
+  "brandName": "Heinz",
+  "category": "food",
+  "ingredients": [
+    "Tomato concentrate",
+    "Distilled vinegar",
+    "High fructose corn syrup",
+    "Corn syrup",
+    "Salt",
+    "Onion powder",
+    "Natural flavoring"
+  ],
+  "explanation": "Local barcode fallback stub used to simulate fallback database success."
+}

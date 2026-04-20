@@ -1,52 +1,59 @@
 ﻿import React, { useState } from "react";
 import { Alert, Text, View } from "react-native";
-import PrimaryButton from "../components/PrimaryButton";
-import SecondaryButton from "../components/SecondaryButton";
 import AppTopBar from "../components/AppTopBar";
 import AppCard from "../components/ui/AppCard";
 import AppScreenShell from "../components/layout/AppScreenShell";
-import ScanHudOverlay from "../components/branding/ScanHudOverlay";
 import DataStreamOverlay from "../components/effects/DataStreamOverlay";
+import InlineBarcodeScanner from "../components/scanner/InlineBarcodeScanner";
+import CameraCapture from "../components/scanner/CameraCapture";
 import { scanBarcode } from "../api";
 import { useProfileStore } from "../hooks/useProfileStore";
-import { getScanAccessDecision } from "../modules/scan/helpers/scanAccessGate";
-import { SCAN_SCREEN_COPY, SCAN_STATUS_LINES } from "../modules/scan/helpers/scanScreenContent";
+import {
+  getScanFailureMessage,
+  isUsableScan,
+  normalizeScannedValue,
+} from "../modules/scan/helpers/scanRuntime";
+import {
+  SCAN_SCREEN_COPY,
+  SCAN_STATUS_LINES,
+} from "../modules/scan/helpers/scanScreenContent";
 import { scanScreenStyles as styles } from "../modules/scan/styles/scanScreenStyles";
+import { handleCapturedImageForScanResult } from "../modules/scan/helpers/cameraCaptureFlow";
 
 export default function ScanScreen({ navigation }: { navigation: any }) {
-  const { account } = useProfileStore();
+  const { activeProfile } = useProfileStore();
   const [analyzing, setAnalyzing] = useState(false);
 
-  const handleBarcodeScan = async () => {
-    const decision = getScanAccessDecision(!!account?.hasActiveSubscription);
-    if (!decision.allowed && decision.redirectRoute) {
-      navigation.navigate(decision.redirectRoute);
+  const handleDetected = async ({
+    rawValue,
+    type,
+  }: {
+    rawValue: string;
+    type?: string;
+  }) => {
+    const normalized = normalizeScannedValue(rawValue);
+    if (!isUsableScan(normalized)) {
+      Alert.alert("Scan failed", "We could not read a barcode from the camera.");
       return;
     }
 
-    setAnalyzing(true);
-    setTimeout(async () => {
-      try {
-        setAnalyzing(false); navigation.navigate("BarcodeCamera");
-      } catch {
-        setAnalyzing(false);
-        Alert.alert("Scan failed", "We could not complete the barcode scan.");
-      }
-    }, 1200);
-  };
+    try {
+      setAnalyzing(true);
 
-  const handleCameraIngredientScan = () => {
-    const decision = getScanAccessDecision(!!account?.hasActiveSubscription);
-    if (!decision.allowed && decision.redirectRoute) {
-      navigation.navigate(decision.redirectRoute);
-      return;
-    }
+      const analysis = await scanBarcode(normalized);
 
-    setAnalyzing(true);
-    setTimeout(() => {
+      navigation.navigate("Result", {
+        analysis,
+        scanMode: "barcode",
+        barcode: normalized,
+        barcodeType: type ?? null,
+        activeProfileId: activeProfile?.id ?? null,
+      });
+    } catch (error) {
+      Alert.alert("Scan failed", getScanFailureMessage(error));
+    } finally {
       setAnalyzing(false);
-      navigation.navigate("Result");
-    }, 1200);
+    }
   };
 
   return (
@@ -64,36 +71,36 @@ export default function ScanScreen({ navigation }: { navigation: any }) {
 
           <AppCard>
             <View style={styles.card}>
-              <ScanHudOverlay />
-            </View>
-          </AppCard>
-
-          <AppCard>
-            <View style={styles.card}>
-              <Text style={styles.cardTitle}>{SCAN_SCREEN_COPY.barcodeTitle}</Text>
-              <Text style={styles.cardBody}>{SCAN_SCREEN_COPY.barcodeBody}</Text>
-              <PrimaryButton
-                title={SCAN_SCREEN_COPY.barcodeCta}
-                onPress={handleBarcodeScan}
-                testID="barcode_scan_button"
+              <InlineBarcodeScanner
+                analyzing={analyzing}
+                onDetected={handleDetected}
               />
             </View>
           </AppCard>
 
           <AppCard>
             <View style={styles.card}>
-              <Text style={styles.cardTitle}>{SCAN_SCREEN_COPY.cameraTitle}</Text>
-              <Text style={styles.cardBody}>{SCAN_SCREEN_COPY.cameraBody}</Text>
+              <Text style={styles.cardTitle}>Ingredient label photo</Text>
+              <Text style={styles.cardBody}>
+                Capture a product ingredient label photo. The image is passed into camera scan mode and prepared for OCR wiring.
+              </Text>
+              <View style={{ minHeight: 420 }}>
+                <CameraCapture onCaptured={(uri) => handleCapturedImageForScanResult(navigation, uri, activeProfile?.id ?? null)} />
+              </View>
+            </View>
+          </AppCard>
+
+          <AppCard>
+            <View style={styles.card}>
+              <Text style={styles.cardTitle}>Live barcode scan</Text>
+              <Text style={styles.cardBody}>
+                This screen now scans immediately. No extra barcode button and no redirect to a separate scan page.
+              </Text>
               {SCAN_STATUS_LINES.map((line) => (
                 <Text key={line} style={styles.cardBody}>
                   • {line}
                 </Text>
               ))}
-              <SecondaryButton
-                title={SCAN_SCREEN_COPY.cameraCta}
-                onPress={handleCameraIngredientScan}
-                testID="camera_ingredient_scan_button"
-              />
             </View>
           </AppCard>
         </View>
@@ -103,4 +110,5 @@ export default function ScanScreen({ navigation }: { navigation: any }) {
     </>
   );
 }
+
 

@@ -1,39 +1,20 @@
-﻿import { normalizeIngredient } from "./ingredientNormalizer"
+﻿export function parseIngredients(product: any): string[] {
 
-export function parseIngredients(text:string){
+  if (product.ingredients && Array.isArray(product.ingredients)) {
+    return product.ingredients.map((i:any)=>i.text || "").filter(Boolean)
+  }
 
-if(!text) return []
+  if (product.ingredients_text) {
+    return product.ingredients_text.split(",").map((x:string)=>x.trim())
+  }
 
-// remove brackets but keep inner ingredients
-text = text.replace(/\(/g,",").replace(/\)/g,"")
+  if (product.ingredients_text_en) {
+    return product.ingredients_text_en.split(",").map((x:string)=>x.trim())
+  }
 
-// split on commas
-let parts = text.split(",")
+  if (product.ingredients_tags) {
+    return product.ingredients_tags.map((x:string)=>x.replace("en:",""))
+  }
 
-const results:string[] = []
-
-for(let p of parts){
-
-p = normalizeIngredient(p)
-
-if(!p) continue
-
-// split compound phrases
-const sub = p.split(/ and | with /)
-
-for(let s of sub){
-s = s.trim()
-if(s.length>1){
-results.push(s)
+  return []
 }
-}
-
-}
-
-return [...new Set(results)]
-
-}
-
-
-
-

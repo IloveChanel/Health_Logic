@@ -1,7 +1,7 @@
-﻿import React from "react";
+﻿import React, { useEffect, useState } from "react";
 import ScoreGauge from "../components/ui/ScoreGauge";
 import ResultReveal from "../components/effects/ResultReveal";
-import { Text, View } from "react-native";
+import { Text, View, Image } from "react-native";
 import GlassCard from "../components/GlassCard";
 import Divider from "../components/Divider";
 import IngredientCard from "../components/IngredientCard";
@@ -11,14 +11,48 @@ import { useProfileStore } from "../hooks/useProfileStore";
 import { RESULT_SCREEN_COPY } from "../modules/result/helpers/resultScreenContent";
 import { isAcceptedIngredient, normalizeIngredientName } from "../modules/result/helpers/resultScreenHelpers";
 import { resultScreenStyles as styles } from "../modules/result/styles/resultScreenStyles";
+import { shouldShowResultScore } from "../modules/result/helpers/resultScoreVisibility";
+import { extractIngredientTextFromImage, type IngredientOcrResult } from "../engine/ingredientOcrBridge";
+import { getResultDebugSummary } from "../modules/result/helpers/resultDebugSummary";
 
 export default function ResultScreen({ route, navigation }: any) {
   const { activeProfile } = useProfileStore();
   const analysis = route?.params?.analysis;
+  const scanMode = route?.params?.scanMode;
+  const imageUri = route?.params?.imageUri;
+
+  const [ocrLoading, setOcrLoading] = useState(false);
+  const [ocrResult, setOcrResult] = useState<IngredientOcrResult | null>(null);
+
+  const debugSummary = getResultDebugSummary(analysis);
 
   const preferredIngredients = (activeProfile?.profile?.preferIngredients ?? []).map((x: string) =>
     normalizeIngredientName(x)
   );
+
+  const isCameraOnly = scanMode === "camera" && !analysis;
+
+  useEffect(() => {
+    let cancelled = false;
+
+    const run = async () => {
+      if (!isCameraOnly || !imageUri) return;
+
+      setOcrLoading(true);
+      const result = await extractIngredientTextFromImage(imageUri);
+
+      if (!cancelled) {
+        setOcrResult(result);
+        setOcrLoading(false);
+      }
+    };
+
+    void run();
+
+    return () => {
+      cancelled = true;
+    };
+  }, [isCameraOnly, imageUri]);
 
   return (
     <AppScreenShell>
@@ -29,15 +63,78 @@ export default function ResultScreen({ route, navigation }: any) {
           <Text style={styles.eyebrow}>{RESULT_SCREEN_COPY.eyebrow}</Text>
           <Text style={styles.title}>{RESULT_SCREEN_COPY.title}</Text>
           <Text style={styles.subtitle}>
-            {analysis?.productName ?? RESULT_SCREEN_COPY.emptyBody}
+            {isCameraOnly
+              ? "Ingredient label captured"
+              : analysis?.productName ?? RESULT_SCREEN_COPY.emptyBody}
           </Text>
         </View>
 
-        {!analysis ? (
+        <View style={{ padding: 12, marginBottom: 12, backgroundColor: "#111", borderRadius: 12 }}>
+          <Text style={{ color: "#fff", fontWeight: "700", marginBottom: 6 }}>DEBUG SUMMARY</Text>
+          <Text style={{ color: "#fff" }}>productName: {String(debugSummary.productName)}</Text>
+          <Text style={{ color: "#fff" }}>brandName: {String(debugSummary.brandName)}</Text>
+          <Text style={{ color: "#fff" }}>ingredientCount: {String(debugSummary.ingredientCount)}</Text>
+          <Text style={{ color: "#fff" }}>ingredientsPreview: {JSON.stringify(debugSummary.ingredientsPreview)}</Text>
+          <Text style={{ color: "#fff" }}>explanation: {String(debugSummary.explanation)}</Text>
+        </View>
+
+        {isCameraOnly ? (
+          <>
+            <ResultReveal><GlassCard>
+              <View style={styles.cardBlock}>
+                <Text style={styles.cardTitle}>Camera ingredient scan received</Text>
+                <Text style={styles.body}>
+                  The ingredient image was captured successfully and passed into camera scan mode.
+                </Text>
+                <Text style={styles.body}>
+                  OCR bridge status: {ocrLoading ? "processing" : (ocrResult?.status ?? "idle")}
+                </Text>
+                {imageUri ? (
+                  <Image
+                    source={{ uri: imageUri }}
+                    style={{ width: "100%", height: 320, marginTop: 16, borderRadius: 16 }}
+                    resizeMode="contain"
+                  />
+                ) : null}
+              </View>
+            </GlassCard></ResultReveal>
+
+            <ResultReveal><GlassCard>
+              <View style={styles.cardBlock}>
+                <Text style={styles.cardTitle}>OCR extraction</Text>
+
+                {ocrLoading ? (
+                  <Text style={styles.body}>Extracting ingredient text from image…</Text>
+                ) : (
+                  <>
+                    <Text style={styles.body}>
+                      {ocrResult?.explanation ?? "OCR has not started."}
+                    </Text>
+
+                    {ocrResult?.rawText ? (
+                      <>
+                        <Divider />
+                        <Text style={styles.cardTitle}>Raw text</Text>
+                        <Text style={styles.body}>{ocrResult.rawText}</Text>
+                      </>
+                    ) : null}
+
+                    {ocrResult?.ingredients?.length ? (
+                      <>
+                        <Divider />
+                        <Text style={styles.cardTitle}>Extracted ingredients</Text>
+                        {ocrResult.ingredients.map((ingredient: string, idx: number) => (
+                          <Text key={idx} style={styles.body}>• {ingredient}</Text>
+                        ))}
+                      </>
+                    ) : null}
+                  </>
+                )}
+              </View>
+            </GlassCard></ResultReveal>
+          </>
+        ) : !analysis ? (
           <ResultReveal><GlassCard>
-{analysis?.overallScore != null && (
-<ScoreGauge score={analysis.overallScore} />
-)}
             <View style={styles.cardBlock}>
               <Text style={styles.cardTitle}>{RESULT_SCREEN_COPY.emptyTitle}</Text>
               <Text style={styles.body}>{RESULT_SCREEN_COPY.emptyBody}</Text>
@@ -46,9 +143,9 @@ export default function ResultScreen({ route, navigation }: any) {
         ) : (
           <>
             <ResultReveal><GlassCard>
-{analysis?.overallScore != null && (
-<ScoreGauge score={analysis.overallScore} />
-)}
+              {analysis?.overallScore != null && shouldShowResultScore("summary") ? (
+                <ScoreGauge score={analysis.overallScore} />
+              ) : null}
               <View style={styles.cardBlock}>
                 <Text style={styles.cardTitle}>
                   {analysis.productName || RESULT_SCREEN_COPY.fallbackProductName}
@@ -77,9 +174,6 @@ export default function ResultScreen({ route, navigation }: any) {
             </GlassCard></ResultReveal>
 
             <ResultReveal><GlassCard>
-{analysis?.overallScore != null && (
-<ScoreGauge score={analysis.overallScore} />
-)}
               <View style={styles.cardBlock}>
                 <Text style={styles.cardTitle}>{RESULT_SCREEN_COPY.redFlagsTitle}</Text>
 
@@ -97,9 +191,6 @@ export default function ResultScreen({ route, navigation }: any) {
 
             {analysis.petToxins?.length ? (
               <ResultReveal><GlassCard>
-{analysis?.overallScore != null && (
-<ScoreGauge score={analysis.overallScore} />
-)}
                 <View style={styles.cardBlock}>
                   <Text style={styles.cardTitle}>{RESULT_SCREEN_COPY.petToxinsTitle}</Text>
 
@@ -113,9 +204,6 @@ export default function ResultScreen({ route, navigation }: any) {
             ) : null}
 
             <ResultReveal><GlassCard>
-{analysis?.overallScore != null && (
-<ScoreGauge score={analysis.overallScore} />
-)}
               <View style={styles.cardBlock}>
                 <Text style={styles.cardTitle}>{RESULT_SCREEN_COPY.ingredientsTitle}</Text>
 
@@ -134,9 +222,6 @@ export default function ResultScreen({ route, navigation }: any) {
             </GlassCard></ResultReveal>
 
             <ResultReveal><GlassCard>
-{analysis?.overallScore != null && (
-<ScoreGauge score={analysis.overallScore} />
-)}
               <View style={styles.cardBlock}>
                 <Text style={styles.cardTitle}>{RESULT_SCREEN_COPY.alternativesTitle}</Text>
 
@@ -159,7 +244,6 @@ export default function ResultScreen({ route, navigation }: any) {
     </AppScreenShell>
   );
 }
-
 
 
 

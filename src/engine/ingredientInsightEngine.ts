@@ -1,38 +1,33 @@
-﻿import { INGREDIENT_KNOWLEDGE_GRAPH } from "./ingredientKnowledgeGraph"
-import { ADDITIVE_RISK } from "./additiveRiskEngine"
+﻿import { INGREDIENT_KNOWLEDGE_GRAPH } from "./ingredientKnowledgeGraph";
+import { ADDITIVE_RISK } from "./additiveRiskEngine";
 
-export function getIngredientInsight(name:string){
+export function getIngredientInsight(name: string) {
+  const key = String(name ?? "").trim().toLowerCase();
 
-const key=name.toLowerCase()
+  const graph = INGREDIENT_KNOWLEDGE_GRAPH[key];
+  const additive = ADDITIVE_RISK[key];
 
-const graph=INGREDIENT_KNOWLEDGE_GRAPH[key]
-const additive=ADDITIVE_RISK[key]
+  const insights: string[] = [];
 
-const insights:string[]=[]
+  if (graph?.scorePenalty) {
+    insights.push("Potential health concern");
+  }
 
-if(graph?.scorePenalty){
-insights.push("Potential health concern")
+  if (graph?.ultraProcessed) {
+    insights.push("Ultra-processed ingredient");
+  }
+
+  if (additive) {
+    insights.push("Food additive");
+  }
+
+  if (graph?.migraineTrigger) {
+    insights.push("May trigger migraines");
+  }
+
+  return {
+    ingredient: name,
+    insights,
+    snippet: insights.length ? insights.join(". ") + "." : undefined
+  };
 }
-
-if(graph?.ultraProcessed){
-insights.push("Ultra-processed ingredient")
-}
-
-if(additive){
-insights.push("Food additive")
-}
-
-if(graph?.migraineTrigger){
-insights.push("May trigger migraines")
-}
-
-return{
-ingredient:name,
-insights
-}
-
-}
-
-
-
-

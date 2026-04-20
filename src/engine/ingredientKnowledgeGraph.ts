@@ -2,7 +2,9 @@
 "salt":{
 name:"salt",
 domains:["food"],
-scorePenalty:5
+scorePenalty:5,
+summary:"High sodium ingredient",
+explanation:"Common seasoning and preservative. Excess intake may contribute to high blood pressure."
 },
 "sugar":{
 name:"sugar",
@@ -12,7 +14,9 @@ scorePenalty:5
 "corn starch":{
 name:"corn starch",
 domains:["food"],
-scorePenalty:5
+scorePenalty:5,
+summary:"Refined thickener",
+explanation:"Used as a thickener and stabilizer in processed foods."
 },
 "yeast":{
 name:"yeast",
@@ -72,12 +76,16 @@ scorePenalty:5
 "onion":{
 name:"onion",
 domains:["food"],
-scorePenalty:5
+scorePenalty:5,
+summary:"Flavoring vegetable",
+explanation:"Aromatic vegetable used for flavor in savory foods."
 },
 "pepper":{
 name:"pepper",
 domains:["food"],
-scorePenalty:5
+scorePenalty:5,
+summary:"Common spice",
+explanation:"Common spice used for flavor and mild heat."
 },
 "cumin":{
 name:"cumin",
@@ -7589,6 +7597,7 @@ name:"ingredient_1500",
 domains:["food"],
 scorePenalty:0
 },}
+
 
 
 

@@ -642,17 +642,3 @@ export default function ProfileScreen({ navigation, route }: { navigation: any; 
     </AppScreenShell>
   );
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-

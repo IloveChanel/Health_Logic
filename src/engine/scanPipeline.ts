@@ -16,7 +16,7 @@ export async function scanProduct(barcode:string,profile:any){
 
   const simplified = {
     category:"food",
-    ingredients: parseIngredients(product.ingredients_text || ""),
+    ingredients: parseIngredients(product),
     nutrition:{
       sugar: product.nutriments?.sugars_100g || 0,
       sodium: product.nutriments?.sodium_100g || 0,
@@ -33,6 +33,7 @@ export async function scanProduct(barcode:string,profile:any){
 
   return analyzeProduct(simplified,profile)
 }
+
 
 
 

@@ -1,0 +1,57 @@
+﻿import { INGREDIENT_DATASET } from "./ingredientDataset";
+import { INGREDIENT_KNOWLEDGE_GRAPH } from "./ingredientKnowledgeGraph";
+
+export const ingredientKnowledge: Record<string, string> = {
+  "water": "Water is commonly used as the base solvent in cosmetic and food formulations.",
+  "glycerin": "Glycerin is a humectant that helps attract and retain moisture.",
+  "niacinamide": "Niacinamide is a form of vitamin B3 commonly used to support skin barrier function.",
+  "fragrance": "Fragrance can improve sensory experience but may irritate sensitive skin.",
+  "parfum": "Parfum is a fragrance blend and may be a sensitivity trigger for some users.",
+  "citric acid": "Citric acid is commonly used for pH adjustment and preservation support."
+};
+
+function normalizeIngredientKey(name: string): string {
+  return String(name ?? "")
+    .trim()
+    .toLowerCase()
+    .replace(/\s+/g, " ");
+}
+
+function getGraphExplanation(name: string): string | undefined {
+  const key = normalizeIngredientKey(name);
+  const node: any = (INGREDIENT_KNOWLEDGE_GRAPH as any)?.[key];
+
+  if (!node) return undefined;
+
+  if (typeof node === "string" && node.trim()) return node.trim();
+  if (typeof node?.summary === "string" && node.summary.trim()) return node.summary.trim();
+  if (typeof node?.description === "string" && node.description.trim()) return node.description.trim();
+  if (typeof node?.explanation === "string" && node.explanation.trim()) return node.explanation.trim();
+  if (typeof node?.note === "string" && node.note.trim()) return node.note.trim();
+
+  if (Array.isArray(node?.benefits) && node.benefits.length) {
+    return node.benefits
+      .filter((x: any) => typeof x === "string" && x.trim())
+      .join(" ");
+  }
+
+  if (Array.isArray(node?.concerns) && node.concerns.length) {
+    return node.concerns
+      .filter((x: any) => typeof x === "string" && x.trim())
+      .join(" ");
+  }
+
+  return undefined;
+}
+
+export function getIngredientExplanation(name: string): string | undefined {
+  const normalized = normalizeIngredientKey(name);
+
+  return (
+    ingredientKnowledge[normalized] ||
+    (INGREDIENT_DATASET as Record<string, string> | undefined)?.[normalized] ||
+    getGraphExplanation(normalized)
+  );
+}
+
+export const INGREDIENT_KNOWLEDGE = ingredientKnowledge;
